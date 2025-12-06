@@ -4,14 +4,45 @@
 
 This repository contains examples of numerous different programming languages.
 
-## Usage
+## Help
+
+```
+$ ./languages.sh --help
+languages.sh 0.0.0.0
+
+Usage:
+  languages.sh [options] <command>
+
+Options:
+  --debug           Debug everything.
+  --debug-docker    Debug docker building, etc.
+  --debug-program   Debug program execution.
+  --debug-setup     Debug language setup script.
+  --prime           Pre-generates image(s) without running them.
+  --help            Show this help message.
+  --interactive     Begin an interaction session.
+  --version         Show version information.
+
+Commands:
+  clean                      Remove stored images and containers.
+  list                       List languages and their programs.
+  run                        Run all languages and programs.
+  run <LANGUAGE>             Run all programs for a language.
+  run <LANGUAGE> <PROGRAM>   Run a specific language's program.
+```
+
+## Example usages
 
 * List available languages and programs:
-  * `languages.sh --list`
-* Run the C# `hello-world` program:
-  * `languages.sh run csharp hello-world`
+  * `languages.sh list`
+* Run everything:
+  * `./languages.sh run`
 * Run all C# programs:
   * `languages.sh run csharp`
+* Run the C# `hello-world` program:
+  * `languages.sh run csharp hello-world`
+* Debug the C# `hello-world` program:
+  * `languages.sh --debug run csharp hello-world`
 * Enter interactive mode for C#, with the `hello-world` program loaded:
   * `languages.sh --interactive csharp hello-world`
 * Help/usage:
