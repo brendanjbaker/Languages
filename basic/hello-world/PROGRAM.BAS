@@ -1,0 +1,4 @@
+$CONSOLE:ONLY
+
+10 PRINT "Hello, world!"
+20 END
