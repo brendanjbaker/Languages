@@ -116,10 +116,6 @@ function main {
 	fi
 }
 
-function prime {
-	error "Not implemented."
-}
-
 function print_banner {
 	if [[ $# -ne 3 ]]; then
 		error::usage "print_banner <language-name> <language-version> <program-name>"
