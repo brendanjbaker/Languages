@@ -170,10 +170,10 @@ This program should print the sum of 1-100 (inclusive), which is `5050`.
 | Visual Basic .NET |       ⬜       |   ⬜   |
 | Visual Basic (6)  |       ⬜       |   ⬜   |
 | Visual FoxPro     |       ⬜       |   ⬜   |
-| WebAssembly       |       ⬜       |   ⬜   |
 | Whiley            |       ⬜       |   ⬜   |
 | Wolfram           |       ⬜       |   ⬜   |
 | X10               |       ⬜       |   ⬜   |
 | Xojo              |       ⬜       |   ⬜   |
 | Xtend             |       ⬜       |   ⬜   |
 | Zig               |       ✅       |   ⬜   |
+| _Count..._        |     _24_      |  _4_  |
