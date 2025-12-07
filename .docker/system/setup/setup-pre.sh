@@ -23,6 +23,9 @@ apt-get install -y \
 	squashfs-tools \
 	squashfuse
 
+# Testing...
+apt-get install -y bats
+
 # Frequently needed...
 apt-get install -y \
 	apt-transport-https \

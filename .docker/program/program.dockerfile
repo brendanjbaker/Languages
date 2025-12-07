@@ -5,6 +5,10 @@ FROM languages-${LANGUAGE}:latest
 ARG LANGUAGE
 ARG PROGRAM
 
+WORKDIR /tests
+
+COPY /.tests/ .
+
 WORKDIR /app
 
 COPY /${LANGUAGE}/${PROGRAM}/ .

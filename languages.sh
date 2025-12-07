@@ -10,6 +10,7 @@ declare option_debug_docker="false"
 declare option_debug_program="false"
 declare option_debug_setup="false"
 declare option_interactive="false"
+declare option_test="false"
 declare option_prime="false"
 
 declare base_directory
@@ -92,6 +93,8 @@ function main {
 			option_interactive="true"; shift
 		elif [[ $# -ge 1 && "$1" == "--prime" ]]; then
 			option_prime="true"; shift
+		elif [[ $# -ge 1 && "$1" == "--test" ]]; then
+			option_test="true"; shift
 		else
 			break
 		fi
@@ -155,9 +158,10 @@ function print_usage {
 		  --debug-docker    Debug docker building, etc.
 		  --debug-program   Debug program execution.
 		  --debug-setup     Debug language setup script.
-		  --prime           Pre-generates image(s) without running them.
 		  --help            Show this help message.
 		  --interactive     Begin an interaction session.
+		  --prime           Pre-generates image(s) without running them.
+		  --test            Run unit tests.
 		  --version         Show version information.
 
 		Commands:
@@ -182,18 +186,23 @@ function run {
 	local setup_stdout="/dev/fd/1"
 	local language_hash
 	local program_hash
+	local tests_hash
 
 	local -a environment_options=(
 		"--env" "DEBUG=$option_debug"
 		"--env" "DEBUG_DOCKER=$option_debug_docker"
 		"--env" "DEBUG_PROGRAM=$option_debug_program"
-		"--env" "DEBUG_SETUP=$option_debug_setup")
+		"--env" "DEBUG_SETUP=$option_debug_setup"
+		"--env" "LANGUAGE=$language"
+		"--env" "PROGRAM=$program"
+		"--env" "TEST=$option_test")
 
 	language_hash=$(directory::hash "$base_directory/$language/.language")
 	program_hash=$(directory::hash "$base_directory/$language/$program")
+	tests_hash=$(directory::hash "$base_directory/.tests")
 
 	language_hash=$(string::hash --length 16 "${system_hash}${language_hash}")
-	program_hash=$(string::hash --length 16 "${system_hash}${language_hash}${program_hash}")
+	program_hash=$(string::hash --length 16 "${system_hash}${language_hash}${program_hash}${tests_hash}")
 
 	if [[ "$option_debug_docker" == "false" ]]; then
 		stdout="/dev/null"
@@ -384,11 +393,15 @@ function run_program {
 		error "Missing \"program_name\" property for language \"$language\", program \"$program\"."
 	fi
 
-	print_banner "$language_name" "${language_version:-?}" "$program_name"
+	if [[ "$option_interactive" == "true" ]]; then
+		run "$@"
+	else
+		print_banner "$language_name" "${language_version:-?}" "$program_name"
 
-	echo
-	run "$@" | indent
-	echo
+		echo
+		run "$@" | indent
+		echo
+	fi
 }
 
 function start_docker_if_necessary {
