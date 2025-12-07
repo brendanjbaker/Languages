@@ -138,7 +138,6 @@ This program should print the sum of 1-100 (inclusive), which is `5050`.
 | Project Verona    |       ⬜       |   ⬜   |
 | Prolog            |       ⬜       |   ⬜   |
 | Python            |       ✅       |   ✅   |
-| QBASIC            |       ⬜       |   ⬜   |
 | R                 |       ⬜       |   ⬜   |
 | Rebol             |       ⬜       |   ⬜   |
 | Red               |       ⬜       |   ⬜   |
@@ -163,7 +162,7 @@ This program should print the sum of 1-100 (inclusive), which is `5050`.
 | Swift             |       ⬜       |   ⬜   |
 | Tcl               |       ✅       |   ⬜   |
 | Toi               |       ⬜       |   ⬜   |
-| Typescript        |       ⬜       |   ⬜   |
+| Typescript        |       ✅       |   ✅   |
 | Unicon            |       ⬜       |   ⬜   |
 | V                 |       ⬜       |   ⬜   |
 | Vala              |       ⬜       |   ⬜   |
