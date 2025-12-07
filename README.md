@@ -36,14 +36,14 @@ Commands:
 * List available languages and programs:
   * `languages.sh list`
 * Run everything:
-  * `./languages.sh run`
+  * `languages.sh run`
 * Run all C# programs:
   * `languages.sh run csharp`
-* Run the C# program:
+* Run the C# _hello-world_ program:
   * `languages.sh run csharp hello-world`
-* Debug the C# program:
+* Debug the C# _hello-world_ program:
   * `languages.sh --debug run csharp hello-world`
-* Enter interactive mode for C#, with the program loaded:
+* Enter interactive mode for C#, with the _hello-world_ program loaded:
   * `languages.sh --interactive csharp hello-world`
 * Help/usage:
   * `languages.sh --help`
@@ -64,117 +64,117 @@ This program should print the sum of 1-100 (inclusive), which is `5050`.
 
 | Language          | `hello-world` | `sum` |
 | ----------------- | :-----------: | :---: |
-| Ada               |       ☐       |   ☐   |
-| Algol             |       ☐       |   ☐   |
-| APL               |       ☐       |   ☐   |
-| Awk               |       🗹       |   ☐   |
-| Assembly          |       🗹       |   ☐   |
-| B                 |       ☐       |   ☐   |
-| Bash              |       🗹       |   ☐   |
-| BASIC             |       🗹       |   ☐   |
-| Batch             |       ☐       |   ☐   |
-| Brainf#ck         |       ☐       |   ☐   |
-| C                 |       🗹       |   ☐   |
-| C#                |       🗹       |   ☐   |
-| C++               |       🗹       |   ☐   |
-| Carbon            |       ☐       |   ☐   |
-| Clojure           |       ☐       |   ☐   |
-| COBOL             |       🗹       |   ☐   |
-| CoffeeScript      |       ☐       |   ☐   |
-| ColdFusion        |       ☐       |   ☐   |
-| Crystal           |       ☐       |   ☐   |
-| D                 |       🗹       |   🗹   |
-| Dart              |       ☐       |   ☐   |
-| dBase             |       ☐       |   ☐   |
-| Delphi            |       ☐       |   ☐   |
-| E                 |       ☐       |   ☐   |
-| Eiffel            |       ☐       |   ☐   |
-| Elixir            |       ☐       |   ☐   |
-| Elm               |       ☐       |   ☐   |
-| Erlang            |       🗹       |   ☐   |
-| F#                |       ☐       |   ☐   |
-| Factor            |       ☐       |   ☐   |
-| Forth             |       ☐       |   ☐   |
-| Fortran           |       ☐       |   ☐   |
-| Glim              |       ☐       |   ☐   |
-| Go                |       🗹       |   ☐   |
-| Groovy            |       ☐       |   ☐   |
-| Hack              |       ☐       |   ☐   |
-| Haskell           |       ☐       |   ☐   |
-| Icon              |       ☐       |   ☐   |
-| Io                |       ☐       |   ☐   |
-| Irdis             |       ☐       |   ☐   |
-| Java              |       🗹       |   ☐   |
-| JavaScript        |       🗹       |   ☐   |
-| Joule             |       ☐       |   ☐   |
-| Julia             |       ☐       |   ☐   |
-| Kotlin            |       ☐       |   ☐   |
-| Lisp              |       ☐       |   ☐   |
-| Lua               |       ☐       |   ☐   |
-| Maple             |       ☐       |   ☐   |
-| MATLAB            |       🗹       |   ☐   |
-| Maxima            |       ☐       |   ☐   |
-| Modelica          |       ☐       |   ☐   |
-| Modula            |       ☐       |   ☐   |
-| Modula-2          |       ☐       |   ☐   |
-| Modula-3          |       ☐       |   ☐   |
-| NASM              |       ☐       |   ☐   |
-| Nemerle           |       ☐       |   ☐   |
-| Newspeak          |       ☐       |   ☐   |
-| Nim               |       ☐       |   ☐   |
-| Oberon            |       ☐       |   ☐   |
-| Object Pascal     |       ☐       |   ☐   |
-| Objective-C       |       ☐       |   ☐   |
-| Oblique           |       ☐       |   ☐   |
-| OCaml             |       ☐       |   ☐   |
-| Octave            |       ☐       |   ☐   |
-| Opa               |       ☐       |   ☐   |
-| Pascal            |       ☐       |   ☐   |
-| Perl              |       🗹       |   ☐   |
-| PHP               |       🗹       |   ☐   |
-| Planner           |       ☐       |   ☐   |
-| POP-11            |       ☐       |   ☐   |
-| PowerShell        |       ☐       |   ☐   |
-| Project Verona    |       ☐       |   ☐   |
-| Prolog            |       ☐       |   ☐   |
-| Python            |       🗹       |   🗹   |
-| QBASIC            |       ☐       |   ☐   |
-| R                 |       ☐       |   ☐   |
-| Rebol             |       ☐       |   ☐   |
-| Red               |       ☐       |   ☐   |
-| Ring              |       ☐       |   ☐   |
-| RPG IV (RPGLE)    |       ☐       |   ☐   |
-| Ruby              |       🗹       |   🗹   |
-| Rust              |       🗹       |   ☐   |
-| Scala             |       ☐       |   ☐   |
-| Scheme            |       ☐       |   ☐   |
-| Sed               |       🗹       |   ☐   |
-| Seed7             |       ☐       |   ☐   |
-| Self              |       ☐       |   ☐   |
-| Simula            |       ☐       |   ☐   |
-| Smalltalk         |       🗹       |   ☐   |
-| Solidity          |       ☐       |   ☐   |
-| SPARK             |       ☐       |   ☐   |
-| Spin (Parallax)   |       ☐       |   ☐   |
-| Squeak            |       ☐       |   ☐   |
-| Squirrel          |       ☐       |   ☐   |
-| Standard ML       |       ☐       |   ☐   |
-| STRIPS            |       ☐       |   ☐   |
-| Swift             |       ☐       |   ☐   |
-| Tcl               |       🗹       |   ☐   |
-| Toi               |       ☐       |   ☐   |
-| Typescript        |       ☐       |   ☐   |
-| Unicon            |       ☐       |   ☐   |
-| V                 |       ☐       |   ☐   |
-| Vala              |       ☐       |   ☐   |
-| VBScript          |       ☐       |   ☐   |
-| Visual Basic .NET |       ☐       |   ☐   |
-| Visual Basic (6)  |       ☐       |   ☐   |
-| Visual FoxPro     |       ☐       |   ☐   |
-| WebAssembly       |       ☐       |   ☐   |
-| Whiley            |       ☐       |   ☐   |
-| Wolfram           |       ☐       |   ☐   |
-| X10               |       ☐       |   ☐   |
-| Xojo              |       ☐       |   ☐   |
-| Xtend             |       ☐       |   ☐   |
-| Zig               |       🗹       |   ☐   |
+| Ada               |       ⬜       |   ⬜   |
+| Algol             |       ⬜       |   ⬜   |
+| APL               |       ⬜       |   ⬜   |
+| Awk               |       ✅       |   ⬜   |
+| Assembly          |       ✅       |   ⬜   |
+| B                 |       ⬜       |   ⬜   |
+| Bash              |       ✅       |   ⬜   |
+| BASIC             |       ✅       |   ⬜   |
+| Batch             |       ⬜       |   ⬜   |
+| Brainf#ck         |       ⬜       |   ⬜   |
+| C                 |       ✅       |   ⬜   |
+| C#                |       ✅       |   ⬜   |
+| C++               |       ✅       |   ⬜   |
+| Carbon            |       ⬜       |   ⬜   |
+| Clojure           |       ⬜       |   ⬜   |
+| COBOL             |       ✅       |   ⬜   |
+| CoffeeScript      |       ⬜       |   ⬜   |
+| ColdFusion        |       ⬜       |   ⬜   |
+| Crystal           |       ⬜       |   ⬜   |
+| D                 |       ✅       |   ✅   |
+| Dart              |       ⬜       |   ⬜   |
+| dBase             |       ⬜       |   ⬜   |
+| Delphi            |       ⬜       |   ⬜   |
+| E                 |       ⬜       |   ⬜   |
+| Eiffel            |       ⬜       |   ⬜   |
+| Elixir            |       ⬜       |   ⬜   |
+| Elm               |       ⬜       |   ⬜   |
+| Erlang            |       ✅       |   ⬜   |
+| F#                |       ⬜       |   ⬜   |
+| Factor            |       ⬜       |   ⬜   |
+| Forth             |       ⬜       |   ⬜   |
+| Fortran           |       ⬜       |   ⬜   |
+| Glim              |       ⬜       |   ⬜   |
+| Go                |       ✅️       |   ⬜   |
+| Groovy            |       ⬜       |   ⬜   |
+| Hack              |       ⬜       |   ⬜   |
+| Haskell           |       ⬜       |   ⬜   |
+| Icon              |       ⬜       |   ⬜   |
+| Io                |       ⬜       |   ⬜   |
+| Irdis             |       ⬜       |   ⬜   |
+| Java              |       ✅       |   ⬜   |
+| JavaScript        |       ✅       |   ⬜   |
+| Joule             |       ⬜       |   ⬜   |
+| Julia             |       ⬜       |   ⬜   |
+| Kotlin            |       ⬜       |   ⬜   |
+| Lisp              |       ⬜       |   ⬜   |
+| Lua               |       ⬜       |   ⬜   |
+| Maple             |       ⬜       |   ⬜   |
+| MATLAB            |       ✅       |   ⬜   |
+| Maxima            |       ⬜       |   ⬜   |
+| Modelica          |       ⬜       |   ⬜   |
+| Modula            |       ⬜       |   ⬜   |
+| Modula-2          |       ⬜       |   ⬜   |
+| Modula-3          |       ⬜       |   ⬜   |
+| NASM              |       ⬜       |   ⬜   |
+| Nemerle           |       ⬜       |   ⬜   |
+| Newspeak          |       ⬜       |   ⬜   |
+| Nim               |       ⬜       |   ⬜   |
+| Oberon            |       ⬜       |   ⬜   |
+| Object Pascal     |       ⬜       |   ⬜   |
+| Objective-C       |       ⬜       |   ⬜   |
+| Oblique           |       ⬜       |   ⬜   |
+| OCaml             |       ⬜       |   ⬜   |
+| Octave            |       ⬜       |   ⬜   |
+| Opa               |       ⬜       |   ⬜   |
+| Pascal            |       ⬜       |   ⬜   |
+| Perl              |       ✅       |   ⬜   |
+| PHP               |       ✅       |   ⬜   |
+| Planner           |       ⬜       |   ⬜   |
+| POP-11            |       ⬜       |   ⬜   |
+| PowerShell        |       ⬜       |   ⬜   |
+| Project Verona    |       ⬜       |   ⬜   |
+| Prolog            |       ⬜       |   ⬜   |
+| Python            |       ✅       |   ✅   |
+| QBASIC            |       ⬜       |   ⬜   |
+| R                 |       ⬜       |   ⬜   |
+| Rebol             |       ⬜       |   ⬜   |
+| Red               |       ⬜       |   ⬜   |
+| Ring              |       ⬜       |   ⬜   |
+| RPG IV (RPGLE)    |       ⬜       |   ⬜   |
+| Ruby              |       ✅       |   ✅   |
+| Rust              |       ✅       |   ⬜   |
+| Scala             |       ⬜       |   ⬜   |
+| Scheme            |       ⬜       |   ⬜   |
+| Sed               |       ✅       |   ⬜   |
+| Seed7             |       ⬜       |   ⬜   |
+| Self              |       ⬜       |   ⬜   |
+| Simula            |       ⬜       |   ⬜   |
+| Smalltalk         |       ✅       |   ⬜   |
+| Solidity          |       ⬜       |   ⬜   |
+| SPARK             |       ⬜       |   ⬜   |
+| Spin (Parallax)   |       ⬜       |   ⬜   |
+| Squeak            |       ⬜       |   ⬜   |
+| Squirrel          |       ⬜       |   ⬜   |
+| Standard ML       |       ⬜       |   ⬜   |
+| STRIPS            |       ⬜       |   ⬜   |
+| Swift             |       ⬜       |   ⬜   |
+| Tcl               |       ✅       |   ⬜   |
+| Toi               |       ⬜       |   ⬜   |
+| Typescript        |       ⬜       |   ⬜   |
+| Unicon            |       ⬜       |   ⬜   |
+| V                 |       ⬜       |   ⬜   |
+| Vala              |       ⬜       |   ⬜   |
+| VBScript          |       ⬜       |   ⬜   |
+| Visual Basic .NET |       ⬜       |   ⬜   |
+| Visual Basic (6)  |       ⬜       |   ⬜   |
+| Visual FoxPro     |       ⬜       |   ⬜   |
+| WebAssembly       |       ⬜       |   ⬜   |
+| Whiley            |       ⬜       |   ⬜   |
+| Wolfram           |       ⬜       |   ⬜   |
+| X10               |       ⬜       |   ⬜   |
+| Xojo              |       ⬜       |   ⬜   |
+| Xtend             |       ⬜       |   ⬜   |
+| Zig               |       ✅       |   ⬜   |
