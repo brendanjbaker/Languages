@@ -31,9 +31,11 @@ apt-get install -y \
 	apt-transport-https \
 	binutils \
 	build-essential \
+	cmake \
 	curl \
 	gawk \
 	gcc \
+	git \
 	software-properties-common \
 	unzip \
 	wget \
