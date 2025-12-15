@@ -13,9 +13,9 @@ if [[ "${TEST:-false}" == "true" ]]; then
 	export TERM='xterm-256color'
 
 	bats \
-		--pretty \
+		--formatter tap \
 		--timing \
-		"/tests/${PROGRAM}.bats" 2>&1 3>&1
+		"/tests/${PROGRAM}.bats"
 else
 	if [[ "${DEBUG_PROGRAM:-false}" == "true" ]]; then
 		exec bash -x /app/main.sh "$@"
