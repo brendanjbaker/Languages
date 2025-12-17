@@ -2,5 +2,8 @@
 
 export PATH="/root/.local/share/ponyup/bin:$PATH"
 
-ponyc
+if [[ ! -f ./program ]]; then
+	ponyc --bin-name=program 2> /dev/null
+fi
+
 ./program
