@@ -116,7 +116,7 @@ Correct behavior is based on the Whirlpool WMH31017HZ-2 (my kitchen microwave).
 | CoffeeScript      |       ⬜       |   ⬜   |      ⬜      |
 | ColdFusion        |       ⬜       |   ⬜   |      ⬜      |
 | Crystal           |       ⬜       |   ⬜   |      ⬜      |
-| D                 |       ✅       |   ✅   |      ✅      |
+| D                 |       ✅       |   ✅   |      ⬜      |
 | Dart              |       ⬜       |   ⬜   |      ⬜      |
 | dBase             |       ⬜       |   ⬜   |      ⬜      |
 | Delphi            |       ⬜       |   ⬜   |      ⬜      |
@@ -173,13 +173,13 @@ Correct behavior is based on the Whirlpool WMH31017HZ-2 (my kitchen microwave).
 | PowerShell        |       ⬜       |   ⬜   |      ⬜      |
 | Project Verona    |       ⬜       |   ⬜   |      ⬜      |
 | Prolog            |       ⬜       |   ⬜   |      ⬜      |
-| Python            |       ✅       |   ✅   |      ✅      |
+| Python            |       ✅       |   ✅   |      ⬜      |
 | R                 |       ⬜       |   ⬜   |      ⬜      |
 | Rebol             |       ⬜       |   ⬜   |      ⬜      |
 | Red               |       ⬜       |   ⬜   |      ⬜      |
 | Ring              |       ⬜       |   ⬜   |      ⬜      |
 | RPG IV (RPGLE)    |       ⬜       |   ⬜   |      ⬜      |
-| Ruby              |       ✅       |   ✅   |      ✅      |
+| Ruby              |       ✅       |   ✅   |      ⬜      |
 | Rust              |       ✅       |   ⬜   |      ⬜      |
 | Scala             |       ⬜       |   ⬜   |      ⬜      |
 | Scheme            |       ⬜       |   ⬜   |      ⬜      |
@@ -198,7 +198,7 @@ Correct behavior is based on the Whirlpool WMH31017HZ-2 (my kitchen microwave).
 | Swift             |       ⬜       |   ⬜   |      ⬜      |
 | Tcl               |       ✅       |   ⬜   |      ⬜      |
 | Toi               |       ⬜       |   ⬜   |      ⬜      |
-| Typescript        |       ✅       |   ✅   |      ✅      |
+| Typescript        |       ✅       |   ✅   |      ⬜      |
 | Unicon            |       ⬜       |   ⬜   |      ⬜      |
 | V                 |       ⬜       |   ⬜   |      ⬜      |
 | Vala              |       ⬜       |   ⬜   |      ⬜      |

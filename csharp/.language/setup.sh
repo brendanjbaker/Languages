@@ -12,4 +12,7 @@ dpkg -i packages-microsoft-prod.deb
 apt-get update
 apt-get install -y dotnet-sdk-10.0
 
+# Consume the "welcome to dotnet" message.
 dotnet --help > /dev/null 2>&1
+
+dotnet tool install dotnet-script
