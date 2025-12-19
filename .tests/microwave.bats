@@ -3,7 +3,7 @@
 bats_require_minimum_version 1.5.0
 
 @test "microwave" {
-	run --separate-stderr ./main.sh
+	run --separate-stderr /app/main.sh
 
 	[[ "$status" -eq 1 ]]
 	[[ -z "$output" ]]
@@ -192,9 +192,4 @@ bats_require_minimum_version 1.5.0
 	[[ "$status" -eq 0 ]]
 	[[ "$output" == "99:99" ]]
 	[[ -z "$stderr" ]]
-}
-
-teardown() {
-  echo "teardown starting" >&2
-  jobs -p >&2
 }

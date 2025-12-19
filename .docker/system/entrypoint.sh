@@ -12,14 +12,17 @@ if [[ "${TEST:-false}" == "true" ]]; then
 
 	export TERM='xterm-256color'
 
+	# "Prime" the program before running test(s).
+	/app/main.sh > /dev/null 2>&1 || true
+
 	bats \
 		--formatter tap \
 		--timing \
 		"/tests/${PROGRAM}.bats"
 else
 	if [[ "${DEBUG_PROGRAM:-false}" == "true" ]]; then
-		exec bash -x /app/main.sh "$@"
+		bash -x /app/main.sh "$@"
 	else
-		exec bash /app/main.sh "$@"
+		bash /app/main.sh "$@"
 	fi
 fi

@@ -3,7 +3,7 @@
 bats_require_minimum_version 1.5.0
 
 @test "sum" {
-	run --separate-stderr ./main.sh
+	run --separate-stderr /app/main.sh
 
 	[[ "$status" -eq 0 ]]
 	[[ "$output" == "5050" ]]
