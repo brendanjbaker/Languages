@@ -325,7 +325,7 @@ function run {
 		set -x
 	fi
 
-	podman container rm --force languages
+	podman container rm --force 'languages' > /dev/null
 
 	build_system_image
 	build_language_image

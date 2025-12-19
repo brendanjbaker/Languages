@@ -100,21 +100,30 @@ Correct behavior is based on the Whirlpool WMH31017HZ-2 (my kitchen microwave).
 | Ada               |       ⬜       |   ⬜   |      ⬜      |
 | Algol             |       ⬜       |   ⬜   |      ⬜      |
 | APL               |       ⬜       |   ⬜   |      ⬜      |
-| Awk               |       ✅       |   ⬜   |      ⬜      |
+| Arturo            |       ⬜       |   ⬜   |      ⬜      |
 | Assembly          |       ✅       |   ⬜   |      ⬜      |
+| Awk               |       ✅       |   ⬜   |      ⬜      |
 | B                 |       ⬜       |   ⬜   |      ⬜      |
+| Ballerina         |       ⬜       |   ⬜   |      ⬜      |
 | Bash              |       ✅       |   ⬜   |      ⬜      |
 | BASIC             |       ✅       |   ⬜   |      ⬜      |
 | Batch             |       ⬜       |   ⬜   |      ⬜      |
+| BCPL              |       ⬜       |   ⬜   |      ⬜      |
+| Beef              |       ⬜       |   ⬜   |      ⬜      |
 | Brainf#ck         |       ⬜       |   ⬜   |      ⬜      |
 | C                 |       ✅       |   ⬜   |      ⬜      |
+| C2                |       ⬜       |   ⬜   |      ⬜      |
+| C3                |       ⬜       |   ⬜   |      ⬜      |
 | C#                |       ✅       |   ⬜   |      ⬜      |
 | C++               |       ✅       |   ⬜   |      ⬜      |
 | Carbon            |       ⬜       |   ⬜   |      ⬜      |
 | Clojure           |       ⬜       |   ⬜   |      ⬜      |
+| CLU               |       ⬜       |   ⬜   |      ⬜      |
 | COBOL             |       ✅       |   ⬜   |      ⬜      |
+| Cobra             |       ⬜       |   ⬜   |      ⬜      |
 | CoffeeScript      |       ⬜       |   ⬜   |      ⬜      |
 | ColdFusion        |       ⬜       |   ⬜   |      ⬜      |
+| Cowgol            |       ⬜       |   ⬜   |      ⬜      |
 | Crystal           |       ⬜       |   ⬜   |      ⬜      |
 | D                 |       ✅       |   ✅   |      ⬜      |
 | Dart              |       ⬜       |   ⬜   |      ⬜      |
@@ -133,7 +142,9 @@ Correct behavior is based on the Whirlpool WMH31017HZ-2 (my kitchen microwave).
 | Go                |       ✅️       |   ⬜   |      ⬜      |
 | Groovy            |       ⬜       |   ⬜   |      ⬜      |
 | Hack              |       ⬜       |   ⬜   |      ⬜      |
+| Hare              |       ⬜       |   ⬜   |      ⬜      |
 | Haskell           |       ⬜       |   ⬜   |      ⬜      |
+| Hopper            |       ⬜       |   ⬜   |      ⬜      |
 | Icon              |       ⬜       |   ⬜   |      ⬜      |
 | Io                |       ⬜       |   ⬜   |      ⬜      |
 | Irdis             |       ⬜       |   ⬜   |      ⬜      |
@@ -143,8 +154,10 @@ Correct behavior is based on the Whirlpool WMH31017HZ-2 (my kitchen microwave).
 | Julia             |       ⬜       |   ⬜   |      ⬜      |
 | Koka              |       ⬜       |   ⬜   |      ⬜      |
 | Kotlin            |       ⬜       |   ⬜   |      ⬜      |
+| Lily              |       ⬜       |   ⬜   |      ⬜      |
 | Lisp              |       ⬜       |   ⬜   |      ⬜      |
 | Lobster           |       ⬜       |   ⬜   |      ⬜      |
+| Logo              |       ⬜       |   ⬜   |      ⬜      |
 | Lua               |       ⬜       |   ⬜   |      ⬜      |
 | Maple             |       ⬜       |   ⬜   |      ⬜      |
 | MATLAB            |       ✅       |   ⬜   |      ⬜      |
@@ -155,31 +168,41 @@ Correct behavior is based on the Whirlpool WMH31017HZ-2 (my kitchen microwave).
 | Modula-3          |       ⬜       |   ⬜   |      ⬜      |
 | Mojo              |       ⬜       |   ⬜   |      ⬜      |
 | Nemerle           |       ⬜       |   ⬜   |      ⬜      |
+| Never             |       ⬜       |   ⬜   |      ⬜      |
 | Newspeak          |       ⬜       |   ⬜   |      ⬜      |
 | Nim               |       ⬜       |   ⬜   |      ⬜      |
+| Nit               |       ⬜       |   ⬜   |      ⬜      |
 | Oberon            |       ⬜       |   ⬜   |      ⬜      |
 | Object Pascal     |       ⬜       |   ⬜   |      ⬜      |
 | Objective-C       |       ⬜       |   ⬜   |      ⬜      |
 | Oblique           |       ⬜       |   ⬜   |      ⬜      |
 | OCaml             |       ⬜       |   ⬜   |      ⬜      |
-| Octave            |       ⬜       |   ⬜   |      ⬜      |
 | Opa               |       ⬜       |   ⬜   |      ⬜      |
 | Pascal            |       ⬜       |   ⬜   |      ⬜      |
 | Perl              |       ✅       |   ⬜   |      ⬜      |
+| Phix              |       ⬜       |   ⬜   |      ⬜      |
+| PHL               |       ⬜       |   ⬜   |      ⬜      |
 | PHP               |       ✅       |   ⬜   |      ⬜      |
+| Pike              |       ⬜       |   ⬜   |      ⬜      |
 | Planner           |       ⬜       |   ⬜   |      ⬜      |
+| PL/M              |       ⬜       |   ⬜   |      ⬜      |
 | Pony              |       ⬜       |   ⬜   |      ⬜      |
 | POP-11            |       ⬜       |   ⬜   |      ⬜      |
 | PowerShell        |       ⬜       |   ⬜   |      ⬜      |
 | Project Verona    |       ⬜       |   ⬜   |      ⬜      |
 | Prolog            |       ⬜       |   ⬜   |      ⬜      |
 | Python            |       ✅       |   ✅   |      ⬜      |
+| Pure              |       ⬜       |   ⬜   |      ⬜      |
 | R                 |       ⬜       |   ⬜   |      ⬜      |
+| Racket            |       ⬜       |   ⬜   |      ⬜      |
 | Rebol             |       ⬜       |   ⬜   |      ⬜      |
 | Red               |       ⬜       |   ⬜   |      ⬜      |
+| Rexx              |       ⬜       |   ⬜   |      ⬜      |
 | Ring              |       ⬜       |   ⬜   |      ⬜      |
+| Roc               |       ⬜       |   ⬜   |      ⬜      |
 | RPG IV (RPGLE)    |       ⬜       |   ⬜   |      ⬜      |
 | Ruby              |       ✅       |   ✅   |      ⬜      |
+| RPL               |       ⬜       |   ⬜   |      ⬜      |
 | Rust              |       ✅       |   ⬜   |      ⬜      |
 | Scala             |       ⬜       |   ⬜   |      ⬜      |
 | Scheme            |       ⬜       |   ⬜   |      ⬜      |
@@ -197,6 +220,7 @@ Correct behavior is based on the Whirlpool WMH31017HZ-2 (my kitchen microwave).
 | STRIPS            |       ⬜       |   ⬜   |      ⬜      |
 | Swift             |       ⬜       |   ⬜   |      ⬜      |
 | Tcl               |       ✅       |   ⬜   |      ⬜      |
+| Tern              |       ⬜       |   ⬜   |      ⬜      |
 | Toi               |       ⬜       |   ⬜   |      ⬜      |
 | Typescript        |       ✅       |   ✅   |      ⬜      |
 | Unicon            |       ⬜       |   ⬜   |      ⬜      |
@@ -204,11 +228,14 @@ Correct behavior is based on the Whirlpool WMH31017HZ-2 (my kitchen microwave).
 | Vala              |       ⬜       |   ⬜   |      ⬜      |
 | Vale              |       ⬜       |   ⬜   |      ⬜      |
 | VBScript          |       ⬜       |   ⬜   |      ⬜      |
+| Verilog           |       ⬜       |   ⬜   |      ⬜      |
+| VHDL              |       ⬜       |   ⬜   |      ⬜      |
 | Visual Basic .NET |       ⬜       |   ⬜   |      ⬜      |
 | Visual Basic (6)  |       ⬜       |   ⬜   |      ⬜      |
 | Visual FoxPro     |       ⬜       |   ⬜   |      ⬜      |
 | Whiley            |       ⬜       |   ⬜   |      ⬜      |
 | Wolfram           |       ⬜       |   ⬜   |      ⬜      |
+| Wren              |       ⬜       |   ⬜   |      ⬜      |
 | X10               |       ⬜       |   ⬜   |      ⬜      |
 | Xojo              |       ⬜       |   ⬜   |      ⬜      |
 | Xtend             |       ⬜       |   ⬜   |      ⬜      |
