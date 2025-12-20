@@ -2,7 +2,7 @@
 
 bats_require_minimum_version 1.5.0
 
-@test "microwave" {
+@test "microwave (no arguments)" {
 	run --separate-stderr /app/main.sh
 
 	[[ "$status" -eq 1 ]]
@@ -182,7 +182,15 @@ bats_require_minimum_version 1.5.0
 	run --separate-stderr ./main.sh '961'
 
 	[[ "$status" -eq 0 ]]
-	[[ "$output" == "10:00" ]]
+	[[ "$output" == "10:01" ]]
+	[[ -z "$stderr" ]]
+}
+
+@test "microwave '999'" {
+	run --separate-stderr ./main.sh '999'
+
+	[[ "$status" -eq 0 ]]
+	[[ "$output" == "10:39" ]]
 	[[ -z "$stderr" ]]
 }
 
