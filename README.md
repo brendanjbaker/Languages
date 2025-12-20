@@ -114,7 +114,7 @@ Correct behavior is based on the Whirlpool WMH31017HZ-2 (my kitchen microwave).
 | C                 |       ✅       |   ⬜   |      ⬜      |
 | C2                |       ⬜       |   ⬜   |      ⬜      |
 | C3                |       ⬜       |   ⬜   |      ⬜      |
-| C#                |       ✅       |   ⬜   |      ⬜      |
+| C#                |       ✅       |   ✅   |      ✅      |
 | C++               |       ✅       |   ⬜   |      ⬜      |
 | Carbon            |       ⬜       |   ⬜   |      ⬜      |
 | Clojure           |       ⬜       |   ⬜   |      ⬜      |
@@ -240,4 +240,4 @@ Correct behavior is based on the Whirlpool WMH31017HZ-2 (my kitchen microwave).
 | Xojo              |       ⬜       |   ⬜   |      ⬜      |
 | Xtend             |       ⬜       |   ⬜   |      ⬜      |
 | Zig               |       ✅       |   ⬜   |      ⬜      |
-| _Count..._        |     _24_      |  _4_  |     _0_     |
+| _Count..._        |     _24_      |  _7_  |     _1_     |
