@@ -8,7 +8,7 @@ This repository contains examples of numerous different programming languages.
 
 The main runner program currently relies on my personal Bash library, e.g. the line of code near the beginning of `languages.sh` that says `source library`. The runner will not work out-of-the-box without it. In the very near future, I will refine a subset of my personal library for publication on GitHub, perhaps under a different name. At that time, I will update this repository accordingly, and remove this note.
 
-With all of that being said, you could theoretically implement the missing functions called by `languages.sh`. None are too complex, and their purposes are hopefully obvious based on their name.
+With all of that being said, you could theoretically implement the missing functions called by `languages.sh`. None are too complex, and their purposes are hopefully obvious based on their names.
 
 ## Technical
 
