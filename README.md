@@ -88,7 +88,7 @@ This program should print the sum of 1-100 (inclusive), which is `5050`, with or
 
 ### `microwave`
 
-This program converts a string, as may be typed into a simple microwave, into `HH:MM` format.
+This program converts a string, as may be typed into a simple microwave, into `MM:SS` format.
 
 The input must be passed as a single positional argument to the program. Any other usage is an error.
 
