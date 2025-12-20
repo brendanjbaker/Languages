@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-echo "ENTRYPOINT"
-
 set -Eeuo pipefail
 
 export PATH="/snap/bin:$PATH"
@@ -23,12 +21,9 @@ if [[ "${TEST:-false}" == "true" ]]; then
 
 	bats \
 		--formatter tap \
+		--print-output-on-failure \
 		--timing \
 		"/tests/${PROGRAM}.bats"
-
-	result=$?
-
-	echo "Test result: $result"
 else
 	if [[ "${DEBUG_PROGRAM:-false}" == "true" ]]; then
 		bash -x /app/main.sh "$@"

@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-# Option "o": Output path.
-g++ program.cpp -o program
+if [[ ! -f program ]]; then
+	g++ program.cpp -o program
+fi
 
 ./program

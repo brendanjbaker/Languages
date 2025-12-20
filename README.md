@@ -133,7 +133,7 @@ Correct behavior is based on the Whirlpool WMH31017HZ-2 (my kitchen microwave).
 | Eiffel            |       ⬜       |   ⬜   |      ⬜      |
 | Elixir            |       ⬜       |   ⬜   |      ⬜      |
 | Elm               |       ⬜       |   ⬜   |      ⬜      |
-| Erlang            |       ✅       |   ⬜   |      ⬜      |
+| Erlang            |       ✅       |   ✅   |      ⬜      |
 | F#                |       ⬜       |   ⬜   |      ⬜      |
 | Factor            |       ⬜       |   ⬜   |      ⬜      |
 | Forth             |       ⬜       |   ⬜   |      ⬜      |
@@ -182,7 +182,7 @@ Correct behavior is based on the Whirlpool WMH31017HZ-2 (my kitchen microwave).
 | Perl              |       ✅       |   ⬜   |      ⬜      |
 | Phix              |       ⬜       |   ⬜   |      ⬜      |
 | PHL               |       ⬜       |   ⬜   |      ⬜      |
-| PHP               |       ✅       |   ⬜   |      ⬜      |
+| PHP               |       ✅       |   ✅   |      ⬜      |
 | Pike              |       ⬜       |   ⬜   |      ⬜      |
 | Planner           |       ⬜       |   ⬜   |      ⬜      |
 | PL/M              |       ⬜       |   ⬜   |      ⬜      |

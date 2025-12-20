@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-# Option "o": Output path.
-gcc -o program program.c
+if [[ ! -f program ]]; then
+	gcc -o program program.c
+fi
 
 ./program

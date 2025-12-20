@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
 
-tsc program.ts
+if [[ ! -f program.js ]]; then
+	tsc program.ts
+fi
+
 node program.js

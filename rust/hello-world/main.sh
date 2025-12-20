@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
-# Option "o": Output filename.
-rustc program.rs -o program
+if [[ ! -f program ]]; then
+	# Option "o": Output filename.
+	rustc program.rs -o program
+fi
 
 ./program

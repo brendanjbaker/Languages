@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
 
-zig build-exe program.zig
+if [[ ! -f program ]]; then
+	zig build-exe program.zig
+fi
+
 ./program

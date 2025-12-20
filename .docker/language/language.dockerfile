@@ -1,4 +1,4 @@
-FROM languages:latest
+FROM languages-system:latest
 
 ARG LANGUAGE
 

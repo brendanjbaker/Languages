@@ -1,4 +1,4 @@
-FROM debian:bookworm
+FROM languages-base:latest
 
 ENV DEBUG=false
 ENV DEBUG_DOCKER=false

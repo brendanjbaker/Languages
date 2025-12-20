@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
 
-javac Program.java
+if [[ ! -f Program.class ]]; then
+	javac Program.java
+fi
+
 java Program

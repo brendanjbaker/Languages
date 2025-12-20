@@ -1,3 +1,7 @@
 #!/usr/bin/env bash
 
-go run program.go
+if [[ ! -f program ]]; then
+	go build program.go
+fi
+
+./program

@@ -54,6 +54,36 @@ function clean {
 	podman volume prune --force
 }
 
+function colorize {
+	if [[ "$option_test" == "false" ]]; then
+		cat
+	else
+		local search_1='^ok'
+		local search_2='^not ok'
+		local search_3='in \([0-9]\+\)ms$'
+
+		local replace_1="${COLOR_GREEN}ok${COLOR_RESET}"
+		local replace_2="${COLOR_RED}not ok${COLOR_RESET}"
+		local replace_3="${COLOR_GRAY}in \\1ms${COLOR_RESET}"
+
+		# sed 's/in \([0-9]\+\)ms$/in \1 milliseconds/'
+
+		sed --unbuffered "s/$search_1/$replace_1/g" | \
+		sed --unbuffered "s/$search_2/$replace_2/g" | \
+		sed --unbuffered "s/$search_3/$replace_3/g"
+	fi
+}
+
+function language_exists {
+	language="$1"
+
+	if [[ -d "$root_directory/$language" ]]; then
+		return "$STATUS_TRUE"
+	else
+		return "$STATUS_FALSE"
+	fi
+}
+
 function list {
 	for language in $(list_languages); do
 		printf '%s\n' "${COLOR_WHITE}${UNDERLINE_BEGIN}$language${COLOR_RESET}"
@@ -174,6 +204,17 @@ function print_usage {
 		  run <LANGUAGE> <PROGRAM>   Run a specific language's program.
 
 		EOF
+}
+
+function program_exists {
+	language="$1"
+	program="$2"
+
+	if [[ -d "$root_directory/$language/$program" ]]; then
+		return "$STATUS_TRUE"
+	else
+		return "$STATUS_FALSE"
+	fi
 }
 
 function run {
@@ -309,6 +350,8 @@ function run {
 	}
 
 	function execute {
+		local result
+
 		container_id=$( \
 			podman run \
 				--detach \
@@ -332,7 +375,12 @@ function run {
 			arguments+=("/usr/bin/bash" "/entrypoint.sh")
 		fi
 
-		podman exec "${arguments[@]}" 2>&1 || true
+		podman exec "${arguments[@]}" 2>&1 && result=$? || result=$?
+
+		if [[ "$result" -ne 0 ]]; then
+			echo
+			echo "${COLOR_RED}Failure.${COLOR_RESET}"
+		fi
 
 		podman container stop "$container_id" > "$stdout"
 	}
@@ -372,6 +420,10 @@ function run_language {
 
 	local language="$1"
 
+	if ! language_exists "$language"; then
+		error "Language \"$language\" not found."
+	fi
+
 	for program in $(list_programs "$language"); do
 		run_program "$language" "$program"
 	done
@@ -385,6 +437,15 @@ function run_program {
 
 	local language="$1"
 	local program="$2"
+
+	if ! language_exists "$language"; then
+		error "Language \"$language\" not found."
+	fi
+
+	if ! program_exists "$language" "$program"; then
+		error "Program \"$program\" for language \"$language\" not found."
+	fi
+
 	local language_properties_path
 	local program_properties_path
 
@@ -418,7 +479,7 @@ function run_program {
 		print_banner "$language_name" "${language_version:-?}" "$program_name"
 
 		echo
-		run "$@" | indent
+		run "$@" | colorize | indent
 		echo
 	fi
 }
