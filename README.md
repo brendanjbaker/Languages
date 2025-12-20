@@ -80,17 +80,19 @@ Commands:
 
 ### `hello-world`
 
-This program should print `Hello, world!`.
+This program should print `Hello, world!`, with or without a trailing newline, and exit with status `0`.
 
 ### `sum`
 
-This program should print the sum of 1-100 (inclusive), which is `5050`.
+This program should print the sum of 1-100 (inclusive), which is `5050`, with or without a trailing newline, and exit with status `0`.
 
 ### `microwave`
 
 This program converts a string, as may be typed into a simple microwave, into `HH:MM` format.
 
 Correct behavior is based on the _Whirlpool WMH31017HZ-2_ (my kitchen microwave).
+
+A usage error should exit with status `1`. An invalid argument should exit with status `2`.
 
 #### Valid input examples
 
