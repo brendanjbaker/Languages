@@ -90,7 +90,7 @@ This program should print the sum of 1-100 (inclusive), which is `5050`.
 
 This program converts a string, as may be typed into a simple microwave, into `HH:MM` format.
 
-Correct behavior is based on the Whirlpool WMH31017HZ-2 (my kitchen microwave).
+Correct behavior is based on the _Whirlpool WMH31017HZ-2_ (my kitchen microwave).
 
 #### Valid inputs
 
