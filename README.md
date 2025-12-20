@@ -15,6 +15,12 @@ Podman is used to build and execute a multi-layer image.
 | 3     | `language` | Things shared within a language (language setup...)          |
 | 4     | `program`  | The specific program for the language.                       |
 
+This provides the following (for example):
+
+* Changing a unit test (`system` layer) does not require re-installing apt packages (`base` layer).
+* Changing a language setup script (`language` layer) does not require rebuilding the `base` or `system` layers.
+* Changing a program does not require rebuilding any other layer (`base`, `system`, or `language`).
+
 ## Help
 
 ```
