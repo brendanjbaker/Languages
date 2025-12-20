@@ -18,14 +18,6 @@ bats_require_minimum_version 1.5.0
 	[[ -z "$stderr" ]]
 }
 
-@test "microwave '00000'" {
-	run --separate-stderr ./main.sh '00000'
-
-	[[ "$status" -eq 2 ]]
-	[[ -z "$output" ]]
-	[[ -z "$stderr" ]]
-}
-
 @test "microwave 'x'" {
 	run --separate-stderr ./main.sh 'x'
 
@@ -36,6 +28,14 @@ bats_require_minimum_version 1.5.0
 
 @test "microwave 'xxxxx'" {
 	run --separate-stderr ./main.sh 'xxxxx'
+
+	[[ "$status" -eq 2 ]]
+	[[ -z "$output" ]]
+	[[ -z "$stderr" ]]
+}
+
+@test "microwave '00000'" {
+	run --separate-stderr ./main.sh '00000'
 
 	[[ "$status" -eq 2 ]]
 	[[ -z "$output" ]]
@@ -138,11 +138,51 @@ bats_require_minimum_version 1.5.0
 	[[ -z "$stderr" ]]
 }
 
+@test "microwave '199'" {
+	run --separate-stderr ./main.sh '199'
+
+	[[ "$status" -eq 0 ]]
+	[[ "$output" == "02:39" ]]
+	[[ -z "$stderr" ]]
+}
+
+@test "microwave '200'" {
+	run --separate-stderr ./main.sh '200'
+
+	[[ "$status" -eq 0 ]]
+	[[ "$output" == "02:00" ]]
+	[[ -z "$stderr" ]]
+}
+
+@test "microwave '201'" {
+	run --separate-stderr ./main.sh '201'
+
+	[[ "$status" -eq 0 ]]
+	[[ "$output" == "02:01" ]]
+	[[ -z "$stderr" ]]
+}
+
 @test "microwave '959'" {
 	run --separate-stderr ./main.sh '959'
 
 	[[ "$status" -eq 0 ]]
 	[[ "$output" == "09:59" ]]
+	[[ -z "$stderr" ]]
+}
+
+@test "microwave '960'" {
+	run --separate-stderr ./main.sh '960'
+
+	[[ "$status" -eq 0 ]]
+	[[ "$output" == "10:00" ]]
+	[[ -z "$stderr" ]]
+}
+
+@test "microwave '961'" {
+	run --separate-stderr ./main.sh '961'
+
+	[[ "$status" -eq 0 ]]
+	[[ "$output" == "10:00" ]]
 	[[ -z "$stderr" ]]
 }
 
