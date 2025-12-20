@@ -90,9 +90,13 @@ This program should print the sum of 1-100 (inclusive), which is `5050`, with or
 
 This program converts a string, as may be typed into a simple microwave, into `HH:MM` format.
 
-Correct behavior is based on the _Whirlpool WMH31017HZ-2_ (my kitchen microwave).
+The input must be passed as a single positional argument to the program. Any other usage is an error.
 
 A usage error should exit with status `1`. An invalid argument should exit with status `2`.
+
+Correct behavior is based on the _Whirlpool WMH31017HZ-2_ (my kitchen microwave). This is a common kitchen microwave that is typically installed above a range/stove. I have observed that other microwaves have varying behavior for strange inputs, such as `161` or `9999`. I chose this microwave as my source of truth merely because I have easy access to it.
+
+Do not run a microwave without something in it to absorb the magnetron's radiation, or your microwave may damage itself. I used a large bowl of water to test behavior for inputs such as `9999` (and shut it off when it reached `98:59`).
 
 #### Valid input examples
 
