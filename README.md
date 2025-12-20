@@ -12,7 +12,7 @@ Podman is used to build and execute a multi-layer image.
 | ----- | ---------- | ------------------------------------------------------------ |
 | 1     | `base`     | Debian 12 (Bookworm), Systemd, Snap, common apt packages.    |
 | 2     | `system`   | Things shared between all languages (entry point, tests...). |
-| 3     | `language` | Things shared within a language (language setup...)          |
+| 3     | `language` | Things shared within a language (language-specific setup...) |
 | 4     | `program`  | The specific program for the language.                       |
 
 This provides the following (for example):
