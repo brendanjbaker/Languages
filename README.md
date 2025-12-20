@@ -4,6 +4,17 @@
 
 This repository contains examples of numerous different programming languages.
 
+## Technical
+
+Podman is used to build and execute a multi-layer image.
+
+| Layer | Name       | Description                                                  |
+| ----- | ---------- | ------------------------------------------------------------ |
+| 1     | `base`     | Debian 12 (Bookworm), Systemd, common apt packages.          |
+| 2     | `system`   | Things shared between all languages (entry point, tests...). |
+| 3     | `language` | Things shared within a language (language setup...)          |
+| 4     | `program`  | The specific program for the language.                       |
+
 ## Help
 
 ```
@@ -18,9 +29,10 @@ Options:
   --debug-docker    Debug docker building, etc.
   --debug-program   Debug program execution.
   --debug-setup     Debug language setup script.
-  --prime           Pre-generates image(s) without running them.
   --help            Show this help message.
   --interactive     Begin an interaction session.
+  --prime           Pre-generates image(s) without running them.
+  --test            Run unit tests.
   --version         Show version information.
 
 Commands:
@@ -45,6 +57,8 @@ Commands:
   * `languages.sh --debug run csharp hello-world`
 * Enter interactive mode for C#, with the _hello-world_ program loaded:
   * `languages.sh --interactive csharp hello-world`
+* Run tests for Rust (all programs):
+  * `languages.sh --test run rust`
 * Help/usage:
   * `languages.sh --help`
 * Version:
