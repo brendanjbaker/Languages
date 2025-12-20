@@ -13,16 +13,18 @@ declare option_interactive="false"
 declare option_test="false"
 declare option_prime="false"
 
-declare base_directory
-declare base_directory_native
+declare root_directory
+declare root_directory_native
 declare language_properties_filename="language.properties"
 declare program_properties_filename="program.properties"
 declare system_hash
 
-base_directory=$(program::get_script_directory)
-base_directory_native=$(path::convert --mixed "$base_directory")
-system_hash=$(directory::hash "$base_directory/.docker")
-system_hash=$(string::hash --length 16 "$system_hash")
+root_directory=$(program::get_script_directory)
+root_directory_native=$(path::convert --mixed "$root_directory")
+base_hash=$(directory::hash "$root_directory/.docker/base")
+base_hash=$(string::hash --length 16 "$base_hash")
+system_hash=$(directory::hash "$root_directory/.docker/system")
+system_hash=$(string::hash --length 16 "${base_hash}${system_hash}")
 
 function clean {
 	local pattern='localhost/languages(-.+)?'
@@ -64,11 +66,11 @@ function list {
 }
 
 function list_languages {
-	directory::list_subdirectories --exclude-hidden "$base_directory"
+	directory::list_subdirectories --exclude-hidden "$root_directory"
 }
 
 function list_programs {
-	directory::list_subdirectories --exclude-hidden "$base_directory/${1:?}"
+	directory::list_subdirectories --exclude-hidden "$root_directory/${1:?}"
 }
 
 function main {
@@ -197,12 +199,12 @@ function run {
 		"--env" "PROGRAM=$program"
 		"--env" "TEST=$option_test")
 
-	language_hash=$(directory::hash "$base_directory/$language/.language")
-	program_hash=$(directory::hash "$base_directory/$language/$program")
-	tests_hash=$(directory::hash "$base_directory/.tests")
+	language_hash=$(directory::hash "$root_directory/$language/.language")
+	program_hash=$(directory::hash "$root_directory/$language/$program")
+	tests_hash=$(directory::hash "$root_directory/.tests")
 
-	language_hash=$(string::hash --length 16 "${system_hash}${language_hash}")
-	program_hash=$(string::hash --length 16 "${system_hash}${language_hash}${program_hash}${tests_hash}")
+	language_hash=$(string::hash --length 16 "${base_hash}${system_hash}${language_hash}")
+	program_hash=$(string::hash --length 16 "${base_hash}${system_hash}${language_hash}${program_hash}${tests_hash}")
 
 	if [[ "$option_debug_docker" == "false" ]]; then
 		stdout="/dev/null"
@@ -216,34 +218,48 @@ function run {
 
 	start_docker_if_necessary
 
-	function build_system_image {
-		if docker::image_exists "languages:$system_hash"; then
+	function build_base_image {
+		if docker::image_exists "languages-base:$base_hash"; then
 			return
 		fi
 
 		podman build \
 			--build-arg DEBUG_DOCKER="$option_debug_docker" \
-			--file "$base_directory_native/.docker/system/system.dockerfile" \
-			--tag "languages:latest" \
+			--file "$root_directory_native/.docker/base/base.dockerfile" \
+			--tag "languages-base:latest" \
 			"${build_quiet_argument[@]}" \
-			"$base_directory_native" > "$stdout"
+			"$root_directory_native" > "$stdout"
 
 		container_id=$( \
 			podman run \
 				--detach \
 				--privileged \
 				--systemd=always \
-				"languages")
+				"languages-base")
 
 		podman exec \
 			"${environment_options[@]}" \
 			"$container_id" \
-			/usr/bin/bash /setup/system/setup-post.sh > "$stdout" 2>&1
+			/usr/bin/bash /setup/base/setup-post.sh > "$stdout" 2>&1
 
 		podman stop "$container_id" > "$stdout"
-		podman commit "$container_id" "languages:latest" > "$stdout" 2>&1
-		podman commit "$container_id" "languages:$system_hash" > "$stdout" 2>&1
+		podman commit "$container_id" "languages-base:latest" > "$stdout" 2>&1
+		podman commit "$container_id" "languages-base:$base_hash" > "$stdout" 2>&1
 		podman container rm "$container_id" > "$stdout"
+	}
+
+	function build_system_image {
+		if docker::image_exists "languages-system:$system_hash"; then
+			return
+		fi
+
+		podman build \
+			--build-arg DEBUG_DOCKER="$option_debug_docker" \
+			--file "$root_directory_native/.docker/system/system.dockerfile" \
+			--tag "languages-system:latest" \
+			--tag "languages-system:$system_hash" \
+			"${build_quiet_argument[@]}" \
+			"$root_directory_native" > "$stdout"
 	}
 
 	function build_language_image {
@@ -254,10 +270,10 @@ function run {
 		podman build \
 			--build-arg DEBUG_DOCKER="$option_debug_docker" \
 			--build-arg LANGUAGE="$language" \
-			--file "$base_directory_native/.docker/language/language.dockerfile" \
+			--file "$root_directory_native/.docker/language/language.dockerfile" \
 			--tag "languages-$language:latest" \
 			"${build_quiet_argument[@]}" \
-			"$base_directory_native" > "$stdout"
+			"$root_directory_native" > "$stdout"
 
 		container_id=$( \
 			podman run \
@@ -269,7 +285,7 @@ function run {
 		podman exec \
 			"${environment_options[@]}" \
 			"$container_id" \
-			/usr/bin/bash /setup/language/setup-pre.sh > "$setup_stdout" 2>&1
+			/usr/bin/bash /setup/language/setup-post.sh > "$setup_stdout" 2>&1
 
 		podman stop "$container_id" > "$stdout"
 		podman commit "$container_id" "languages-$language:latest" > "$stdout" 2>&1
@@ -285,11 +301,11 @@ function run {
 		podman build \
 			--build-arg LANGUAGE="$language" \
 			--build-arg PROGRAM="$program" \
-			--file "$base_directory_native/.docker/program/program.dockerfile" \
+			--file "$root_directory_native/.docker/program/program.dockerfile" \
 			--tag "languages-$language-$program:latest" \
 			--tag "languages-$language-$program:$program_hash" \
 			"${build_quiet_argument[@]}" \
-			"$base_directory_native" > "$stdout"
+			"$root_directory_native" > "$stdout"
 	}
 
 	function execute {
@@ -327,6 +343,7 @@ function run {
 
 	podman container rm --force 'languages' > /dev/null
 
+	build_base_image
 	build_system_image
 	build_language_image
 	build_program_image
@@ -371,8 +388,8 @@ function run_program {
 	local language_properties_path
 	local program_properties_path
 
-	language_properties_path="$base_directory/$language/.language/$language_properties_filename"
-	program_properties_path="$base_directory/$language/$program/$program_properties_filename"
+	language_properties_path="$root_directory/$language/.language/$language_properties_filename"
+	program_properties_path="$root_directory/$language/$program/$program_properties_filename"
 
 	if [[ ! -f "$language_properties_path" ]]; then
 		error "Missing \"$language_properties_filename\" file in \"$language\" directory."

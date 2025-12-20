@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+echo "ENTRYPOINT"
+
 set -Eeuo pipefail
 
 export PATH="/snap/bin:$PATH"
@@ -15,10 +17,18 @@ if [[ "${TEST:-false}" == "true" ]]; then
 	# "Prime" the program before running test(s).
 	/app/main.sh > /dev/null 2>&1 || true
 
+	if [[ "${DEBUG:-false}" == "true" ]]; then
+		set -x
+	fi
+
 	bats \
 		--formatter tap \
 		--timing \
 		"/tests/${PROGRAM}.bats"
+
+	result=$?
+
+	echo "Test result: $result"
 else
 	if [[ "${DEBUG_PROGRAM:-false}" == "true" ]]; then
 		bash -x /app/main.sh "$@"
