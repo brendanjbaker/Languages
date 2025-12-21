@@ -34,7 +34,7 @@ public static class Program
 			}
 		}
 
-		Console.Write("{0:D2}:{1:D2}", minutes, seconds);
+		Console.Write("{0:D2}:{1:D2}\n", minutes, seconds);
 
 		return 0;
 	}

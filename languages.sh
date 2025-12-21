@@ -373,6 +373,8 @@ function run {
 		else
 			arguments+=("$container_id")
 			arguments+=("/usr/bin/bash" "/entrypoint.sh")
+
+			source "$root_directory/.program/$program/configuration.sh"
 		fi
 
 		podman exec "${arguments[@]}" 2>&1 && result=$? || result=$?
