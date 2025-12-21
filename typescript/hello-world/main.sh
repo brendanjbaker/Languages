@@ -4,4 +4,4 @@ if [[ ! -f program.js ]]; then
 	tsc program.ts
 fi
 
-node program.js
+node program.js "$@"

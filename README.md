@@ -148,7 +148,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Awk               |       ✅       |   ⬜   |      ⬜      |
 | B                 |       ⬜       |   ⬜   |      ⬜      |
 | Ballerina         |       ⬜       |   ⬜   |      ⬜      |
-| Bash              |       ✅       |   ⬜   |      ⬜      |
+| Bash              |       ✅       |   ✅   |      ⬜      |
 | BASIC             |       ✅       |   ⬜   |      ⬜      |
 | Batch             |       ⬜       |   ⬜   |      ⬜      |
 | BCPL              |       ⬜       |   ⬜   |      ⬜      |
@@ -246,7 +246,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | RPG IV (RPGLE)    |       ⬜       |   ⬜   |      ⬜      |
 | Ruby              |       ✅       |   ✅   |      ⬜      |
 | RPL               |       ⬜       |   ⬜   |      ⬜      |
-| Rust              |       ✅       |   ⬜   |      ⬜      |
+| Rust              |       ✅       |   ⬜   |      ✅      |
 | Scala             |       ⬜       |   ⬜   |      ⬜      |
 | Scheme            |       ⬜       |   ⬜   |      ⬜      |
 | Sed               |       ✅       |   ⬜   |      ⬜      |
@@ -283,4 +283,4 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Xojo              |       ⬜       |   ⬜   |      ⬜      |
 | Xtend             |       ⬜       |   ⬜   |      ⬜      |
 | Zig               |       ✅       |   ✅   |      ✅      |
-| _Count..._        |     _24_      |  _8_  |     _2_     |
+| _Count..._        |     _24_      |  _8_  |     _3_     |

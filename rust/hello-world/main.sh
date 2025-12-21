@@ -5,4 +5,4 @@ if [[ ! -f program ]]; then
 	rustc program.rs -o program
 fi
 
-./program
+./program "$@"

@@ -4,4 +4,4 @@ if [[ ! -f Program.class ]]; then
 	javac Program.java
 fi
 
-java Program
+java Program "$@"

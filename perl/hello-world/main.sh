@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-perl program.pl
+perl program.pl "$@"

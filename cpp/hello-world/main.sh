@@ -4,4 +4,4 @@ if [[ ! -f program ]]; then
 	g++ program.cpp -o program
 fi
 
-./program
+./program "$@"

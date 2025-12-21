@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-awk -f program.awk
+awk -f program.awk "$@"

@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-php program.php
+php program.php "$@"

@@ -5,4 +5,4 @@ if [[ ! -f program ]]; then
 	ld program.o -o program
 fi
 
-./program
+./program "$@"

@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-node program.js
+node program.js "$@"

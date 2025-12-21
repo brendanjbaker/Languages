@@ -4,4 +4,4 @@ if [[ ! -f program ]]; then
 	zig build-exe program.zig
 fi
 
-./program
+./program "$@"

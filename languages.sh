@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+# shellcheck disable=SC1091
 source library
 
 declare program_name="languages.sh"
@@ -374,6 +375,7 @@ function run {
 			arguments+=("$container_id")
 			arguments+=("/usr/bin/bash" "/entrypoint.sh")
 
+			# shellcheck disable=SC1090
 			source "$root_directory/.program/$program/configuration.sh"
 		fi
 

@@ -4,4 +4,4 @@ if [[ ! -f program ]]; then
 	gcc -o program program.c
 fi
 
-./program
+./program "$@"

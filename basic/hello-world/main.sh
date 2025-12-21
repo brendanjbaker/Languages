@@ -11,6 +11,6 @@ if [[ ! -f PROGRAM ]]; then
 fi
 
 echo \
-| ./PROGRAM \
+| ./PROGRAM "$@" \
 | grep -v '^Press enter to continue$' \
 | perl -pe 'chomp if eof'

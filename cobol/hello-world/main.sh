@@ -7,4 +7,4 @@ if [[ ! -f program ]]; then
 	cobc -o program -O -x program.cob
 fi
 
-./program
+./program "$@"

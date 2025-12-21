@@ -42,8 +42,6 @@ pub fn main() !u8 {
 	}
 
 	try stdout.print("{d:0>2}:{d:0>2}\n", .{ mins, seconds });
-	// try stdout.print("{}\n", .{mins});
-	// try stdout.print("{}\n", .{seconds});
 	try stdout.flush();
 
 	return 0;

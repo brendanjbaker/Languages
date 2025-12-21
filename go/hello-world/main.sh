@@ -4,4 +4,4 @@ if [[ ! -f program ]]; then
 	go build program.go
 fi
 
-./program
+./program "$@"

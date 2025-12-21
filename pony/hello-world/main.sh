@@ -6,4 +6,4 @@ if [[ ! -f ./program ]]; then
 	ponyc --bin-name=program 2> /dev/null
 fi
 
-./program
+./program "$@"
