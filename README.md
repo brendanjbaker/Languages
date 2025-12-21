@@ -246,7 +246,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | RPG IV (RPGLE)    |       ⬜       |   ⬜   |      ⬜      |
 | Ruby              |       ✅       |   ✅   |      ⬜      |
 | RPL               |       ⬜       |   ⬜   |      ⬜      |
-| Rust              |       ✅       |   ⬜   |      ✅      |
+| Rust              |       ✅       |   ✅   |      ✅      |
 | Scala             |       ⬜       |   ⬜   |      ⬜      |
 | Scheme            |       ⬜       |   ⬜   |      ⬜      |
 | Sed               |       ✅       |   ⬜   |      ⬜      |
