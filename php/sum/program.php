@@ -5,5 +5,5 @@
 		$sum += $i;
 	}
 
-	echo "$sum";
+	echo "$sum\n";
 ?>
