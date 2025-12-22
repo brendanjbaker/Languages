@@ -154,7 +154,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | BCPL              |       ⬜       |   ⬜   |      ⬜      |
 | Beef              |       ⬜       |   ⬜   |      ⬜      |
 | Brainf#ck         |       ⬜       |   ⬜   |      ⬜      |
-| C                 |       ✅       |   ⬜   |      ⬜      |
+| C                 |       ✅       |   ✅   |      ✅      |
 | C2                |       ⬜       |   ⬜   |      ⬜      |
 | C3                |       ⬜       |   ⬜   |      ⬜      |
 | C#                |       ✅       |   ✅   |      ✅      |
