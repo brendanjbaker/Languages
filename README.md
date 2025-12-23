@@ -168,7 +168,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | ColdFusion        |       ⬜       |   ⬜   |      ⬜      |
 | Cowgol            |       ⬜       |   ⬜   |      ⬜      |
 | Crystal           |       ⬜       |   ⬜   |      ⬜      |
-| D                 |       ✅       |   ✅   |      ⬜      |
+| D                 |       ✅       |   ✅   |      ✅      |
 | Dart              |       ⬜       |   ⬜   |      ⬜      |
 | dBase             |       ⬜       |   ⬜   |      ⬜      |
 | Delphi            |       ⬜       |   ⬜   |      ⬜      |
@@ -191,7 +191,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Icon              |       ⬜       |   ⬜   |      ⬜      |
 | Io                |       ⬜       |   ⬜   |      ⬜      |
 | Irdis             |       ⬜       |   ⬜   |      ⬜      |
-| Java              |       ✅       |   ⬜   |      ⬜      |
+| Java              |       ✅       |   ✅   |      ✅      |
 | JavaScript        |       ✅       |   ⬜   |      ⬜      |
 | Joule             |       ⬜       |   ⬜   |      ⬜      |
 | Julia             |       ⬜       |   ⬜   |      ⬜      |
@@ -229,7 +229,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Pike              |       ⬜       |   ⬜   |      ⬜      |
 | Planner           |       ⬜       |   ⬜   |      ⬜      |
 | PL/M              |       ⬜       |   ⬜   |      ⬜      |
-| Pony              |       ⬜       |   ⬜   |      ⬜      |
+| Pony              |       ✅       |   ⬜   |      ⬜      |
 | POP-11            |       ⬜       |   ⬜   |      ⬜      |
 | PowerShell        |       ⬜       |   ⬜   |      ⬜      |
 | Project Verona    |       ⬜       |   ⬜   |      ⬜      |
@@ -283,4 +283,4 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Xojo              |       ⬜       |   ⬜   |      ⬜      |
 | Xtend             |       ⬜       |   ⬜   |      ⬜      |
 | Zig               |       ✅       |   ✅   |      ✅      |
-| _Count..._        |     _24_      |  _10_  |     _3_     |
+| _Count..._        |     _25_      |  _12_  |     _6_     |
