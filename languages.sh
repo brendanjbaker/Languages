@@ -454,12 +454,19 @@ function run_program {
 	local program_properties_path
 
 	language_properties_path="$root_directory/$language/.language/$language_properties_filename"
-	program_properties_path="$root_directory/$language/$program/$program_properties_filename"
+	program_properties_default_path="$root_directory/.program/$program/$program_properties_filename"
+	program_properties_override_path="$root_directory/$language/$program/$program_properties_filename"
+
+	if [[ -f "$program_properties_override_path" ]]; then
+		program_properties_path="$program_properties_override_path"
+	elif [[ -f "$program_properties_default_path" ]]; then
+		program_properties_path="$program_properties_default_path"
+	else
+		error "Missing \"$program_properties_filename\" file in \"$language/$program\" directory."
+	fi
 
 	if [[ ! -f "$language_properties_path" ]]; then
 		error "Missing \"$language_properties_filename\" file in \"$language\" directory."
-	elif [[ ! -f "$program_properties_path" ]]; then
-		error "Missing \"$program_properties_filename\" file in \"$language/$program\" directory."
 	fi
 
 	unset language_name
