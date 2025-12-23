@@ -86,13 +86,24 @@ function language_exists {
 }
 
 function list {
+	local -A program_counts=()
+
 	for language in $(list_languages); do
 		printf '%s\n' "${COLOR_WHITE}${UNDERLINE_BEGIN}$language${COLOR_RESET}"
 
 		for program in $(list_programs "$language"); do
+			(( program_counts[$program] = ${program_counts[$program]:-0} + 1 ))
+
 			printf '  %s\n' "${COLOR_RESET}$program${COLOR_RESET}"
 		done
 		printf '\n'
+	done
+
+	echo "${COLOR_GRAY}Counts...${COLOR_RESET}"
+	echo
+
+	for program in $(printf '%s\n' "${!program_counts[@]}" | sort); do
+		echo "$program: ${UNDERLINE_BEGIN}${program_counts[$program]}${COLOR_RESET}"
 	done
 }
 
@@ -382,8 +393,10 @@ function run {
 		podman exec "${arguments[@]}" 2>&1 && result=$? || result=$?
 
 		if [[ "$result" -ne 0 ]]; then
-			echo
-			echo "${COLOR_RED}Failure.${COLOR_RESET}"
+			if [[ "$option_interactive" == "false" ]]; then
+				echo
+				echo "${COLOR_RED}Failure.${COLOR_RESET}"
+			fi
 		fi
 
 		podman container stop "$container_id" > "$stdout"
