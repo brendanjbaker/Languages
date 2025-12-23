@@ -31,6 +31,7 @@ apt-get install -y \
 	apt-transport-https \
 	binutils \
 	build-essential \
+	clang \
 	cmake \
 	curl \
 	gawk \
@@ -38,6 +39,7 @@ apt-get install -y \
 	git \
 	software-properties-common \
 	unzip \
+	vim \
 	wget \
 	xz-utils
 
