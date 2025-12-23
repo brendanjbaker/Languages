@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-apt-get install -y g++
+apt-get install -y clang g++
