@@ -42,6 +42,14 @@ bats_require_minimum_version 1.5.0
 	[[ -z "$stderr" ]]
 }
 
+@test "microwave '-1'" {
+	run --separate-stderr ./main.sh '-1'
+
+	[[ "$status" -eq 2 ]]
+	[[ -z "$output" ]]
+	[[ -z "$stderr" ]]
+}
+
 @test "microwave '0'" {
 	run --separate-stderr ./main.sh '0'
 
