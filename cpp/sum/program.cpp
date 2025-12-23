@@ -1,15 +1,14 @@
+#include <format>
 #include <iostream>
-
-using namespace std;
 
 int main() {
 	int sum = 0;
 
-	for (int i = 0; i <= 100; i++) {
+	for (int i = 0; i <= 100; ++i) {
 		sum += i;
 	}
 
-	cout << sum << endl;
+	std::cout << std::format("{}\n", sum);
 
 	return 0;
 }

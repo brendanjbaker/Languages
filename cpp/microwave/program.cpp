@@ -1,9 +1,8 @@
-#include <algorithm>
-#include <cctype>
-#include <cstdio>
-#include <iomanip>
 #include <iostream>
 #include <string>
+#include <algorithm>
+#include <format>
+#include <cctype>
 
 bool isNumeric(const std::string& text) {
     return std::all_of(text.begin(), text.end(), ::isdigit);
@@ -36,7 +35,7 @@ int main(int argc, char* argv[]) {
 		}
 	}
 
-	printf("%02d:%02d\n", minutes, seconds);
+	std::cout << std::format("{:02d}:{:02d}\n", minutes, seconds);
 
 	return 0;
 }

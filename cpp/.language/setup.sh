@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 
-apt-get install -y clang g++
+export DEBIAN_FRONTEND="noninteractive"
+
+apt-get install -y g++

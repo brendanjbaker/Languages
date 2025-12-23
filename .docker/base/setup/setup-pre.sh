@@ -37,7 +37,6 @@ apt-get install -y \
 	gawk \
 	gcc \
 	git \
-	software-properties-common \
 	unzip \
 	vim \
 	wget \
