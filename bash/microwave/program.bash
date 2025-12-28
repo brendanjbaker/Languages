@@ -32,7 +32,7 @@ function main {
 		fi
 	fi
 
-	printf '%02d%s%02d' "$((10#$input_minutes))" ":" "$((10#$input_seconds))"
+	printf '%02d%s%02d\n' "$((10#$input_minutes))" ":" "$((10#$input_seconds))"
 }
 
 main "$@"
