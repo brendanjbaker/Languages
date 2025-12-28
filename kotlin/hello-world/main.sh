@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
 
-kotlinc Program.kt -include-runtime -d program.jar
+if [[ ! -f program.jar ]]; then
+	kotlinc Program.kt -include-runtime -d program.jar 2> /dev/null
+fi
+
 java -jar program.jar
