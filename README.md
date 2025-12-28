@@ -186,7 +186,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Joule             |       ⬜       |   ⬜   |      ⬜      |
 | Julia             |       ⬜       |   ⬜   |      ⬜      |
 | Koka              |       ⬜       |   ⬜   |      ⬜      |
-| Kotlin            |       ⬜       |   ⬜   |      ⬜      |
+| Kotlin            |       ✅       |   ⬜   |      ⬜      |
 | Lily              |       ⬜       |   ⬜   |      ⬜      |
 | Lisp              |       ⬜       |   ⬜   |      ⬜      |
 | Lobster           |       ⬜       |   ⬜   |      ⬜      |
@@ -273,4 +273,4 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Xojo              |       ⬜       |   ⬜   |      ⬜      |
 | Xtend             |       ⬜       |   ⬜   |      ⬜      |
 | Zig               |       ✅       |   ✅   |      ✅      |
-| _Count..._        |     _30_      |  _15_  |     _10_     |
+| _Count..._        |     _31_      |  _15_  |     _10_     |
