@@ -263,7 +263,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | VBScript          |       ⬜       |   ⬜   |      ⬜      |
 | Verilog           |       ⬜       |   ⬜   |      ⬜      |
 | VHDL              |       ⬜       |   ⬜   |      ⬜      |
-| Visual Basic .NET |       ⬜       |   ⬜   |      ⬜      |
+| Visual Basic .NET |       ✅       |   ⬜   |      ⬜      |
 | Visual Basic (6)  |       ⬜       |   ⬜   |      ⬜      |
 | Visual FoxPro     |       ⬜       |   ⬜   |      ⬜      |
 | Whiley            |       ⬜       |   ⬜   |      ⬜      |
@@ -273,4 +273,4 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Xojo              |       ⬜       |   ⬜   |      ⬜      |
 | Xtend             |       ⬜       |   ⬜   |      ⬜      |
 | Zig               |       ✅       |   ✅   |      ✅      |
-| _Count..._        |     _29_      |  _15_  |     _10_     |
+| _Count..._        |     _30_      |  _15_  |     _10_     |
