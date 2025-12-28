@@ -273,4 +273,4 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Xojo              |       ⬜       |   ⬜   |      ⬜      |
 | Xtend             |       ⬜       |   ⬜   |      ⬜      |
 | Zig               |       ✅       |   ✅   |      ✅      |
-| _Count..._        |     _28_      |  _15_  |     _10_     |
+| _Count..._        |     _29_      |  _15_  |     _10_     |
