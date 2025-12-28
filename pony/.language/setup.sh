@@ -11,6 +11,8 @@
 # make install
 #
 
+export DEBIAN_FRONTEND="noninteractive"
+
 apt-get install -y clang
 
 export SHELL=/usr/bin/bash

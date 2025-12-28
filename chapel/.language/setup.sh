@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+export DEBIAN_FRONTEND="noninteractive"
+
 apt-get install -y wget
 
 declare filename='chapel-2.7.0-1.debian13.amd64.deb'

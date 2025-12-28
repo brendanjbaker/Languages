@@ -2,6 +2,8 @@
 
 set -Eeuo pipefail
 
+export DEBIAN_FRONTEND="noninteractive"
+
 apt-get install -y \
 	build-essential \
 	gawk \

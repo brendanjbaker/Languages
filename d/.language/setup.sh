@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+export DEBIAN_FRONTEND="noninteractive"
+
 apt-get install -y wget
 
 wget --quiet 'https://netcologne.dl.sourceforge.net/project/d-apt/files/d-apt.list' -O '/etc/apt/sources.list.d/d-apt.list'
