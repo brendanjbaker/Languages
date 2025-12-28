@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 
-apt-get install -y openjdk-17-jdk
+export DEBIAN_FRONTEND="noninteractive"
+
+apt-get install -y openjdk-21-jdk
