@@ -7,4 +7,6 @@ if [[ ! -f program ]]; then
 	cobc -o program -O -x program.cob
 fi
 
-./program "$@"
+# Hide the warning 'Warning: program compiled against libxml 212 using older 209'.
+# Happens on Debian 13, but not 12. Wasn't successfully at manually installing 209.
+./program "$@" 2> >(grep -v 'libxml 212' >&2)
