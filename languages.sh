@@ -32,23 +32,25 @@ function clean {
 	local containers
 	local images
 
+	set -x
+
+	containers=$( \
+		podman container list --external --noheading \
+		| ( grep -E "$pattern" || true ) \
+		| awk '{ print $1 }')
+
+	for container in $containers; do
+		podman container stop "$container" || true
+		podman container rm "$container"
+	done
+
 	images=$( \
 		podman image list --noheading \
 		| ( grep -E "$pattern" || true ) \
 		| awk '{ print $1 ":" $2 }')
 
-	containers=$( \
-		podman container list --noheading \
-		| ( grep -E "$pattern" || true ) \
-		| awk '{ print $1 }')
-
 	for image in $images; do
 		podman image rm "$image"
-	done
-
-	for container in $containers; do
-		podman container stop "$container"
-		podman container rm "$container"
 	done
 
 	podman builder prune --force
@@ -61,17 +63,21 @@ function colorize {
 	else
 		local search_1='^ok'
 		local search_2='^not ok'
-		local search_3='in \([0-9]\+\)ms$'
+		local search_3='^\(.*\) \([0-9]\+\) \(.*\)$'
+		local search_4='in \([0-9]\+\)ms$'
+		local search_5='^\([0-9]\+\)\.\.\([0-9]\+\)$'
 
 		local replace_1="${COLOR_GREEN}ok${COLOR_RESET}"
 		local replace_2="${COLOR_RED}not ok${COLOR_RESET}"
-		local replace_3="${COLOR_GRAY}in \\1ms${COLOR_RESET}"
-
-		# sed 's/in \([0-9]\+\)ms$/in \1 milliseconds/'
+		local replace_3="${COLOR_WHITE}${UNDERLINE_BEGIN}\\2${COLOR_RESET} \\1 \\3"
+		local replace_4="${COLOR_GRAY}in \\1ms${COLOR_RESET}"
+		local replace_5="${COLOR_GRAY}\\1..\\2${COLOR_RESET}"
 
 		sed --unbuffered "s/$search_1/$replace_1/g" | \
 		sed --unbuffered "s/$search_2/$replace_2/g" | \
-		sed --unbuffered "s/$search_3/$replace_3/g"
+		sed --unbuffered "s/$search_3/$replace_3/g" | \
+		sed --unbuffered "s/$search_4/$replace_4/g" | \
+		sed --unbuffered "s/$search_5/$replace_5/g"
 	fi
 }
 
