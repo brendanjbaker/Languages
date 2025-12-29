@@ -114,11 +114,32 @@ function list {
 }
 
 function list_languages {
-	directory::list_subdirectories --exclude-hidden "$root_directory"
+	local languages
+
+	languages=$(directory::list_subdirectories --exclude-hidden "$root_directory")
+
+	for language in $languages; do
+		if [[ -f "$root_directory/$language/.skip" ]]; then
+			continue
+		fi
+
+		echo "$language"
+	done
 }
 
 function list_programs {
-	directory::list_subdirectories --exclude-hidden "$root_directory/${1:?}"
+	local language="${1:?}"
+	local programs
+
+	programs=$(directory::list_subdirectories --exclude-hidden "$root_directory/$language")
+
+	for program in $programs; do
+		if [[ -f "$root_directory/$language/$program/.skip" ]]; then
+			continue
+		fi
+
+		echo "$program"
+	done
 }
 
 function main {
