@@ -63,7 +63,7 @@ function colorize {
 	else
 		local search_1='^ok'
 		local search_2='^not ok'
-		local search_3='^\(.*\) \([0-9]\+\) \(.*\)$'
+		local search_3='^\(.*\) \([0-9]\+\) \(.*[0-9]\+ms\)$'
 		local search_4='in \([0-9]\+\)ms$'
 		local search_5='^\([0-9]\+\)\.\.\([0-9]\+\)$'
 
