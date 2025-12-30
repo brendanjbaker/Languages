@@ -166,7 +166,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Elixir            |       ⬜       |   ⬜   |      ⬜      |
 | Elm               |       ⬜       |   ⬜   |      ⬜      |
 | Erlang            |       ✅       |   ✅   |      ⬜      |
-| F#                |       ⬜       |   ⬜   |      ⬜      |
+| F#                |       ✅       |   ⬜   |      ⬜      |
 | Factor            |       ⬜       |   ⬜   |      ⬜      |
 | Forth             |       ⬜       |   ⬜   |      ⬜      |
 | Fortran           |       ⬜       |   ⬜   |      ⬜      |
@@ -191,7 +191,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Lisp              |       ✅       |   ⬜   |      ⬜      |
 | Lobster           |       ⬜       |   ⬜   |      ⬜      |
 | Logo              |       ⬜       |   ⬜   |      ⬜      |
-| Lua               |       ⬜       |   ⬜   |      ⬜      |
+| Lua               |       ✅       |   ⬜   |      ⬜      |
 | Maple             |       ⬜       |   ⬜   |      ⬜      |
 | MATLAB            |       ✅       |   ⬜   |      ⬜      |
 | Maxima            |       ⬜       |   ⬜   |      ⬜      |
@@ -273,4 +273,4 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Xojo              |       ⬜       |   ⬜   |      ⬜      |
 | Xtend             |       ⬜       |   ⬜   |      ⬜      |
 | Zig               |       ✅       |   ✅   |      ✅      |
-| _Count..._        |     _31_      |  _15_  |     _10_     |
+| _Count..._        |     _36_      |  _15_  |     _10_     |
