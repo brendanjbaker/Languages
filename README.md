@@ -144,7 +144,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Brainf#ck         |       ⬜       |   ⬜   |      ⬜      |
 | C                 |       ✅       |   ✅   |      ✅      |
 | C2                |       ⬜       |   ⬜   |      ⬜      |
-| C3                |       ⬜       |   ⬜   |      ⬜      |
+| C3                |       ✅       |   ⬜   |      ⬜      |
 | C#                |       ✅       |   ✅   |      ✅      |
 | C++               |       ✅       |   ✅   |      ✅      |
 | Carbon            |       ⬜       |   ⬜   |      ⬜      |
@@ -188,7 +188,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Koka              |       ⬜       |   ⬜   |      ⬜      |
 | Kotlin            |       ✅       |   ⬜   |      ⬜      |
 | Lily              |       ⬜       |   ⬜   |      ⬜      |
-| Lisp              |       ⬜       |   ⬜   |      ⬜      |
+| Lisp              |       ✅       |   ⬜   |      ⬜      |
 | Lobster           |       ⬜       |   ⬜   |      ⬜      |
 | Logo              |       ⬜       |   ⬜   |      ⬜      |
 | Lua               |       ⬜       |   ⬜   |      ⬜      |
@@ -238,7 +238,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | RPL               |       ⬜       |   ⬜   |      ⬜      |
 | Rust              |       ✅       |   ✅   |      ✅      |
 | Scala             |       ✅       |   ⬜   |      ⬜      |
-| Scheme            |       ⬜       |   ⬜   |      ⬜      |
+| Scheme            |       ✅       |   ⬜   |      ⬜      |
 | Sed               |       ✅       |   ⬜   |      ⬜      |
 | Seed7             |       ⬜       |   ⬜   |      ⬜      |
 | Self              |       ⬜       |   ⬜   |      ⬜      |
