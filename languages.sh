@@ -306,7 +306,7 @@ function run {
 		podman build \
 			--build-arg DEBUG_DOCKER="$option_debug_docker" \
 			--file "$root_directory_native/.docker/base/base.dockerfile" \
-			--tag "languages-base:latest" \
+			--tag "languages-base:intermediate" \
 			"${build_quiet_argument[@]}" \
 			"$root_directory_native" > "$stdout"
 
@@ -315,7 +315,7 @@ function run {
 				--detach \
 				--privileged \
 				--systemd=always \
-				"languages-base")
+				"languages-base:intermediate")
 
 		podman exec \
 			"${environment_options[@]}" \
