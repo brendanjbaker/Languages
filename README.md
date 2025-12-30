@@ -211,7 +211,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Oblique           |       ⬜       |   ⬜   |      ⬜      |
 | OCaml             |       ⬜       |   ⬜   |      ⬜      |
 | Opa               |       ⬜       |   ⬜   |      ⬜      |
-| Pascal            |       ⬜       |   ⬜   |      ⬜      |
+| Pascal            |       ✅       |   ⬜   |      ⬜      |
 | Perl              |       ✅       |   ⬜   |      ⬜      |
 | Phix              |       ⬜       |   ⬜   |      ⬜      |
 | PHL               |       ⬜       |   ⬜   |      ⬜      |
@@ -273,4 +273,4 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Xojo              |       ⬜       |   ⬜   |      ⬜      |
 | Xtend             |       ⬜       |   ⬜   |      ⬜      |
 | Zig               |       ✅       |   ✅   |      ✅      |
-| _Count..._        |     _36_      |  _15_  |     _10_     |
+| _Count..._        |     _37_      |  _15_  |     _10_     |
