@@ -7,3 +7,7 @@ if [[ "${DEBUG_DOCKER:-false}" == "true" ]]; then
 fi
 
 export PATH="/snap/bin:$PATH"
+
+systemctl start snapd
+snap wait system seed.loaded
+snap install core24 snapd
