@@ -175,7 +175,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Groovy            |       ⬜       |   ⬜   |      ⬜      |
 | Hack              |       ⬜       |   ⬜   |      ⬜      |
 | Hare              |       ⬜       |   ⬜   |      ⬜      |
-| Haskell           |       ⬜       |   ⬜   |      ⬜      |
+| Haskell           |       ✅       |   ⬜   |      ⬜      |
 | Hopper            |       ⬜       |   ⬜   |      ⬜      |
 | HTML              |       ✅       |   ⬜   |      ⬜      |
 | Icon              |       ⬜       |   ⬜   |      ⬜      |
@@ -273,4 +273,4 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Xojo              |       ⬜       |   ⬜   |      ⬜      |
 | Xtend             |       ⬜       |   ⬜   |      ⬜      |
 | Zig               |       ✅       |   ✅   |      ✅      |
-| _Count..._        |     _37_      |  _15_  |     _10_     |
+| _Count..._        |     _38_      |  _15_  |     _10_     |
