@@ -170,6 +170,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Factor            |       ⬜       |   ⬜   |      ⬜      |
 | Forth             |       ✅       |   ⬜   |      ⬜      |
 | Fortran           |       ⬜       |   ⬜   |      ⬜      |
+| Gleam             |       ⬜       |   ⬜   |      ⬜      |
 | Glim              |       ⬜       |   ⬜   |      ⬜      |
 | Go                |       ✅️       |   ⬜   |      ⬜      |
 | Groovy            |       ⬜       |   ⬜   |      ⬜      |
