@@ -249,3 +249,11 @@ bats_require_minimum_version 1.5.0
 	[[ "$output" == "99:99" ]]
 	[[ -z "$stderr" ]]
 }
+
+@test "microwave '9999' (trailing newline)" {
+	run --separate-stderr bash -c "./main.sh '9999' | xxd -p"
+
+	[[ "$status" -eq 0 ]]
+	[[ "$output" == "39393a39390a" ]]
+	[[ -z "$stderr" ]]
+}

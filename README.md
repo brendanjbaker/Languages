@@ -80,15 +80,15 @@ Commands:
 
 ### `hello-world`
 
-This program should print `Hello, world!`, with or without a trailing newline, and exit with status `0`.
+This program should print `Hello, world!`, with a trailing newline, and exit with status `0`.
 
 ### `sum`
 
-This program should print the sum of 1-100 (inclusive), which is `5050`, with or without a trailing newline, and exit with status `0`.
+This program should print the sum of 1-100 (inclusive), which is `5050`, with a trailing newline, and exit with status `0`.
 
 ### `microwave`
 
-This program converts a string, as may be typed into a simple microwave, into `MM:SS` format.
+This program converts a string, as may be typed into a simple microwave, into `MM:SS` format, with a trailing newline.
 
 The input must be passed as a single positional argument to the program. Any other usage is an error.
 
