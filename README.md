@@ -248,6 +248,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Solidity          |       ⬜       |   ⬜   |      ⬜      |
 | SPARK             |       ⬜       |   ⬜   |      ⬜      |
 | Spin (Parallax)   |       ⬜       |   ⬜   |      ⬜      |
+| SQL               |       ✅       |   ✅   |      ⬜      |
 | Squeak            |       ⬜       |   ⬜   |      ⬜      |
 | Squirrel          |       ⬜       |   ⬜   |      ⬜      |
 | Standard ML       |       ⬜       |   ⬜   |      ⬜      |
