@@ -6,13 +6,16 @@ source library
 declare program_name="languages.sh"
 declare version="0.0.0.0"
 
+declare arguments=("$@")
+
 declare option_debug="false"
 declare option_debug_docker="false"
 declare option_debug_program="false"
 declare option_debug_setup="false"
 declare option_interactive="false"
-declare option_test="false"
+declare option_parallel="false"
 declare option_prime="false"
+declare option_test="false"
 
 declare root_directory
 declare root_directory_native
@@ -127,6 +130,14 @@ function list_languages {
 	done
 }
 
+function list_pairs {
+	for language in $(list_languages); do
+		for program in $(list_programs "$language"); do
+			printf '%s %s\n' "$language" "$program"
+		done
+	done
+}
+
 function list_programs {
 	local language="${1:?}"
 	local programs
@@ -162,6 +173,8 @@ function main {
 			option_debug_setup="true"; shift
 		elif [[ $# -ge 1 && "$1" == "--interactive" ]]; then
 			option_interactive="true"; shift
+		elif [[ $# -ge 1 && "$1" == "--parallel" ]]; then
+			option_parallel="true"; shift
 		elif [[ $# -ge 1 && "$1" == "--prime" ]]; then
 			option_prime="true"; shift
 		elif [[ $# -ge 1 && "$1" == "--test" ]]; then
@@ -231,6 +244,7 @@ function print_usage {
 		  --debug-setup     Debug language setup script.
 		  --help            Show this help message.
 		  --interactive     Begin an interaction session.
+		  --parallel        Runs multiple programs concurrently.
 		  --prime           Pre-generates image(s) without running them.
 		  --test            Run unit tests.
 		  --version         Show version information.
@@ -269,6 +283,8 @@ function run {
 	local language_hash
 	local program_hash
 	local tests_hash
+	local parallel_slot="${PARALLEL_SLOT:-0}"
+	local id="$parallel_slot"
 
 	local -a environment_options=(
 		"--env" "DEBUG=$option_debug"
@@ -313,6 +329,7 @@ function run {
 		container_id=$( \
 			podman run \
 				--detach \
+				--name "languages-$id" \
 				--privileged \
 				--systemd=always \
 				"languages-base:intermediate")
@@ -358,6 +375,7 @@ function run {
 		container_id=$( \
 			podman run \
 				--detach \
+				--name "languages-$id" \
 				--privileged \
 				--systemd=always \
 				"languages-$language")
@@ -394,7 +412,7 @@ function run {
 		container_id=$( \
 			podman run \
 				--detach \
-				--name "languages" \
+				--name "languages-$id" \
 				--privileged \
 				--rm \
 				--systemd=always \
@@ -452,6 +470,32 @@ function run_all {
 		error::usage "run_all"
 	fi
 
+	if [[ "$option_parallel" == "true" ]]; then
+		run_all_parallel
+	else
+		run_all_sequential
+	fi
+}
+
+function run_all_parallel {
+	# Options are all arguments except the last, e.g. "run" (command).
+	local options=("${arguments[@]:0:${#arguments[@]}-1}")
+	local pairs
+	local concurrency
+
+	pairs=$(list_pairs)
+	concurrency=$(nproc)
+	concurrency=$((concurrency * 2))
+
+	parallel \
+		--colsep "$CHARACTER_SPACE" \
+		--jobs "$concurrency" \
+		--keep-order \
+		--will-cite \
+		"$root_directory/languages.sh" "${options[@]}" run '{1}' '{2}' <<< "$pairs"
+}
+
+function run_all_sequential {
 	for language in $(list_languages); do
 		run_language "$language"
 	done
