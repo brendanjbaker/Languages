@@ -227,8 +227,8 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Prolog            |       ⬜       |   ⬜   |      ⬜      |
 | Python            |       ✅       |   ✅   |      ⬜      |
 | Pure              |       ⬜       |   ⬜   |      ⬜      |
-| R                 |       ⬜       |   ⬜   |      ⬜      |
-| Racket            |       ⬜       |   ⬜   |      ⬜      |
+| R                 |       ✅       |   ⬜   |      ⬜      |
+| Racket            |       ✅       |   ⬜   |      ⬜      |
 | Rebol             |       ⬜       |   ⬜   |      ⬜      |
 | Red               |       ⬜       |   ⬜   |      ⬜      |
 | Rexx              |       ⬜       |   ⬜   |      ⬜      |
@@ -275,4 +275,4 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Xojo              |       ⬜       |   ⬜   |      ⬜      |
 | Xtend             |       ⬜       |   ⬜   |      ⬜      |
 | Zig               |       ✅       |   ✅   |      ✅      |
-| _Count..._        |     _43_      |  _16_  |     _11_     |
+| _Count..._        |     _45_      |  _16_  |     _11_     |
