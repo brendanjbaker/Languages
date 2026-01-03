@@ -7,6 +7,7 @@ declare program_name="languages.sh"
 declare version="0.0.0.0"
 
 declare arguments=("$@")
+declare slot="0"
 
 declare option_debug="false"
 declare option_debug_docker="false"
@@ -17,6 +18,7 @@ declare option_parallel="false"
 declare option_prime="false"
 declare option_test="false"
 
+declare initialized="false"
 declare root_directory
 declare root_directory_native
 declare language_properties_filename="language.properties"
@@ -81,6 +83,27 @@ function colorize {
 		sed --unbuffered "s/$search_3/$replace_3/g" | \
 		sed --unbuffered "s/$search_4/$replace_4/g" | \
 		sed --unbuffered "s/$search_5/$replace_5/g"
+	fi
+}
+
+function initialize {
+	if [[ "$initialized" == "true" ]]; then
+		return
+	fi
+
+	if ! is_parallel_worker; then
+		start_docker_if_necessary
+		stop_running_containers
+	fi
+
+	initialized="true"
+}
+
+function is_parallel_worker {
+	if [[ "$slot" == "0" ]]; then
+		return "$STATUS_FALSE"
+	else
+		return "$STATUS_TRUE"
 	fi
 }
 
@@ -177,6 +200,8 @@ function main {
 			option_parallel="true"; shift
 		elif [[ $# -ge 1 && "$1" == "--prime" ]]; then
 			option_prime="true"; shift
+		elif [[ $# -ge 1 && "$1" == "--slot" ]]; then
+			slot="$2"; shift; shift
 		elif [[ $# -ge 1 && "$1" == "--test" ]]; then
 			option_test="true"; shift
 		else
@@ -283,8 +308,6 @@ function run {
 	local language_hash
 	local program_hash
 	local tests_hash
-	local parallel_slot="${PARALLEL_SLOT:-0}"
-	local id="$parallel_slot"
 
 	local -a environment_options=(
 		"--env" "DEBUG=$option_debug"
@@ -312,8 +335,6 @@ function run {
 		setup_stdout="/dev/null"
 	fi
 
-	start_docker_if_necessary
-
 	function build_base_image {
 		if docker::image_exists "languages-base:$base_hash"; then
 			return
@@ -329,7 +350,7 @@ function run {
 		container_id=$( \
 			podman run \
 				--detach \
-				--name "languages-$id" \
+				--name "languages-$slot" \
 				--privileged \
 				--systemd=always \
 				"languages-base:intermediate")
@@ -375,7 +396,7 @@ function run {
 		container_id=$( \
 			podman run \
 				--detach \
-				--name "languages-$id" \
+				--name "languages-$slot" \
 				--privileged \
 				--systemd=always \
 				"languages-$language")
@@ -412,7 +433,7 @@ function run {
 		container_id=$( \
 			podman run \
 				--detach \
-				--name "languages-$id" \
+				--name "languages-$slot" \
 				--privileged \
 				--rm \
 				--systemd=always \
@@ -447,11 +468,11 @@ function run {
 		podman container stop "$container_id" > "$stdout"
 	}
 
+	initialize
+
 	if [[ "$option_debug" == "true" ]]; then
 		set -x
 	fi
-
-	podman container rm --force 'languages' > /dev/null
 
 	build_base_image
 	build_system_image
@@ -479,10 +500,11 @@ function run_all {
 
 function run_all_parallel {
 	# Options are all arguments except the last, e.g. "run" (command).
-	local options=("${arguments[@]:0:${#arguments[@]}-1}")
+	local options
 	local pairs
 	local concurrency
 
+	options=("${arguments[@]:0:${#arguments[@]}-1}")
 	pairs=$(list_pairs)
 	concurrency=$(nproc)
 	concurrency=$((concurrency * 2))
@@ -492,7 +514,7 @@ function run_all_parallel {
 		--jobs "$concurrency" \
 		--keep-order \
 		--will-cite \
-		"$root_directory/languages.sh" "${options[@]}" run '{1}' '{2}' <<< "$pairs"
+		"$root_directory/languages.sh" "${options[@]}" --slot '{%}' run '{1}' '{2}' <<< "$pairs"
 }
 
 function run_all_sequential {
@@ -587,6 +609,16 @@ function start_docker_if_necessary {
 	status::temporary "Starting Docker..."
 	docker::start
 	status::temporary --clear
+}
+
+function stop_running_containers {
+	local running_containers
+
+	running_containers=$(podman ps --format '{{.Names}}' | grep '^languages' || true)
+
+	for container_name in $running_containers; do
+		podman container rm --force "$container_name" > /dev/null
+	done
 }
 
 main "$@"
