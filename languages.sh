@@ -62,6 +62,13 @@ function clean {
 	podman volume prune --force
 }
 
+function cache_image_list {
+	podman image list --format '{{.Repository}}:{{.Tag}}' \
+	| grep -v '<none>' \
+	| grep '^localhost/' \
+	| sed 's/^localhost\///g' > "/tmp/languages-image-list"
+}
+
 function colorize {
 	if [[ "$option_test" == "false" ]]; then
 		cat
@@ -86,12 +93,23 @@ function colorize {
 	fi
 }
 
+function image_exists {
+	local name="$1"
+
+	if grep "^$name\$" > /dev/null < "/tmp/languages-image-list"; then
+		return "$STATUS_TRUE"
+	else
+		docker::image_exists "$1"
+	fi
+}
+
 function initialize {
 	if [[ "$initialized" == "true" ]]; then
 		return
 	fi
 
 	if ! is_parallel_worker; then
+		cache_image_list
 		start_docker_if_necessary
 		stop_running_containers
 	fi
@@ -336,7 +354,7 @@ function run {
 	fi
 
 	function build_base_image {
-		if docker::image_exists "languages-base:$base_hash"; then
+		if image_exists "languages-base:$base_hash"; then
 			return
 		fi
 
@@ -367,7 +385,7 @@ function run {
 	}
 
 	function build_system_image {
-		if docker::image_exists "languages-system:$system_hash"; then
+		if image_exists "languages-system:$system_hash"; then
 			return
 		fi
 
@@ -381,7 +399,7 @@ function run {
 	}
 
 	function build_language_image {
-		if docker::image_exists "languages-$language:$language_hash"; then
+		if image_exists "languages-$language:$language_hash"; then
 			return
 		fi
 
@@ -413,7 +431,7 @@ function run {
 	}
 
 	function build_program_image {
-		if docker::image_exists "languages-$language-$program:$program_hash"; then
+		if image_exists "languages-$language-$program:$program_hash"; then
 			return
 		fi
 
@@ -490,6 +508,8 @@ function run_all {
 	if [[ $# -ne 0 ]]; then
 		error::usage "run_all"
 	fi
+
+	initialize
 
 	if [[ "$option_parallel" == "true" ]]; then
 		run_all_parallel
@@ -614,7 +634,7 @@ function start_docker_if_necessary {
 function stop_running_containers {
 	local running_containers
 
-	running_containers=$(podman ps --format '{{.Names}}' | grep '^languages' || true)
+	running_containers=$(podman ps --all --format '{{.Names}}' | grep '^languages' || true)
 
 	for container_name in $running_containers; do
 		podman container rm --force "$container_name" > /dev/null
