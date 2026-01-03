@@ -198,7 +198,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Maxima            |       ⬜       |   ⬜   |      ⬜      |
 | Modelica          |       ⬜       |   ⬜   |      ⬜      |
 | Modula            |       ⬜       |   ⬜   |      ⬜      |
-| Modula-2          |       ⬜       |   ⬜   |      ⬜      |
+| Modula-2          |       ✅       |   ⬜   |      ⬜      |
 | Modula-3          |       ⬜       |   ⬜   |      ⬜      |
 | Mojo              |       ⬜       |   ⬜   |      ⬜      |
 | Nemerle           |       ⬜       |   ⬜   |      ⬜      |
@@ -208,9 +208,9 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Nit               |       ⬜       |   ⬜   |      ⬜      |
 | Oberon            |       ⬜       |   ⬜   |      ⬜      |
 | Object Pascal     |       ⬜       |   ⬜   |      ⬜      |
-| Objective-C       |       ⬜       |   ⬜   |      ⬜      |
+| Objective-C       |       ✅       |   ⬜   |      ⬜      |
 | Oblique           |       ⬜       |   ⬜   |      ⬜      |
-| OCaml             |       ⬜       |   ⬜   |      ⬜      |
+| OCaml             |       ✅       |   ⬜   |      ⬜      |
 | Opa               |       ⬜       |   ⬜   |      ⬜      |
 | Pascal            |       ✅       |   ⬜   |      ⬜      |
 | Perl              |       ✅       |   ⬜   |      ⬜      |
@@ -266,7 +266,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Verilog           |       ⬜       |   ⬜   |      ⬜      |
 | VHDL              |       ⬜       |   ⬜   |      ⬜      |
 | Visual Basic .NET |       ✅       |   ⬜   |      ⬜      |
-| Visual Basic (6)  |       ⬜       |   ⬜   |      ⬜      |
+| Visual Basic (6)  |       ⛔       |   ⬜   |      ⬜      |
 | Visual FoxPro     |       ⬜       |   ⬜   |      ⬜      |
 | Whiley            |       ⬜       |   ⬜   |      ⬜      |
 | Wolfram           |       ⬜       |   ⬜   |      ⬜      |
@@ -275,4 +275,4 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Xojo              |       ⬜       |   ⬜   |      ⬜      |
 | Xtend             |       ⬜       |   ⬜   |      ⬜      |
 | Zig               |       ✅       |   ✅   |      ✅      |
-| _Count..._        |     _40_      |  _16_  |     _11_     |
+| _Count..._        |     _43_      |  _16_  |     _11_     |
