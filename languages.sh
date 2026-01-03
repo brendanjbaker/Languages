@@ -109,8 +109,8 @@ function initialize {
 	fi
 
 	if ! is_parallel_worker; then
-		cache_image_list
 		start_docker_if_necessary
+		cache_image_list
 		stop_running_containers
 	fi
 
@@ -612,6 +612,7 @@ function run_program {
 
 	if [[ "$option_interactive" == "true" ]]; then
 		run "$@"
+		exit 0
 	else
 		print_banner "$language_name" "${language_version:-?}" "$program_name"
 
