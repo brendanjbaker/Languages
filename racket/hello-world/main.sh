@@ -4,4 +4,4 @@ if [[ ! -f program ]]; then
 	raco exe program.rkt
 fi
 
-./program
+./program "$@"
