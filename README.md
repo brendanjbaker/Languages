@@ -128,7 +128,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 
 | Language          | `hello-world` | `sum` | `microwave` |
 | ----------------- | :-----------: | :---: | :---------: |
-| Ada               |       ⬜       |   ⬜   |      ⬜      |
+| Ada               |       ✅       |   ⬜   |      ⬜      |
 | Algol             |       ⬜       |   ⬜   |      ⬜      |
 | APL               |       ⬜       |   ⬜   |      ⬜      |
 | Arturo            |       ⬜       |   ⬜   |      ⬜      |
@@ -276,4 +276,4 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Xojo              |       ⬜       |   ⬜   |      ⬜      |
 | Xtend             |       ⬜       |   ⬜   |      ⬜      |
 | Zig               |       ✅       |   ✅   |      ✅      |
-| _Count..._        |     _47_      |  _16_  |     _11_     |
+| _Count..._        |     _48_      |  _16_  |     _11_     |
