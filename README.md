@@ -211,6 +211,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Objective-C       |       ✅       |   ⬜   |      ⬜      |
 | Oblique           |       ⬜       |   ⬜   |      ⬜      |
 | OCaml             |       ✅       |   ⬜   |      ⬜      |
+| Odin              |       ⬜       |   ⬜   |      ⬜      |
 | Opa               |       ⬜       |   ⬜   |      ⬜      |
 | Pascal            |       ✅       |   ⬜   |      ⬜      |
 | Perl              |       ✅       |   ⬜   |      ⬜      |
