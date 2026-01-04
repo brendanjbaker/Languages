@@ -85,11 +85,13 @@ function colorize {
 		local replace_4="${COLOR_GRAY}in \\1ms${COLOR_RESET}"
 		local replace_5="${COLOR_GRAY}\\1..\\2${COLOR_RESET}"
 
-		sed --unbuffered "s/$search_1/$replace_1/g" | \
-		sed --unbuffered "s/$search_2/$replace_2/g" | \
-		sed --unbuffered "s/$search_3/$replace_3/g" | \
-		sed --unbuffered "s/$search_4/$replace_4/g" | \
-		sed --unbuffered "s/$search_5/$replace_5/g"
+		sed \
+			--expression="s/$search_1/$replace_1/g" \
+			--expression="s/$search_2/$replace_2/g" \
+			--expression="s/$search_3/$replace_3/g" \
+			--expression="s/$search_4/$replace_4/g" \
+			--expression="s/$search_5/$replace_5/g" \
+			--unbuffered
 	fi
 }
 
