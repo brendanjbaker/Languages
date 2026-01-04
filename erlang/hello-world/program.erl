@@ -2,4 +2,4 @@
 -export([program/0]).
 
 program() ->
-    io:format("Hello, world!~n").
+	io:format("Hello, world!~n").

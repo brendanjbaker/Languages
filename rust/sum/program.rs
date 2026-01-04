@@ -5,5 +5,5 @@ fn main() {
 		sum += i;
 	}
 
-    println!("{}", sum);
+	println!("{}", sum);
 }
