@@ -43,6 +43,7 @@ Options:
   --debug-setup     Debug language setup script.
   --help            Show this help message.
   --interactive     Begin an interaction session.
+  --parallel        Runs multiple programs concurrently.
   --prime           Pre-generates image(s) without running them.
   --test            Run unit tests.
   --version         Show version information.
