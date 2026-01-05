@@ -148,7 +148,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | C3                |       ✅       |   ⬜   |      ⬜      |
 | C#                |       ✅       |   ✅   |      ✅      |
 | C++               |       ✅       |   ✅   |      ✅      |
-| Carbon            |       ✅       |   ⬜   |      ⬜      |
+| Carbon            |       ✅       |   ✅   |      ⬜      |
 | Chapel            |       ✅       |   ✅   |      ✅      |
 | Clojure           |       ✅       |   ⬜   |      ⬜      |
 | CLU               |       ⬜       |   ⬜   |      ⬜      |
@@ -277,4 +277,4 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Xojo              |       ⬜       |   ⬜   |      ⬜      |
 | Xtend             |       ⬜       |   ⬜   |      ⬜      |
 | Zig               |       ✅       |   ✅   |      ✅      |
-| _Count..._        |     _54_      |  _16_  |     _11_     |
+| _Count..._        |     _54_      |  _17_  |     _11_     |
