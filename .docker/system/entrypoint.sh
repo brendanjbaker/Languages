@@ -26,8 +26,8 @@ if [[ "${TEST:-false}" == "true" ]]; then
 		"/tests/${PROGRAM}.bats"
 else
 	if [[ "${DEBUG_PROGRAM:-false}" == "true" ]]; then
-		bash -x /app/main.sh "$@"
+		bash -Eeuxo pipefail /app/main.sh "$@"
 	else
-		bash /app/main.sh "$@"
+		bash -Eeuo pipefail /app/main.sh "$@"
 	fi
 fi
