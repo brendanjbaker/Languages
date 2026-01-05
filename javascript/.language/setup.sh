@@ -2,4 +2,4 @@
 
 export DEBIAN_FRONTEND="noninteractive"
 
-apt-get install -y nodejs
+apt-get install --no-install-recommends -y nodejs
