@@ -161,7 +161,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | D                 |       ✅       |   ✅   |      ✅      |
 | Dart              |       ✅       |   ⬜   |      ⬜      |
 | dBase             |       ⬜       |   ⬜   |      ⬜      |
-| Delphi            |       ⬜       |   ⬜   |      ⬜      |
+| Delphi            |       ✅       |   ⬜   |      ⬜      |
 | E                 |       ⬜       |   ⬜   |      ⬜      |
 | Eiffel            |       ⬜       |   ⬜   |      ⬜      |
 | Elixir            |       ⬜       |   ⬜   |      ⬜      |
@@ -277,4 +277,4 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Xojo              |       ⬜       |   ⬜   |      ⬜      |
 | Xtend             |       ⬜       |   ⬜   |      ⬜      |
 | Zig               |       ✅       |   ✅   |      ✅      |
-| _Count..._        |     _54_      |  _18_  |     _11_     |
+| _Count..._        |     _55_      |  _18_  |     _11_     |
