@@ -159,7 +159,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Cowgol            |       ⬜       |   ⬜   |      ⬜      |
 | Crystal           |       ⬜       |   ⬜   |      ⬜      |
 | D                 |       ✅       |   ✅   |      ✅      |
-| Dart              |       ⬜       |   ⬜   |      ⬜      |
+| Dart              |       ✅       |   ⬜   |      ⬜      |
 | dBase             |       ⬜       |   ⬜   |      ⬜      |
 | Delphi            |       ⬜       |   ⬜   |      ⬜      |
 | E                 |       ⬜       |   ⬜   |      ⬜      |
@@ -277,4 +277,4 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Xojo              |       ⬜       |   ⬜   |      ⬜      |
 | Xtend             |       ⬜       |   ⬜   |      ⬜      |
 | Zig               |       ✅       |   ✅   |      ✅      |
-| _Count..._        |     _50_      |  _16_  |     _11_     |
+| _Count..._        |     _51_      |  _16_  |     _11_     |
