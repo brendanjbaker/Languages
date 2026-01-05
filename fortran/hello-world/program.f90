@@ -1,4 +1,4 @@
 program program
 	implicit none
-	print *, "Hello, world!"
+	write(*,'(A)') "Hello, world!"
 end program program
