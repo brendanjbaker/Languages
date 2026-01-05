@@ -154,7 +154,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | CLU               |       ⬜       |   ⬜   |      ⬜      |
 | COBOL             |       ✅       |   ⬜   |      ⬜      |
 | Cobra             |       ⬜       |   ⬜   |      ⬜      |
-| CoffeeScript      |       ⬜       |   ⬜   |      ⬜      |
+| CoffeeScript      |       ✅       |   ⬜   |      ⬜      |
 | ColdFusion        |       ⬜       |   ⬜   |      ⬜      |
 | Cowgol            |       ⬜       |   ⬜   |      ⬜      |
 | Crystal           |       ⬜       |   ⬜   |      ⬜      |
@@ -277,4 +277,4 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Xojo              |       ⬜       |   ⬜   |      ⬜      |
 | Xtend             |       ⬜       |   ⬜   |      ⬜      |
 | Zig               |       ✅       |   ✅   |      ✅      |
-| _Count..._        |     _56_      |  _18_  |     _11_     |
+| _Count..._        |     _57_      |  _18_  |     _11_     |
