@@ -130,8 +130,8 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Language          | `hello-world` | `sum` | `microwave` |
 | ----------------- | :-----------: | :---: | :---------: |
 | Ada               |       ✅       |   ⬜   |      ⬜      |
-| Algol             |       ⬜       |   ⬜   |      ⬜      |
-| APL               |       ⬜       |   ⬜   |      ⬜      |
+| Algol             |       ✅️       |   ⬜   |      ⬜      |
+| APL               |       ✅️       |   ✅️   |      ⬜      |
 | Arturo            |       ⬜       |   ⬜   |      ⬜      |
 | Assembly          |       ✅       |   ⬜   |      ⬜      |
 | Awk               |       ✅       |   ⬜   |      ⬜      |
@@ -174,7 +174,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Gleam             |       ⬜       |   ⬜   |      ⬜      |
 | Glim              |       ⬜       |   ⬜   |      ⬜      |
 | Go                |       ✅️       |   ⬜   |      ⬜      |
-| Groovy            |       ⬜       |   ⬜   |      ⬜      |
+| Groovy            |       ✅️       |   ⬜   |      ⬜      |
 | Hack              |       ⬜       |   ⬜   |      ⬜      |
 | Hare              |       ⬜       |   ⬜   |      ⬜      |
 | Haskell           |       ✅       |   ⬜   |      ⬜      |
@@ -208,7 +208,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Nim               |       ⬜       |   ⬜   |      ⬜      |
 | Nit               |       ⬜       |   ⬜   |      ⬜      |
 | Oberon            |       ⬜       |   ⬜   |      ⬜      |
-| Object Pascal     |       ⬜       |   ⬜   |      ⬜      |
+| Object Pascal     |       ✅       |   ⬜   |      ⬜      |
 | Objective-C       |       ✅       |   ⬜   |      ⬜      |
 | Oblique           |       ⬜       |   ⬜   |      ⬜      |
 | OCaml             |       ✅       |   ⬜   |      ⬜      |
@@ -233,7 +233,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Racket            |       ✅       |   ⬜   |      ⬜      |
 | Rebol             |       ⬜       |   ⬜   |      ⬜      |
 | Red               |       ⬜       |   ⬜   |      ⬜      |
-| Rexx              |       ⬜       |   ⬜   |      ⬜      |
+| Rexx              |       ✅       |   ⬜   |      ⬜      |
 | Ring              |       ⬜       |   ⬜   |      ⬜      |
 | Roc               |       ⬜       |   ⬜   |      ⬜      |
 | RPG IV (RPGLE)    |       ⬜       |   ⬜   |      ⬜      |
@@ -245,7 +245,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Sed               |       ✅       |   ⬜   |      ⬜      |
 | Seed7             |       ⬜       |   ⬜   |      ⬜      |
 | Self              |       ⬜       |   ⬜   |      ⬜      |
-| Simula            |       ⬜       |   ⬜   |      ⬜      |
+| Simula            |       ✅       |   ⬜   |      ⬜      |
 | Smalltalk         |       ✅       |   ⬜   |      ⬜      |
 | Solidity          |       ⬜       |   ⬜   |      ⬜      |
 | SPARK             |       ⬜       |   ⬜   |      ⬜      |
@@ -277,4 +277,4 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Xojo              |       ⬜       |   ⬜   |      ⬜      |
 | Xtend             |       ⬜       |   ⬜   |      ⬜      |
 | Zig               |       ✅       |   ✅   |      ✅      |
-| _Count..._        |     _57_      |  _18_  |     _11_     |
+| _Count..._        |     _63_      |  _19_  |     _11_     |
