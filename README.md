@@ -2,13 +2,15 @@
 
 ## Summary
 
-This repository contains examples of numerous different programming languages.
+This repository contains examples of 100+ programming languages.
+
+Besides just showing example programs, the programs are runnable in a reproducible manner via Dockerfiles. Additionally, the programs are unit tested to ensure they indeed produce the expected output(s).
 
 ### Important note
 
-The main runner program currently relies on my personal Bash library, e.g. the line of code near the beginning of `languages.sh` that says `source library`. The runner will not work out-of-the-box without it. In the very near future, I will refine a subset of my personal library for publication on GitHub, perhaps under a different name. At that time, I will update this repository accordingly, and remove this note.
+The main runner program currently relies on my personal Bash library, e.g. the line of code near the beginning of `languages.sh` that says `source library`. The runner will not work out-of-the-box without it. In the very near future, I will refine a subset of my personal library for publication on GitHub. At that time, I will update this repository accordingly, and remove this note.
 
-With all of that being said, you could theoretically implement the missing functions called by `languages.sh`. None are too complex, and their purposes are hopefully obvious based on their names.
+With all of that being said, you could theoretically implement the missing functions called by `languages.sh`. None are too complex, and their purposes are hopefully obvious based on their names. Alternatively, you could just build/run the containers manually.
 
 ## Technical
 
@@ -97,7 +99,7 @@ A usage error should exit with status `1`. An invalid argument should exit with 
 
 Correct behavior is based on the _Whirlpool WMH31017HZ-2_ (my kitchen microwave). This is a common kitchen microwave that is customarily installed above a range/stove. I have observed that other microwaves have varying behavior for strange inputs, such as `161` or `9999`. I chose this microwave as my source of truth merely because I have easy access to it.
 
-Do not run a microwave without something in it to absorb the magnetron's radiation, or your microwave may damage itself. I used a large bowl of water to test behavior for inputs such as `9999` (and shut it off when it reached `98:59`).
+Do not run a microwave without something in it to absorb the magnetron's radiation, or your microwave may damage itself. I used a large bowl of water to test behavior for inputs such as `9999`.
 
 #### Valid input examples
 
