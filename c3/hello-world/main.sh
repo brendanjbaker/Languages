@@ -5,4 +5,4 @@ if [[ ! -f build/program ]]; then
 	c3c build > /dev/null
 fi
 
-./build/program
+./build/program "$@"

@@ -5,7 +5,7 @@
 #include <cctype>
 
 bool isNumeric(const std::string& text) {
-    return std::all_of(text.begin(), text.end(), ::isdigit);
+	return std::all_of(text.begin(), text.end(), ::isdigit);
 }
 
 int main(int argc, char* argv[]) {
