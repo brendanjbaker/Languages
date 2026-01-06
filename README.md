@@ -146,10 +146,10 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Beef              |       ⬜       |   ⬜   |      ⬜      |
 | Brainf#ck         |       ⬜       |   ⬜   |      ⬜      |
 | C                 |       ✅       |   ✅   |      ✅      |
-| C2                |       ⬜       |   ⬜   |      ⬜      |
-| C3                |       ✅       |   ⬜   |      ⬜      |
 | C#                |       ✅       |   ✅   |      ✅      |
 | C++               |       ✅       |   ✅   |      ✅      |
+| C2                |       ⬜       |   ⬜   |      ⬜      |
+| C3                |       ✅       |   ⬜   |      ⬜      |
 | Carbon            |       ✅       |   ✅   |      ⬜      |
 | Chapel            |       ✅       |   ✅   |      ✅      |
 | Clojure           |       ✅       |   ⬜   |      ⬜      |
@@ -229,15 +229,15 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | PHL               |       ⬜       |   ⬜   |      ⬜      |
 | PHP               |       ✅       |   ✅   |      ⬜      |
 | Pike              |       ⬜       |   ⬜   |      ⬜      |
-| Planner           |       ⬜       |   ⬜   |      ⬜      |
 | PL/M              |       ⬜       |   ⬜   |      ⬜      |
+| Planner           |       ⬜       |   ⬜   |      ⬜      |
 | Pony              |       ✅       |   ⬜   |      ⬜      |
 | POP-11            |       ⬜       |   ⬜   |      ⬜      |
 | PowerShell        |       ✅       |   ⬜   |      ⬜      |
 | Project Verona    |       ⬜       |   ⬜   |      ⬜      |
 | Prolog            |       ✅       |   ⬜   |      ⬜      |
-| Python            |       ✅       |   ✅   |      ⬜      |
 | Pure              |       ⬜       |   ⬜   |      ⬜      |
+| Python            |       ✅       |   ✅   |      ⬜      |
 | R                 |       ✅       |   ⬜   |      ⬜      |
 | Racket            |       ✅       |   ⬜   |      ⬜      |
 | Raku              |       ⬜       |   ⬜   |      ⬜      |
@@ -247,8 +247,8 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Ring              |       ⬜       |   ⬜   |      ⬜      |
 | Roc               |       ⬜       |   ⬜   |      ⬜      |
 | RPG IV (RPGLE)    |       ⬜       |   ⬜   |      ⬜      |
-| Ruby              |       ✅       |   ✅   |      ⬜      |
 | RPL               |       ⬜       |   ⬜   |      ⬜      |
+| Ruby              |       ✅       |   ✅   |      ⬜      |
 | Rust              |       ✅       |   ✅   |      ✅      |
 | Sather            |       ⬜       |   ⬜   |      ⬜      |
 | Scala             |       ✅       |   ⬜   |      ⬜      |
