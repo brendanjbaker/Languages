@@ -2,4 +2,4 @@
 
 export DEBIAN_FRONTEND="noninteractive"
 
-apt-get install -y octave
+apt-get install -y --no-install-recommends octave

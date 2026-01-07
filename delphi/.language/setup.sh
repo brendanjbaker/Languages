@@ -2,4 +2,4 @@
 
 export DEBIAN_FRONTEND="noninteractive"
 
-apt-get install -y fpc
+apt-get install -y --no-install-recommends fpc

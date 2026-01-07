@@ -2,4 +2,6 @@
 
 export DEBIAN_FRONTEND="noninteractive"
 
-apt-get install -y cargo rustc
+apt-get install -y --no-install-recommends \
+	cargo \
+	rustc

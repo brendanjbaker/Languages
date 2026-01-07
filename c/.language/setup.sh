@@ -2,4 +2,4 @@
 
 export DEBIAN_FRONTEND="noninteractive"
 
-apt-get install -y gcc
+apt-get install -y --no-install-recommends gcc

@@ -2,4 +2,4 @@
 
 export DEBIAN_FRONTEND="noninteractive"
 
-apt-get install -y gfortran
+apt-get install -y --no-install-recommends gfortran

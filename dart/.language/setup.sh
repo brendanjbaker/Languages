@@ -2,7 +2,7 @@
 
 export DEBIAN_FRONTEND="noninteractive"
 
-apt-get install -y \
+apt-get install -y --no-install-recommends \
 	apt-transport-https \
 	gnupg \
 	wget
@@ -15,4 +15,4 @@ echo "deb [signed-by=/usr/share/keyrings/dart.gpg] https://storage.googleapis.co
 | tee /etc/apt/sources.list.d/dart_stable.list
 
 apt-get update
-apt-get install -y dart
+apt-get install -y --no-install-recommends dart

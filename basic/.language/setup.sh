@@ -2,7 +2,7 @@
 
 export DEBIAN_FRONTEND="noninteractive"
 
-apt-get install -y \
+apt-get install -y --no-install-recommends \
 	build-essential \
 	libasound2-dev \
 	libcurl4-openssl-dev \

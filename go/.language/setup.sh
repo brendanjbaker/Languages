@@ -2,4 +2,4 @@
 
 export DEBIAN_FRONTEND="noninteractive"
 
-apt-get install -y golang-go
+apt-get install -y --no-install-recommends golang-go

@@ -6,7 +6,10 @@ apt-get install cabextract
 
 dpkg --add-architecture i386
 apt-get update
-apt-get install -y wine wine32:i386
+
+apt-get install -y --no-install-recommends \
+	wine \
+	wine32:i386
 
 export WINEPREFIX=$HOME/.wine32
 export WINEARCH=win32

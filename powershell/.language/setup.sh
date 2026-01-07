@@ -4,7 +4,7 @@ set -Eeuo pipefail
 
 export DEBIAN_FRONTEND="noninteractive"
 
-apt-get install -y \
+apt-get install -y --no-install-recommends \
 	apt-transport-https \
 	libicu76 \
 	wget

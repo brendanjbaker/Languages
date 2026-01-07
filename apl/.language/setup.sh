@@ -2,7 +2,10 @@
 
 export DEBIAN_FRONTEND="noninteractive"
 
-apt-get install -y build-essential libncurses-dev
+apt-get install -y --no-install-recommends \
+	build-essential \
+	libncurses-dev
+
 mkdir -p /usr/local/apl
 pushd /usr/local/apl
 wget https://ftp.gnu.org/gnu/apl/apl-1.9.tar.gz

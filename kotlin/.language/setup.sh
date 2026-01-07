@@ -2,4 +2,4 @@
 
 export DEBIAN_FRONTEND="noninteractive"
 
-apt-get install -y kotlin
+apt-get install -y --no-install-recommends kotlin

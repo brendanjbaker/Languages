@@ -2,4 +2,4 @@
 
 export DEBIAN_FRONTEND="noninteractive"
 
-apt-get install -y tcl
+apt-get install -y --no-install-recommends tcl

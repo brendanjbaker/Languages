@@ -13,7 +13,7 @@
 
 export DEBIAN_FRONTEND="noninteractive"
 
-apt-get install -y clang
+apt-get install -y --no-install-recommends clang
 
 export SHELL=/usr/bin/bash
 

@@ -2,4 +2,4 @@
 
 export DEBIAN_FRONTEND="noninteractive"
 
-apt-get install -y ghc
+apt-get install -y --no-install-recommends ghc

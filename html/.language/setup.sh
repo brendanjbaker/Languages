@@ -2,4 +2,4 @@
 
 export DEBIAN_FRONTEND="noninteractive"
 
-apt-get install -y w3m
+apt-get install -y --no-install-recommends w3m

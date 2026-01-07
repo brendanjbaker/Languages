@@ -12,22 +12,22 @@ apt-get update
 apt-get upgrade -y
 
 # Systemd...
-apt-get install -y \
+apt-get install -y --no-install-recommends \
 	systemd \
 	systemd-sysv
 
 # Snap...
-apt-get install -y \
+apt-get install -y --no-install-recommends \
 	fuse \
 	snapd \
 	squashfs-tools \
 	squashfuse
 
 # Testing...
-apt-get install -y bats
+apt-get install -y --no-install-recommends bats
 
 # Frequently needed...
-apt-get install -y \
+apt-get install -y --no-install-recommends \
 	apt-transport-https \
 	binutils \
 	build-essential \

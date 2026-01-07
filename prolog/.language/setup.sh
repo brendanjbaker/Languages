@@ -2,4 +2,4 @@
 
 export DEBIAN_FRONTEND="noninteractive"
 
-apt-get install -y swi-prolog
+apt-get install -y --no-install-recommends swi-prolog
