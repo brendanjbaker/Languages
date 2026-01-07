@@ -144,7 +144,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Batch             |       ⬜       |   ⬜   |      ⬜      |
 | BCPL              |       ⬜       |   ⬜   |      ⬜      |
 | Beef              |       ⬜       |   ⬜   |      ⬜      |
-| Brainf#ck         |       ⬜       |   ⬜   |      ⬜      |
+| Brainf#ck         |       ✅       |   ⬜   |      ⬜      |
 | C                 |       ✅       |   ✅   |      ✅      |
 | C#                |       ✅       |   ✅   |      ✅      |
 | C++               |       ✅       |   ✅   |      ✅      |
@@ -174,6 +174,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Factor            |       ⬜       |   ⬜   |      ⬜      |
 | Forth             |       ✅       |   ⬜   |      ⬜      |
 | Fortran           |       ✅       |   ✅   |      ⬜      |
+| Futhark           |       ⬜       |   ✅   |      ⬜      |
 | GDScript          |       ⬜       |   ⬜   |      ⬜      |
 | Gleam             |       ⬜       |   ⬜   |      ⬜      |
 | Glim              |       ⬜       |   ⬜   |      ⬜      |
@@ -181,7 +182,8 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Groovy            |       ✅️       |   ⬜   |      ⬜      |
 | Gurgle            |       ⬜       |   ⬜   |      ⬜      |
 | Hack              |       ✅       |   ⬜   |      ⬜      |
-| Hare              |       ⬜       |   ⬜   |      ⬜      |
+| Hare              |       ✅       |   ⬜   |      ⬜      |
+| Hax               |       ✅       |   ⬜   |      ⬜      |
 | Haskell           |       ✅       |   ⬜   |      ⬜      |
 | Hopper            |       ⬜       |   ⬜   |      ⬜      |
 | HTML              |       ✅       |   ⬜   |      ⬜      |
@@ -289,4 +291,4 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Xojo              |       ⬜       |   ⬜   |      ⬜      |
 | Xtend             |       ⬜       |   ⬜   |      ⬜      |
 | Zig               |       ✅       |   ✅   |      ✅      |
-| _Count..._        |     _65_      |  _19_  |     _11_     |
+| _Count..._        |     _68_      |  _20_  |     _11_     |
