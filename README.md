@@ -236,6 +236,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Planner           |       ⬜       |   ⬜   |      ⬜      |
 | Pony              |       ✅       |   ⬜   |      ⬜      |
 | POP-11            |       ⬜       |   ⬜   |      ⬜      |
+| PostScript        |       ✅       |   ✅   |      ⬜      |
 | PowerShell        |       ✅       |   ⬜   |      ⬜      |
 | Project Verona    |       ⬜       |   ⬜   |      ⬜      |
 | Prolog            |       ✅       |   ⬜   |      ⬜      |
@@ -291,4 +292,4 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Xojo              |       ⬜       |   ⬜   |      ⬜      |
 | Xtend             |       ⬜       |   ⬜   |      ⬜      |
 | Zig               |       ✅       |   ✅   |      ✅      |
-| _Count..._        |     _69_      |  _20_  |     _11_     |
+| _Count..._        |     _70_      | _21_  |    _11_     |
