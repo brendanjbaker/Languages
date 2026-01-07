@@ -41,6 +41,7 @@ apt-get install -y --no-install-recommends \
 	unzip \
 	vim \
 	wget \
+	xxd \
 	xz-utils
 
 apt-get clean
