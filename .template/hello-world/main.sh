@@ -9,3 +9,4 @@ pwd
 ls -la
 whoami
 cat SampleData.dat
+bash program.bash
