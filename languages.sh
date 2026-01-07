@@ -40,13 +40,13 @@ function clean {
 	set -x
 
 	containers=$( \
-		podman container list --external --noheading \
+		podman container list --all --external --noheading \
 		| ( grep -E "$pattern" || true ) \
 		| awk '{ print $1 }')
 
 	for container in $containers; do
 		podman container stop "$container" || true
-		podman container rm "$container"
+		podman container rm --force "$container"
 	done
 
 	images=$( \
@@ -64,8 +64,8 @@ function clean {
 
 function cache_image_list {
 	podman image list --format '{{.Repository}}:{{.Tag}}' \
-	| grep -v '<none>' \
-	| grep '^localhost/' \
+	| (grep -v '<none>' || true) \
+	| (grep '^localhost/' || true) \
 	| sed 's/^localhost\///g' > "/tmp/languages-image-list"
 }
 
@@ -370,7 +370,6 @@ function run {
 		container_id=$( \
 			podman run \
 				--detach \
-				--name "languages-$slot" \
 				--privileged \
 				--systemd=always \
 				"languages-base:intermediate")
@@ -416,7 +415,6 @@ function run {
 		container_id=$( \
 			podman run \
 				--detach \
-				--name "languages-$slot" \
 				--privileged \
 				--systemd=always \
 				"languages-$language")
@@ -453,7 +451,6 @@ function run {
 		container_id=$( \
 			podman run \
 				--detach \
-				--name "languages-$slot" \
 				--privileged \
 				--rm \
 				--systemd=always \
@@ -529,7 +526,6 @@ function run_all_parallel {
 	options=("${arguments[@]:0:${#arguments[@]}-1}")
 	pairs=$(list_pairs)
 	concurrency=$(nproc)
-	concurrency=$((concurrency * 2))
 
 	parallel \
 		--colsep "$CHARACTER_SPACE" \
