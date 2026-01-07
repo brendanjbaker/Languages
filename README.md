@@ -180,7 +180,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Go                |       ✅️       |   ⬜   |      ⬜      |
 | Groovy            |       ✅️       |   ⬜   |      ⬜      |
 | Gurgle            |       ⬜       |   ⬜   |      ⬜      |
-| Hack              |       ⬜       |   ⬜   |      ⬜      |
+| Hack              |       ✅       |   ⬜   |      ⬜      |
 | Hare              |       ⬜       |   ⬜   |      ⬜      |
 | Haskell           |       ✅       |   ⬜   |      ⬜      |
 | Hopper            |       ⬜       |   ⬜   |      ⬜      |
@@ -216,6 +216,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Newspeak          |       ⬜       |   ⬜   |      ⬜      |
 | Nim               |       ⬜       |   ⬜   |      ⬜      |
 | Nit               |       ⬜       |   ⬜   |      ⬜      |
+| Nix               |       ⬜       |   ⬜   |      ⬜      |
 | Oberon            |       ⬜       |   ⬜   |      ⬜      |
 | Object Pascal     |       ✅       |   ⬜   |      ⬜      |
 | Objective-C       |       ✅       |   ⬜   |      ⬜      |
@@ -288,4 +289,4 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Xojo              |       ⬜       |   ⬜   |      ⬜      |
 | Xtend             |       ⬜       |   ⬜   |      ⬜      |
 | Zig               |       ✅       |   ✅   |      ✅      |
-| _Count..._        |     _64_      |  _19_  |     _11_     |
+| _Count..._        |     _65_      |  _19_  |     _11_     |
