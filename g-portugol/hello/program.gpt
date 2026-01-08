@@ -1,0 +1,5 @@
+algoritmo Program;
+
+início
+	imprima("Hello, world!");
+fim
