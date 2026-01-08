@@ -32,4 +32,3 @@ Consider adding these languages:
 * Structured Text
 * Transact-SQL
 * X++
-Languages to consider adding:

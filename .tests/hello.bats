@@ -2,7 +2,7 @@
 
 bats_require_minimum_version 1.5.0
 
-@test "hello-world" {
+@test "hello" {
 	run --separate-stderr /app/main.sh
 
 	[[ "$status" -eq 0 ]]
@@ -10,7 +10,7 @@ bats_require_minimum_version 1.5.0
 	[[ -z "$stderr" ]]
 }
 
-@test "hello-world (trailing newline)" {
+@test "hello (trailing newline)" {
 	run --separate-stderr bash -c '/app/main.sh | xxd -p'
 
 	[[ "$status" -eq 0 ]]
