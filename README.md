@@ -66,12 +66,12 @@ Commands:
   * `./languages.sh run`
 * Run all C# programs:
   * `./languages.sh run csharp`
-* Run the C# _hello-world_ program:
-  * `./languages.sh run csharp hello-world`
-* Debug the C# _hello-world_ program:
-  * `./languages.sh --debug run csharp hello-world`
-* Enter interactive mode for C#, with the _hello-world_ program loaded:
-  * `./languages.sh --interactive csharp hello-world`
+* Run the C# _hello_ program:
+  * `./languages.sh run csharp hello`
+* Debug the C# _hello_ program:
+  * `./languages.sh --debug run csharp hello`
+* Enter interactive mode for C#, with the _hello_ program loaded:
+  * `./languages.sh --interactive csharp hello`
 * Run tests for Rust (all programs):
   * `./languages.sh --test run rust`
 * Help/usage:
@@ -81,7 +81,7 @@ Commands:
 
 ## Programs
 
-### `hello-world`
+### `hello`
 
 This program should print `Hello, world!`, with a trailing newline, and exit with status `0`.
 
@@ -129,20 +129,25 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 
 ## Languages
 
-| Language          | `hello-world` | `sum` | `microwave` |
+| Language          | `hello` | `sum` | `microwave` |
 | ----------------- | :-----------: | :---: | :---------: |
+| ABAP              |       ⬜       |   ⬜   |      ⬜      |
 | Ada               |       ✅       |   ⬜   |      ⬜      |
 | Algol             |       ✅️       |   ⬜   |      ⬜      |
+| Apex              |       ⬜       |   ⬜   |      ⬜      |
 | APL               |       ✅️       |   ✅️   |      ⬜      |
+| Applescript       |       ⬜       |   ⬜   |      ⬜      |
 | Arturo            |       ⬜       |   ⬜   |      ⬜      |
 | Assembly          |       ✅       |   ⬜   |      ⬜      |
 | Awk               |       ✅       |   ⬜   |      ⬜      |
 | B                 |       ⬜       |   ⬜   |      ⬜      |
+| B4X               |       ⬜       |   ⬜   |      ⬜      |
 | Ballerina         |       ⬜       |   ⬜   |      ⬜      |
 | Bash              |       ✅       |   ✅   |      ✅      |
 | BASIC             |       ✅       |   ⬜   |      ⬜      |
 | Batch             |       ⬜       |   ⬜   |      ⬜      |
 | BCPL              |       ⬜       |   ⬜   |      ⬜      |
+| Beanshell         |       ⬜       |   ⬜   |      ⬜      |
 | Beef              |       ✅       |   ⬜   |      ⬜      |
 | Brainf#ck         |       ✅       |   ⬜   |      ⬜      |
 | C                 |       ✅       |   ✅   |      ✅      |
@@ -150,6 +155,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | C++               |       ✅       |   ✅   |      ✅      |
 | C2                |       ⬜       |   ⬜   |      ⬜      |
 | C3                |       ✅       |   ⬜   |      ⬜      |
+| Caml              |       ⬜       |   ⬜   |      ⬜      |
 | Carbon            |       ✅       |   ✅   |      ⬜      |
 | Chapel            |       ✅       |   ✅   |      ✅      |
 | Clojure           |       ✅       |   ⬜   |      ⬜      |
@@ -158,6 +164,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Cobra             |       ⬜       |   ⬜   |      ⬜      |
 | CoffeeScript      |       ✅       |   ⬜   |      ⬜      |
 | ColdFusion        |       ⬜       |   ⬜   |      ⬜      |
+| Common Lisp       |       ⬜       |   ⬜   |      ⬜      |
 | Cowgol            |       ⬜       |   ⬜   |      ⬜      |
 | Crystal           |       ✅       |   ⬜   |      ⬜      |
 | D                 |       ✅       |   ✅   |      ✅      |
@@ -168,13 +175,19 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Eiffel            |       ✅       |   ⬜   |      ⬜      |
 | Elixir            |       ⬜       |   ⬜   |      ⬜      |
 | Elm               |       ⬜       |   ⬜   |      ⬜      |
+| Emacs Lisp        |       ⬜       |   ⬜   |      ⬜      |
 | Epsilon           |       ⬜       |   ⬜   |      ⬜      |
 | Erlang            |       ✅       |   ✅   |      ⬜      |
 | F#                |       ✅       |   ⬜   |      ⬜      |
 | Factor            |       ⬜       |   ⬜   |      ⬜      |
 | Forth             |       ✅       |   ⬜   |      ⬜      |
 | Fortran           |       ✅       |   ✅   |      ⬜      |
+| FoxPro            |       ⬜       |   ⬜   |      ⬜      |
 | Futhark           |       ⬜       |   ✅   |      ⬜      |
+| G-Portugol        |       ⬜       |   ⬜   |      ⬜      |
+| Gambas            |       ⬜       |   ⬜   |      ⬜      |
+| GAMS              |       ⬜       |   ⬜   |      ⬜      |
+| GAP               |       ⬜       |   ⬜   |      ⬜      |
 | GDScript          |       ⬜       |   ⬜   |      ⬜      |
 | Gleam             |       ⬜       |   ⬜   |      ⬜      |
 | Glim              |       ⬜       |   ⬜   |      ⬜      |
@@ -183,23 +196,28 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Gurgle            |       ⬜       |   ⬜   |      ⬜      |
 | Hack              |       ✅       |   ⬜   |      ⬜      |
 | Hare              |       ✅       |   ⬜   |      ⬜      |
-| Hax               |       ✅       |   ⬜   |      ⬜      |
 | Haskell           |       ✅       |   ⬜   |      ⬜      |
+| Hax               |       ✅       |   ⬜   |      ⬜      |
 | Hopper            |       ⬜       |   ⬜   |      ⬜      |
 | HTML              |       ✅       |   ⬜   |      ⬜      |
 | HyperTalk         |       ⬜       |   ⬜   |      ⬜      |
 | Icon              |       ⬜       |   ⬜   |      ⬜      |
+| Inform            |       ⬜       |   ⬜   |      ⬜      |
 | Io                |       ⬜       |   ⬜   |      ⬜      |
 | Irdis             |       ⬜       |   ⬜   |      ⬜      |
 | J                 |       ⬜       |   ⬜   |      ⬜      |
+| J#                |       ⬜       |   ⬜   |      ⬜      |
 | Java              |       ✅       |   ✅   |      ✅      |
 | JavaScript        |       ✅       |   ✅   |      ✅      |
 | Joule             |       ⬜       |   ⬜   |      ⬜      |
 | JS++              |       ⬜       |   ⬜   |      ⬜      |
+| JScript           |       ⬜       |   ⬜   |      ⬜      |
 | Jtw               |       ⬜       |   ⬜   |      ⬜      |
 | Julia             |       ✅       |   ⬜   |      ⬜      |
 | Koka              |       ⬜       |   ⬜   |      ⬜      |
 | Kotlin            |       ✅       |   ⬜   |      ⬜      |
+| LabVIEW           |       ⬜       |   ⬜   |      ⬜      |
+| Ladder Logic      |       ⬜       |   ⬜   |      ⬜      |
 | Lily              |       ⬜       |   ⬜   |      ⬜      |
 | Lisp              |       ✅       |   ⬜   |      ⬜      |
 | Lobster           |       ⬜       |   ⬜   |      ⬜      |
@@ -213,12 +231,15 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Modula-2          |       ✅       |   ⬜   |      ⬜      |
 | Modula-3          |       ⬜       |   ⬜   |      ⬜      |
 | Mojo              |       ⬜       |   ⬜   |      ⬜      |
+| MQL5              |       ⬜       |   ⬜   |      ⬜      |
+| NATURAL           |       ⬜       |   ⬜   |      ⬜      |
 | Nemerle           |       ⬜       |   ⬜   |      ⬜      |
 | Never             |       ⬜       |   ⬜   |      ⬜      |
 | Newspeak          |       ⬜       |   ⬜   |      ⬜      |
 | Nim               |       ⬜       |   ⬜   |      ⬜      |
 | Nit               |       ⬜       |   ⬜   |      ⬜      |
 | Nix               |       ⬜       |   ⬜   |      ⬜      |
+| NXT-G             |       ⬜       |   ⬜   |      ⬜      |
 | Oberon            |       ⬜       |   ⬜   |      ⬜      |
 | Object Pascal     |       ✅       |   ⬜   |      ⬜      |
 | Objective-C       |       ✅       |   ⬜   |      ⬜      |
@@ -226,13 +247,16 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | OCaml             |       ✅       |   ⬜   |      ⬜      |
 | Odin              |       ⬜       |   ⬜   |      ⬜      |
 | Opa               |       ⬜       |   ⬜   |      ⬜      |
+| OpenCL            |       ⬜       |   ⬜   |      ⬜      |
 | Pascal            |       ✅       |   ⬜   |      ⬜      |
 | Perl              |       ✅       |   ⬜   |      ⬜      |
 | Phix              |       ⬜       |   ⬜   |      ⬜      |
 | PHL               |       ⬜       |   ⬜   |      ⬜      |
 | PHP               |       ✅       |   ✅   |      ⬜      |
 | Pike              |       ⬜       |   ⬜   |      ⬜      |
+| PL/I              |       ⬜       |   ⬜   |      ⬜      |
 | PL/M              |       ⬜       |   ⬜   |      ⬜      |
+| PL/SQL            |       ⬜       |   ⬜   |      ⬜      |
 | Planner           |       ⬜       |   ⬜   |      ⬜      |
 | Pony              |       ✅       |   ⬜   |      ⬜      |
 | POP-11            |       ⬜       |   ⬜   |      ⬜      |
@@ -242,6 +266,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Prolog            |       ✅       |   ⬜   |      ⬜      |
 | Pure              |       ⬜       |   ⬜   |      ⬜      |
 | Python            |       ✅       |   ✅   |      ⬜      |
+| Q                 |       ⬜       |   ⬜   |      ⬜      |
 | R                 |       ✅       |   ⬜   |      ⬜      |
 | Racket            |       ✅       |   ⬜   |      ⬜      |
 | Raku              |       ⬜       |   ⬜   |      ⬜      |
@@ -254,9 +279,11 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | RPL               |       ⬜       |   ⬜   |      ⬜      |
 | Ruby              |       ✅       |   ✅   |      ⬜      |
 | Rust              |       ✅       |   ✅   |      ✅      |
+| SAS               |       ⬜       |   ⬜   |      ⬜      |
 | Sather            |       ⬜       |   ⬜   |      ⬜      |
 | Scala             |       ✅       |   ⬜   |      ⬜      |
 | Scheme            |       ✅       |   ⬜   |      ⬜      |
+| Scratch           |       ⬜       |   ⬜   |      ⬜      |
 | Sed               |       ✅       |   ⬜   |      ⬜      |
 | Seed7             |       ⬜       |   ⬜   |      ⬜      |
 | Self              |       ⬜       |   ⬜   |      ⬜      |
@@ -269,11 +296,15 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Squeak            |       ⬜       |   ⬜   |      ⬜      |
 | Squirrel          |       ⬜       |   ⬜   |      ⬜      |
 | Standard ML       |       ⬜       |   ⬜   |      ⬜      |
+| Stata             |       ⬜       |   ⬜   |      ⬜      |
+| Storm             |       ⬜       |   ⬜   |      ⬜      |
 | STRIPS            |       ⬜       |   ⬜   |      ⬜      |
+| Structured Text   |       ⬜       |   ⬜   |      ⬜      |
 | Swift             |       ✅       |   ⬜   |      ⬜      |
 | Tcl               |       ✅       |   ⬜   |      ⬜      |
 | Tern              |       ⬜       |   ⬜   |      ⬜      |
 | Toi               |       ⬜       |   ⬜   |      ⬜      |
+| Transact-SQL      |       ⬜       |   ⬜   |      ⬜      |
 | Typescript        |       ✅       |   ✅   |      ⬜      |
 | Unicon            |       ⬜       |   ⬜   |      ⬜      |
 | V                 |       ⬜       |   ⬜   |      ⬜      |
@@ -284,10 +315,10 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | VHDL              |       ⬜       |   ⬜   |      ⬜      |
 | Visual Basic .NET |       ✅       |   ⬜   |      ⬜      |
 | Visual Basic (6)  |       ⛔       |   ⬜   |      ⬜      |
-| Visual FoxPro     |       ⬜       |   ⬜   |      ⬜      |
 | Whiley            |       ⬜       |   ⬜   |      ⬜      |
 | Wolfram           |       ⬜       |   ⬜   |      ⬜      |
 | Wren              |       ⬜       |   ⬜   |      ⬜      |
+| X++               |       ⬜       |   ⬜   |      ⬜      |
 | X10               |       ✅       |   ⬜   |      ⬜      |
 | Xojo              |       ⬜       |   ⬜   |      ⬜      |
 | Xtend             |       ⬜       |   ⬜   |      ⬜      |
