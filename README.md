@@ -173,8 +173,8 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Delphi            |       ✅       |   ⬜   |      ⬜      |
 | E                 |       ⬜       |   ⬜   |      ⬜      |
 | Eiffel            |       ✅       |   ⬜   |      ⬜      |
-| Elixir            |       ⬜       |   ⬜   |      ⬜      |
-| Elm               |       ⬜       |   ⬜   |      ⬜      |
+| Elixir            |       ✅       |   ⬜   |      ⬜      |
+| Elm               |       ✅       |   ⬜   |      ⬜      |
 | Emacs Lisp        |       ⬜       |   ⬜   |      ⬜      |
 | Epsilon           |       ⬜       |   ⬜   |      ⬜      |
 | Erlang            |       ✅       |   ✅   |      ⬜      |
@@ -323,4 +323,4 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Xojo              |       ⬜       |   ⬜   |      ⬜      |
 | Xtend             |       ⬜       |   ⬜   |      ⬜      |
 | Zig               |       ✅       |   ✅   |      ✅      |
-| _Count..._        |     _71_      | _21_  |    _11_     |
+| _Count..._        |     _72_      | _21_  |    _11_     |
