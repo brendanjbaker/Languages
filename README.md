@@ -174,7 +174,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | E                 |    ⬜    |   ⬜   |      ⬜      |
 | Eiffel            |    ✅    |   ⬜   |      ⬜      |
 | Elixir            |    ✅    |   ⬜   |      ⬜      |
-| Elm               |    ✅    |   ⬜   |      ⬜      |
+| Elm               |    ✅    |   ✅   |      ⬜      |
 | Emacs Lisp        |    ⬜    |   ⬜   |      ⬜      |
 | Epsilon           |    ⬜    |   ⬜   |      ⬜      |
 | Erlang            |    ✅    |   ✅   |      ⬜      |
@@ -311,7 +311,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Vala              |    ✅    |   ⬜   |      ⬜      |
 | Vale              |    ⬜    |   ⬜   |      ⬜      |
 | VBScript          |    ⬜    |   ⬜   |      ⬜      |
-| Verilog           |    ✅    |   ⬜   |      ⬜      |
+| Verilog           |    ✅    |   ✅   |      ⬜      |
 | VHDL              |    ✅    |   ✅   |      ⬜      |
 | Visual Basic .NET |    ✅    |   ⬜   |      ⬜      |
 | Visual Basic (6)  |    ⛔    |   ⬜   |      ⬜      |
@@ -324,7 +324,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Xojo              |    ⬜    |   ⬜   |      ⬜      |
 | Xtend             |    ⬜    |   ⬜   |      ⬜      |
 | Zig               |    ✅    |   ✅   |      ✅      |
-| _Count..._        |  _76_   | _23_  |    _11_     |
+| _Count..._        |  _77_   | _24_  |    _11_     |
 
 **Legend**
 
