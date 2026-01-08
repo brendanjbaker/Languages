@@ -1,0 +1,7 @@
+class Program
+{
+	main()
+	{
+		Builtin.print("Hello, world!\n")
+	}
+}
