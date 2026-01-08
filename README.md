@@ -8,7 +8,7 @@ Besides just showing example programs, the programs are runnable in a reproducib
 
 ### Important note
 
-The main runner program currently relies on my personal Bash library, e.g. the line of code near the beginning of `languages.sh` that says `source library`. The runner will not work out-of-the-box without it. In the very near future, I will refine a subset of my personal library for publication on GitHub. At that time, I will update this repository accordingly, and remove this note.
+The main runner program currently relies on my personal Bash library, e.g. the line of code near the beginning of `languages.sh` that says `source library`. The runner will not work without it. In the very near future, I will refine a subset of my personal library for publication on GitHub. At that time, I will update this repository accordingly, and remove this note.
 
 With all of that being said, you could theoretically implement the missing functions called by `languages.sh`. None are too complex, and their purposes are hopefully obvious based on their names. Alternatively, you could just build/run the containers manually.
 
@@ -61,23 +61,23 @@ Commands:
 ## Example usages
 
 * List available languages and programs:
-  * `languages.sh list`
+  * `./languages.sh list`
 * Run everything:
-  * `languages.sh run`
+  * `./languages.sh run`
 * Run all C# programs:
-  * `languages.sh run csharp`
+  * `./languages.sh run csharp`
 * Run the C# _hello-world_ program:
-  * `languages.sh run csharp hello-world`
+  * `./languages.sh run csharp hello-world`
 * Debug the C# _hello-world_ program:
-  * `languages.sh --debug run csharp hello-world`
+  * `./languages.sh --debug run csharp hello-world`
 * Enter interactive mode for C#, with the _hello-world_ program loaded:
-  * `languages.sh --interactive csharp hello-world`
+  * `./languages.sh --interactive csharp hello-world`
 * Run tests for Rust (all programs):
-  * `languages.sh --test run rust`
+  * `./languages.sh --test run rust`
 * Help/usage:
-  * `languages.sh --help`
+  * `./languages.sh --help`
 * Version:
-  * `languages.sh --version`
+  * `./languages.sh --version`
 
 ## Programs
 
@@ -143,7 +143,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | BASIC             |       ✅       |   ⬜   |      ⬜      |
 | Batch             |       ⬜       |   ⬜   |      ⬜      |
 | BCPL              |       ⬜       |   ⬜   |      ⬜      |
-| Beef              |       ⬜       |   ⬜   |      ⬜      |
+| Beef              |       ✅       |   ⬜   |      ⬜      |
 | Brainf#ck         |       ✅       |   ⬜   |      ⬜      |
 | C                 |       ✅       |   ✅   |      ✅      |
 | C#                |       ✅       |   ✅   |      ✅      |
@@ -292,4 +292,4 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Xojo              |       ⬜       |   ⬜   |      ⬜      |
 | Xtend             |       ⬜       |   ⬜   |      ⬜      |
 | Zig               |       ✅       |   ✅   |      ✅      |
-| _Count..._        |     _70_      | _21_  |    _11_     |
+| _Count..._        |     _71_      | _21_  |    _11_     |
