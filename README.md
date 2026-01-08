@@ -183,7 +183,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Forth             |       ✅       |   ⬜   |      ⬜      |
 | Fortran           |       ✅       |   ✅   |      ⬜      |
 | FoxPro            |       ⬜       |   ⬜   |      ⬜      |
-| Futhark           |       ⬜       |   ✅   |      ⬜      |
+| Futhark           |       ⚠️       |   ✅   |      ⬜      |
 | G-Portugol        |       ✅       |   ⬜   |      ⬜      |
 | Gambas            |       ⬜       |   ⬜   |      ⬜      |
 | GAMS              |       ⬜       |   ⬜   |      ⬜      |
