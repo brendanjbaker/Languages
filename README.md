@@ -47,6 +47,7 @@ Options:
   --interactive     Begin an interaction session.
   --parallel        Runs multiple programs concurrently.
   --prime           Pre-generates image(s) without running them.
+  --reverse         Runs programs in reverse order.
   --test            Run unit tests.
   --version         Show version information.
 
@@ -131,7 +132,6 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 
 | Language          | `hello` | `sum` | `microwave` |
 | ----------------- | :-----: | :---: | :---------: |
-| ABAP              |    ⬜    |   ⬜   |      ⬜      |
 | Ada               |    ✅    |   ⬜   |      ⬜      |
 | Algol             |    ✅️    |   ⬜   |      ⬜      |
 | Apex              |    ⬜    |   ⬜   |      ⬜      |
@@ -147,7 +147,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | BASIC             |    ✅    |   ⬜   |      ⬜      |
 | Batch             |    ⬜    |   ⬜   |      ⬜      |
 | BCPL              |    ⬜    |   ⬜   |      ⬜      |
-| Beanshell         |    ⬜    |   ⬜   |      ⬜      |
+| Beanshell         |    ✅    |   ✅   |      ⬜      |
 | Beef              |    ✅    |   ⬜   |      ⬜      |
 | Brainf#ck         |    ✅    |   ⬜   |      ⬜      |
 | C                 |    ✅    |   ✅   |      ✅      |
@@ -155,12 +155,12 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | C++               |    ✅    |   ✅   |      ✅      |
 | C2                |    ⬜    |   ⬜   |      ⬜      |
 | C3                |    ✅    |   ⬜   |      ⬜      |
-| Caml              |    ⬜    |   ⬜   |      ⬜      |
+| Caml              |    ✅    |   ✅   |      ⬜      |
 | Carbon            |    ✅    |   ✅   |      ⬜      |
 | Chapel            |    ✅    |   ✅   |      ✅      |
 | Clojure           |    ✅    |   ⬜   |      ⬜      |
 | CLU               |    ⬜    |   ⬜   |      ⬜      |
-| COBOL             |    ✅    |   ⬜   |      ⬜      |
+| COBOL             |    ✅    |   ✅   |      ⬜      |
 | Cobra             |    ⬜    |   ⬜   |      ⬜      |
 | CoffeeScript      |    ✅    |   ⬜   |      ⬜      |
 | ColdFusion        |    ⬜    |   ⬜   |      ⬜      |
@@ -189,7 +189,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | GAMS              |    ⬜    |   ⬜   |      ⬜      |
 | GAP               |    ⬜    |   ⬜   |      ⬜      |
 | GDScript          |    ⬜    |   ⬜   |      ⬜      |
-| Gleam             |    ⬜    |   ⬜   |      ⬜      |
+| Gleam             |    ✅️    |   ✅️   |      ⬜      |
 | Glim              |    ⬜    |   ⬜   |      ⬜      |
 | Go                |    ✅️    |   ⬜   |      ⬜      |
 | Groovy            |    ✅️    |   ⬜   |      ⬜      |
@@ -201,9 +201,9 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Hopper            |    ⬜    |   ⬜   |      ⬜      |
 | HTML              |    ✅    |   ⬜   |      ⬜      |
 | HyperTalk         |    ⬜    |   ⬜   |      ⬜      |
-| Icon              |    ⬜    |   ⬜   |      ⬜      |
+| Icon              |    ✅    |   ✅   |      ⬜      |
 | Inform            |    ⬜    |   ⬜   |      ⬜      |
-| Io                |    ⬜    |   ⬜   |      ⬜      |
+| Io                |    ✅    |   ✅   |      ⬜      |
 | Irdis             |    ⬜    |   ⬜   |      ⬜      |
 | J                 |    ⬜    |   ⬜   |      ⬜      |
 | J#                |    ⬜    |   ⬜   |      ⬜      |
@@ -221,7 +221,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Lily              |    ⬜    |   ⬜   |      ⬜      |
 | Lisp              |    ✅    |   ⬜   |      ⬜      |
 | Lobster           |    ⬜    |   ⬜   |      ⬜      |
-| Logo              |    ⬜    |   ⬜   |      ⬜      |
+| Logo              |    ✅    |   ✅   |      ⬜      |
 | Lua               |    ✅    |   ⬜   |      ⬜      |
 | Maple             |    ⬜    |   ⬜   |      ⬜      |
 | MATLAB            |    ✅    |   ⬜   |      ⬜      |
@@ -230,17 +230,16 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Modula            |    ⬜    |   ⬜   |      ⬜      |
 | Modula-2          |    ✅    |   ⬜   |      ⬜      |
 | Modula-3          |    ⬜    |   ⬜   |      ⬜      |
-| Mojo              |    ⬜    |   ⬜   |      ⬜      |
-| MQL5              |    ⬜    |   ⬜   |      ⬜      |
+| Mojo              |    ✅    |   ✅   |      ⬜      |
 | NATURAL           |    ⬜    |   ⬜   |      ⬜      |
-| Nemerle           |    ⬜    |   ⬜   |      ⬜      |
-| Never             |    ⬜    |   ⬜   |      ⬜      |
+| Nemerle           |    ⛔    |   ⬜   |      ⬜      |
+| Never             |    ✅    |   ✅   |      ⬜      |
 | Newspeak          |    ⬜    |   ⬜   |      ⬜      |
 | Nim               |    ⬜    |   ⬜   |      ⬜      |
 | Nit               |    ⬜    |   ⬜   |      ⬜      |
-| Nix               |    ⬜    |   ⬜   |      ⬜      |
+| Nix               |    ✅    |   ✅   |      ⬜      |
 | NXT-G             |    ⬜    |   ⬜   |      ⬜      |
-| Oberon            |    ⬜    |   ⬜   |      ⬜      |
+| Oberon            |    ✅    |   ✅   |      ⬜      |
 | Object Pascal     |    ✅    |   ⬜   |      ⬜      |
 | Objective-C       |    ✅    |   ⬜   |      ⬜      |
 | Oblique           |    ⬜    |   ⬜   |      ⬜      |
@@ -324,7 +323,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Xojo              |    ⬜    |   ⬜   |      ⬜      |
 | Xtend             |    ⬜    |   ⬜   |      ⬜      |
 | Zig               |    ✅    |   ✅   |      ✅      |
-| _Count..._        |  _77_   | _24_  |    _11_     |
+| _Count..._        |  _87_   | _35_  |    _11_     |
 
 **Legend**
 

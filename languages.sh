@@ -16,6 +16,7 @@ declare option_debug_setup="false"
 declare option_interactive="false"
 declare option_parallel="false"
 declare option_prime="false"
+declare option_reverse="false"
 declare option_test="false"
 
 declare initialized="false"
@@ -164,6 +165,10 @@ function list_languages {
 
 	languages=$(directory::list_subdirectories --exclude-hidden "$root_directory")
 
+	if [[ "$option_reverse" == "true" ]]; then
+		languages=$(echo "$languages" | sort --reverse)
+	fi
+
 	for language in $languages; do
 		if [[ -f "$root_directory/$language/.skip" ]]; then
 			continue
@@ -186,6 +191,10 @@ function list_programs {
 	local programs
 
 	programs=$(directory::list_subdirectories --exclude-hidden "$root_directory/$language")
+
+	if [[ "$option_reverse" == "true" ]]; then
+		programs=$(echo "$programs" | sort --reverse)
+	fi
 
 	for program in $programs; do
 		if [[ -f "$root_directory/$language/$program/.skip" ]]; then
@@ -220,6 +229,8 @@ function main {
 			option_parallel="true"; shift
 		elif [[ $# -ge 1 && "$1" == "--prime" ]]; then
 			option_prime="true"; shift
+		elif [[ $# -ge 1 && "$1" == "--reverse" ]]; then
+			option_reverse="true"; shift
 		elif [[ $# -ge 1 && "$1" == "--slot" ]]; then
 			slot="$2"; shift; shift
 		elif [[ $# -ge 1 && "$1" == "--test" ]]; then
@@ -291,6 +302,7 @@ function print_usage {
 		  --interactive     Begin an interaction session.
 		  --parallel        Runs multiple programs concurrently.
 		  --prime           Pre-generates image(s) without running them.
+		  --reverse         Runs programs in reverse order.
 		  --test            Run unit tests.
 		  --version         Show version information.
 
