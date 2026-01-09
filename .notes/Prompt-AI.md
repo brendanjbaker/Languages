@@ -6,6 +6,6 @@ For the X programming language:
   * Otherwise, use Snap/snapd.
   * Otherwise, download/install a binary distribution.
   * Otherwise, download/compile from source.
-* Write an idiomatic "Hello, world!" program in a file called `program.X`, where `X` is its normal extension.
+* Write an idiomatic "Hello, world!" program in a file called `program.X` or `Program.X`, capitalizing it if customary, and where `X` is its normal extension.
 * Compile it, if applicable.
 * Run it.
