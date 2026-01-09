@@ -1,0 +1,8 @@
+to sum_range :start :end
+	if :start > :end [output 0]
+	output :start + sum_range :start + 1 :end
+end
+
+print sum_range 0 100
+
+bye
