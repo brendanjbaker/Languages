@@ -1,0 +1,21 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. PROGRAM.
+       AUTHOR. BAKER.
+
+       DATA DIVISION.
+       WORKING-STORAGE SECTION.
+       01 I           PIC 9(3) VALUE 0.
+       01 TOTAL       PIC 9(9) VALUE 0.
+       01 TOTAL-OUT   PIC Z(4).
+
+       PROCEDURE DIVISION.
+
+       MAINLINE.
+           PERFORM VARYING I FROM 0 BY 1 UNTIL I > 100
+               ADD I TO TOTAL
+           END-PERFORM.
+
+           MOVE TOTAL TO TOTAL-OUT.
+           DISPLAY TOTAL-OUT.
+
+           STOP RUN.
