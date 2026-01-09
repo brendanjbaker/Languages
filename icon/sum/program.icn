@@ -1,0 +1,5 @@
+procedure main()
+	total := 0
+	every total +:= 0 to 100
+	write(total)
+end
