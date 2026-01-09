@@ -2,6 +2,8 @@
 
 export DEBIAN_FRONTEND="noninteractive"
 
+apt-get install -y --no-install-recommends gnupg
+
 wget -O- https://dl.hhvm.com/conf/hhvm.gpg.key | \
 gpg --dearmor -o /etc/apt/keyrings/hhvm.gpg
 
