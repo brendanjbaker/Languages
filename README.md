@@ -134,13 +134,11 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | ----------------- | :-----: | :---: | :---------: |
 | Ada               |    ✅    |   ⬜   |      ⬜      |
 | Algol             |    ✅️    |   ⬜   |      ⬜      |
-| Apex              |    ⬜    |   ⬜   |      ⬜      |
 | APL               |    ✅️    |   ✅️   |      ⬜      |
-| Applescript       |    ⬜    |   ⬜   |      ⬜      |
-| Arturo            |    ⬜    |   ⬜   |      ⬜      |
+| Arturo            |    ✅    |   ✅   |      ⬜      |
 | Assembly          |    ✅    |   ⬜   |      ⬜      |
 | Awk               |    ✅    |   ⬜   |      ⬜      |
-| B                 |    ⬜    |   ⬜   |      ⬜      |
+| [B](./b)          |    ✅    |   ✅   |      ⬜      |
 | B4X               |    ⬜    |   ⬜   |      ⬜      |
 | Ballerina         |    ⬜    |   ⬜   |      ⬜      |
 | Bash              |    ✅    |   ✅   |      ✅      |
@@ -314,7 +312,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | VHDL              |    ✅    |   ✅   |      ⬜      |
 | Visual Basic .NET |    ✅    |   ⬜   |      ⬜      |
 | Visual Basic (6)  |    ⛔    |   ⬜   |      ⬜      |
-| Wenyan (文言)     |    ✅    |   ⬜   |      ⬜      |
+| Wenyan (文言)     |    ✅    |   ⛔   |      ⬜      |
 | Whiley            |    ⬜    |   ⬜   |      ⬜      |
 | Wolfram           |    ⬜    |   ⬜   |      ⬜      |
 | Wren              |    ⬜    |   ⬜   |      ⬜      |
@@ -323,7 +321,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Xojo              |    ⬜    |   ⬜   |      ⬜      |
 | Xtend             |    ⬜    |   ⬜   |      ⬜      |
 | Zig               |    ✅    |   ✅   |      ✅      |
-| _Count..._        |  _87_   | _35_  |    _11_     |
+| _Count..._        |  _89_   | _37_  |    _11_     |
 
 **Legend**
 
