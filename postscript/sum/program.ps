@@ -1,8 +1,13 @@
 %!PS
-0           % Initialize sum to 0
-0 1 100 {   % Loop from 0 to 100 (start increment end)
-    add     % Add current number to sum
-} for
-() print
-=           % Print the number followed by newline
+
+% Initialize sum to 0.
+0
+
+# For 0 to 100, increment by 1, add/sum it.
+0 1 100 { add } for
+
+% Print top of stack.
+() print =
+
+% Done.
 quit

@@ -1,6 +1,6 @@
 module program;
-  initial begin
-    $display("Hello, world!");
-    $finish;
-  end
+	initial begin
+		$display("Hello, world!");
+		$finish;
+	end
 endmodule
