@@ -9,6 +9,7 @@ declare version="0.0.0.0"
 declare arguments=("$@")
 declare slot="0"
 
+declare option_all="false"
 declare option_debug="false"
 declare option_debug_docker="false"
 declare option_debug_program="false"
@@ -64,6 +65,10 @@ function clean {
 }
 
 function cache_image_list {
+	if [[ "$option_all" == "false" ]]; then
+		return
+	fi
+
 	podman image list --format '{{.Repository}}:{{.Tag}}' \
 	| (grep -v '<none>' || true) \
 	| (grep '^localhost/' || true) \
@@ -520,6 +525,7 @@ function run_all {
 		error::usage "run_all"
 	fi
 
+	option_all="true"
 	initialize
 
 	if [[ "$option_parallel" == "true" ]]; then
