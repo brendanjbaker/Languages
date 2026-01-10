@@ -1,0 +1,4 @@
+LET START(PARM) BE
+$(
+	WRITES("HELLO*N")
+$)
