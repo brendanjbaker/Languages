@@ -20,9 +20,9 @@ In sections 9.1 and 9.3, B code listings for `printn` and `printf` are provided 
 
 So although `printf` and `printn` are described as being standard functions, the way to "include" them is to manually add them to your own B source.
 
-The blang compiler provides `printf` as a built-in (but not `printn`). However, for historical accuracy, my programs will not use the built-in `printf`.
+The blang compiler provides `printf` as a built-in (but not `printn`). However, for historical accuracy, my programs will not use blang's built-in `printf`.
 
-Similarly, `putchar()` would have been built-in, but it's not in blang. So I define it myself as `putchar(c)`, and it simply delegates the call to `write` (which is built-in to blang). In 1972, you would just call `putchar()` directly.
+Similarly, `putchar()` would have been built-in, but it's not in blang. So I define it myself as `putchar(c)`, and it simply delegates the call to `write` (which blang provides). In 1972, you would just call `putchar()` directly.
 
 In this manner, the programs look and work as they would have in 1972.
 
