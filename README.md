@@ -276,7 +276,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Scheme            |    ✅    |   ⬜   |      ⬜      |
 | Scratch           |    ⬜    |   ⬜   |      ⬜      |
 | Sed               |    ✅    |   ⬜   |      ⬜      |
-| Seed7             |    ⬜    |   ⬜   |      ⬜      |
+| Seed7             |    ✅    |   ✅   |      ⬜      |
 | Self              |    ⬜    |   ⬜   |      ⬜      |
 | Simula            |    ✅    |   ⬜   |      ⬜      |
 | Smalltalk         |    ✅    |   ⬜   |      ⬜      |
@@ -315,7 +315,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Xojo              |    ⬜    |   ⬜   |      ⬜      |
 | Xtend             |    ⬜    |   ⬜   |      ⬜      |
 | Zig               |    ✅    |   ✅   |      ✅      |
-| _Count..._        |  _89_   | _37_  |    _11_     |
+| _Count..._        |  _90_   | _38_  |    _11_     |
 
 **Legend**
 
