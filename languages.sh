@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # shellcheck disable=SC1091
-source library
+source "$(dirname -- "${BASH_SOURCE[0]}")/.lib/library.bash"
 
 declare program_name="languages.sh"
 declare version="0.0.0.0"

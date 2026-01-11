@@ -6,12 +6,6 @@ This repository contains examples of 100+ programming languages.
 
 Besides just showing example programs, the programs are runnable in a reproducible manner via Dockerfiles. Additionally, the programs are unit tested to ensure they indeed produce the expected output(s).
 
-### Important note
-
-The main runner program currently relies on my personal Bash library, e.g. the line of code near the beginning of `languages.sh` that says `source library`. The runner will not work without it. In the very near future, I will refine a subset of my personal library for publication on GitHub. At that time, I will update this repository accordingly, and remove this note.
-
-With all of that being said, you could theoretically implement the missing functions called by `languages.sh`. None are too complex, and their purposes are hopefully obvious based on their names. Alternatively, you could just build/run the containers manually.
-
 ## Technical
 
 Podman is used to build and execute a multi-layer image.
