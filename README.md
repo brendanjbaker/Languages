@@ -134,10 +134,10 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Awk               |    ✅    |   ⬜   |      ⬜      |
 | [B](./b)          |    ✅    |   ✅   |      ⬜      |
 | B4X               |    ⬜    |   ⬜   |      ⬜      |
-| Ballerina         |    ⬜    |   ⬜   |      ⬜      |
+| Ballerina         |    ✅    |   ✅   |      ⬜      |
 | Bash              |    ✅    |   ✅   |      ✅      |
 | BASIC             |    ✅    |   ⬜   |      ⬜      |
-| Batch             |    ⬜    |   ⬜   |      ⬜      |
+| Batch             |    ✅    |   ✅   |      ⬜      |
 | BCPL              |    ⬜    |   ⬜   |      ⬜      |
 | Beanshell         |    ✅    |   ✅   |      ⬜      |
 | Beef              |    ✅    |   ⬜   |      ⬜      |
@@ -145,7 +145,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | C                 |    ✅    |   ✅   |      ✅      |
 | C#                |    ✅    |   ✅   |      ✅      |
 | C++               |    ✅    |   ✅   |      ✅      |
-| C2                |    ⬜    |   ⬜   |      ⬜      |
+| C2                |    ✅    |   ✅   |      ⬜      |
 | C3                |    ✅    |   ⬜   |      ⬜      |
 | Caml              |    ✅    |   ✅   |      ⬜      |
 | Carbon            |    ✅    |   ✅   |      ⬜      |
@@ -281,7 +281,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Simula            |    ✅    |   ⬜   |      ⬜      |
 | Smalltalk         |    ✅    |   ⬜   |      ⬜      |
 | Solidity          |    ⬜    |   ⬜   |      ⬜      |
-| SPARK             |    ⬜    |   ⬜   |      ⬜      |
+| SPARK             |    ✅    |   ✅   |      ⬜      |
 | Spin (Parallax)   |    ⬜    |   ⬜   |      ⬜      |
 | SQL               |    ✅    |   ✅   |      ✅      |
 | Squeak            |    ⬜    |   ⬜   |      ⬜      |
@@ -315,7 +315,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Xojo              |    ⬜    |   ⬜   |      ⬜      |
 | Xtend             |    ⬜    |   ⬜   |      ⬜      |
 | Zig               |    ✅    |   ✅   |      ✅      |
-| _Count..._        |  _90_   | _38_  |    _11_     |
+| _Count..._        |  _94_   | _42_  |    _11_     |
 
 **Legend**
 

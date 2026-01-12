@@ -5,4 +5,5 @@ grep -r '^    ' \
 | grep -v '^cobol/' \
 | grep -v '^elm/' \
 | grep -v '^fsharp/' \
+| grep -v '^spark/' \
 || true
