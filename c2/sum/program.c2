@@ -1,0 +1,15 @@
+module program;
+
+import stdio local;
+
+public fn i32 main(i32 argc, char** argv) {
+	i32 sum = 0;
+
+	for (i32 i = 0; i <= 100; i++) {
+		sum += i;
+	}
+
+	printf("%d\n", sum);
+
+	return 0;
+}

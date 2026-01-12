@@ -1,0 +1,8 @@
+module program;
+
+import stdio local;
+
+public fn i32 main(i32 argc, char** argv) {
+	printf("Hello, world!\n");
+	return 0;
+}

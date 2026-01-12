@@ -1,0 +1,9 @@
+plugin deps_generator [all-targets files private]
+plugin refs_generator [all-targets]
+
+executable program
+	$warnings no-unused
+	$backend c
+
+	program.c2
+end
