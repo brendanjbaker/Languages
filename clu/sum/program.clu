@@ -1,0 +1,11 @@
+start_up = proc ()
+    po: stream := stream$primary_output()
+	sum: int := 0
+	i: int
+
+    for i in int$from_to(1, 100) do
+		sum := sum + i
+	end
+
+	stream$putl(po, int$unparse(sum))
+end start_up

@@ -3,7 +3,7 @@
 if [[ ! -f program ]]; then
 	export CLUHOME="/opt/pclu/current"
 
-	pclu -ext false -spec program -opt -cfiles -compile program > /dev/null
+	pclu -ext false -spec program -opt -cfiles -compile program
 	plink -o program program.o
 fi
 

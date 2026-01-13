@@ -1,15 +1,48 @@
 #!/usr/bin/env bash
 
-export DEBIAN_FRONTEND="noninteractive"
-
 apt-get install -y --no-install-recommends \
 	build-essential \
-	libgc-dev \
-	git
+	gcc \
+	git \
+	m4 \
+	make
+
+export CLUHOME="/opt/pclu/current"
 
 mkdir -p '/opt/pclu'
 pushd '/opt/pclu'
-git clone 'https://github.com/npe9/pclu.git' 'current'
-pushd 'current'
-export CLUHOME='/opt/pclu/current'
-git checkout '3fd06ff'
+git clone 'https://github.com/nbuwe/pclu' 'current'
+pushd current
+popd; popd
+
+mkdir -p '/opt/gc'
+pushd '/opt/gc'
+wget --quiet 'http://www.hboehm.info/gc/gc_source/gc-7.2f.tar.gz'
+tar -xzf 'gc-7.2f.tar.gz'
+mv 'gc-7.2' '7.2f'
+pushd '7.2f'
+
+CFLAGS="-fcommon" ./configure \
+	--enable-static=yes --enable-shared=no \
+	--enable-threads=no --with-libatomic-ops=no \
+	--prefix="${CLUHOME:?}/code/gc"
+
+make
+make install
+popd; popd
+
+pushd '/opt/pclu/current'
+mkdir -p include
+make symlinks
+pushd 'code/include'
+cp -R /opt/gc/7.2f/include/* .
+popd
+pushd 'code/gc/include/gc'
+cp -R /opt/gc/7.2f/include/* .
+popd
+make
+ln -s "$(realpath code/libpclu_opt.a)" /opt/pclu/current/code/libpclu.a
+mkdir -p /usr/local/pclu
+make install
+ln -s '/usr/local/pclu/exe/pclu' '/usr/bin/pclu'
+ln -s '/usr/local/pclu/exe/plink' '/usr/bin/plink'
