@@ -1,0 +1,4 @@
+include "cowgol.coh";
+
+print("Hello, world!");
+print_nl();

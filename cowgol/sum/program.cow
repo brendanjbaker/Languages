@@ -1,0 +1,12 @@
+include "cowgol.coh";
+
+var sum: uint32 := 0;
+var i: uint32 := 0;
+
+while i <= 100 loop
+	sum := sum + i;
+	i := i + 1;
+end loop;
+
+print_i32(sum);
+print_nl();
