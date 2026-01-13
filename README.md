@@ -151,16 +151,16 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Carbon            |    ✅    |   ✅   |      ⬜      |
 | Chapel            |    ✅    |   ✅   |      ✅      |
 | Clojure           |    ✅    |   ⬜   |      ⬜      |
-| CLU               |    ⬜    |   ⬜   |      ⬜      |
+| CLU               |    ✅    |   ✅   |      ⬜      |
 | COBOL             |    ✅    |   ✅   |      ⬜      |
-| Cobra             |    ⬜    |   ⬜   |      ⬜      |
+| Cobra             |    ✅    |   ✅   |      ⬜      |
 | CoffeeScript      |    ✅    |   ⬜   |      ⬜      |
-| ColdFusion        |    ⬜    |   ⬜   |      ⬜      |
-| Common Lisp       |    ⬜    |   ⬜   |      ⬜      |
-| Cowgol            |    ⬜    |   ⬜   |      ⬜      |
+| ColdFusion        |    ✅    |   ✅   |      ⬜      |
+| Cowgol            |    ✅    |   ✅   |      ⬜      |
 | Crystal           |    ✅    |   ⬜   |      ⬜      |
 | D                 |    ✅    |   ✅   |      ✅      |
 | Dart              |    ✅    |   ⬜   |      ⬜      |
+| Daslang           |    ✅    |   ✅   |      ⬜      |
 | dBase             |    ⬜    |   ⬜   |      ⬜      |
 | Delphi            |    ✅    |   ⬜   |      ⬜      |
 | E                 |    ⬜    |   ⬜   |      ⬜      |
@@ -298,7 +298,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Transact-SQL      |    ⬜    |   ⬜   |      ⬜      |
 | Typescript        |    ✅    |   ✅   |      ⬜      |
 | Unicon            |    ⬜    |   ⬜   |      ⬜      |
-| V                 |    ⬜    |   ⬜   |      ⬜      |
+| V                 |    ✅    |   ✅   |      ⬜      |
 | Vala              |    ✅    |   ⬜   |      ⬜      |
 | Vale              |    ⬜    |   ⬜   |      ⬜      |
 | VBScript          |    ⬜    |   ⬜   |      ⬜      |
@@ -315,7 +315,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Xojo              |    ⬜    |   ⬜   |      ⬜      |
 | Xtend             |    ⬜    |   ⬜   |      ⬜      |
 | Zig               |    ✅    |   ✅   |      ✅      |
-| _Count..._        |  _94_   | _42_  |    _11_     |
+| _Count..._        |  _100_  | _48_  |    _11_     |
 
 **Legend**
 
