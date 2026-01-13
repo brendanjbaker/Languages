@@ -1,0 +1,8 @@
+class Program
+	def main
+		sum = 0
+
+		for i in 0 : 101
+			sum += i
+
+		print sum
