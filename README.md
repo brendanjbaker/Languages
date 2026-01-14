@@ -171,7 +171,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Epsilon           |    ⬜    |   ⬜   |      ⬜      |
 | Erlang            |    ✅    |   ✅   |      ⬜      |
 | F#                |    ✅    |   ⬜   |      ⬜      |
-| Factor            |    ⬜    |   ⬜   |      ⬜      |
+| Factor            |    ✅    |   ✅   |      ⬜      |
 | Forth             |    ✅    |   ⬜   |      ⬜      |
 | Fortran           |    ✅    |   ✅   |      ⬜      |
 | FoxPro            |    ⬜    |   ⬜   |      ⬜      |
@@ -212,7 +212,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Ladder Logic      |    ⬜    |   ⬜   |      ⬜      |
 | Lily              |    ⬜    |   ⬜   |      ⬜      |
 | Lisp              |    ✅    |   ⬜   |      ⬜      |
-| Lobster           |    ⬜    |   ⬜   |      ⬜      |
+| Lobster           |    ✅    |   ✅   |      ⬜      |
 | Logo              |    ✅    |   ✅   |      ⬜      |
 | Lua               |    ✅    |   ⬜   |      ⬜      |
 | Maple             |    ⬜    |   ⬜   |      ⬜      |
@@ -315,7 +315,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 | Xojo              |    ⬜    |   ⬜   |      ⬜      |
 | Xtend             |    ⬜    |   ⬜   |      ⬜      |
 | Zig               |    ✅    |   ✅   |      ✅      |
-| _Count..._        |  _100_  | _48_  |    _11_     |
+| _Count..._        |  _102_  | _50_  |    _11_     |
 
 **Legend**
 
