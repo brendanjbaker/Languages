@@ -122,200 +122,210 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 * `-1`
 * `12345`
 
+### `freestyle`
+
+These programs are intended to demonstrate unique or interesting language features.
+
+Test requirements are loose:
+
+* There must be output (stdout).
+* There must not be error output (stderr).
+* Exit status must be 0.
+
 ## Languages
 
-| Language          | `hello` | `sum` | `microwave` |
-| ----------------- | :-----: | :---: | :---------: |
-| Ada               |    ✅    |   ⬜   |      ⬜      |
-| Algol             |    ✅️    |   ⬜   |      ⬜      |
-| APL               |    ✅️    |   ✅️   |      ⬜      |
-| Arturo            |    ✅    |   ✅   |      ⬜      |
-| Assembly          |    ✅    |   ⬜   |      ⬜      |
-| Awk               |    ✅    |   ⬜   |      ⬜      |
-| [B](./b)          |    ✅    |   ✅   |      ⬜      |
-| B4X               |    ⬜    |   ⬜   |      ⬜      |
-| Ballerina         |    ✅    |   ✅   |      ⬜      |
-| Bash              |    ✅    |   ✅   |      ✅      |
-| BASIC             |    ✅    |   ⬜   |      ⬜      |
-| Batch             |    ✅    |   ✅   |      ⬜      |
-| BCPL              |    ⬜    |   ⬜   |      ⬜      |
-| Beanshell         |    ✅    |   ✅   |      ⬜      |
-| Beef              |    ✅    |   ⬜   |      ⬜      |
-| Brainf#ck         |    ✅    |   ⬜   |      ⬜      |
-| C                 |    ✅    |   ✅   |      ✅      |
-| C#                |    ✅    |   ✅   |      ✅      |
-| C++               |    ✅    |   ✅   |      ✅      |
-| C2                |    ✅    |   ✅   |      ⬜      |
-| C3                |    ✅    |   ⬜   |      ⬜      |
-| Caml              |    ✅    |   ✅   |      ⬜      |
-| Carbon            |    ✅    |   ✅   |      ⬜      |
-| Chapel            |    ✅    |   ✅   |      ✅      |
-| Clojure           |    ✅    |   ⬜   |      ⬜      |
-| CLU               |    ✅    |   ✅   |      ⬜      |
-| COBOL             |    ✅    |   ✅   |      ⬜      |
-| Cobra             |    ✅    |   ✅   |      ⬜      |
-| CoffeeScript      |    ✅    |   ⬜   |      ⬜      |
-| ColdFusion        |    ✅    |   ✅   |      ⬜      |
-| Cowgol            |    ✅    |   ✅   |      ⬜      |
-| Crystal           |    ✅    |   ⬜   |      ⬜      |
-| D                 |    ✅    |   ✅   |      ✅      |
-| Dart              |    ✅    |   ⬜   |      ⬜      |
-| Daslang           |    ✅    |   ✅   |      ⬜      |
-| dBase             |    ⬜    |   ⬜   |      ⬜      |
-| Delphi            |    ✅    |   ⬜   |      ⬜      |
-| E                 |    ⬜    |   ⬜   |      ⬜      |
-| Eiffel            |    ✅    |   ⬜   |      ⬜      |
-| Elixir            |    ✅    |   ⬜   |      ⬜      |
-| Elm               |    ✅    |   ✅   |      ⬜      |
-| Emacs Lisp        |    ⬜    |   ⬜   |      ⬜      |
-| Epsilon           |    ⬜    |   ⬜   |      ⬜      |
-| Erlang            |    ✅    |   ✅   |      ⬜      |
-| F#                |    ✅    |   ⬜   |      ⬜      |
-| Factor            |    ✅    |   ✅   |      ⬜      |
-| Forth             |    ✅    |   ⬜   |      ⬜      |
-| Fortran           |    ✅    |   ✅   |      ⬜      |
-| FoxPro            |    ⬜    |   ⬜   |      ⬜      |
-| Futhark           |    ⚠️    |   ✅   |      ⬜      |
-| G-Portugol        |    ✅    |   ⬜   |      ⬜      |
-| Gambas            |    ⬜    |   ⬜   |      ⬜      |
-| GAMS              |    ⬜    |   ⬜   |      ⬜      |
-| GAP               |    ⬜    |   ⬜   |      ⬜      |
-| GDScript          |    ⬜    |   ⬜   |      ⬜      |
-| Gleam             |    ✅️    |   ✅️   |      ⬜      |
-| Glim              |    ⬜    |   ⬜   |      ⬜      |
-| Go                |    ✅️    |   ⬜   |      ⬜      |
-| Groovy            |    ✅️    |   ⬜   |      ⬜      |
-| Gurgle            |    ⬜    |   ⬜   |      ⬜      |
-| Hack              |    ✅    |   ⬜   |      ⬜      |
-| Hare              |    ✅    |   ⬜   |      ⬜      |
-| Haskell           |    ✅    |   ⬜   |      ⬜      |
-| Hax               |    ✅    |   ⬜   |      ⬜      |
-| Hopper            |    ⬜    |   ⬜   |      ⬜      |
-| HTML              |    ✅    |   ⬜   |      ⬜      |
-| HyperTalk         |    ⬜    |   ⬜   |      ⬜      |
-| Icon              |    ✅    |   ✅   |      ⬜      |
-| Inform            |    ⬜    |   ⬜   |      ⬜      |
-| Io                |    ✅    |   ✅   |      ⬜      |
-| Irdis             |    ⬜    |   ⬜   |      ⬜      |
-| J                 |    ⬜    |   ⬜   |      ⬜      |
-| J#                |    ⬜    |   ⬜   |      ⬜      |
-| Java              |    ✅    |   ✅   |      ✅      |
-| JavaScript        |    ✅    |   ✅   |      ✅      |
-| Joule             |    ⬜    |   ⬜   |      ⬜      |
-| JS++              |    ⬜    |   ⬜   |      ⬜      |
-| JScript           |    ⬜    |   ⬜   |      ⬜      |
-| Jtw               |    ⬜    |   ⬜   |      ⬜      |
-| Julia             |    ✅    |   ⬜   |      ⬜      |
-| Koka              |    ⬜    |   ⬜   |      ⬜      |
-| Kotlin            |    ✅    |   ⬜   |      ⬜      |
-| LabVIEW           |    ⬜    |   ⬜   |      ⬜      |
-| Ladder Logic      |    ⬜    |   ⬜   |      ⬜      |
-| Lily              |    ⬜    |   ⬜   |      ⬜      |
-| Lisp              |    ✅    |   ⬜   |      ⬜      |
-| Lobster           |    ✅    |   ✅   |      ⬜      |
-| Logo              |    ✅    |   ✅   |      ⬜      |
-| Lua               |    ✅    |   ⬜   |      ⬜      |
-| Maple             |    ⬜    |   ⬜   |      ⬜      |
-| MATLAB            |    ✅    |   ⬜   |      ⬜      |
-| Maxima            |    ⬜    |   ⬜   |      ⬜      |
-| Modelica          |    ⬜    |   ⬜   |      ⬜      |
-| Modula            |    ⬜    |   ⬜   |      ⬜      |
-| Modula-2          |    ✅    |   ⬜   |      ⬜      |
-| Modula-3          |    ⬜    |   ⬜   |      ⬜      |
-| Mojo              |    ✅    |   ✅   |      ⬜      |
-| NATURAL           |    ⬜    |   ⬜   |      ⬜      |
-| Nemerle           |    ⛔    |   ⬜   |      ⬜      |
-| Never             |    ✅    |   ✅   |      ⬜      |
-| Newspeak          |    ⬜    |   ⬜   |      ⬜      |
-| Nim               |    ⬜    |   ⬜   |      ⬜      |
-| Nit               |    ⬜    |   ⬜   |      ⬜      |
-| Nix               |    ✅    |   ✅   |      ⬜      |
-| NXT-G             |    ⬜    |   ⬜   |      ⬜      |
-| Oberon            |    ✅    |   ✅   |      ⬜      |
-| Object Pascal     |    ✅    |   ⬜   |      ⬜      |
-| Objective-C       |    ✅    |   ⬜   |      ⬜      |
-| Oblique           |    ⬜    |   ⬜   |      ⬜      |
-| OCaml             |    ✅    |   ⬜   |      ⬜      |
-| Odin              |    ⬜    |   ⬜   |      ⬜      |
-| Opa               |    ⬜    |   ⬜   |      ⬜      |
-| OpenCL            |    ⬜    |   ⬜   |      ⬜      |
-| Pascal            |    ✅    |   ⬜   |      ⬜      |
-| Perl              |    ✅    |   ⬜   |      ⬜      |
-| Phix              |    ⬜    |   ⬜   |      ⬜      |
-| PHL               |    ⬜    |   ⬜   |      ⬜      |
-| PHP               |    ✅    |   ✅   |      ⬜      |
-| Pike              |    ⬜    |   ⬜   |      ⬜      |
-| PL/I              |    ⬜    |   ⬜   |      ⬜      |
-| PL/M              |    ⬜    |   ⬜   |      ⬜      |
-| PL/SQL            |    ⬜    |   ⬜   |      ⬜      |
-| Planner           |    ⬜    |   ⬜   |      ⬜      |
-| Pony              |    ✅    |   ⬜   |      ⬜      |
-| POP-11            |    ⬜    |   ⬜   |      ⬜      |
-| PostScript        |    ✅    |   ✅   |      ⬜      |
-| PowerShell        |    ✅    |   ⬜   |      ⬜      |
-| Project Verona    |    ⬜    |   ⬜   |      ⬜      |
-| Prolog            |    ✅    |   ⬜   |      ⬜      |
-| Pure              |    ⬜    |   ⬜   |      ⬜      |
-| Python            |    ✅    |   ✅   |      ⬜      |
-| Q                 |    ⬜    |   ⬜   |      ⬜      |
-| R                 |    ✅    |   ⬜   |      ⬜      |
-| Racket            |    ✅    |   ⬜   |      ⬜      |
-| Raku              |    ⬜    |   ⬜   |      ⬜      |
-| Rebol             |    ⬜    |   ⬜   |      ⬜      |
-| Red               |    ⬜    |   ⬜   |      ⬜      |
-| Rexx              |    ✅    |   ⬜   |      ⬜      |
-| Ring              |    ⬜    |   ⬜   |      ⬜      |
-| Roc               |    ⬜    |   ⬜   |      ⬜      |
-| RPG IV (RPGLE)    |    ⬜    |   ⬜   |      ⬜      |
-| RPL               |    ⬜    |   ⬜   |      ⬜      |
-| Ruby              |    ✅    |   ✅   |      ⬜      |
-| Rust              |    ✅    |   ✅   |      ✅      |
-| SAS               |    ⬜    |   ⬜   |      ⬜      |
-| Sather            |    ⬜    |   ⬜   |      ⬜      |
-| Scala             |    ✅    |   ⬜   |      ⬜      |
-| Scheme            |    ✅    |   ⬜   |      ⬜      |
-| Scratch           |    ⬜    |   ⬜   |      ⬜      |
-| Sed               |    ✅    |   ⬜   |      ⬜      |
-| Seed7             |    ✅    |   ✅   |      ⬜      |
-| Self              |    ⬜    |   ⬜   |      ⬜      |
-| Simula            |    ✅    |   ⬜   |      ⬜      |
-| Smalltalk         |    ✅    |   ⬜   |      ⬜      |
-| Solidity          |    ⬜    |   ⬜   |      ⬜      |
-| SPARK             |    ✅    |   ✅   |      ⬜      |
-| Spin (Parallax)   |    ⬜    |   ⬜   |      ⬜      |
-| SQL               |    ✅    |   ✅   |      ✅      |
-| Squeak            |    ⬜    |   ⬜   |      ⬜      |
-| Squirrel          |    ⬜    |   ⬜   |      ⬜      |
-| Standard ML       |    ⬜    |   ⬜   |      ⬜      |
-| Stata             |    ⬜    |   ⬜   |      ⬜      |
-| Storm             |    ⬜    |   ⬜   |      ⬜      |
-| STRIPS            |    ⬜    |   ⬜   |      ⬜      |
-| Structured Text   |    ⬜    |   ⬜   |      ⬜      |
-| Swift             |    ✅    |   ⬜   |      ⬜      |
-| Tcl               |    ✅    |   ⬜   |      ⬜      |
-| Tern              |    ⬜    |   ⬜   |      ⬜      |
-| Toi               |    ⬜    |   ⬜   |      ⬜      |
-| Transact-SQL      |    ⬜    |   ⬜   |      ⬜      |
-| Typescript        |    ✅    |   ✅   |      ⬜      |
-| Unicon            |    ⬜    |   ⬜   |      ⬜      |
-| V                 |    ✅    |   ✅   |      ⬜      |
-| Vala              |    ✅    |   ⬜   |      ⬜      |
-| Vale              |    ⬜    |   ⬜   |      ⬜      |
-| VBScript          |    ⬜    |   ⬜   |      ⬜      |
-| Verilog           |    ✅    |   ✅   |      ⬜      |
-| VHDL              |    ✅    |   ✅   |      ⬜      |
-| Visual Basic .NET |    ✅    |   ⬜   |      ⬜      |
-| Visual Basic (6)  |    ⛔    |   ⬜   |      ⬜      |
-| Wenyan (文言)     |    ✅    |   ⛔   |      ⬜      |
-| Whiley            |    ⬜    |   ⬜   |      ⬜      |
-| Wolfram           |    ⬜    |   ⬜   |      ⬜      |
-| Wren              |    ⬜    |   ⬜   |      ⬜      |
-| X++               |    ⬜    |   ⬜   |      ⬜      |
-| X10               |    ✅    |   ⬜   |      ⬜      |
-| Xojo              |    ⬜    |   ⬜   |      ⬜      |
-| Xtend             |    ⬜    |   ⬜   |      ⬜      |
-| Zig               |    ✅    |   ✅   |      ✅      |
-| _Count..._        |  _102_  | _50_  |    _11_     |
+| Language          | `hello` | `sum` | `microwave` | `freestyle` |
+| ----------------- | :-----: | :---: | :---------: | :---------: |
+| Ada               |    ✅    |   ⬜   |      ⬜      |      ⬜      |
+| Algol             |    ✅️    |   ⬜   |      ⬜      |      ⬜      |
+| APL               |    ✅️    |   ✅️   |      ⬜      |      ⬜      |
+| Arturo            |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| Assembly          |    ✅    |   ⬜   |      ⬜      |      ⬜      |
+| Awk               |    ✅    |   ⬜   |      ⬜      |      ⬜      |
+| [B](./b)          |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| B4X               |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Ballerina         |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| Bash              |    ✅    |   ✅   |      ✅      |      ✅      |
+| BASIC             |    ✅    |   ⬜   |      ⬜      |      ⬜      |
+| Batch             |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| BCPL              |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Beanshell         |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| Beef              |    ✅    |   ⬜   |      ⬜      |      ⬜      |
+| Brainf#ck         |    ✅    |   ⬜   |      ⬜      |      ⬜      |
+| C                 |    ✅    |   ✅   |      ✅      |      ⬜      |
+| C#                |    ✅    |   ✅   |      ✅      |      ⬜      |
+| C++               |    ✅    |   ✅   |      ✅      |      ⬜      |
+| C2                |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| C3                |    ✅    |   ⬜   |      ⬜      |      ⬜      |
+| Caml              |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| Carbon            |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| Chapel            |    ✅    |   ✅   |      ✅      |      ⬜      |
+| Clojure           |    ✅    |   ⬜   |      ⬜      |      ⬜      |
+| CLU               |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| COBOL             |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| Cobra             |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| CoffeeScript      |    ✅    |   ⬜   |      ⬜      |      ⬜      |
+| ColdFusion        |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| Cowgol            |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| Crystal           |    ✅    |   ⬜   |      ⬜      |      ⬜      |
+| D                 |    ✅    |   ✅   |      ✅      |      ⬜      |
+| Dart              |    ✅    |   ⬜   |      ⬜      |      ⬜      |
+| Daslang           |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| dBase             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Delphi            |    ✅    |   ⬜   |      ⬜      |      ⬜      |
+| E                 |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Eiffel            |    ✅    |   ⬜   |      ⬜      |      ⬜      |
+| Elixir            |    ✅    |   ⬜   |      ⬜      |      ⬜      |
+| Elm               |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| Emacs Lisp        |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Epsilon           |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Erlang            |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| F#                |    ✅    |   ⬜   |      ⬜      |      ⬜      |
+| Factor            |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| Forth             |    ✅    |   ⬜   |      ⬜      |      ⬜      |
+| Fortran           |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| FoxPro            |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Futhark           |    ⚠️    |   ✅   |      ⬜      |      ⬜      |
+| G-Portugol        |    ✅    |   ⬜   |      ⬜      |      ⬜      |
+| Gambas            |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| GAMS              |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| GAP               |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| GDScript          |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Gleam             |    ✅️    |   ✅️   |      ⬜      |      ⬜      |
+| Glim              |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Go                |    ✅️    |   ⬜   |      ⬜      |      ⬜      |
+| Groovy            |    ✅️    |   ⬜   |      ⬜      |      ⬜      |
+| Gurgle            |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Hack              |    ✅    |   ⬜   |      ⬜      |      ⬜      |
+| Hare              |    ✅    |   ⬜   |      ⬜      |      ⬜      |
+| Haskell           |    ✅    |   ⬜   |      ⬜      |      ⬜      |
+| Hax               |    ✅    |   ⬜   |      ⬜      |      ⬜      |
+| Hopper            |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| HTML              |    ✅    |   ⬜   |      ⬜      |      ⬜      |
+| HyperTalk         |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Icon              |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| Inform            |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Io                |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| Irdis             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| J                 |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| J#                |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Java              |    ✅    |   ✅   |      ✅      |      ⬜      |
+| JavaScript        |    ✅    |   ✅   |      ✅      |      ⬜      |
+| Joule             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| JS++              |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| JScript           |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Jtw               |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Julia             |    ✅    |   ⬜   |      ⬜      |      ⬜      |
+| Koka              |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Kotlin            |    ✅    |   ⬜   |      ⬜      |      ⬜      |
+| LabVIEW           |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Ladder Logic      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Lily              |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Lisp              |    ✅    |   ⬜   |      ⬜      |      ⬜      |
+| Lobster           |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| Logo              |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| Lua               |    ✅    |   ⬜   |      ⬜      |      ⬜      |
+| Maple             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| MATLAB            |    ✅    |   ⬜   |      ⬜      |      ⬜      |
+| Maxima            |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Modelica          |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Modula            |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Modula-2          |    ✅    |   ⬜   |      ⬜      |      ⬜      |
+| Modula-3          |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Mojo              |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| NATURAL           |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Nemerle           |    ⛔    |   ⬜   |      ⬜      |      ⬜      |
+| Never             |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| Newspeak          |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Nim               |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Nit               |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Nix               |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| NXT-G             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Oberon            |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| Object Pascal     |    ✅    |   ⬜   |      ⬜      |      ⬜      |
+| Objective-C       |    ✅    |   ⬜   |      ⬜      |      ⬜      |
+| Oblique           |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| OCaml             |    ✅    |   ⬜   |      ⬜      |      ⬜      |
+| Odin              |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Opa               |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| OpenCL            |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Pascal            |    ✅    |   ⬜   |      ⬜      |      ⬜      |
+| Perl              |    ✅    |   ⬜   |      ⬜      |      ⬜      |
+| Phix              |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| PHL               |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| PHP               |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| Pike              |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| PL/I              |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| PL/M              |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| PL/SQL            |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Planner           |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Pony              |    ✅    |   ⬜   |      ⬜      |      ⬜      |
+| POP-11            |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| PostScript        |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| PowerShell        |    ✅    |   ⬜   |      ⬜      |      ⬜      |
+| Project Verona    |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Prolog            |    ✅    |   ⬜   |      ⬜      |      ⬜      |
+| Pure              |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Python            |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| Q                 |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| R                 |    ✅    |   ⬜   |      ⬜      |      ⬜      |
+| Racket            |    ✅    |   ⬜   |      ⬜      |      ⬜      |
+| Raku              |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Rebol             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Red               |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Rexx              |    ✅    |   ⬜   |      ⬜      |      ⬜      |
+| Ring              |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Roc               |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| RPG IV (RPGLE)    |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| RPL               |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Ruby              |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| Rust              |    ✅    |   ✅   |      ✅      |      ⬜      |
+| SAS               |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Sather            |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Scala             |    ✅    |   ⬜   |      ⬜      |      ⬜      |
+| Scheme            |    ✅    |   ⬜   |      ⬜      |      ⬜      |
+| Scratch           |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Sed               |    ✅    |   ⬜   |      ⬜      |      ⬜      |
+| Seed7             |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| Self              |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Simula            |    ✅    |   ⬜   |      ⬜      |      ⬜      |
+| Smalltalk         |    ✅    |   ⬜   |      ⬜      |      ⬜      |
+| Solidity          |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| SPARK             |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| Spin (Parallax)   |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| SQL               |    ✅    |   ✅   |      ✅      |      ⬜      |
+| Squeak            |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Squirrel          |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Standard ML       |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Stata             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Storm             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| STRIPS            |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Structured Text   |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Swift             |    ✅    |   ⬜   |      ⬜      |      ⬜      |
+| Tcl               |    ✅    |   ⬜   |      ⬜      |      ⬜      |
+| Tern              |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Toi               |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Transact-SQL      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Typescript        |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| Unicon            |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| V                 |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| Vala              |    ✅    |   ⬜   |      ⬜      |      ⬜      |
+| Vale              |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| VBScript          |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Verilog           |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| VHDL              |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| Visual Basic .NET |    ✅    |   ⬜   |      ⬜      |      ⬜      |
+| Visual Basic (6)  |    ⛔    |   ⬜   |      ⬜      |      ⬜      |
+| Wenyan (文言)     |    ✅    |   ⛔   |      ⬜      |      ⬜      |
+| Whiley            |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Wolfram           |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Wren              |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| X++               |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| X10               |    ✅    |   ⬜   |      ⬜      |      ⬜      |
+| Xojo              |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Xtend             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Zig               |    ✅    |   ✅   |      ✅      |      ⬜      |
+| _Count..._        |  _102_  | _50_  |    _11_     |      ⬜      |
 
 **Legend**
 
