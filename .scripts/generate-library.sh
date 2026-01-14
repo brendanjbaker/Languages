@@ -25,6 +25,7 @@ echo >> "$output_path"
 declare -p \
 	cache_directory \
 	hash_program \
+	$(compgen -v CHARACTER_) \
 	$(compgen -v COLOR_) \
 	$(compgen -v INT_) \
 	$(compgen -v INTEGER_) \
