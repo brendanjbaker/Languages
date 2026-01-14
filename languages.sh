@@ -582,6 +582,7 @@ function run_all_parallel {
 	options=("${arguments[@]:0:${#arguments[@]}-1}")
 	pairs=$(list_pairs)
 	concurrency=$(nproc)
+	concurrency=$((concurrency + (concurrency / 2)))
 
 	parallel \
 		--colsep "$CHARACTER_SPACE" \
