@@ -128,7 +128,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 
 **Invalid input examples**
 
-* (Empty string)
+* _Empty string_
 * `x`
 * `xxxx`
 * `-1`
@@ -140,7 +140,7 @@ These programs are intended to demonstrate unique or interesting language featur
 
 Test requirements are loose:
 
-* There must be output (stdout).
+* There must be standard output (stdout).
 * There must not be error output (stderr).
 * Exit status must be 0.
 
