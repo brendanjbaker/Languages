@@ -15,9 +15,9 @@ fi
 
 source library
 
-declare output_path='.lib/library.bash'
+declare output_path='lib/library.bash'
 
-mkdir -p '.lib'
+mkdir -p 'lib'
 rm -f "$output_path"
 echo 'set -Eeuo pipefail' >> "$output_path"
 echo >> "$output_path"

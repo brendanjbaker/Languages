@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # shellcheck disable=SC1091
-source "$(dirname -- "${BASH_SOURCE[0]}")/.lib/library.bash"
+source "$(dirname -- "${BASH_SOURCE[0]}")/lib/library.bash"
 
 declare program_name="languages.sh"
 declare version="0.0.0.0"
@@ -29,9 +29,9 @@ declare system_hash
 
 root_directory=$(program::get_script_directory)
 root_directory_native=$(path::convert --mixed "$root_directory")
-base_hash=$(directory::hash "$root_directory/.docker/base")
+base_hash=$(directory::hash "$root_directory/docker/base")
 base_hash=$(string::hash --length 16 "$base_hash")
-system_hash=$(directory::hash "$root_directory/.docker/system")
+system_hash=$(directory::hash "$root_directory/docker/system")
 system_hash=$(string::hash --length 16 "${base_hash}${system_hash}")
 
 function clean {
@@ -43,7 +43,7 @@ function clean {
 
 	set -x
 
-	rm -fr "$root_directory/.cache"
+	rm -fr "$root_directory/cache"
 	rm -f "/tmp/languages-image-list"
 
 	containers=$( \
@@ -152,8 +152,8 @@ function initialize {
 		cache_image_list
 		stop_running_containers
 
-		if [[ ! -d "$root_directory/.cache" ]]; then
-			mkdir -p "$root_directory/.cache"
+		if [[ ! -d "$root_directory/cache" ]]; then
+			mkdir -p "$root_directory/cache"
 		fi
 	fi
 
@@ -171,7 +171,7 @@ function is_parallel_worker {
 function language_exists {
 	language="$1"
 
-	if [[ -d "$root_directory/$language" ]]; then
+	if [[ -d "$root_directory/src/$language" ]]; then
 		return "$STATUS_TRUE"
 	else
 		return "$STATUS_FALSE"
@@ -210,7 +210,7 @@ function list_languages {
 	fi
 
 	for language in $languages; do
-		if [[ -f "$root_directory/$language/.skip" ]]; then
+		if [[ -f "$root_directory/src/$language/.skip" ]]; then
 			continue
 		fi
 
@@ -230,14 +230,14 @@ function list_programs {
 	local language="${1:?}"
 	local programs
 
-	programs=$(directory::list_subdirectories --exclude-hidden "$root_directory/$language")
+	programs=$(directory::list_subdirectories --exclude-hidden "$root_directory/src/$language")
 
 	if [[ "$option_reverse" == "true" ]]; then
 		programs=$(echo "$programs" | sort --reverse)
 	fi
 
 	for program in $programs; do
-		if [[ -f "$root_directory/$language/$program/.skip" ]]; then
+		if [[ -f "$root_directory/src/$language/$program/.skip" ]]; then
 			continue
 		fi
 
@@ -360,7 +360,7 @@ function program_exists {
 	language="$1"
 	program="$2"
 
-	if [[ -d "$root_directory/$language/$program" ]]; then
+	if [[ -d "$root_directory/src/$language/$program" ]]; then
 		return "$STATUS_TRUE"
 	else
 		return "$STATUS_FALSE"
@@ -390,9 +390,9 @@ function run {
 		"--env" "PROGRAM=$program"
 		"--env" "TEST=$option_test")
 
-	language_hash=$(directory::hash "$root_directory/$language/.language")
-	program_hash=$(directory::hash "$root_directory/$language/$program")
-	tests_hash=$(directory::hash "$root_directory/.tests")
+	language_hash=$(directory::hash "$root_directory/src/$language/.language")
+	program_hash=$(directory::hash "$root_directory/src/$language/$program")
+	tests_hash=$(directory::hash "$root_directory/tests")
 
 	language_hash=$(string::hash --length 16 "${base_hash}${system_hash}${language_hash}")
 	program_hash=$(string::hash --length 16 "${base_hash}${system_hash}${language_hash}${program_hash}${tests_hash}")
@@ -413,7 +413,7 @@ function run {
 		fi
 
 		podman build \
-			--file "$root_directory_native/.docker/base/base.dockerfile" \
+			--file "$root_directory_native/docker/base/base.dockerfile" \
 			--tag "languages-base:intermediate" \
 			"${build_quiet_argument[@]}" \
 			"$root_directory_native" > "$stdout"
@@ -442,7 +442,7 @@ function run {
 		fi
 
 		podman build \
-			--file "$root_directory_native/.docker/system/system.dockerfile" \
+			--file "$root_directory_native/docker/system/system.dockerfile" \
 			--tag "languages-system:latest" \
 			--tag "languages-system:$system_hash" \
 			"${build_quiet_argument[@]}" \
@@ -456,7 +456,7 @@ function run {
 
 		podman build \
 			--build-arg LANGUAGE="$language" \
-			--file "$root_directory_native/.docker/language/language.dockerfile" \
+			--file "$root_directory_native/docker/language/language.dockerfile" \
 			--tag "languages-$language:latest" \
 			"${build_quiet_argument[@]}" \
 			"$root_directory_native" > "$stdout"
@@ -464,7 +464,7 @@ function run {
 		container_id=$( \
 			podman run \
 				--detach \
-				--mount "type=bind,source=$root_directory/.cache,target=/cache" \
+				--mount "type=bind,source=$root_directory/cache,target=/cache" \
 				--privileged \
 				--systemd=always \
 				"languages-$language")
@@ -488,7 +488,7 @@ function run {
 		podman build \
 			--build-arg LANGUAGE="$language" \
 			--build-arg PROGRAM="$program" \
-			--file "$root_directory_native/.docker/program/program.dockerfile" \
+			--file "$root_directory_native/docker/program/program.dockerfile" \
 			--tag "languages-$language-$program:latest" \
 			--tag "languages-$language-$program:$program_hash" \
 			"${build_quiet_argument[@]}" \
@@ -520,7 +520,7 @@ function run {
 			arguments+=("/usr/bin/bash" "/entrypoint.sh")
 
 			# shellcheck disable=SC1090
-			source "$root_directory/.program/$program/configuration.sh"
+			source "$root_directory/program/$program/configuration.sh"
 		fi
 
 		podman exec "${arguments[@]}" 2>&1 && result=$? || result=$?
@@ -628,20 +628,20 @@ function run_program {
 	local language_properties_path
 	local program_properties_path
 
-	language_properties_path="$root_directory/$language/.language/$language_properties_filename"
-	program_properties_default_path="$root_directory/.program/$program/$program_properties_filename"
-	program_properties_override_path="$root_directory/$language/$program/$program_properties_filename"
+	language_properties_path="$root_directory/src/$language/.language/$language_properties_filename"
+	program_properties_default_path="$root_directory/program/$program/$program_properties_filename"
+	program_properties_override_path="$root_directory/src/$language/$program/$program_properties_filename"
 
 	if [[ -f "$program_properties_override_path" ]]; then
 		program_properties_path="$program_properties_override_path"
 	elif [[ -f "$program_properties_default_path" ]]; then
 		program_properties_path="$program_properties_default_path"
 	else
-		error "Missing \"$program_properties_filename\" file in \"$language/$program\" directory."
+		error "Missing \"$program_properties_filename\" file in \"src/$language/$program\" directory."
 	fi
 
 	if [[ ! -f "$language_properties_path" ]]; then
-		error "Missing \"$language_properties_filename\" file in \"$language\" directory."
+		error "Missing \"$language_properties_filename\" file in \"src/$language\" directory."
 	fi
 
 	unset language_name

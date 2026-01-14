@@ -7,7 +7,7 @@ ARG PROGRAM
 
 WORKDIR /tests
 
-COPY /.tests/ .
+COPY /tests/ .
 
 WORKDIR /app
 

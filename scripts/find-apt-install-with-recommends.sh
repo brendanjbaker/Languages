@@ -2,6 +2,6 @@
 
 grep -Fr "apt-get install" \
 | grep -v 'no-install-recommends' \
-| grep -v '^\.scripts/' \
+| grep -v '^scripts/' \
 | awk --field ':' '{ print $1; }' \
 || true

@@ -4,5 +4,5 @@ ARG LANGUAGE
 
 WORKDIR /setup/language
 
-COPY /.docker/language/setup/ .
+COPY /docker/language/setup/ .
 COPY /${LANGUAGE}/.language/* .
