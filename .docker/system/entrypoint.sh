@@ -2,6 +2,12 @@
 
 set -Eeuo pipefail
 
+export DEBUG="${DEBUG:-false}"
+export DEBUG_DOCKER="${DEBUG_DOCKER:-false}"
+export DEBUG_PROGRAM="${DEBUG_PROGRAM:-false}"
+export DEBUG_SETUP="${DEBUG_SETUP:-false}"
+export TEST="${TEST:-false}"
+
 export PATH="/snap/bin:$PATH"
 
 if [[ "${TEST:-false}" == "true" ]]; then
