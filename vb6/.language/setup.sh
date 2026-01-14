@@ -2,7 +2,7 @@
 
 export DEBIAN_FRONTEND="noninteractive"
 
-apt-get install cabextract
+apt-get install -y --no-install-recommends cabextract
 
 dpkg --add-architecture i386
 apt-get update
