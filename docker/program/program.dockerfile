@@ -11,4 +11,4 @@ COPY /tests/ .
 
 WORKDIR /app
 
-COPY /${LANGUAGE}/${PROGRAM}/ .
+COPY /src/${LANGUAGE}/${PROGRAM}/ .
