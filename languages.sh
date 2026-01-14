@@ -39,29 +39,58 @@ function clean {
 	local containers
 	local images
 
+	start_docker_if_necessary
+
 	set -x
+
+	rm -fr "$root_directory/.cache"
+	rm -f "/tmp/languages-image-list"
 
 	containers=$( \
 		podman container list --all --external --noheading \
 		| ( grep -E "$pattern" || true ) \
 		| awk '{ print $1 }')
 
-	for container in $containers; do
-		podman container stop "$container" || true
-		podman container rm --force "$container"
-	done
+	if [[ -n "$containers" ]]; then
+		echo "$containers" | xargs -n 10 --verbose -- podman container rm --force --volumes
+	fi
 
 	images=$( \
 		podman image list --noheading \
 		| ( grep -E "$pattern" || true ) \
 		| awk '{ print $1 ":" $2 }')
 
-	for image in $images; do
-		podman image rm "$image"
-	done
+	if [[ -n "$images" ]]; then
+		echo "$images" | xargs -n 100 --verbose -- podman image rm --force --ignore
+	fi
 
-	podman builder prune --force
+	podman builder prune --force --external
 	podman volume prune --force
+
+	podman machine ssh <<- EOF
+		sudo fstrim -av
+		EOF
+
+	podman system prune --force
+
+	if platform::is_windows_or_wsl; then
+		local vhdx_path_windows
+		local vhdx_path="$HOME/.local/share/containers/podman/machine/wsl/wsldist/podman-machine-default/ext4.vhdx"
+
+		if [[ -f "$vhdx_path" ]]; then
+			vhdx_path_windows=$(path::convert -w "$vhdx_path")
+
+			podman machine stop
+			wsl --shutdown
+
+			sudo diskpart.exe <<- EOF
+				SELECT VDISK FILE="$vhdx_path_windows"
+				ATTACH VDISK READONLY
+				COMPACT VDISK
+				DETACH VDISK
+				EOF
+		fi
+	fi
 }
 
 function cache_image_list {
@@ -104,7 +133,9 @@ function colorize {
 function image_exists {
 	local name="$1"
 
-	if grep "^$name\$" > /dev/null < "/tmp/languages-image-list"; then
+	if [[ ! -f "/tmp/languages-image-list" ]]; then
+		docker::image_exists "$1"
+	elif grep "^$name\$" > /dev/null < "/tmp/languages-image-list"; then
 		return "$STATUS_TRUE"
 	else
 		docker::image_exists "$1"
@@ -120,6 +151,10 @@ function initialize {
 		start_docker_if_necessary
 		cache_image_list
 		stop_running_containers
+
+		if [[ ! -d "$root_directory/.cache" ]]; then
+			mkdir -p "$root_directory/.cache"
+		fi
 	fi
 
 	initialized="true"
@@ -378,7 +413,6 @@ function run {
 		fi
 
 		podman build \
-			--build-arg DEBUG_DOCKER="$option_debug_docker" \
 			--file "$root_directory_native/.docker/base/base.dockerfile" \
 			--tag "languages-base:intermediate" \
 			"${build_quiet_argument[@]}" \
@@ -408,7 +442,6 @@ function run {
 		fi
 
 		podman build \
-			--build-arg DEBUG_DOCKER="$option_debug_docker" \
 			--file "$root_directory_native/.docker/system/system.dockerfile" \
 			--tag "languages-system:latest" \
 			--tag "languages-system:$system_hash" \
@@ -422,7 +455,6 @@ function run {
 		fi
 
 		podman build \
-			--build-arg DEBUG_DOCKER="$option_debug_docker" \
 			--build-arg LANGUAGE="$language" \
 			--file "$root_directory_native/.docker/language/language.dockerfile" \
 			--tag "languages-$language:latest" \
@@ -432,6 +464,7 @@ function run {
 		container_id=$( \
 			podman run \
 				--detach \
+				--mount "type=bind,source=$root_directory/.cache,target=/cache" \
 				--privileged \
 				--systemd=always \
 				"languages-$language")
