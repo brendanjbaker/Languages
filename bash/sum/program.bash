@@ -8,5 +8,4 @@ for i in {1..100}; do
 	sum+=$(( i ))
 done
 
-
 echo "$sum"
