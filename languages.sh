@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
 
+if [ -z "$BASH_VERSION" ]; then
+	echo "This is a Bash-only script." >&2
+	exit 1
+fi
+
 # shellcheck disable=SC1091
 source "$(dirname -- "${BASH_SOURCE[0]}")/lib/library.bash"
 
