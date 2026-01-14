@@ -203,7 +203,7 @@ function list {
 function list_languages {
 	local languages
 
-	languages=$(directory::list_subdirectories --exclude-hidden "$root_directory")
+	languages=$(directory::list_subdirectories --exclude-hidden "$root_directory/src")
 
 	if [[ "$option_reverse" == "true" ]]; then
 		languages=$(echo "$languages" | sort --reverse)
