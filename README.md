@@ -1,12 +1,24 @@
-# Readme
-
 ## Summary
 
 This repository contains examples of 100+ programming languages.
 
 Besides just showing example programs, the programs are runnable in a reproducible manner via Dockerfiles. Additionally, the programs are unit tested to ensure they indeed produce the expected output(s).
 
-## Technical
+## Contents
+
+- [Summary](#summary)
+- [Contents](#contents)
+- [Technical background](#technical-background)
+- [Help](#help)
+- [Usage examples](#usage-examples)
+- [Programs](#programs)
+	- [`hello`](#hello)
+	- [`sum`](#sum)
+	- [`microwave`](#microwave)
+	- [`freestyle`](#freestyle)
+- [Checklist](#checklist)
+
+## Technical background
 
 Podman is used to build and execute a multi-layer image.
 
@@ -53,7 +65,7 @@ Commands:
   run <LANGUAGE> <PROGRAM>   Run a specific language's program.
 ```
 
-## Example usages
+## Usage examples
 
 * List available languages and programs:
   * `./languages.sh list`
@@ -96,7 +108,7 @@ Correct behavior is based on the _Whirlpool WMH31017HZ-2_ (my kitchen microwave)
 
 Do not run a microwave without something in it to absorb the magnetron's radiation, or your microwave may damage itself. I used a large bowl of water to test behavior for inputs such as `9999`.
 
-#### Valid input examples
+**Valid input examples**
 
 |                  |                 |                  |                  |
 | ---------------: | --------------: | ---------------: | ---------------: |
@@ -114,7 +126,7 @@ Do not run a microwave without something in it to absorb the magnetron's radiati
 |                  | `201` → `02:01` |                  |                  |
 |                  | `959` → `09:59` |                  |                  |
 
-#### Invalid input examples
+**Invalid input examples**
 
 * (Empty string)
 * `x`
@@ -132,7 +144,7 @@ Test requirements are loose:
 * There must not be error output (stderr).
 * Exit status must be 0.
 
-## Languages
+## Checklist
 
 | Language          | `hello` | `sum` | `microwave` | `freestyle` |
 | ----------------- | :-----: | :---: | :---------: | :---------: |
