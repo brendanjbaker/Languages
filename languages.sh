@@ -96,6 +96,9 @@ function clean {
 				EOF
 		fi
 	fi
+
+	# TODO: Why is this file being created?
+	rm -f "$root_directory/NUL"
 }
 
 function cache_image_list {
