@@ -9,7 +9,11 @@ apt-get install -y --no-install-recommends \
 mkdir -p '/opt/factor'
 mkdir -p '/tmp/factor'
 pushd '/tmp/factor'
-wget --quiet 'https://downloads.factorcode.org/releases/0.101/factor-linux-x86-64-0.101.tar.gz'
+
+download \
+	--url 'https://downloads.factorcode.org/releases/0.101/factor-linux-x86-64-0.101.tar.gz' \
+	--hash '37ad7d49bd29a281372d0ddb11b468ce69313dba'
+
 tar -xvf 'factor-linux-x86-64-0.101.tar.gz' -C '/opt/factor'
 popd
 pushd '/opt/factor'

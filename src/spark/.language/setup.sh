@@ -9,7 +9,11 @@ apt-get install -y --no-install-recommends \
 
 mkdir -p '/tmp/alr'
 pushd '/tmp/alr'
-wget --quiet 'https://github.com/alire-project/alire/releases/download/v2.1.0/alr-2.1.0-bin-x86_64-linux.zip'
+
+download \
+	--url 'https://github.com/alire-project/alire/releases/download/v2.1.0/alr-2.1.0-bin-x86_64-linux.zip' \
+	--hash '30daf6f5189624e1cd1516ff6e8386bc9a13587f'
+
 unzip 'alr-2.1.0-bin-x86_64-linux.zip'
 mkdir -p '/opt/alr/2.1.0/bin'
 mv 'bin/alr' '/opt/alr/2.1.0/bin'

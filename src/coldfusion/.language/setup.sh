@@ -10,7 +10,11 @@ apt-get install -y --no-install-recommends \
 mkdir -p '/opt/coldfusion'
 mkdir -p '/tmp/coldfusion'
 pushd '/tmp/coldfusion'
-wget --quiet 'https://cfdownload.adobe.com/pub/adobe/coldfusion/2025/zipinstaller/ColdFusion_2025_WWEJ_linux64.zip'
+
+download \
+	--url 'https://cfdownload.adobe.com/pub/adobe/coldfusion/2025/zipinstaller/ColdFusion_2025_WWEJ_linux64.zip' \
+	--hash '0bd0ba968c9b15f30c7878edfe5fe90e75216e55'
+
 unzip 'ColdFusion_2025_WWEJ_linux64.zip'
 unzip 'ColdFusion_WWEJ_linux64.zip' -d '/opt/coldfusion'
 popd

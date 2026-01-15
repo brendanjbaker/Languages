@@ -13,9 +13,15 @@ apt-get install -y --no-install-recommends \
 
 export ZIP="$(which unzip)"
 
-wget --quiet https://ftp.gnu.org/gnu/smalltalk/smalltalk-3.2.5.tar.gz
-tar xvf smalltalk-3.2.5.tar.gz
-cd "smalltalk-3.2.5"
+mkdir -p '/tmp/smalltalk'
+pushd '/tmp/smalltalk'
+
+download \
+	--url 'https://ftp.gnu.org/gnu/smalltalk/smalltalk-3.2.5.tar.gz' \
+	--hash '4dd77b769131527add276ded01666e089da3b8b1'
+
+tar -xvf 'smalltalk-3.2.5.tar.gz'
+pushd 'smalltalk-3.2.5'
 ./configure
 
 # On Debian 13 (but not 12), we need "-Wno-error=incompatible-pointer-types".
@@ -23,3 +29,6 @@ make CFLAGS="-g -O2 -Wno-error=incompatible-pointer-types"
 
 # Running "make install" exits with status 2, but it seems to work anyway.
 make install || true
+
+popd; popd
+rm -fr '/tmp/smalltalk'

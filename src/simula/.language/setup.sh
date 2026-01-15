@@ -11,15 +11,13 @@ apt-get install -y --no-install-recommends \
 	wget
 
 declare filename='cim-5.1.tar.gz'
-declare url="https://ftp.gnu.org/gnu/cim/$filename"
 
 mkdir -p /usr/local/cim
 pushd /usr/local/cim
 
-wget \
-	--output-document "$filename" \
-	--quiet \
-	"$url"
+download \
+	--url "https://ftp.gnu.org/gnu/cim/$filename" \
+	--hash '270a63098f417c91d9e65e5745bb31c1e947e668'
 
 tar -xf "$filename"
 mv "cim-5.1" "5.1"

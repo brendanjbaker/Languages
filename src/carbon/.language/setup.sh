@@ -16,12 +16,10 @@ pushd "/usr/local/carbon"
 declare version="0.0.0-0.nightly.2026.01.04"
 declare moniker="carbon_toolchain-$version"
 declare filename="$moniker.tar.gz"
-declare url="https://github.com/carbon-language/carbon-lang/releases/download/v$version/$filename"
 
-wget \
-	--output-document "$filename" \
-	--quiet \
-	"$url"
+download \
+	--url "https://github.com/carbon-language/carbon-lang/releases/download/v$version/$filename" \
+	--hash '9eeceb22b6b0586ff727b9f049ec9b3b85fe164e'
 
 tar -xvf "$filename" > /dev/null
 rm "$filename"

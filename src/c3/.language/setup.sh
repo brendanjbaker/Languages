@@ -4,18 +4,16 @@ set -Eeuo pipefail
 
 export DEBIAN_FRONTEND="noninteractive"
 
-declare download_url="https://github.com/c3lang/c3c/releases/download/v0.7.8/c3-linux.tar.gz"
-declare opt_name="c3-0.7.8"
+mkdir '/opt/c3'
+mkdir '/tmp/c3'
+pushd '/tmp/c3'
 
-declare -a links=(
-	"c3/c3c"
-	)
+download \
+	--url 'https://github.com/c3lang/c3c/releases/download/v0.7.8/c3-linux.tar.gz' \
+	--hash 'e35a4a02fc6384f714f7bd9811565ae621b16c9c'
 
-mkdir -p "/opt/$opt_name"
-wget --quiet "$download_url" -O download.tar.gz
-tar xvf download.tar.gz -C "/opt/$opt_name"
-rm download.tar.gz
-
-for link in "${links[@]}"; do
-	ln -s "/opt/$opt_name/$link" "/usr/bin/$(basename "$link")"
-done
+tar -xvf 'c3-linux.tar.gz' -C '/opt/c3'
+popd
+rm -fr '/tmp/c3'
+mv '/opt/c3/c3' '/opt/c3/0.7.8'
+ln -s "/opt/c3/0.7.8/c3c" "/usr/bin/c3c"

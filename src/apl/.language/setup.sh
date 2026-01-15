@@ -6,12 +6,17 @@ apt-get install -y --no-install-recommends \
 	build-essential \
 	libncurses-dev
 
-mkdir -p /usr/local/apl
-pushd /usr/local/apl
-wget https://ftp.gnu.org/gnu/apl/apl-1.9.tar.gz
-tar -xzf apl-1.9.tar.gz
-mv apl-1.9 1.9
-cd 1.9
+mkdir -p '/usr/local/apl'
+pushd '/usr/local/apl'
+
+download \
+	--url 'https://ftp.gnu.org/gnu/apl/apl-1.9.tar.gz' \
+	--hash '594f18c8fd197dc8088ecf94b613247e7763890e'
+
+tar -xzf 'apl-1.9.tar.gz'
+mv 'apl-1.9' '1.9'
+pushd '1.9'
 ./configure
 make
 make install
+popd; popd

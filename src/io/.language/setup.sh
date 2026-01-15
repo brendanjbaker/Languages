@@ -41,11 +41,15 @@ apt-get install -y --no-install-recommends \
 	uuid-dev \
 	zlib1g-dev
 
-pushd /tmp
-wget --quiet 'https://iobin.suspended-chord.info/linux/iobin-linux-x64-deb-current.zip'
+mkdir '/tmp/io'
+pushd '/tmp/io'
+
+download \
+	--url 'https://iobin.suspended-chord.info/linux/iobin-linux-x64-deb-current.zip' \
+	--hash 'fb7f59563a3e09e485a5dc2e7fa140f6cd9deb64'
+
 unzip 'iobin-linux-x64-deb-current.zip'
 dpkg -i 'IoLanguage-2013.11.04-Linux-x64.deb'
 ldconfig
-rm ./*.deb
-rm ./*.zip
 popd
+rm -fr '/tmp/io'
