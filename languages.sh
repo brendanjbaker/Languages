@@ -57,7 +57,7 @@ function clean {
 		| awk '{ print $1 }')
 
 	if [[ -n "$containers" ]]; then
-		echo "$containers" | xargs -n 10 --verbose -- podman container rm --force --volumes
+		echo "$containers" | xargs -n 25 --verbose -- podman container rm --force --volumes
 	fi
 
 	images=$( \
@@ -66,7 +66,7 @@ function clean {
 		| awk '{ print $1 ":" $2 }')
 
 	if [[ -n "$images" ]]; then
-		echo "$images" | xargs -n 100 --verbose -- podman image rm --force --ignore
+		echo "$images" | xargs -n 25 --verbose -- podman image rm --force --ignore
 	fi
 
 	podman builder prune --force --external
