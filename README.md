@@ -213,7 +213,7 @@ Test requirements are loose:
 | Haskell                          |    ✅    |   ⬜   |      ⬜      |      ⬜      |
 | Hax                              |    ✅    |   ⬜   |      ⬜      |      ⬜      |
 | Hopper                           |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
-| HTML                             |    ✅    |   ⬜   |      ⬜      |      ⬜      |
+| [HTML](src/html/README.md)       |    ✅    |   ⚠️   |      ⚠️      |      ⚠️      |
 | HyperTalk                        |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Icon                             |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Inform                           |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
