@@ -1,0 +1,7 @@
+$sum: 0;
+
+@for $i from 0 through 100 {
+	$sum: $sum + $i;
+}
+
+@debug $sum;
