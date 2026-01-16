@@ -14,7 +14,7 @@ download \
 	--url 'https://dl-ssl.google.com/linux/linux_signing_key.pub' \
 	--hash 'ed611b30fb48b4973ea643b81e60bd40b1b86369'
 
-cat 'linux_signing_key.pub' | gpg --dearmor -o /usr/share/keyrings/dart.gpg
+cat 'linux_signing_key.pub' | gpg --dearmor -o '/usr/share/keyrings/dart.gpg'
 popd
 rm -fr '/tmp/dart'
 
