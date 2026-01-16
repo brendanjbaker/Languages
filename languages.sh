@@ -229,6 +229,10 @@ function list_languages {
 function list_pairs {
 	for language in $(list_languages); do
 		for program in $(list_programs "$language"); do
+			if [[ -f "$root_directory/src/$language/.disable" ]]; then
+				continue
+			fi
+
 			printf '%s %s\n' "$language" "$program"
 		done
 	done
@@ -597,6 +601,10 @@ function run_all_parallel {
 
 function run_all_sequential {
 	for language in $(list_languages); do
+		if [[ -f "$root_directory/src/$language/.disable" ]]; then
+			continue
+		fi
+
 		run_language "$language"
 	done
 }
