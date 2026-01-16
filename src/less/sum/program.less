@@ -1,0 +1,9 @@
+.sum(@i, @acc) when (@i <= 100) {
+	.sum(@i + 1, @acc + @i);
+}
+
+.sum(@i, @acc) when (@i > 100) {
+	@warn "@{acc}";
+}
+
+.sum(0, 0);
