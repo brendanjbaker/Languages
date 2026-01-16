@@ -685,7 +685,7 @@ function start_docker_if_necessary {
 		return
 	fi
 
-	status::temporary "Starting Docker..."
+	status::temporary "Starting container service..."
 	docker::start
 	status::temporary --clear
 }
