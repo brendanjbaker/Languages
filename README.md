@@ -336,14 +336,13 @@ Test requirements are loose:
 | Visual Basic (6)                 |    ⛔    |   ⬜   |      ⬜      |      ⬜      |
 | Wenyan (文言)                    |    ✅    |   ⛔   |      ⬜      |      ⬜      |
 | Whiley                           |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
-| Wolfram                          |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| [Wolfram](src/wolfram/README.md) |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Wren                             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
-| X++                              |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | X10                              |    ✅    |   ⬜   |      ⬜      |      ⬜      |
 | Xojo                             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Xtend                            |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Zig                              |    ✅    |   ✅   |      ✅      |      ⬜      |
-| _Count..._                       |  _107_  | _55_  |    _11_     |     _1_     |
+| _Count..._                       |  _108_  | _56_  |    _11_     |     _1_     |
 
 **Legend**
 
