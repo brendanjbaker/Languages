@@ -217,6 +217,7 @@ Test requirements are loose:
 | HyperTalk                        |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Icon                             |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Inform                           |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Ink                              |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Io                               |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Irdis                            |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | J                                |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
@@ -253,6 +254,7 @@ Test requirements are loose:
 | Nit                              |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Nix                              |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | NXT-G                            |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Oak                              |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Oberon                           |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Object Pascal                    |    ✅    |   ⬜   |      ⬜      |      ⬜      |
 | Objective-C                      |    ✅    |   ⬜   |      ⬜      |      ⬜      |
@@ -337,7 +339,7 @@ Test requirements are loose:
 | Xojo                             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Xtend                            |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Zig                              |    ✅    |   ✅   |      ✅      |      ⬜      |
-| _Count..._                       |  _102_  | _50_  |    _11_     |     _1_     |
+| _Count..._                       |  _104_  | _52_  |    _11_     |     _1_     |
 
 **Legend**
 
