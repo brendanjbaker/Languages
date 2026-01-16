@@ -1,0 +1,15 @@
+fmt := import('fmt')
+std := import('std')
+
+fn main() {
+	fmt.printf('{{ 0 }}', sum_range(0, 100))
+}
+
+fn sum_range(begin, end) {
+	numbers := std.range(begin, end + 1)
+	sum := numbers |> std.reduce(0, fn(acc, n) acc + n)
+
+	sum
+}
+
+main()
