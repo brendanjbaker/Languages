@@ -1,0 +1,7 @@
+std := import('std')
+
+fn main() {
+	std.println('Hello, world!')
+}
+
+main()
