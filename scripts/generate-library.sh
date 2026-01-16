@@ -25,6 +25,7 @@ echo >> "$output_path"
 declare -p \
 	cache_directory \
 	hash_program \
+	TAB \
 	$(compgen -v CHARACTER_) \
 	$(compgen -v COLOR_) \
 	$(compgen -v INT_) \
@@ -55,6 +56,7 @@ declare -f \
 	error \
 	error::error \
 	error::usage \
+	indent \
 	integer::is_integer \
 	path::convert \
 	platform::get_kernel_type \
@@ -65,6 +67,8 @@ declare -f \
 	program::get_script_directory \
 	program::get_script_path \
 	status::temporary \
+	stdin::is_interactive \
+	stdin::is_not_interactive \
 	stdin::is_not_piped \
 	stdin::is_piped \
 	stdout::is_interactive \

@@ -2,6 +2,7 @@ set -Eeuo pipefail
 
 declare -x cache_directory="/tmp/library-cache"
 declare -x hash_program="/usr/bin/sha256sum"
+declare -x TAB="    "
 declare -x CHARACTER_AMPERSAND="&"
 declare -x CHARACTER_ASTERISK="*"
 declare -x CHARACTER_AT="@"
@@ -418,6 +419,17 @@ error::usage ()
 { 
     PREAMBLE="Usage" error::error "$@"
 }
+indent () 
+{ 
+    if [[ $# -ne 0 ]]; then
+        error "Usage: indent";
+    fi;
+    declare PREFIX="${COLOR_GRAY}${CHARACTER_GT}${COLOR_RESET}${TAB}";
+    if stdin::is_interactive; then
+        return;
+    fi;
+    sed "s/^/$PREFIX/"
+}
 integer::is_integer () 
 { 
     if [[ $# -ne 1 ]]; then
@@ -717,6 +729,21 @@ status::temporary ()
             echo -en "${TERMINAL_CLEAR}${COLOR_GRAY}${message}${COLOR_RESET}" > /dev/tty;
         fi;
     fi
+}
+stdin::is_interactive () 
+{ 
+    if [[ $# -ne 0 ]]; then
+        error::usage "stdin::is_interactive";
+    fi;
+    if [[ -t 0 ]]; then
+        return "$STATUS_TRUE";
+    else
+        return "$STATUS_FALSE";
+    fi
+}
+stdin::is_not_interactive () 
+{ 
+    ! stdin::is_interactive "$@"
 }
 stdin::is_not_piped () 
 { 
