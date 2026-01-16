@@ -17,6 +17,7 @@ Besides just showing example programs, the programs are runnable in a reproducib
 	- [`microwave`](#microwave)
 	- [`freestyle`](#freestyle)
 - [Checklist](#checklist)
+- [Cheating](#cheating)
 
 ## Technical background
 
@@ -180,6 +181,7 @@ Test requirements are loose:
 | ColdFusion                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Cowgol                           |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Crystal                          |    ✅    |   ⬜   |      ⬜      |      ⬜      |
+| [CSS](src/css/README.md)         |    ✅    |   ✅   |      ⚠️      |      ⚠️      |
 | D                                |    ✅    |   ✅   |      ✅      |      ⬜      |
 | Dart                             |    ✅    |   ⬜   |      ⬜      |      ⬜      |
 | Daslang                          |    ✅    |   ✅   |      ⬜      |      ⬜      |
@@ -232,6 +234,7 @@ Test requirements are loose:
 | Kotlin                           |    ✅    |   ⬜   |      ⬜      |      ⬜      |
 | LabVIEW                          |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Ladder Logic                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Less                             |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Lily                             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Lisp                             |    ✅    |   ⬜   |      ⬜      |      ⬜      |
 | Lobster                          |    ✅    |   ✅   |      ⬜      |      ⬜      |
@@ -293,6 +296,7 @@ Test requirements are loose:
 | Ruby                             |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Rust                             |    ✅    |   ✅   |      ✅      |      ⬜      |
 | SAS                              |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Sass                             |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Sather                           |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Scala                            |    ✅    |   ⬜   |      ⬜      |      ⬜      |
 | Scheme                           |    ✅    |   ⬜   |      ⬜      |      ⬜      |
@@ -337,7 +341,7 @@ Test requirements are loose:
 | Xojo                             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Xtend                            |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Zig                              |    ✅    |   ✅   |      ✅      |      ⬜      |
-| _Count..._                       |  _102_  | _50_  |    _11_     |     _1_     |
+| _Count..._                       |  _105_  | _53_  |    _11_     |     _1_     |
 
 **Legend**
 
@@ -347,3 +351,9 @@ Test requirements are loose:
 |   ⚠️    | Unimplementable |
 |   ⛔    | Failing         |
 |   ⬜    | Unimplemented   |
+
+## Cheating
+
+Some programs require "cheating" to express output and/or pass tests.
+
+See the [cheating](./notes/Cheating.md) page for additional information.
