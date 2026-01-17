@@ -1,0 +1,17 @@
+using System;
+using System.Console;
+
+module Program
+{
+	Main() : void
+	{
+		mutable sum = 0;
+
+		for (mutable i = 0; i <= 100; i++)
+		{
+			sum += i;
+		}
+
+		WriteLine(sum);
+	}
+}
