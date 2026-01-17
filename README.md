@@ -187,7 +187,7 @@ Test requirements are loose:
 | Daslang                          |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | dBase                            |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Delphi                           |    ✅    |   ⬜   |      ⬜      |      ⬜      |
-| E                                |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| E                                |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Eiffel                           |    ✅    |   ⬜   |      ⬜      |      ⬜      |
 | Elixir                           |    ✅    |   ⬜   |      ⬜      |      ⬜      |
 | Elm                              |    ✅    |   ✅   |      ⬜      |      ⬜      |
@@ -250,7 +250,7 @@ Test requirements are loose:
 | Modula-3                         |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Mojo                             |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | NATURAL                          |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
-| Nemerle                          |    ⛔    |   ⬜   |      ⬜      |      ⬜      |
+| Nemerle                          |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Never                            |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Newspeak                         |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Nim                              |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
@@ -342,7 +342,7 @@ Test requirements are loose:
 | Xojo                             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Xtend                            |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Zig                              |    ✅    |   ✅   |      ✅      |      ⬜      |
-| _Count..._                       |  _108_  | _56_  |    _11_     |     _1_     |
+| _Count..._                       |  _110_  | _58_  |    _11_     |     _1_     |
 
 **Legend**
 
