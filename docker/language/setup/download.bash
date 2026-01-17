@@ -67,7 +67,7 @@ function download {
 			echo "Found \"$filename\" in cache."
 		else
 			echo "Downloading \"$filename\"..."
-			wget --quiet --output-document="/cache/$filename" "$option_url"
+			wget --no-check-certificate --quiet --output-document="/cache/$filename" "$option_url"
 		fi
 	}
 
