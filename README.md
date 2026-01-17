@@ -46,17 +46,17 @@ Usage:
   languages.sh [options] <command>
 
 Options:
-  --debug           Debug everything.
-  --debug-docker    Debug docker building, etc.
-  --debug-program   Debug program execution.
-  --debug-setup     Debug language setup script.
-  --help            Show this help message.
-  --interactive     Begin an interaction session.
-  --parallel        Runs multiple programs concurrently.
-  --prime           Pre-generates image(s) without running them.
-  --reverse         Runs programs in reverse order.
-  --test            Run unit tests.
-  --version         Show version information.
+  --debug             Debug everything.
+  --debug-container   Debug container building, etc.
+  --debug-program     Debug program execution.
+  --debug-setup       Debug language setup script.
+  --help              Show this help message.
+  --interactive       Begin an interaction session.
+  --parallel          Runs multiple programs concurrently.
+  --prime             Pre-generates image(s) without running them.
+  --reverse           Runs programs in reverse order.
+  --test              Run unit tests.
+  --version           Show version information.
 
 Commands:
   clean                      Remove stored images and containers.
@@ -159,7 +159,7 @@ Test requirements are loose:
 | B4X                              |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Ballerina                        |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Bash                             |    ✅    |   ✅   |      ✅      |      ✅      |
-| BASIC                            |    ✅    |   ⬜   |      ⬜      |      ⬜      |
+| BASIC¹                           |    ✅    |   ⬜   |      ⬜      |      ⬜      |
 | Batch                            |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | BCPL                             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Beanshell                        |    ✅    |   ✅   |      ⬜      |      ⬜      |
@@ -181,7 +181,7 @@ Test requirements are loose:
 | ColdFusion                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Cowgol                           |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Crystal                          |    ✅    |   ⬜   |      ⬜      |      ⬜      |
-| [CSS](src/css/README.md)         |    ✅    |   ✅   |      ⚠️      |      ⚠️      |
+| [CSS](src/css/README.md)¹        |    ✅    |   ✅   |      ⚠️      |      ⚠️      |
 | D                                |    ✅    |   ✅   |      ✅      |      ⬜      |
 | Dart                             |    ✅    |   ⬜   |      ⬜      |      ⬜      |
 | Daslang                          |    ✅    |   ✅   |      ⬜      |      ⬜      |
@@ -191,8 +191,7 @@ Test requirements are loose:
 | Eiffel                           |    ✅    |   ⬜   |      ⬜      |      ⬜      |
 | Elixir                           |    ✅    |   ⬜   |      ⬜      |      ⬜      |
 | Elm                              |    ✅    |   ✅   |      ⬜      |      ⬜      |
-| Emacs Lisp                       |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
-| Epsilon                          |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Emacs Lisp                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Erlang                           |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | F#                               |    ✅    |   ⬜   |      ⬜      |      ⬜      |
 | Factor                           |    ✅    |   ✅   |      ⬜      |      ⬜      |
@@ -215,13 +214,14 @@ Test requirements are loose:
 | Haskell                          |    ✅    |   ⬜   |      ⬜      |      ⬜      |
 | Hax                              |    ✅    |   ⬜   |      ⬜      |      ⬜      |
 | Hopper                           |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
-| [HTML](src/html/README.md)       |    ✅    |   ⚠️   |      ⚠️      |      ⚠️      |
+| [HTML](src/html/README.md)¹      |    ✅    |   ⚠️   |      ⚠️      |      ⚠️      |
 | HyperTalk                        |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Icon                             |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Inform                           |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Ink                              |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Io                               |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Irdis                            |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Isabelle¹                        |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | J                                |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | J#                               |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Java                             |    ✅    |   ✅   |      ✅      |      ⬜      |
@@ -235,7 +235,7 @@ Test requirements are loose:
 | Kotlin                           |    ✅    |   ⬜   |      ⬜      |      ⬜      |
 | LabVIEW                          |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Ladder Logic                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
-| Less                             |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| Less¹                            |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Lily                             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Lisp                             |    ✅    |   ⬜   |      ⬜      |      ⬜      |
 | Lobster                          |    ✅    |   ✅   |      ⬜      |      ⬜      |
@@ -298,7 +298,7 @@ Test requirements are loose:
 | Ruby                             |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Rust                             |    ✅    |   ✅   |      ✅      |      ⬜      |
 | SAS                              |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
-| Sass                             |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| Sass¹                            |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Sather                           |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Scala                            |    ✅    |   ⬜   |      ⬜      |      ⬜      |
 | Scheme                           |    ✅    |   ⬜   |      ⬜      |      ⬜      |
@@ -311,7 +311,7 @@ Test requirements are loose:
 | Solidity                         |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | SPARK                            |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Spin (Parallax)                  |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
-| [SQL](src/sql/README.md)         |    ✅    |   ✅   |      ✅      |      ⬜      |
+| [SQL](src/sql/README.md)¹        |    ✅    |   ✅   |      ✅      |      ⬜      |
 | Squeak                           |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Squirrel                         |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Standard ML                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
@@ -346,12 +346,13 @@ Test requirements are loose:
 
 **Legend**
 
-| Symbol | Meaning         |
-| :----: | :-------------- |
-|   ✅    | Completed       |
-|   ⚠️    | Unimplementable |
-|   ⛔    | Failing         |
-|   ⬜    | Unimplemented   |
+| Symbol | Meaning              |
+| :----: | :------------------- |
+|   ✅    | Completed            |
+|   ⚠️    | Unimplementable      |
+|   ⛔    | Failing              |
+|   ⬜    | Unimplemented        |
+|   ¹    | "Cheating" required. |
 
 ## Cheating
 

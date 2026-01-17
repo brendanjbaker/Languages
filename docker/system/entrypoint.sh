@@ -3,7 +3,7 @@
 set -Eeuo pipefail
 
 export DEBUG="${DEBUG:-false}"
-export DEBUG_DOCKER="${DEBUG_DOCKER:-false}"
+export DEBUG_CONTAINER="${DEBUG_CONTAINER:-false}"
 export DEBUG_PROGRAM="${DEBUG_PROGRAM:-false}"
 export DEBUG_SETUP="${DEBUG_SETUP:-false}"
 export TEST="${TEST:-false}"

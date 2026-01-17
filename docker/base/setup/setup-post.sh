@@ -2,7 +2,7 @@
 
 set -Eeuo pipefail
 
-if [[ "${DEBUG_DOCKER:-false}" == "true" ]]; then
+if [[ "${DEBUG_CONTAINER:-false}" == "true" ]]; then
 	set -x
 fi
 

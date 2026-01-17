@@ -16,7 +16,7 @@ declare slot="0"
 
 declare option_all="false"
 declare option_debug="false"
-declare option_debug_docker="false"
+declare option_debug_container="false"
 declare option_debug_program="false"
 declare option_debug_setup="false"
 declare option_interactive="false"
@@ -44,7 +44,7 @@ function clean {
 	local containers
 	local images
 
-	start_docker_if_necessary
+	start_container_service_if_necessary
 
 	set -x
 
@@ -94,11 +94,14 @@ function clean {
 				COMPACT VDISK
 				DETACH VDISK
 				EOF
+
+			# TODO: Why is this file being created? Assuming it's from calling diskpart.exe.
+			if [[ -f "$root_directory/NUL" ]]; then
+				echo "NUL file was created! Removing it..."
+				rm -f "$root_directory/NUL"
+			fi
 		fi
 	fi
-
-	# TODO: Why is this file being created?
-	rm -f "$root_directory/NUL"
 }
 
 function cache_image_list {
@@ -156,7 +159,7 @@ function initialize {
 	fi
 
 	if ! is_parallel_worker; then
-		start_docker_if_necessary
+		start_container_service_if_necessary
 		cache_image_list
 		stop_running_containers
 
@@ -265,12 +268,12 @@ function main {
 	while true; do
 		if [[ $# -ge 1 && "$1" == "--debug" ]]; then
 			option_debug="true"
-			option_debug_docker="true"
+			option_debug_container="true"
 			option_debug_program="true"
 			option_debug_setup="true"
 			shift
-		elif [[ $# -ge 1 && "$1" == "--debug-docker" ]]; then
-			option_debug_docker="true"; shift
+		elif [[ $# -ge 1 && "$1" == "--debug-container" ]]; then
+			option_debug_container="true"; shift
 		elif [[ $# -ge 1 && "$1" == "--debug-program" ]]; then
 			option_debug_program="true"; shift
 		elif [[ $# -ge 1 && "$1" == "--debug-setup" ]]; then
@@ -346,17 +349,17 @@ function print_usage {
 		  $program_name [options] <command>
 
 		Options:
-		  --debug           Debug everything.
-		  --debug-docker    Debug docker building, etc.
-		  --debug-program   Debug program execution.
-		  --debug-setup     Debug language setup script.
-		  --help            Show this help message.
-		  --interactive     Begin an interaction session.
-		  --parallel        Runs multiple programs concurrently.
-		  --prime           Pre-generates image(s) without running them.
-		  --reverse         Runs programs in reverse order.
-		  --test            Run unit tests.
-		  --version         Show version information.
+		  --debug             Debug everything.
+		  --debug-container   Debug container building, etc.
+		  --debug-program     Debug program execution.
+		  --debug-setup       Debug language setup script.
+		  --help              Show this help message.
+		  --interactive       Begin an interaction session.
+		  --parallel          Runs multiple programs concurrently.
+		  --prime             Pre-generates image(s) without running them.
+		  --reverse           Runs programs in reverse order.
+		  --test              Run unit tests.
+		  --version           Show version information.
 
 		Commands:
 		  clean                      Remove stored images and containers.
@@ -395,7 +398,7 @@ function run {
 
 	local -a environment_options=(
 		"--env" "DEBUG=$option_debug"
-		"--env" "DEBUG_DOCKER=$option_debug_docker"
+		"--env" "DEBUG_CONTAINER=$option_debug_container"
 		"--env" "DEBUG_PROGRAM=$option_debug_program"
 		"--env" "DEBUG_SETUP=$option_debug_setup"
 		"--env" "LANGUAGE=$language"
@@ -409,7 +412,7 @@ function run {
 	language_hash=$(string::hash --length 16 "${base_hash}${system_hash}${language_hash}")
 	program_hash=$(string::hash --length 16 "${base_hash}${system_hash}${language_hash}${program_hash}${tests_hash}")
 
-	if [[ "$option_debug_docker" == "false" ]]; then
+	if [[ "$option_debug_container" == "false" ]]; then
 		stdout="/dev/null"
 	else
 		build_quiet_argument=()
@@ -688,7 +691,7 @@ function run_program {
 	fi
 }
 
-function start_docker_if_necessary {
+function start_container_service_if_necessary {
 	if docker::is_started; then
 		return
 	fi
