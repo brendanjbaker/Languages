@@ -6,8 +6,8 @@ apt-get install -y --no-install-recommends \
 	build-essential \
 	libncurses-dev
 
-mkdir -p '/usr/local/apl'
-pushd '/usr/local/apl'
+mkdir -p '/opt/apl'
+pushd '/opt/apl'
 
 download \
 	--url 'https://ftp.gnu.org/gnu/apl/apl-1.9.tar.gz' \
