@@ -16,6 +16,10 @@ Puppeteer is used to render and interpret HTML and CSS, then selected DOM data i
 
 Console browser `w3m` is used to render the page as "output."
 
+**Isabelle**
+
+Isabelle is a theorem-proving language. To "run" a program, we prove a theory, and extract needed output with `awk`.
+
 **Less**
 
 Less can't output directly, however the `lessc` compiler can emit warnings. The `@warn` command is used for "output." Finally, `awk` is used to clean up the output.

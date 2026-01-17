@@ -342,7 +342,7 @@ Test requirements are loose:
 | Xojo                             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Xtend                            |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Zig                              |    ✅    |   ✅   |      ✅      |      ⬜      |
-| _Count..._                       |  _108_  | _56_  |    _11_     |     _1_     |
+| _Count..._                       |  _110_  | _57_  |    _11_     |     _1_     |
 
 **Legend**
 
