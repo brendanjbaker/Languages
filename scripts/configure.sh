@@ -10,7 +10,7 @@ function install_podman {
 	if is_debian; then
 		sudo apt-get install podman
 	elif is_msys; then
-		winget install "RedHat.Podman"
+		winget install --scope machine "RedHat.Podman"
 	else
 		echo "Auto-configuration not supported for your system."
 		exit 1
@@ -27,6 +27,8 @@ function is_msys {
 
 function main {
 	install_podman
+
+	echo "Ready."
 }
 
 main

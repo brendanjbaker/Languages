@@ -266,7 +266,10 @@ function main {
 	}
 
 	while true; do
-		if [[ $# -ge 1 && "$1" == "--debug" ]]; then
+		if [[ $# -ge 1 && "$1" == "--configure" ]]; then
+			source "$root_directory/scripts/configure.sh"
+			exit
+		elif [[ $# -ge 1 && "$1" == "--debug" ]]; then
 			option_debug="true"
 			option_debug_container="true"
 			option_debug_program="true"
@@ -349,6 +352,7 @@ function print_usage {
 		  $program_name [options] <command>
 
 		Options:
+		  --configure         Install needed dependencies, etc.
 		  --debug             Debug everything.
 		  --debug-container   Debug container building, etc.
 		  --debug-program     Debug program execution.

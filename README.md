@@ -46,6 +46,7 @@ Usage:
   languages.sh [options] <command>
 
 Options:
+  --configure         Install needed dependencies, etc.
   --debug             Debug everything.
   --debug-container   Debug container building, etc.
   --debug-program     Debug program execution.
