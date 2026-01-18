@@ -9,7 +9,7 @@ function ensure_root {
 	fi
 }
 
-function install_podman {
+function install_packages {
 	if which 'podman' > /dev/null 2>&1; then
 		return
 	fi
@@ -17,10 +17,20 @@ function install_podman {
 	ensure_root
 
 	if is_debian; then
+		if ! grep '^13' /etc/debian_version > /dev/null; then
+			echo "Only Debian 13 (Trixie) is supported."
+			exit 1
+		fi
+
 		export DEBIAN_FRONTEND="noninteractive"
 
 		apt-get update
-		apt-get install -y --no-install-recommends podman
+
+		apt-get install -y --no-install-recommends \
+			ca-certificates \
+			git \
+			podman
+
 	elif is_msys; then
 		winget install --scope machine "RedHat.Podman"
 	else
@@ -38,7 +48,7 @@ function is_msys {
 }
 
 function main {
-	install_podman
+	install_packages
 
 	echo "Ready."
 }
