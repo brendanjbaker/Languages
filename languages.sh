@@ -444,7 +444,7 @@ function run {
 			--file "$root_directory_native/docker/base/base.dockerfile" \
 			--tag "languages-base:intermediate" \
 			"${build_quiet_argument[@]}" \
-			"$root_directory_native" > "$stdout"
+			"$root_directory_native" > "$stdout" 2>&1
 
 		container_id=$( \
 			podman run \
@@ -474,7 +474,7 @@ function run {
 			--tag "languages-system:latest" \
 			--tag "languages-system:$system_hash" \
 			"${build_quiet_argument[@]}" \
-			"$root_directory_native" > "$stdout"
+			"$root_directory_native" > "$stdout" 2>&1
 	}
 
 	function build_language_image {
@@ -487,7 +487,7 @@ function run {
 			--file "$root_directory_native/docker/language/language.dockerfile" \
 			--tag "languages-$language:latest" \
 			"${build_quiet_argument[@]}" \
-			"$root_directory_native" > "$stdout"
+			"$root_directory_native" > "$stdout" 2>&1
 
 		container_id=$( \
 			podman run \
@@ -520,7 +520,7 @@ function run {
 			--tag "languages-$language-$program:latest" \
 			--tag "languages-$language-$program:$program_hash" \
 			"${build_quiet_argument[@]}" \
-			"$root_directory_native" > "$stdout"
+			"$root_directory_native" > "$stdout" 2>&1
 	}
 
 	function execute {
