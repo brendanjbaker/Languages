@@ -295,6 +295,7 @@ directory::list_subdirectories ()
     else
         subdirectories=$(find "$path" -mindepth 1 -maxdepth 1 '(' -type d -o -xtype d ')' -printf '%f\n');
     fi;
+    subdirectories=$(echo "$subdirectories" | sort);
     if [[ "$option_exclude_hidden" == "true" ]]; then
         for subdirectory in $subdirectories;
         do
@@ -524,7 +525,7 @@ path::convert ()
         shift;
     done;
     if [[ $# -ne 1 ]]; then
-        error::usage "path::convert [-m, --mixed, -u, --unix, -w, --windows] <path>";
+        error::usage "path::convert [-m|--mixed, -n|--native, -u|--unix, -w|--windows] <path>";
     fi;
     function is_absolute_unix_path () 
     { 
