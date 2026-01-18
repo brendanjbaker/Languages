@@ -4,11 +4,13 @@ declare test_machine='pi'
 
 ssh "$test_machine" <<- EOF
 	set -Eeuo pipefail
-	apt-get update
-	apt-get install -y --no-install-recommends git
-	git clone 'https://github.com/brendanjbaker/Languages.git' '/languages'
-	pushd '/languages'
-	./languages.sh --configure
+	sudo apt-get update
+	sudo apt-get install -y --no-install-recommends git
+	rm -fr '/tmp/languages'
+	git clone 'https://github.com/brendanjbaker/Languages.git' '/tmp/languages'
+	pushd '/tmp/languages'
+	sudo ./languages.sh --configure
 	./languages.sh --test run
 	popd
+	rm -fr '/tmp/languages'
 	EOF

@@ -340,7 +340,7 @@ docker::start ()
         return;
     fi;
     if which "podman" > /dev/null 2>&1; then
-        if ! is_linux; then
+        if ! platform::is_linux; then
             podman machine init > /dev/null 2>&1 || true;
             podman machine start > /dev/null 2>&1 || true;
         fi;
@@ -652,6 +652,19 @@ platform::is_container ()
         return "$STATUS_TRUE";
     fi;
     return "$STATUS_FALSE"
+}
+platform::is_linux () 
+{ 
+    if [[ $# -ne 0 ]]; then
+        error::usage "platform::is_linux";
+    fi;
+    local kernel_type;
+    kernel_type=$(platform::get_kernel_type);
+    if [[ "$kernel_type" == "$KERNEL_TYPE_LINUX" ]]; then
+        return "$STATUS_TRUE";
+    else
+        return "$STATUS_FALSE";
+    fi
 }
 platform::is_windows () 
 { 

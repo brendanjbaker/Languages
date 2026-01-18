@@ -63,6 +63,7 @@ declare -f \
 	path::convert \
 	platform::get_kernel_type \
 	platform::is_container \
+	platform::is_linux \
 	platform::is_windows \
 	platform::is_windows_or_wsl \
 	platform::is_wsl \
