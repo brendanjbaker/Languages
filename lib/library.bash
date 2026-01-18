@@ -340,8 +340,10 @@ docker::start ()
         return;
     fi;
     if which "podman" > /dev/null 2>&1; then
-        podman machine init > /dev/null 2>&1 || true;
-        podman machine start > /dev/null 2>&1 || true;
+        if ! is_linux; then
+            podman machine init > /dev/null 2>&1 || true;
+            podman machine start > /dev/null 2>&1 || true;
+        fi;
     else
         if which "docker" > /dev/null 2>&1; then
             powershell::command <<-EOF
