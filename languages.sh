@@ -5,6 +5,11 @@ if [ -z "$BASH_VERSION" ]; then
 	exit 1
 fi
 
+if [[ $# -ge 1 && "$1" == "--configure" ]]; then
+	source "$(dirname -- "${BASH_SOURCE[0]}")/script/configure.sh"
+	return
+fi
+
 # shellcheck disable=SC1091
 source "$(dirname -- "${BASH_SOURCE[0]}")/lib/library.bash"
 

@@ -29,7 +29,8 @@ function install_packages {
 		apt-get install -y --no-install-recommends \
 			ca-certificates \
 			git \
-			podman
+			podman \
+			xxd
 
 	elif is_msys; then
 		winget install --scope machine "RedHat.Podman"

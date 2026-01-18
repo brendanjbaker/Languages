@@ -58,6 +58,7 @@ declare -f \
 	error::usage \
 	indent \
 	integer::is_integer \
+	not-implemented \
 	path::convert \
 	platform::get_kernel_type \
 	platform::is_container \

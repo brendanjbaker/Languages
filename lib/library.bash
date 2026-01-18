@@ -463,6 +463,10 @@ integer::is_integer ()
         fi;
     fi
 }
+not-implemented () 
+{ 
+    error "Not implemented."
+}
 path::convert () 
 { 
     local input_path;
