@@ -40,7 +40,7 @@ declare system_hash
 cache::initialize
 
 root_directory=$(program::get_script_directory)
-root_directory_native=$(path::convert --mixed "$root_directory")
+root_directory_native=$(path::convert --native "$root_directory")
 base_hash=$(directory::hash "$root_directory/docker/base")
 base_hash=$(string::hash --length 16 "$base_hash")
 system_hash=$(directory::hash "$root_directory/docker/system")
@@ -90,7 +90,7 @@ function clean {
 		local vhdx_path="$HOME/.local/share/containers/podman/machine/wsl/wsldist/podman-machine-default/ext4.vhdx"
 
 		if [[ -f "$vhdx_path" ]]; then
-			vhdx_path_windows=$(path::convert -w "$vhdx_path")
+			vhdx_path_windows=$(path::convert --windows "$vhdx_path")
 
 			podman machine stop
 			wsl --shutdown
