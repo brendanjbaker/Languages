@@ -8,7 +8,7 @@ function install_podman {
 	fi
 
 	if is_debian; then
-		sudo apt-get install podman
+		sudo apt-get install -y --no-install-recommends podman
 	elif is_msys; then
 		winget install --scope machine "RedHat.Podman"
 	else
