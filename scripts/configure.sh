@@ -17,6 +17,8 @@ function install_podman {
 	ensure_root
 
 	if is_debian; then
+		export DEBIAN_FRONTEND="noninteractive"
+
 		apt-get update
 		apt-get install -y --no-install-recommends podman
 	elif is_msys; then
