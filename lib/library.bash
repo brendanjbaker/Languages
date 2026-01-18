@@ -181,6 +181,18 @@ cache::get_path ()
     fi;
     echo -n "${path:?}"
 }
+cache::initialize () 
+{ 
+    if [[ $# -ne 0 ]]; then
+        error::usage "cache::initialize";
+    fi;
+    if [[ ! -d "${cache_directory:?}" ]]; then
+        mkdir -p "${cache_directory:?}";
+        if ! platform::is_windows; then
+            chmod 1777 "${cache_directory:?}";
+        fi;
+    fi
+}
 cache::set () 
 { 
     if [[ $# -ne 2 ]]; then

@@ -42,6 +42,7 @@ declare -f \
 	assert::integer \
 	assert::integer_range \
 	cache::get_path \
+	cache::initialize \
 	cache::set \
 	cache::try_get \
 	directory::current \

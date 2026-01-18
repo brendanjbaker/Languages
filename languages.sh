@@ -37,6 +37,8 @@ declare language_properties_filename="language.properties"
 declare program_properties_filename="program.properties"
 declare system_hash
 
+cache::initialize
+
 root_directory=$(program::get_script_directory)
 root_directory_native=$(path::convert --mixed "$root_directory")
 base_hash=$(directory::hash "$root_directory/docker/base")
