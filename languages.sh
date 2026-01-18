@@ -79,9 +79,11 @@ function clean {
 	podman builder prune --force --external
 	podman volume prune --force
 
-	podman machine ssh <<- EOF
-		sudo fstrim -av
-		EOF
+	if ! platform::is_linux; then
+		podman machine ssh <<- EOF
+			sudo fstrim -av
+			EOF
+	fi
 
 	podman system prune --force
 

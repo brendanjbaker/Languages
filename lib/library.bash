@@ -308,13 +308,30 @@ directory::list_subdirectories ()
         echo "$subdirectories";
     fi
 }
+docker::get_command () 
+{ 
+    if [[ $# -ne 0 ]]; then
+        error::usage "docker::get_command";
+    fi;
+    if which 'podman' > /dev/null 2>&1; then
+        echo -n "podman";
+    else
+        if which 'docker' > /dev/null 2>&1; then
+            echo -n "docker";
+        else
+            error "Neither Docker nor Podman detected.";
+        fi;
+    fi
+}
 docker::image_exists () 
 { 
     if [[ $# -ne 1 ]]; then
         error::usage "docker::image_exists <tag>";
     fi;
     local tag="$1";
-    if docker image exists "$tag"; then
+    local command;
+    command=$(docker::get_command);
+    if "$command" image exists "$tag"; then
         return "$STATUS_TRUE";
     else
         return "$STATUS_FALSE";
@@ -326,15 +343,7 @@ docker::is_started ()
         error::usage "docker::is_started";
     fi;
     local command;
-    if which 'podman' > /dev/null 2>&1; then
-        command="podman";
-    else
-        if which 'docker' > /dev/null 2>&1; then
-            command="docker";
-        else
-            return "$STATUS_FALSE";
-        fi;
-    fi;
+    command=$(docker::get_command);
     if "$command" info > /dev/null 2>&1; then
         return "$STATUS_TRUE";
     else

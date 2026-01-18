@@ -50,6 +50,7 @@ declare -f \
 	directory::exists \
 	directory::hash \
 	directory::list_subdirectories \
+	docker::get_command \
 	docker::image_exists \
 	docker::is_started \
 	docker::start \
