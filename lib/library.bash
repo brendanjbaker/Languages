@@ -325,7 +325,17 @@ docker::is_started ()
     if [[ $# -ne 0 ]]; then
         error::usage "docker::is_started";
     fi;
-    if docker info > /dev/null 2>&1; then
+    local command;
+    if which 'podman' > /dev/null 2>&1; then
+        command="podman";
+    else
+        if which 'docker' > /dev/null 2>&1; then
+            command="docker";
+        else
+            return "$STATUS_FALSE";
+        fi;
+    fi;
+    if "$command" info > /dev/null 2>&1; then
         return "$STATUS_TRUE";
     else
         return "$STATUS_FALSE";
