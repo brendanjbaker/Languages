@@ -3,7 +3,6 @@
 export DEBIAN_FRONTEND="noninteractive"
 
 apt-get install -y --no-install-recommends \
-	git \
 	cmake \
 	git
 
@@ -16,8 +15,10 @@ mkdir 'build'
 pushd 'build'
 cmake -G "Unix Makefiles" ..
 cmake --build .
-cp ../lib/usrlib.joy ~
-mkdir ~/usrlib
-cp ../lib/* ~/usrlib
 popd; popd; popd
+
 ln -s /opt/joy/1.59/build/joy /usr/bin/joy
+
+ln -s /opt/joy/1.59/lib/usrlib.joy ~/usrlib.joy
+ln -s /opt/joy/1.59/lib/agglib.joy /lib/agglib.joy
+ln -s /opt/joy/1.59/lib/inilib.joy /lib/inilib.joy

@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 
-joy -l program.joy "$@"
+joy program.joy "$@" \
+| grep -v ' is loaded$'

@@ -1,1 +1,2 @@
-"Hello, world!\n" putchars .
+"Hello, world!" putchars .
+newline .

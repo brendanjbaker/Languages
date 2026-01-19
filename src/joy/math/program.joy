@@ -1,0 +1,24 @@
+DEFINE add ==
+	+ . ;
+
+DEFINE cube ==
+	dup dup * * . ;
+
+DEFINE square ==
+	dup * . ;
+
+DEFINE sequence ==
+	[] [] cons [pop pop] swoncat
+	[>] swap
+	[ [dup succ] dip ]
+	[cons]
+	linrec . ;
+
+DEFINE sum ==
+	0 [+] fold . ;
+
+1 2 add .
+5 square .
+5 cube .
+[5 5 5] sum .
+0 100 sequence sum .
