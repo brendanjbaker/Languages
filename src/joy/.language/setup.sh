@@ -17,6 +17,6 @@ pushd 'build'
 cmake -G "Unix Makefiles" ..
 cmake --build .
 cp ../lib/usrlib.joy ~
-mdkir ~/usrlib
+mkdir ~/usrlib
 cp ../lib/* ~/usrlib
 popd; popd; popd
