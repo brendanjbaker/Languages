@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-joy program.joy "$@"
+joy -l program.joy "$@"

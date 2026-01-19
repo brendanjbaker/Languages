@@ -228,6 +228,7 @@ Test requirements are loose:
 | Java                             |    ✅    |   ✅   |      ✅      |      ⬜      |
 | JavaScript                       |    ✅    |   ✅   |      ✅      |      ⬜      |
 | Joule                            |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Joy                              |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | JS++                             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | JScript                          |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Jtw                              |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
@@ -343,7 +344,7 @@ Test requirements are loose:
 | Xojo                             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Xtend                            |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Zig                              |    ✅    |   ✅   |      ✅      |      ⬜      |
-| _Count..._                       |  _111_  | _59_  |    _11_     |     _1_     |
+| _Count..._                       |  _112_  | _60_  |    _11_     |     _1_     |
 
 **Legend**
 
