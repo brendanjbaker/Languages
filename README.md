@@ -228,7 +228,7 @@ Test requirements are loose:
 | Java                             |    ✅    |   ✅   |      ✅      |      ⬜      |
 | JavaScript                       |    ✅    |   ✅   |      ✅      |      ⬜      |
 | Joule                            |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
-| Joy                              |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| [Joy](src/joy/README.md)¹        |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | JS++                             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | JScript                          |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Jtw                              |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
