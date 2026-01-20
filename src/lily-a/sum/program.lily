@@ -1,5 +1,5 @@
 define range(begin: Integer, end: Integer): List[Integer] {
-    return List.fill(101, (|n| n))
+	return List.fill(101, (|n| n))
 }
 
 define sum_fold(begin: *Integer = 5, end: *Integer = 10): Integer {
