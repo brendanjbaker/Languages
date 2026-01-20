@@ -1,0 +1,17 @@
+(ql:quickload :coalton :silent t)
+
+(cl:defpackage #:program
+	(:use
+		#:coalton
+		#:coalton-prelude)
+	(:export #:main))
+
+(cl:in-package #:program)
+
+(coalton-toplevel
+	(define (main) Unit
+		(progn
+			(print "Hello, world!")
+			Unit)))
+
+(coalton (main))
