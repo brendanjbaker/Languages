@@ -238,7 +238,8 @@ Test requirements are loose:
 | LabVIEW                          |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Ladder Logic                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Less¹                            |    ✅    |   ✅   |      ⬜      |      ⬜      |
-| Lily                             |    ✅    |   ⛔   |      ⬜      |      ⬜      |
+| [Lily](src/lily-a/README.md) (A) |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| [Lily](src/lily-b/README.md) (B) |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Lisp                             |    ✅    |   ⬜   |      ⬜      |      ⬜      |
 | Lobster                          |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Logo                             |    ✅    |   ✅   |      ⬜      |      ⬜      |
@@ -345,7 +346,7 @@ Test requirements are loose:
 | Xojo                             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Xtend                            |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Zig                              |    ✅    |   ✅   |      ✅      |      ⬜      |
-| _Count..._                       |  _114_  | _62_  |    _11_     |     _1_     |
+| _Count..._                       |  _116_  | _64_  |    _11_     |     _1_     |
 
 **Legend**
 
