@@ -1,0 +1,21 @@
+import "@sys";
+
+val SUM_100 Int32 := 5050;
+
+fun sum(n Int32) Int32 =
+	if n <= 0 do
+		return 0;
+	else
+		return n + sum(n - 1);
+	end
+end
+
+fun main Int32 =
+	val result := sum(100);
+
+	if result == SUM_100 do
+		_ = @sys.write(1, c"5050\n", 5);
+	end
+
+	return 0;
+end

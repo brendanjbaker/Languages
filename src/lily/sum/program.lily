@@ -1,0 +1,13 @@
+import "@sys";
+
+fun main Int32 =
+	mut sum Int32 := 0;
+
+	for i in 0..100 do
+		sum = sum + i;
+	end
+
+	@sys.write("{sum}\n");
+
+	return 0;
+end

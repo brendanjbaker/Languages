@@ -238,7 +238,7 @@ Test requirements are loose:
 | LabVIEW                          |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Ladder Logic                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Less¹                            |    ✅    |   ✅   |      ⬜      |      ⬜      |
-| Lily                             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Lily                             |    ✅    |   ⛔   |      ⬜      |      ⬜      |
 | Lisp                             |    ✅    |   ⬜   |      ⬜      |      ⬜      |
 | Lobster                          |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Logo                             |    ✅    |   ✅   |      ⬜      |      ⬜      |
