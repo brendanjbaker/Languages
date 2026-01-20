@@ -20,6 +20,10 @@ Console browser `w3m` is used to render the page as "output."
 
 Isabelle is a theorem-proving language. To "run" a program, we prove a theory, and extract needed output with `awk`.
 
+**Joy**
+
+Loading the standard libraries has the side-effect of printing `(library name) is loaded`. This is hard-coded into the library. Therefore, `grep` is used to clean-up program output to eliminate such messages.
+
 **Less**
 
 Less can't output directly, however the `lessc` compiler can emit warnings. The `@warn` command is used for "output." Finally, `awk` is used to clean up the output.

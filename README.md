@@ -268,6 +268,7 @@ Test requirements are loose:
 | Odin                             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Opa                              |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | OpenCL                           |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Par                              |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Pascal                           |    ✅    |   ⬜   |      ⬜      |      ⬜      |
 | Perl                             |    ✅    |   ⬜   |      ⬜      |      ⬜      |
 | Phix                             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
@@ -344,7 +345,7 @@ Test requirements are loose:
 | Xojo                             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Xtend                            |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Zig                              |    ✅    |   ✅   |      ✅      |      ⬜      |
-| _Count..._                       |  _112_  | _60_  |    _11_     |     _1_     |
+| _Count..._                       |  _114_  | _62_  |    _11_     |     _1_     |
 
 **Legend**
 
