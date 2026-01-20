@@ -3,6 +3,7 @@
 export DEBIAN_FRONTEND="noninteractive"
 
 apt-get install -y --no-install-recommends \
+	automake \
 	build-essential \
 	clang \
 	clang-format \
@@ -30,6 +31,10 @@ pushd '/opt/lily'
 git clone 'https://github.com/thelilylang/lily.git' '0.12.0'
 pushd '0.12.0'
 git submodule update --init 'lib/local/src/libyaml'
+pushd 'lib/local/src/libyaml'
+./bootstrap
+./configure
+popd
 ln -s '/opt/lily/0.12.0/lib/local/src/libyaml/include/config.h' '/opt/lily/0.12.0/lib/local/src/libyaml/src/config.h'
 make configure
 ninja -C build -j "$(nproc)"

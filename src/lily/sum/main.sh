@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-lily program.lily "$@"
+lily run program.lily "$@"

@@ -1,13 +1,92 @@
+/* Notes:
+ *
+ * The Lily language is under development, and so far, is very immature:
+ *
+ * - Functions must be declared in order of use.
+ * - Looping doesn't work (compiler analyzer failure).
+ * - No ability to print characters directly (must be a string).
+ */
+
 import "@sys";
 
-fun main Int32 =
-	mut sum Int32 := 0;
+fun printdigit(digit Int32) =
+	val STDOUT Int32 := 1;
 
-	for i in 0..100 do
-		sum = sum + i;
+	if digit == 0 do
+		_ = @sys.write(STDOUT, c"0", 1);
+	elif digit == 1 do
+		_ = @sys.write(STDOUT, c"1", 1);
+	elif digit == 2 do
+		_ = @sys.write(STDOUT, c"2", 1);
+	elif digit == 3 do
+		_ = @sys.write(STDOUT, c"3", 1);
+	elif digit == 4 do
+		_ = @sys.write(STDOUT, c"4", 1);
+	elif digit == 5 do
+		_ = @sys.write(STDOUT, c"5", 1);
+	elif digit == 6 do
+		_ = @sys.write(STDOUT, c"6", 1);
+	elif digit == 7 do
+		_ = @sys.write(STDOUT, c"7", 1);
+	elif digit == 8 do
+		_ = @sys.write(STDOUT, c"8", 1);
+	elif digit == 9 do
+		_ = @sys.write(STDOUT, c"9", 1);
+	end
+end
+
+fun printerror =
+	val STDERR Int32 := 2;
+
+	_ = @sys.write(STDERR, c"error\n", 6);
+end
+
+fun printline =
+	val STDOUT Int32 := 1;
+
+	_ = @sys.write(STDOUT, c"\n", 1);
+end
+
+fun printnumber(n Int32) =
+	if n >= 100000000 do printdigit((n % 1000000000) / 100000000); end
+	if n >= 10000000 do printdigit((n % 100000000) / 10000000); end
+	if n >= 1000000 do printdigit((n % 10000000) / 1000000); end
+	if n >= 100000 do printdigit((n % 1000000) / 100000); end
+	if n >= 10000 do printdigit((n % 100000) / 10000); end
+	if n >= 1000 do printdigit((n % 10000) / 1000); end
+	if n >= 100 do printdigit((n % 1000) / 100); end
+	if n >= 10 do printdigit((n % 100) / 10); end
+
+	printdigit(n % 10);
+end
+
+fun sum_algebraic(from Int32, to Int32) Int32 =
+	val exclusive := (from * (from - 1)) / 2;
+	val inclusive := (to * (to + 1)) / 2;
+	val sum := inclusive - exclusive;
+
+	return sum;
+end
+
+fun sum_recursive(from Int32, to Int32) Int32 =
+	if from > to do
+		return 0;
 	end
 
-	@sys.write("{sum}\n");
+	return from + sum_recursive(from + 1, to);
+end
+
+pub fun main Int32 =
+	val sum1 := sum_algebraic(0, 100);
+	val sum2 := sum_recursive(0, 100);
+
+	if not sum1 == sum2 do
+		printerror();
+		return 1;
+	end
+
+	printnumber(sum1);
+	printline();
 
 	return 0;
 end
