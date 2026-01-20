@@ -1,0 +1,32 @@
+define range(begin: Integer, end: Integer): List[Integer] {
+    return List.fill(101, (|n| n))
+}
+
+define sum_fold(begin: *Integer = 5, end: *Integer = 10): Integer {
+	return range(begin, end).fold(0, (|acc, n| acc + n))
+}
+
+define sum_loop(begin: *Integer = 5, end: *Integer = 10): Integer {
+	var result: Integer = 0
+
+	for i in begin...end: {
+		result += i
+	}
+
+	return result
+}
+
+# Maximum stack depth is 100, so this won't work!
+define sum_recursive(begin: Integer, end: Integer): Integer {
+	if begin > end: {
+		return 0
+	}
+
+	return begin + sum_recursive(begin + 1, end)
+}
+
+define main {
+	sum_fold(0, 100) |> print
+}
+
+main()
