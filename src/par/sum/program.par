@@ -1,0 +1,20 @@
+dec ListSum : [List<Nat>] Nat
+
+def ListSum = [list]
+	let result = 0 in
+	list.begin.case {
+		.end! => result,
+		.item(n) list =>
+			let result = Nat.Add(result, n) in
+			list.loop,
+	}
+
+dec Main : !
+def Main = chan exit {
+	let console = Console.Open
+	let sum = ListSum(Nat.Range(0, 101))
+
+	console.print(Nat.ToString(sum))
+	console.close
+	exit!
+}
