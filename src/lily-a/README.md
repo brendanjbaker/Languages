@@ -2,7 +2,7 @@
 
 This is the Lily language as found here:
 
-https://gitlab.com/FascinatedBox
+https://gitlab.com/FascinatedBox/lily
 
 The language's syntax looks like this:
 
