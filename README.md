@@ -232,7 +232,7 @@ Test requirements are loose:
 | JS++                             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | JScript                          |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Jtw                              |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
-| Julia                            |    ✅    |   ⬜   |      ⬜      |      ⬜      |
+| Julia                            |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Koka                             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Kotlin                           |    ✅    |   ⬜   |      ⬜      |      ⬜      |
 | LabVIEW                          |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
@@ -346,7 +346,7 @@ Test requirements are loose:
 | Xojo                             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Xtend                            |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Zig                              |    ✅    |   ✅   |      ✅      |      ⬜      |
-| _Count..._                       |  _116_  | _64_  |    _11_     |     _1_     |
+| _Count..._                       |  _116_  | _65_  |    _11_     |     _1_     |
 
 **Legend**
 
