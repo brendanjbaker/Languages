@@ -11,7 +11,7 @@
 (coalton-toplevel
 	(define (main) Unit
 		(progn
-			(println (fold + 0 (range 0 101)))
+			(print (fold + 0 (range 0 100)))
 			Unit)))
 
 (coalton (main))
