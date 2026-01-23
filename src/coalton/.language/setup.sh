@@ -3,9 +3,11 @@
 export DEBIAN_FRONTEND="noninteractive"
 
 apt-get install -y --no-install-recommends \
+	ca-certificates \
 	git \
 	gnupg \
-	sbcl
+	sbcl \
+	wget
 
 download --url 'https://beta.quicklisp.org/quicklisp.lisp' --hash '8cdf248d44c15cd96fab14c7689340ed1505bf00'
 # gpg --keyserver keyserver.ubuntu.com --recv-keys 307965AB028B5FF7

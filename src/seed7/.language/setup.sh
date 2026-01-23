@@ -3,7 +3,8 @@
 apt-get install -y --no-install-recommends \
 	build-essential \
 	libncurses-dev \
-	libx11-dev
+	libx11-dev \
+	wget
 
 mkdir -p '/opt/seed7'
 pushd '/opt/seed7'
@@ -16,7 +17,7 @@ tar -xf 'seed7_05_20250930.tgz'
 mv 'seed7' '2025-09-30'
 pushd '2025-09-30/src'
 make depend
-make
+make -j"$(nproc)"
 make s7c
 make install
 popd; popd

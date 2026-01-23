@@ -2,7 +2,12 @@
 
 export DEBIAN_FRONTEND="noninteractive"
 
-apt-get install -y --no-install-recommends cabextract
+apt-get install -y --no-install-recommends \
+	ca-certificates \
+	cabextract \
+	unzip \
+	wget \
+	xz-utils
 
 dpkg --add-architecture i386
 apt-get update
@@ -43,7 +48,8 @@ mkdir '/tmp/wine-mono'
 pushd '/tmp/wine-mono'
 
 download \
-	--url 'https://dl.winehq.org/wine/wine-mono/9.4.0/wine-mono-9.4.0-x86.tar.xz'
+	--url 'https://dl.winehq.org/wine/wine-mono/9.4.0/wine-mono-9.4.0-x86.tar.xz' \
+	--hash '48fd310d826135f4920a39ac9abbe11c00616630'
 
 mkdir -p '/opt/wine/mono'
 tar -xJf 'wine-mono-9.4.0-x86.tar.xz' -C '/opt/wine/mono'

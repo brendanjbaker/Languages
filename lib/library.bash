@@ -308,6 +308,27 @@ directory::list_subdirectories ()
         echo "$subdirectories";
     fi
 }
+directory::pop () 
+{ 
+    if [[ $# -ne 0 ]]; then
+        error::usage "directory::pop";
+    fi;
+    if ! popd > /dev/null 2>&1; then
+        error "Could not change (pop) to previous directory.";
+    fi;
+    return "$STATUS_TRUE"
+}
+directory::push () 
+{ 
+    if [[ $# -ne 1 ]]; then
+        error::usage "directory::push <path>";
+    fi;
+    local path="$1";
+    if ! pushd "$path" > /dev/null 2>&1; then
+        error "Could not change (push) to directory '$path'.";
+    fi;
+    return "$STATUS_TRUE"
+}
 docker::get_command () 
 { 
     if [[ $# -ne 0 ]]; then

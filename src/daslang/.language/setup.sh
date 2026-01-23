@@ -6,6 +6,8 @@ export DEBIAN_FRONTEND="noninteractive"
 
 apt-get install -y --no-install-recommends \
 	bison \
+	build-essential \
+	ca-certificates \
 	cmake \
 	flex \
 	git \

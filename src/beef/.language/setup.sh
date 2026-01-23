@@ -4,6 +4,7 @@ export DEBIAN_FRONTEND="noninteractive"
 
 apt-get install -y --no-install-recommends \
 	build-essential \
+	ca-certificates \
 	clang \
 	cmake \
 	git \

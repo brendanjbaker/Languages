@@ -1,6 +1,16 @@
 #!/usr/bin/env bash
 
-systemctl enable --now postgresql > /dev/null 2>&1
+export PGDATA=/etc/postgresql/17/main
+
+sudo -u postgres \
+	pg_ctl \
+		-D "$PGDATA" \
+		-o "-c listen_addresses='localhost'" \
+		-l /tmp/postgres.log \
+		start > /dev/null
+
+sudo -u postgres \
+	pg_ctl -D "$PGDATA" status > /dev/null
 
 sudo -u postgres \
 	psql \
@@ -8,3 +18,9 @@ sudo -u postgres \
   		--file=program.sql \
 		--no-align \
 		--tuples-only
+
+sudo -u postgres \
+	pg_ctl \
+		-D "$PGDATA" \
+		-l /tmp/postgres.log \
+		stop > /dev/null

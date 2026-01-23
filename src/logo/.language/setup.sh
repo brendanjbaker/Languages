@@ -5,9 +5,11 @@ export DEBIAN_FRONTEND="noninteractive"
 apt-get install -y --no-install-recommends \
 	autoconf \
 	automake \
+	build-essential \
 	libncurses-dev \
 	libtinfo-dev \
-	libtool
+	libtool \
+	wget
 
 mkdir '/tmp/logo'
 pushd '/tmp/logo'
@@ -19,7 +21,7 @@ download \
 tar -xzf 'ucblogo.tar.gz'
 pushd ucblogo-*
 ./configure enable_docs=no enable_wx=no
-make CFLAGS="-Wno-error=incompatible-pointer-types -Wno-deprecated-declarations"
+make -j"$(nproc)" CFLAGS="-Wno-error=incompatible-pointer-types -Wno-deprecated-declarations"
 make install
 popd; popd
 rm -fr '/tmp/logo'

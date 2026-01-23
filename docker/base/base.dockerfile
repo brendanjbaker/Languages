@@ -1,9 +1,8 @@
-FROM debian:trixie
+FROM debian:trixie-20260112-slim
 
 WORKDIR /setup/base
 
-COPY /docker/base/setup/ .
-RUN /setup/base/setup-pre.sh
+COPY /docker/base/*.sh .
+RUN /setup/base/setup.sh
 
-VOLUME ["/sys/fs/cgroup"]
-CMD ["/lib/systemd/systemd"]
+CMD ["/usr/bin/bash"]

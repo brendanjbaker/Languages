@@ -2,7 +2,10 @@
 
 export DEBIAN_FRONTEND="noninteractive"
 
-apt-get install -y --no-install-recommends gnupg
+apt-get install -y --no-install-recommends \
+	ca-certificates \
+	gnupg \
+	wget
 
 download \
 	--url 'https://dl.hhvm.com/conf/hhvm.gpg.key' \

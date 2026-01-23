@@ -4,6 +4,12 @@ set -Eeuo pipefail
 
 export DEBIAN_FRONTEND="noninteractive"
 
+apt-get install --no-install-recommends -y \
+	build-essential \
+	libcurl4 \
+	libxml2 \
+	wget
+
 mkdir '/opt/c3'
 mkdir '/tmp/c3'
 pushd '/tmp/c3'

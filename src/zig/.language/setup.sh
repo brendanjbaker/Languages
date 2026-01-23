@@ -1,5 +1,11 @@
 #!/usr/bin/env bash
 
+export DEBIAN_FRONTEND="noninteractive"
+
+apt-get install --no-install-recommends -y \
+	wget \
+	xz-utils
+
 mkdir '/opt/zig'
 mkdir '/tmp/zig'
 pushd '/tmp/zig'

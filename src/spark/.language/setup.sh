@@ -3,9 +3,13 @@
 export DEBIAN_FRONTEND="noninteractive"
 
 apt-get install -y --no-install-recommends \
+	ca-certificates \
+	curl \
+	git \
 	gnat \
 	gprbuild \
-	unzip
+	unzip \
+	wget
 
 mkdir -p '/tmp/alr'
 pushd '/tmp/alr'

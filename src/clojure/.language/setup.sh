@@ -4,8 +4,8 @@ export DEBIAN_FRONTEND="noninteractive"
 
 apt-get install -y --no-install-recommends \
 	clojure \
-	default-jdk \
-	leiningen
+	leiningen \
+	openjdk-21-jdk
 
 # Make Clojure download some basic packages ahead of time (warmup).
 

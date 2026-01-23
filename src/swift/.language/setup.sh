@@ -2,4 +2,6 @@
 
 export DEBIAN_FRONTEND="noninteractive"
 
-apt-get install -y --no-install-recommends swiftlang
+apt-get install -y --no-install-recommends \
+	build-essential \
+	swiftlang

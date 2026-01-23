@@ -11,32 +11,42 @@ export DEBIAN_FRONTEND="noninteractive"
 apt-get update
 apt-get upgrade -y
 
-# Systemd...
-apt-get install -y --no-install-recommends \
-	systemd \
-	systemd-sysv
+# # Testing...
+# apt-get install --no-install-recommends -y \
+# 	bats \
+# 	xxd
 
-# Snap...
-apt-get install -y --no-install-recommends \
-	fuse \
-	snapd \
-	squashfs-tools \
-	squashfuse
-
-# Testing...
-apt-get install -y --no-install-recommends bats
-
-# Frequently needed...
-apt-get install -y --no-install-recommends \
+# Frequently needed (download-only).
+apt-get install --download-only --no-install-recommends -y \
 	apt-transport-https \
+	autoconf \
+	automake \
 	binutils \
+	bison \
 	build-essential \
+	ca-certificates \
 	clang \
 	cmake \
 	curl \
+	flex \
 	gawk \
 	gcc \
 	git \
+	gnupg \
+	libclang-dev \
+	libcurl4 \
+	libcurl4-openssl-dev \
+	libglu1-mesa-dev \
+	libicu76 \
+	libncurses-dev \
+	libssl-dev \
+	libtool \
+	make \
+	ninja-build \
+	nodejs \
+	npm \
+	openjdk-21-jdk \
+	python3 \
 	sudo \
 	unzip \
 	vim \
@@ -55,6 +65,3 @@ rm -fr /lib/systemd/system/sysinit.target.wants/systemd-tmpfiles-setup*
 rm -fr /lib/systemd/system/systemd-update-utmp*
 rm -fr /tmp/*
 rm -fr /var/tmp/*
-
-systemctl enable snapd
-systemctl enable snapd.apparmor

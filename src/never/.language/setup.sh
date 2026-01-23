@@ -5,6 +5,8 @@ export DEBIAN_FRONTEND="noninteractive"
 apt-get install -y --no-install-recommends \
 	bison \
 	build-essential \
+	ca-certificates \
+	cmake \
 	flex \
 	git \
 	libffi-dev \
@@ -16,6 +18,6 @@ pushd never
 mkdir build
 pushd build
 cmake ..
-make
+make -j"$(nproc)"
 mv never /usr/bin
 popd; popd; popd

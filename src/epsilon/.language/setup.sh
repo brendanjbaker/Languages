@@ -5,6 +5,7 @@ apt-get install -y --no-install-recommends \
 	automake \
 	bison \
 	build-essential \
+	ca-certificates \
 	flex \
 	git \
 	guile-3.0-dev \
@@ -18,6 +19,6 @@ pushd '7323d95'
 git checkout '7323d951a28492205698312689d13b7f8fa3b8aa' 2> /dev/null
 bash autogen.sh
 bash configure
-make CFLAGS="-Wno-implicit-function-declaration -Wno-int-conversion"
+make -j"$(nproc)" CFLAGS="-Wno-implicit-function-declaration -Wno-int-conversion"
 make install
 popd; popd
