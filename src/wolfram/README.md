@@ -11,4 +11,4 @@ The language can still be run manually, like so:
 
 For it to work, you'll need to update `setup.sh` with your Wolfram credentials.
 
-Once you have it working, you can optionlly delete the `.disable` file, so that this language will be included in the "run everything" routine.
+Once you have it working, you can optionally delete the `.disable` file, so that this language will be included in the "run everything" routine.
