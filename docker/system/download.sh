@@ -67,6 +67,12 @@ function download {
 			echo "Found \"$filename\" in cache."
 		else
 			echo "Downloading \"$filename\"..."
+
+			if [[ ! -d "/cache" ]]; then
+				echo "Warning: \"/cache\" directory does not exist." >&2
+				mkdir -p "/cache"
+			fi
+
 			wget --no-check-certificate --quiet --output-document="/cache/$filename" "$option_url"
 		fi
 	}

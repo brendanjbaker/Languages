@@ -83,6 +83,11 @@ function clean {
 		podman machine ssh <<- EOF
 			sudo fstrim -av
 			EOF
+
+		# TODO: Why is this file being created?
+		if [[ -f "$root_directory/NUL" ]]; then
+			rm -f "$root_directory/NUL"
+		fi
 	fi
 
 	podman system prune --force
@@ -103,12 +108,6 @@ function clean {
 				COMPACT VDISK
 				DETACH VDISK
 				EOF
-
-			# TODO: Why is this file being created? Assuming it's from calling diskpart.exe.
-			if [[ -f "$root_directory/NUL" ]]; then
-				echo "NUL file was created! Removing it..."
-				rm -f "$root_directory/NUL"
-			fi
 		fi
 	fi
 }
@@ -415,8 +414,7 @@ function run {
 		"--env" "DEBUG_PROGRAM=$option_debug_program"
 		"--env" "DEBUG_SETUP=$option_debug_setup"
 		"--env" "LANGUAGE=$language"
-		"--env" "PROGRAM=$program"
-		"--env" "TEST=$option_test")
+		"--env" "PROGRAM=$program")
 
 	language_hash=$(directory::hash "$root_directory/src/$language/.language")
 	program_hash=$(directory::hash "$root_directory/src/$language/$program")
@@ -433,6 +431,8 @@ function run {
 
 	if [[ "$option_debug_setup" == "false" ]]; then
 		setup_stdout="/dev/null"
+	else
+		build_quiet_argument=()
 	fi
 
 	function build_base_image {
@@ -442,26 +442,11 @@ function run {
 
 		podman build \
 			--file "$root_directory_native/docker/base/base.dockerfile" \
-			--tag "languages-base:intermediate" \
+			--tag "languages-base:latest" \
+			--tag "languages-base:$base_hash" \
+			"${environment_options[@]}" \
 			"${build_quiet_argument[@]}" \
 			"$root_directory_native" > "$stdout" 2>&1
-
-		container_id=$( \
-			podman run \
-				--detach \
-				--privileged \
-				--systemd=always \
-				"languages-base:intermediate")
-
-		podman exec \
-			"${environment_options[@]}" \
-			"$container_id" \
-			/usr/bin/bash /setup/base/setup-post.sh > "$stdout" 2>&1
-
-		podman stop "$container_id" > "$stdout"
-		podman commit "$container_id" "languages-base:latest" > "$stdout" 2>&1
-		podman commit "$container_id" "languages-base:$base_hash" > "$stdout" 2>&1
-		podman container rm "$container_id" > "$stdout"
 	}
 
 	function build_system_image {
@@ -473,6 +458,7 @@ function run {
 			--file "$root_directory_native/docker/system/system.dockerfile" \
 			--tag "languages-system:latest" \
 			--tag "languages-system:$system_hash" \
+			"${environment_options[@]}" \
 			"${build_quiet_argument[@]}" \
 			"$root_directory_native" > "$stdout" 2>&1
 	}
@@ -486,26 +472,11 @@ function run {
 			--build-arg LANGUAGE="$language" \
 			--file "$root_directory_native/docker/language/language.dockerfile" \
 			--tag "languages-$language:latest" \
-			"${build_quiet_argument[@]}" \
-			"$root_directory_native" > "$stdout" 2>&1
-
-		container_id=$( \
-			podman run \
-				--detach \
-				--mount "type=bind,source=$root_directory/cache,target=/cache" \
-				--privileged \
-				--systemd=always \
-				"languages-$language")
-
-		podman exec \
+			--tag "languages-$language:$language_hash" \
+			--env "MODE=setup" \
 			"${environment_options[@]}" \
-			"$container_id" \
-			/usr/bin/bash /setup/language/setup-post.sh > "$setup_stdout" 2>&1
-
-		podman stop "$container_id" > "$stdout"
-		podman commit "$container_id" "languages-$language:latest" > "$stdout" 2>&1
-		podman commit "$container_id" "languages-$language:$language_hash" > "$stdout" 2>&1
-		podman container rm "$container_id" > "$stdout"
+			"${build_quiet_argument[@]}" \
+			"$root_directory_native" > "$setup_stdout" 2>&1
 	}
 
 	function build_program_image {
@@ -519,39 +490,41 @@ function run {
 			--file "$root_directory_native/docker/program/program.dockerfile" \
 			--tag "languages-$language-$program:latest" \
 			--tag "languages-$language-$program:$program_hash" \
+			"${environment_options[@]}" \
 			"${build_quiet_argument[@]}" \
 			"$root_directory_native" > "$stdout" 2>&1
 	}
 
 	function execute {
+		local mode
 		local result
-
-		container_id=$( \
-			podman run \
-				--detach \
-				--privileged \
-				--rm \
-				--systemd=always \
-				"languages-$language-$program:$program_hash")
-
 		local -a arguments=()
 
+		if [[ "$option_test" == "true" ]]; then
+			mode="test"
+		else
+			mode="run"
+		fi
+
 		arguments+=("${environment_options[@]}")
+		arguments+=("--privileged")
+		arguments+=("--rm")
 
 		if [[ "$option_interactive" == "true" ]]; then
 			arguments+=("--interactive")
 			arguments+=("--tty")
-			arguments+=("$container_id")
+			arguments+=("languages-$language-$program:$program_hash")
 			arguments+=("/usr/bin/bash")
 		else
-			arguments+=("$container_id")
+			arguments+=("--env" "MODE=$mode")
+			arguments+=("languages-$language-$program:$program_hash")
 			arguments+=("/usr/bin/bash" "/entrypoint.sh")
 
 			# shellcheck disable=SC1090
 			source "$root_directory/program/$program/configuration.sh"
 		fi
 
-		podman exec "${arguments[@]}" 2>&1 && result=$? || result=$?
+		podman run "${arguments[@]}" 2>&1 && result=$? || result=$?
 
 		if [[ "$result" -ne 0 ]]; then
 			if [[ "$option_interactive" == "false" ]]; then
@@ -559,8 +532,6 @@ function run {
 				echo "${COLOR_RED}Failure.${COLOR_RESET}"
 			fi
 		fi
-
-		podman container stop "$container_id" > "$stdout"
 	}
 
 	initialize

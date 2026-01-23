@@ -4,5 +4,6 @@ ARG LANGUAGE
 
 WORKDIR /setup/language
 
-COPY /docker/language/setup/ .
 COPY /src/${LANGUAGE}/.language/* .
+
+RUN bash /entrypoint.sh
