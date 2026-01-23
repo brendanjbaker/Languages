@@ -2,6 +2,8 @@
 
 export DEBIAN_FRONTEND="noninteractive"
 
+apt-get install --no-install-recommends -y wget
+
 mkdir '/tmp/caml'
 pushd '/tmp/caml'
 

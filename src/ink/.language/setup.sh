@@ -17,4 +17,5 @@ mkdir -p '/app'
 mv 'std.ink' '/app'
 mv 'str.ink' '/app'
 
+chmod +x '/opt/ink/1.9/ink-linux'
 ln -s '/opt/ink/1.9/ink-linux' '/usr/bin/ink'

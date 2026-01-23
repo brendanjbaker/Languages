@@ -13,7 +13,10 @@
 
 export DEBIAN_FRONTEND="noninteractive"
 
-apt-get install -y --no-install-recommends clang
+apt-get install -y --no-install-recommends \
+	ca-certificates \
+	clang \
+	curl
 
 export SHELL=/usr/bin/bash
 
@@ -21,5 +24,5 @@ sh -cx "$(curl --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com
 
 export PATH="/root/.local/share/ponyup/bin:$PATH"
 
-ponyup default x86_64-linux-ubuntu22.04
+ponyup default x86_64-linux-ubuntu24.04
 ponyup update ponyc release-0.60.4

@@ -38,7 +38,9 @@ apt-get install -y --no-install-recommends \
 	libyajl-dev \
 	ncurses-dev \
 	python-dev-is-python3 \
+	unzip \
 	uuid-dev \
+	wget \
 	zlib1g-dev
 
 mkdir '/tmp/io'

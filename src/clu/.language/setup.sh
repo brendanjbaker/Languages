@@ -2,17 +2,19 @@
 
 apt-get install -y --no-install-recommends \
 	build-essential \
+	ca-certificates \
 	gcc \
 	git \
 	m4 \
-	make
+	make \
+	wget
 
-export CLUHOME="/opt/pclu/current"
+export CLUHOME="/opt/pclu/3.7"
 
 mkdir -p '/opt/pclu'
 pushd '/opt/pclu'
-git clone 'https://github.com/nbuwe/pclu' 'current'
-pushd current
+git clone 'https://github.com/nbuwe/pclu' '3.7'
+pushd '3.7'
 popd; popd
 
 mkdir -p '/opt/gc'
@@ -31,11 +33,11 @@ CFLAGS="-fcommon" ./configure \
 	--enable-threads=no --with-libatomic-ops=no \
 	--prefix="${CLUHOME:?}/code/gc"
 
-make
+make -j"$(nproc)"
 make install
 popd; popd
 
-pushd '/opt/pclu/current'
+pushd '/opt/pclu/3.7'
 mkdir -p include
 make symlinks
 pushd 'code/include'
@@ -45,7 +47,7 @@ pushd 'code/gc/include/gc'
 cp -R /opt/gc/7.2f/include/* .
 popd
 make
-ln -s "$(realpath code/libpclu_opt.a)" /opt/pclu/current/code/libpclu.a
+ln -s "$(realpath code/libpclu_opt.a)" '/opt/pclu/3.7/code/libpclu.a'
 mkdir -p /usr/local/pclu
 make install
 ln -s '/usr/local/pclu/exe/pclu' '/usr/bin/pclu'

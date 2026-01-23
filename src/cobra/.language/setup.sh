@@ -3,6 +3,7 @@
 export DEBIAN_FRONTEND="noninteractive"
 
 apt-get install -y --no-install-recommends \
+	ca-certificates \
 	git \
 	mono-complete
 

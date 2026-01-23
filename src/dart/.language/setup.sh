@@ -4,6 +4,7 @@ export DEBIAN_FRONTEND="noninteractive"
 
 apt-get install -y --no-install-recommends \
 	apt-transport-https \
+	ca-certificates \
 	gnupg \
 	wget
 

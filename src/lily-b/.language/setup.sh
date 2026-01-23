@@ -5,12 +5,13 @@ export DEBIAN_FRONTEND="noninteractive"
 apt-get install -y --no-install-recommends \
 	automake \
 	build-essential \
+	ca-certificates \
 	clang \
 	clang-format \
 	clang-tools \
 	cmake \
 	git \
-	libclang-dev  \
+	libclang-dev \
 	libcurl4-openssl-dev \
 	libedit-dev \
 	liblld-18-dev \

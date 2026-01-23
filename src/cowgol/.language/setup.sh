@@ -9,7 +9,10 @@ apt-get install -y --no-install-recommends \
 	binutils-m68k-linux-gnu \
 	binutils-powerpc-linux-gnu \
 	bison \
+	ca-certificates \
 	flex \
+	g++ \
+	gcc \
 	git \
 	gpp \
 	libbsd-dev \

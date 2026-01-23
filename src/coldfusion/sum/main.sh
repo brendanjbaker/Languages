@@ -2,6 +2,8 @@
 
 cp 'program.cfm' "/opt/coldfusion/2025/cfusion/wwwroot/"
 
+/opt/coldfusion/2025/cfusion/bin/cfstart.sh > /dev/null
+
 curl \
 	--retry 60 \
 	--retry-all-errors \

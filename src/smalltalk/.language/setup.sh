@@ -25,7 +25,7 @@ pushd 'smalltalk-3.2.5'
 ./configure
 
 # On Debian 13 (but not 12), we need "-Wno-error=incompatible-pointer-types".
-make CFLAGS="-g -O2 -Wno-error=incompatible-pointer-types"
+make -j"$(nproc)" CFLAGS="-g -O2 -Wno-error=incompatible-pointer-types"
 
 # Running "make install" exits with status 2, but it seems to work anyway.
 make install || true

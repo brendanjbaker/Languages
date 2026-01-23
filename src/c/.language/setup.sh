@@ -2,4 +2,6 @@
 
 export DEBIAN_FRONTEND="noninteractive"
 
-apt-get install -y --no-install-recommends gcc
+apt-get install -y --no-install-recommends \
+	build-essential \
+	gcc

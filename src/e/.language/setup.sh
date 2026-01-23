@@ -2,7 +2,9 @@
 
 export DEBIAN_FRONTEND="noninteractive"
 
-apt-get install -y --no-install-recommends default-jdk
+apt-get install -y --no-install-recommends \
+	openjdk-21-jdk \
+	wget
 
 mkdir '/tmp/e'
 pushd '/tmp/e'

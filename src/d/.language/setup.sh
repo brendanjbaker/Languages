@@ -1,5 +1,13 @@
 #!/usr/bin/env bash
 
+export DEBIAN_FRONTEND="noninteractive"
+
+apt-get install -y --no-install-recommends \
+	gcc \
+	libc6-dev \
+	libcurl4 \
+	wget
+
 mkdir '/tmp/d'
 pushd '/tmp/d'
 

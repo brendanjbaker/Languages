@@ -26,6 +26,6 @@ rm -fr '/tmp/basic'
 mv '/opt/qb64pe/qb64pe' '/opt/qb64pe/4.2.0'
 pushd '/opt/qb64pe/4.2.0'
 make clean OS=lnx
-make OS=lnx BUILD_QB64=y -j3
+make -j"$(nproc)" OS=lnx BUILD_QB64=y
 ln -s '/opt/qb64pe/4.2.0/qb64pe' '/usr/bin/qb64pe'
 popd

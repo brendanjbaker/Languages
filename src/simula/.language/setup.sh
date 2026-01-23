@@ -30,7 +30,7 @@ function apply_patch {
 
 apply_patch
 ./configure
-make CFLAGS="-g -O2 -std=gnu89 -Wno-implicit-function-declaration -Wno-implicit-int"
+make -j"$(nproc)" CFLAGS="-g -O2 -std=gnu89 -Wno-implicit-function-declaration -Wno-implicit-int"
 make install
 ldconfig
 ln -s /usr/local/cim/5.1/src/cim /usr/bin/cim

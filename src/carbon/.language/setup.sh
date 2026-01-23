@@ -8,7 +8,8 @@ apt-get install -y --no-install-recommends \
 	libc++-dev \
 	libc++abi-dev \
 	libgcc-14-dev \
-	lld
+	lld \
+	wget
 
 mkdir -p "/usr/local/carbon"
 pushd "/usr/local/carbon"

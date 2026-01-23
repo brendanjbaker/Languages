@@ -4,7 +4,8 @@ export DEBIAN_FRONTEND="noninteractive"
 
 apt-get install -y --no-install-recommends \
 	build-essential \
-	libncurses-dev
+	libncurses-dev \
+	wget
 
 mkdir -p '/opt/apl'
 pushd '/opt/apl'
@@ -17,6 +18,6 @@ tar -xzf 'apl-1.9.tar.gz'
 mv 'apl-1.9' '1.9'
 pushd '1.9'
 ./configure
-make
+make -j"$(nproc)"
 make install
 popd; popd

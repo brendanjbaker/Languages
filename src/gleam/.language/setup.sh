@@ -2,7 +2,9 @@
 
 export DEBIAN_FRONTEND="noninteractive"
 
-apt-get install -y --no-install-recommends erlang-base
+apt-get install -y --no-install-recommends \
+	erlang-base \
+	wget
 
 mkdir -p '/tmp/gleam'
 pushd '/tmp/gleam'
