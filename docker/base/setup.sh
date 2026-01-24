@@ -12,9 +12,9 @@ apt-get update
 apt-get upgrade -y
 
 # # Testing...
-# apt-get install --no-install-recommends -y \
-# 	bats \
-# 	xxd
+apt-get install --no-install-recommends -y \
+	bats \
+	xxd
 
 # Frequently needed (download-only).
 apt-get install --download-only --no-install-recommends -y \
@@ -33,6 +33,7 @@ apt-get install --download-only --no-install-recommends -y \
 	gcc \
 	git \
 	gnupg \
+	libc6-dev \
 	libclang-dev \
 	libcurl4 \
 	libcurl4-openssl-dev \
@@ -54,14 +55,5 @@ apt-get install --download-only --no-install-recommends -y \
 	xxd \
 	xz-utils
 
-apt-get clean
-
-rm -fr /etc/systemd/system/*.wants/*
-rm -fr /lib/systemd/system/local-fs.target.wants/*
-rm -fr /lib/systemd/system/multi-user.target.wants/*
-rm -fr /lib/systemd/system/sockets.target.wants/*initctl*
-rm -fr /lib/systemd/system/sockets.target.wants/*udev*
-rm -fr /lib/systemd/system/sysinit.target.wants/systemd-tmpfiles-setup*
-rm -fr /lib/systemd/system/systemd-update-utmp*
 rm -fr /tmp/*
 rm -fr /var/tmp/*
