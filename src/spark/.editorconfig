@@ -1,14 +1,11 @@
-# Top-most EditorConfig file
 root = true
 
-# Apply to all files
 [*]
 charset = utf-8
 end_of_line = lf
 insert_final_newline = true
 trim_trailing_whitespace = true
 
-# F# source files
 [*.adb]
 indent_style = space
 indent_size = 3
