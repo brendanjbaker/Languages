@@ -296,8 +296,8 @@ Test requirements are loose:
 | Red                              |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Rexx                             |    ✅    |   ⬜   |      ⬜      |      ⬜      |
 | Ring                             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
-| Roc                              |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
-| RPG IV (RPGLE)                   |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Roc                              |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| RPG (IV)                         |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | RPL                              |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Ruby                             |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Rust                             |    ✅    |   ✅   |      ✅      |      ⬜      |
@@ -346,7 +346,7 @@ Test requirements are loose:
 | Xojo                             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Xtend                            |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Zig                              |    ✅    |   ✅   |      ✅      |      ⬜      |
-| _Count..._                       |  _116_  | _65_  |    _11_     |     _1_     |
+| _Count..._                       |  _118_  | _67_  |    _11_     |     _1_     |
 
 **Legend**
 
