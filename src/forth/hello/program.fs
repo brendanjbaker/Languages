@@ -1,5 +1,5 @@
 : main
-  ." Hello, world!" cr
+	." Hello, world!" cr
 ;
 
 main

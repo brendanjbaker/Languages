@@ -1,4 +1,4 @@
-; hello.asm - print "Hello world" on Linux x86-64
+; Linux x86-64
 
 section .data
 	msg db "Hello, world!", 10   ; 10 = newline
