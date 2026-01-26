@@ -1,0 +1,13 @@
+algoritmo Program;
+
+variáveis
+	i, sum: inteiro;
+fim-variáveis
+
+início
+	para i de 0 até 100 faça
+		sum := sum + i;
+	fim-para
+
+	imprima(sum);
+fim

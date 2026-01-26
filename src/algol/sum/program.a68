@@ -1,0 +1,9 @@
+BEGIN
+	INT sum := 0;
+
+	FOR i FROM 0 TO 100 DO
+		sum +:= i
+	OD;
+
+	print((whole(sum, 0), newline))
+END
