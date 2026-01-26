@@ -218,7 +218,7 @@ Test requirements are loose:
 | [HTML](src/html/README.md)¹      |    ✅    |   ⚠️   |      ⚠️      |      ⚠️      |
 | HyperTalk                        |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Icon                             |    ✅    |   ✅   |      ⬜      |      ⬜      |
-| Inform                           |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Inform                           |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Ink                              |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Io                               |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Irdis                            |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
@@ -344,9 +344,9 @@ Test requirements are loose:
 | Wren                             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | X10                              |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Xojo                             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
-| Xtend                            |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Xtend                            |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Zig                              |    ✅    |   ✅   |      ✅      |      ⬜      |
-| _Count..._                       |  _118_  | _116_  |    _11_     |     _1_     |
+| _Count..._                       |  _120_  | _118_  |    _11_     |     _1_     |
 
 **Legend**
 
