@@ -1,9 +1,9 @@
 **FREE
 
-dcl-s message char(50);
+DCL-S MESSAGE CHAR(50);
 
-message = 'Hello, world!';
-dsply message;
+MESSAGE = 'Hello, world!';
+DSPLY MESSAGE;
 
-*inlr = *on;
-return;
+*INLR = *ON;
+RETURN;

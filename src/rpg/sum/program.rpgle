@@ -1,15 +1,15 @@
 **FREE
 
-dcl-s i int(10);
-dcl-s sum int(10);
+DCL-S I INT(10);
+DCL-S SUM INT(10);
 
-sum = 0;
+SUM = 0;
 
-for i = 0 to 100;
-  sum += i;
-endfor;
+FOR I = 0 TO 100;
+  SUM += I;
+ENDFOR;
 
-dsply %char(sum);
+DSPLY %CHAR(SUM);
 
-*inlr = *on;
-return;
+*INLR = *ON;
+RETURN;
