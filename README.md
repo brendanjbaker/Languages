@@ -96,7 +96,7 @@ This program should print `Hello, world!`, with a trailing newline, and exit wit
 
 ### `sum`
 
-This program should print the sum of 1-100 (inclusive), which is `5050`, with a trailing newline, and exit with status `0`.
+This program should print the sum of 0-100 (inclusive), which is `5050`, with a trailing newline, and exit with status `0`.
 
 ### `microwave`
 
