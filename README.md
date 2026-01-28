@@ -324,6 +324,7 @@ Test requirements are loose:
 | STRIPS                           |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Structured Text                  |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Swift                            |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| Tampio¹                          |    ✅    |   ⬜   |      ⬜      |      ⬜      |
 | Tcl                              |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Tern                             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Toi                              |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
@@ -346,7 +347,7 @@ Test requirements are loose:
 | Xojo                             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Xtend                            |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Zig                              |    ✅    |   ✅   |      ✅      |      ⬜      |
-| _Count..._                       |  _120_  | _118_  |    _11_     |     _1_     |
+| _Count..._                       |  _121_  | _118_  |    _11_     |     _1_     |
 
 **Legend**
 

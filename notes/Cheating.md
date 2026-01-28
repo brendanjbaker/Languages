@@ -35,3 +35,7 @@ Sass can't output directly, however the `sass` compiler can emit warnings. The `
 **SQL**
 
 A query cannot return an exit status/code directly, so output column(s) are expressed in CSV format, then the resulting CSV fields are "converted" by Bash to output and an exit status.
+
+**Tampio**
+
+The compiler generates the appropriate function, however `grep` and `awk` are used to get that function's name, and then to generate code to invoke it.
