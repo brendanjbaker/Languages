@@ -38,14 +38,14 @@ output=$(
 output_status=$(echo "$output" | cut --delimiter="$comma" --fields=1)
 output_text=$(echo "$output" | cut --delimiter="$comma" --fields=2)
 
-if [[ "$output_status" == "0" ]]; then
-	echo "$output_text"
-else
-	exit "$output_status"
-fi
-
 sudo -u postgres \
 	pg_ctl \
 		-D "$PGDATA" \
 		-l /tmp/postgres.log \
 		stop > /dev/null
+
+if [[ "$output_status" == "0" ]]; then
+	echo "$output_text"
+else
+	exit "$output_status"
+fi
