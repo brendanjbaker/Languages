@@ -196,6 +196,7 @@ Test requirements are loose:
 | Erlang                           |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | F#                               |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Factor                           |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| Fifth                            |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Forth                            |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Fortran                          |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | FoxPro                           |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
@@ -347,7 +348,7 @@ Test requirements are loose:
 | Xojo                             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Xtend                            |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Zig                              |    ✅    |   ✅   |      ✅      |      ⬜      |
-| _Count..._                       |  _121_  | _118_  |    _11_     |     _1_     |
+| _Count..._                       |  _122_  | _119_  |    _11_     |     _1_     |
 
 **Legend**
 
