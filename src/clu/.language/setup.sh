@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+export DEBIAN_FRONTEND="noninteractive"
+
 apt-get install -y --no-install-recommends \
 	build-essential \
 	ca-certificates \
@@ -21,7 +23,7 @@ mkdir -p '/opt/gc'
 pushd '/opt/gc'
 
 download \
-	--url 'http://www.hboehm.info/gc/gc_source/gc-7.2f.tar.gz' \
+	--url 'https://www.hboehm.info/gc/gc_source/gc-7.2f.tar.gz' \
 	--hash 'f4d079bd4e5ecc1f1eba2fd9a7220da42b1f8dc5'
 
 tar -xzf 'gc-7.2f.tar.gz'
