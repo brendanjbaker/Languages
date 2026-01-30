@@ -9,5 +9,5 @@ fn void main()
 		sum += i;
 	}
 
-	io::print("{}\n", sum);
+	io::printfn("%d", sum);
 }
