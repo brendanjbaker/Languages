@@ -278,7 +278,7 @@ Test requirements are loose:
 | PHP                                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Pike                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | PL/I                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
-| PL/M                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| PL/M¹                                     |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | PL/SQL                                    |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Planner                                   |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Pony                                      |    ✅    |   ✅   |      ⬜      |      ⬜      |
@@ -348,7 +348,7 @@ Test requirements are loose:
 | Xojo                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Xtend                                     |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Zig                                       |    ✅    |   ✅   |      ✅      |      ⬜      |
-| _Count..._                                |  _122_  | _119_ |    _11_     |     _1_     |
+| _Count..._                                |  _123_  | _120_ |    _11_     |     _1_     |
 
 **Legend**
 

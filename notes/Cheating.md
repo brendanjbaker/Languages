@@ -28,6 +28,10 @@ Loading the standard libraries has the side-effect of printing `(library name) i
 
 Less can't output directly, however the `lessc` compiler can emit warnings. The `@warn` command is used for "output." Finally, `awk` is used to clean up the output.
 
+**PL/M**
+
+The emulator prints various CP/M operating system output to `stdout`, so `grep` is used to extract program output.
+
 **Sass**
 
 Sass can't output directly, however the `sass` compiler can emit warnings. The `@debug` command is used for "output." Finally, `awk` is used to clean up the output.

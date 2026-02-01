@@ -1,0 +1,39 @@
+0100H:
+
+MON1: PROCEDURE(FUNC, PARM) EXTERNAL;
+	DECLARE FUNC BYTE, PARM ADDRESS;
+END MON1;
+
+MAIN: PROCEDURE;
+	DECLARE SUM ADDRESS;
+	DECLARE I BYTE;
+	DECLARE RESULT (6) BYTE;  /* Buffer for number string */
+	DECLARE J BYTE;
+
+	/* Calculate sum of 0-100 */
+	SUM = 0;
+	I = 0;
+	DO WHILE I <= 100;
+		SUM = SUM + I;
+		I = I + 1;
+	END;
+
+	/* Convert number to string (5050 decimal) */
+	J = 0;
+	DO WHILE SUM > 0 OR J = 0;
+		RESULT(J) = (SUM MOD 10) + '0';
+		SUM = SUM / 10;
+		J = J + 1;
+	END;
+	RESULT(J) = '$';
+
+	/* Reverse and print the string */
+	I = 0;
+	DO WHILE I < J;
+		CALL MON1(2, RESULT(J - I - 1));
+		I = I + 1;
+	END;
+	CALL MON1(2, 10);  /* Newline */
+END MAIN;
+
+CALL MAIN;
