@@ -322,13 +322,12 @@ Test requirements are loose:
 | [Standard ML](src/standard-ml/README.md)¹ |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Stata                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Storm                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
-| STRIPS                                    |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Structured Text                           |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Swift                                     |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Tampio¹                                   |    ✅    |   ⬜   |      ⬜      |      ⬜      |
 | Tcl                                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Tern                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
-| Toi                                       |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Toi                                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Transact-SQL                              |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Typescript                                |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Unicon                                    |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
@@ -348,7 +347,7 @@ Test requirements are loose:
 | Xojo                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Xtend                                     |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Zig                                       |    ✅    |   ✅   |      ✅      |      ⬜      |
-| _Count..._                                |  _123_  | _120_ |    _11_     |     _1_     |
+| _Count..._                                |  _124_  | _121_ |    _11_     |     _1_     |
 
 **Legend**
 

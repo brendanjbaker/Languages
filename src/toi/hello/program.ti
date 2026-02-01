@@ -1,0 +1,6 @@
+func main() -> void:
+{
+	print "Hello, world!";
+}
+
+main();
