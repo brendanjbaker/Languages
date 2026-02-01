@@ -12,3 +12,4 @@ COPY /tests/ .
 WORKDIR /app
 
 COPY /src/${LANGUAGE}/${PROGRAM}/ .
+RUN chmod +x /app/main.sh

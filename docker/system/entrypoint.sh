@@ -9,6 +9,7 @@ export DEBUG_CONTAINER="${DEBUG_CONTAINER:-false}"
 export DEBUG_PROGRAM="${DEBUG_PROGRAM:-false}"
 export DEBUG_SETUP="${DEBUG_SETUP:-false}"
 export MODE="${MODE:-}"
+export TERM='xterm-256color'
 
 if [[ "${MODE}" == "setup" ]]; then
 	source "/entrypoint-setup.sh"

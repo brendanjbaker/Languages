@@ -5,10 +5,8 @@ if [[ ! -f "/tests/${PROGRAM:?}.bats" ]]; then
 	exit 1
 fi
 
-export TERM='xterm-256color'
-
 # "Prime" the program before running test(s).
-/app/main.sh > /dev/null 2>&1 || true
+bash /app/main.sh > /dev/null 2>&1 || true
 
 if [[ "${DEBUG:-false}" == "true" ]]; then
 	set -x
