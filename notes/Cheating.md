@@ -36,6 +36,10 @@ Sass can't output directly, however the `sass` compiler can emit warnings. The `
 
 A query cannot return an exit status/code directly, so output column(s) are expressed in CSV format, then the resulting CSV fields are "converted" by Bash to output and an exit status.
 
+**Standard ML**
+
+The `smlnj` interpreter is very chatty on `stdout`. See its [README file](../src/standard-ml/README.md) for additional information.
+
 **Tampio**
 
-The compiler generates the appropriate function, however `grep` and `awk` are used to get that function's name, and then to generate code to invoke it.
+The compiler generates the appropriate function, however `grep` and `awk` are used to get that function's name, and then to generate code to invoke it. I am not sure how to get the compiler to emit code to invoke the function directly, if it is even possible. It appears that Tampio is oriented towards generating JavaScript that is embedded into a web page, and it does have some facilities for "auto-running" in that context (page's `onload` event).
