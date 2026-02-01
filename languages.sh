@@ -408,13 +408,11 @@ function run {
 	local program_hash
 	local tests_hash
 
-	local -a environment_options=(
+	local -a debug_options=(
 		"--env" "DEBUG=$option_debug"
 		"--env" "DEBUG_CONTAINER=$option_debug_container"
 		"--env" "DEBUG_PROGRAM=$option_debug_program"
-		"--env" "DEBUG_SETUP=$option_debug_setup"
-		"--env" "LANGUAGE=$language"
-		"--env" "PROGRAM=$program")
+		"--env" "DEBUG_SETUP=$option_debug_setup")
 
 	language_hash=$(directory::hash "$root_directory/src/$language/.language")
 	program_hash=$(directory::hash "$root_directory/src/$language/$program")
@@ -444,7 +442,7 @@ function run {
 			--file "$root_directory_native/docker/base/base.dockerfile" \
 			--tag "languages-base:latest" \
 			--tag "languages-base:$base_hash" \
-			"${environment_options[@]}" \
+			"${debug_options[@]}" \
 			"${build_quiet_argument[@]}" \
 			"$root_directory_native" > "$stdout" 2>&1
 	}
@@ -458,7 +456,7 @@ function run {
 			--file "$root_directory_native/docker/system/system.dockerfile" \
 			--tag "languages-system:latest" \
 			--tag "languages-system:$system_hash" \
-			"${environment_options[@]}" \
+			"${debug_options[@]}" \
 			"${build_quiet_argument[@]}" \
 			"$root_directory_native" > "$stdout" 2>&1
 	}
@@ -473,8 +471,9 @@ function run {
 			--file "$root_directory_native/docker/language/language.dockerfile" \
 			--tag "languages-$language:latest" \
 			--tag "languages-$language:$language_hash" \
+			--env "LANGUAGE=$language" \
 			--env "MODE=setup" \
-			"${environment_options[@]}" \
+			"${debug_options[@]}" \
 			"${build_quiet_argument[@]}" \
 			"$root_directory_native" > "$setup_stdout" 2>&1
 	}
@@ -490,7 +489,9 @@ function run {
 			--file "$root_directory_native/docker/program/program.dockerfile" \
 			--tag "languages-$language-$program:latest" \
 			--tag "languages-$language-$program:$program_hash" \
-			"${environment_options[@]}" \
+			--env "LANGUAGE=$language" \
+			--env "PROGRAM=$program" \
+			"${debug_options[@]}" \
 			"${build_quiet_argument[@]}" \
 			"$root_directory_native" > "$stdout" 2>&1
 	}
@@ -506,7 +507,9 @@ function run {
 			mode="run"
 		fi
 
-		arguments+=("${environment_options[@]}")
+		arguments+=("${debug_options[@]}")
+		arguments+=("--env" "LANGUAGE=$language")
+		arguments+=("--env" "PROGRAM=$program")
 		arguments+=("--privileged")
 		arguments+=("--rm")
 
