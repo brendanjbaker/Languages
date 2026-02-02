@@ -1,6 +1,14 @@
 #!/usr/bin/env bash
 
+# shellcheck disable=SC1091
 source library
 
-find . -type f | grep -v 'cache' | grep '\.sh$' | env --basic xargs -n 100 chmod +x
-find . -type f | grep -v 'cache' | grep '\.sh$' | env --basic xargs -n 100 git update-index --chmod=+x
+declare -a executable_files=(
+	languages.sh
+	scripts/*.sh
+	docker/system/entrypoint.sh)
+
+for file in "${executable_files[@]}"; do
+	chmod +x "$file"
+	git update-index --chmod=+x "$file"
+done
