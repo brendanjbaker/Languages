@@ -24,7 +24,7 @@ directory::push "$root_directory"
 for script in "${scripts[@]}"; do
 	echo "${script}:"
 	echo
-	bash "$script" 2>&1 && echo "Done." | indent
+	(bash "$script" 2>&1 && echo "Done.") | indent
 	echo
 done
 

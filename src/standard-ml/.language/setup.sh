@@ -7,4 +7,4 @@ cat > '/etc/apt/sources.list.d/debian-sid.list' <<- EOF
 	EOF
 
 apt-get update
-apt-get install -y smlnj
+apt-get install --no-install-recommends -y smlnj

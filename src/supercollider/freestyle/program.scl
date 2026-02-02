@@ -11,41 +11,41 @@ var totalDuration = (duration + silence) * 3 + 0.5;
 
 // Create a simple SynthDef
 SynthDef(\tone, { |out=0, freq=440, amp=0.3|
-    var sig = SinOsc.ar(freq, 0, amp);
-    Out.ar(out, sig ! 2);  // stereo
+	var sig = SinOsc.ar(freq, 0, amp);
+	Out.ar(out, sig ! 2);  // stereo
 }).load(Server.default);
 
 // Build the score
 ~score = Score([
-    [0.0, [\d_recv, SynthDef(\tone, { |out=0, freq=440, amp=0.3|
-        var sig = SinOsc.ar(freq, 0, amp);
-        Out.ar(out, sig ! 2);
-    }).asBytes]],
+	[0.0, [\d_recv, SynthDef(\tone, { |out=0, freq=440, amp=0.3|
+		var sig = SinOsc.ar(freq, 0, amp);
+		Out.ar(out, sig ! 2);
+	}).asBytes]],
 
-    // First tone: 0.0 to 1.0 seconds
-    [0.0, [\s_new, \tone, 1000, 0, 0, \freq, freq]],
-    [duration, [\n_free, 1000]],
+	// First tone: 0.0 to 1.0 seconds
+	[0.0, [\s_new, \tone, 1000, 0, 0, \freq, freq]],
+	[duration, [\n_free, 1000]],
 
-    // Second tone: 1.5 to 2.5 seconds
-    [duration + silence, [\s_new, \tone, 1001, 0, 0, \freq, freq]],
-    [duration + silence + duration, [\n_free, 1001]],
+	// Second tone: 1.5 to 2.5 seconds
+	[duration + silence, [\s_new, \tone, 1001, 0, 0, \freq, freq]],
+	[duration + silence + duration, [\n_free, 1001]],
 
-    // Third tone: 3.0 to 4.0 seconds
-    [(duration + silence) * 2, [\s_new, \tone, 1002, 0, 0, \freq, freq]],
-    [(duration + silence) * 2 + duration, [\n_free, 1002]],
+	// Third tone: 3.0 to 4.0 seconds
+	[(duration + silence) * 2, [\s_new, \tone, 1002, 0, 0, \freq, freq]],
+	[(duration + silence) * 2 + duration, [\n_free, 1002]],
 ]);
 
 // Render to file (non-realtime, no audio hardware needed)
 ~score.recordNRT(
-    outputFilePath: outputFile,
-    sampleRate: sampleRate,
-    headerFormat: "wav",
-    sampleFormat: "int16",
-    options: ServerOptions.new.numOutputBusChannels_(2),
-    duration: totalDuration,
-    action: {
-        "Audio file written to: %".format(outputFile.absolutePath).postln;
-        0.exit;
-    }
+	outputFilePath: outputFile,
+	sampleRate: sampleRate,
+	headerFormat: "wav",
+	sampleFormat: "int16",
+	options: ServerOptions.new.numOutputBusChannels_(2),
+	duration: totalDuration,
+	action: {
+		"Audio file written to: %".format(outputFile.absolutePath).postln;
+		0.exit;
+	}
 );
 )
