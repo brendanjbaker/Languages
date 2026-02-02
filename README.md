@@ -174,6 +174,7 @@ Test requirements are loose:
 | Caml                                      |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Carbon                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Chapel                                    |    ✅    |   ✅   |      ✅      |      ⬜      |
+| ChucK                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Clojure                                   |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | CLU                                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | COBOL                                     |    ✅    |   ✅   |      ⬜      |      ⬜      |
@@ -182,7 +183,9 @@ Test requirements are loose:
 | ColdFusion                                |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Cowgol                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Crystal                                   |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| Csound                                    |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [CSS](src/css/README.md)¹                 |    ✅    |   ✅   |      ⚠️      |      ⚠️      |
+| Cwerg                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | D                                         |    ✅    |   ✅   |      ✅      |      ⬜      |
 | Dart                                      |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Daslang                                   |    ✅    |   ✅   |      ⬜      |      ⬜      |
@@ -194,6 +197,7 @@ Test requirements are loose:
 | Elm                                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Emacs Lisp                                |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Erlang                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| Extempore                                 |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | F#                                        |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Factor                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Fifth                                     |    ✅    |   ✅   |      ⬜      |      ⬜      |
@@ -226,6 +230,7 @@ Test requirements are loose:
 | Isabelle¹                                 |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | J                                         |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | J#                                        |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Jai                                       |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Java                                      |    ✅    |   ✅   |      ✅      |      ⬜      |
 | JavaScript                                |    ✅    |   ✅   |      ✅      |      ⬜      |
 | Joule                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
@@ -314,12 +319,14 @@ Test requirements are loose:
 | Simula                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Smalltalk                                 |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Solidity                                  |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Sonic Pi                                  |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | SPARK                                     |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Spin (Parallax)                           |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [SQL](src/sql/README.md)¹                 |    ✅    |   ✅   |      ✅      |      ⬜      |
 | Squeak                                    |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Squirrel                                  |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [Standard ML](src/standard-ml/README.md)¹ |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| SuperCollider                             |    ✅    |   ✅   |      ⬜      |      ✅      |
 | Stata                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Storm                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Structured Text                           |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
@@ -347,7 +354,7 @@ Test requirements are loose:
 | Xojo                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Xtend                                     |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Zig                                       |    ✅    |   ✅   |      ✅      |      ⬜      |
-| _Count..._                                |  _124_  | _121_ |    _11_     |     _1_     |
+| _Count..._                                |  _125_  | _122_ |    _11_     |     _2_     |
 
 **Legend**
 

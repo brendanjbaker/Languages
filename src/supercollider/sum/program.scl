@@ -1,0 +1,3 @@
+'#'.post;
+(0..100).sum.postln;
+0.exit;
