@@ -154,7 +154,8 @@ Test requirements are loose:
 | Algol                                     |    ✅️    |   ✅   |      ⬜      |      ⬜      |
 | APL                                       |    ✅️    |   ✅️   |      ⬜      |      ⬜      |
 | Arturo                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
-| Assembly                                  |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| Assembly (GNU)                            |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| Assembly (Netwide)                        |    ✅    |   ⬜   |      ⬜      |      ⬜      |
 | Awk                                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [B](src/b/README.md)                      |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | B4X                                       |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
@@ -354,7 +355,7 @@ Test requirements are loose:
 | Xojo                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Xtend                                     |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Zig                                       |    ✅    |   ✅   |      ✅      |      ⬜      |
-| _Count..._                                |  _126_  | _123_ |    _11_     |     _3_     |
+| _Count..._                                |  _127_  | _123_ |    _11_     |     _3_     |
 
 **Legend**
 
