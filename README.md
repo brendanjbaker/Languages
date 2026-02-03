@@ -174,7 +174,7 @@ Test requirements are loose:
 | Caml                                      |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Carbon                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Chapel                                    |    ✅    |   ✅   |      ✅      |      ⬜      |
-| ChucK                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| ChucK                                     |    ✅    |   ✅   |      ⬜      |      ✅      |
 | Clojure                                   |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | CLU                                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | COBOL                                     |    ✅    |   ✅   |      ⬜      |      ⬜      |
@@ -354,7 +354,7 @@ Test requirements are loose:
 | Xojo                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Xtend                                     |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Zig                                       |    ✅    |   ✅   |      ✅      |      ⬜      |
-| _Count..._                                |  _125_  | _122_ |    _11_     |     _2_     |
+| _Count..._                                |  _126_  | _123_ |    _11_     |     _3_     |
 
 **Legend**
 

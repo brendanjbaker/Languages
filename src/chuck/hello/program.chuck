@@ -1,0 +1,3 @@
+"Hello, world!" => string message;
+
+<<< message >>>;
