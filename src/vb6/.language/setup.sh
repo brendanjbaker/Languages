@@ -16,14 +16,14 @@ export WINEARCH=win32
 export WINEDEBUG=+loaddll,+reg,-all
 export WINEDEBUG=+loaddll
 
-wine reg add 'HKCU\Sofware\Wine' /v Version /t REG_SZ /d win2000 /f
-wine reg query 'HKCU\Sofware\Wine' /v Version
+wine reg add 'HKCU\Sofware\Wine' /v 'Version' /t 'REG_SZ' /d 'win2000' /f
+wine reg query 'HKCU\Sofware\Wine' /v 'Version'
 
 wineboot
 
-winetricks vb6run   # Does this require accepting agreement via GUI?
-winetricks riched20   # Does this require accepting agreement via GUI?
-winetricks comctl32   # Requires accepting agreement in GUI.
-winetricks oleaut32
+winetricks -q vb6run
+winetricks -q riched20
+winetricks -q comctl32
+winetricks -q oleaut32
 
 wine vb6.exe
