@@ -1,13 +1,22 @@
 import std::io
-import uint from std::int
 
-method sum_range(uint begin, uint end) -> uint:
-	uint sum = 0
+type Range is { int begin, int end }
 
-	for i in begin..(end + 1):
+function Range(int begin, int end) -> (Range range)
+requires begin <= end
+ensures range.begin <= range.end:
+	return { begin: begin, end: end }
+
+function sum_range(Range range) -> int:
+	int sum = 0
+
+	for i in range.begin..(range.end + 1):
 		sum = sum + i
 
 	return sum
 
 public export method main():
-	io::println(sum_range(0, 100))
+	io::println(sum_range(Range(0, 100)))
+
+method test_result():
+	assume 1 == 2
