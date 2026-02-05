@@ -350,14 +350,14 @@ Test requirements are loose:
 | Visual Basic .NET                         |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Visual Basic (6)                          |    ⛔    |   ⬜   |      ⬜      |      ⬜      |
 | Wenyan (文言)                             |    ✅    |   ⛔   |      ⬜      |      ⬜      |
-| Whiley                                    |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Whiley                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [Wolfram](src/wolfram/README.md)          |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Wren                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | X10                                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Xojo                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Xtend                                     |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Zig                                       |    ✅    |   ✅   |      ✅      |      ⬜      |
-| _Count..._                                |  _132_  | _129_ |    _11_     |     _4_     |
+| _Count..._                                |  _133_  | _130_ |    _11_     |     _4_     |
 
 **Legend**
 
