@@ -38,8 +38,10 @@ apt-get install --download-only --no-install-recommends -y \
 	libcurl4 \
 	libcurl4-openssl-dev \
 	libglu1-mesa-dev \
+	libgpm2 \
 	libicu76 \
 	libncurses-dev \
+	libsodium23 \
 	libssl-dev \
 	libtool \
 	make \
@@ -51,6 +53,8 @@ apt-get install --download-only --no-install-recommends -y \
 	sudo \
 	unzip \
 	vim \
+	vim-common \
+	vim-runtime \
 	wget \
 	xxd \
 	xz-utils
