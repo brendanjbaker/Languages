@@ -10,8 +10,10 @@ apt-get install -y --no-install-recommends \
 mkdir -p '/tmp/bcpl'
 pushd '/tmp/bcpl'
 git clone --depth 1 'https://github.com/SergeGris/BCPL-compiler.git' 'bcpl-compiler'
-pushd 'bcpl-compiler/src'
-make -j"$(nproc)"
-make install
+pushd 'bcpl-compiler'
+bash makeall
+bash makeall install
 pushd; pushd
 rm -fr '/tmp/bcpl'
+mkdir -p '/app'
+ln -s '/usr/local/lib/bcplc/LIBHDR' '/app/LIBHDR'

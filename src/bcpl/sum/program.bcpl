@@ -1,0 +1,18 @@
+GET "LIBHDR"
+
+LET SUM_RANGE(BEGIN, END) = VALOF
+$(
+	LET SUM = 0
+
+	FOR I = BEGIN TO END DO
+	$(
+		SUM := SUM + I
+	$)
+
+	RESULTIS SUM
+$)
+
+AND START() BE
+$(
+	WRITEF("%N*N", SUM_RANGE(0, 100))
+$)

@@ -164,7 +164,7 @@ Test requirements are loose:
 | Bash                                      |    ✅    |   ✅   |      ✅      |      ✅      |
 | BASIC¹                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Batch                                     |    ✅    |   ✅   |      ⬜      |      ⬜      |
-| BCPL                                      |    ⛔    |   ⬜   |      ⬜      |      ⬜      |
+| BCPL                                      |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Beanshell                                 |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Beef                                      |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Brainf#ck                                 |    ✅    |   ⬜   |      ⬜      |      ⬜      |
@@ -264,6 +264,7 @@ Test requirements are loose:
 | Nemerle                                   |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Never                                     |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Newspeak                                  |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Nial                                      |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Nim                                       |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Nit                                       |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Nix                                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
@@ -356,7 +357,7 @@ Test requirements are loose:
 | Xojo                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Xtend                                     |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Zig                                       |    ✅    |   ✅   |      ✅      |      ⬜      |
-| _Count..._                                |  _130_  | _127_ |    _11_     |     _4_     |
+| _Count..._                                |  _132_  | _129_ |    _11_     |     _4_     |
 
 **Legend**
 
