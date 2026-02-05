@@ -185,7 +185,7 @@ Test requirements are loose:
 | ColdFusion                                |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Cowgol                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Crystal                                   |    ✅    |   ✅   |      ⬜      |      ⬜      |
-| Csound                                    |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Csound                                    |    ✅    |   ✅   |      ⬜      |      ✅      |
 | [CSS](src/css/README.md)¹                 |    ✅    |   ✅   |      ⚠️      |      ⚠️      |
 | Cwerg                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | D                                         |    ✅    |   ✅   |      ✅      |      ⬜      |
@@ -356,7 +356,7 @@ Test requirements are loose:
 | Xojo                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Xtend                                     |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Zig                                       |    ✅    |   ✅   |      ✅      |      ⬜      |
-| _Count..._                                |  _129_  | _126_ |    _11_     |     _3_     |
+| _Count..._                                |  _130_  | _127_ |    _11_     |     _4_     |
 
 **Legend**
 
