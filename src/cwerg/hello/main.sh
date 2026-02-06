@@ -277,6 +277,7 @@ export PYTHONPATH='/opt/cwerg/current'
 while true; do
 	commit=$(git rev-parse HEAD)
 
+	echo "Time: $(date --rfc-email)"
 	echo "Commit $commit..."
 	clean
 
