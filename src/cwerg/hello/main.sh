@@ -264,7 +264,7 @@ function apply_patch {
 }
 
 function build {
-	PYPY=python3 CC=gcc CXX=g++ MAKESILENT= make > /dev/null 2>&1
+	PYPY=python3 CC=gcc CXX=g++ MAKESILENT= make 2>&1 | grep 'hello world'
 }
 
 function clean {
@@ -285,6 +285,9 @@ while true; do
 		echo "Success (NORMAL)! ($commit)"
 		break
 	else
+		echo "Failure (NORMAL). ($commit)"
+
+		sleep 10
 		clean
 		apply_patch
 
@@ -292,10 +295,10 @@ while true; do
 			echo "Success (PATCHED)! ($commit)"
 			break
 		else
-			echo "Failure. ($commit)"
+			echo "Failure (PATCHED). ($commit)"
 			sleep 10
 			clean
-			git checkout HEAD^
+			git checkout HEAD^ 2> /dev/null
 		fi
 	fi
 done
