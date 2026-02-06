@@ -292,6 +292,8 @@ while true; do
 			break
 		else
 			echo "Failure. ($commit)"
+			sleep 10
+			clean
 			git checkout HEAD^
 		fi
 	fi
