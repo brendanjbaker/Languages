@@ -264,7 +264,8 @@ function apply_patch {
 }
 
 function build {
-	PYPY=python3 CC=gcc CXX=g++ MAKESILENT= make 2>&1 | grep 'hello world'
+	PYPY=python3 CC=gcc CXX=g++ MAKESILENT= make 2>&1 | grep 'line 2'
+	# PYPY=python3 CC=gcc CXX='g++ -include algorithm' MAKESILENT= make 2>&1 | grep 'hello world'
 }
 
 function clean {
