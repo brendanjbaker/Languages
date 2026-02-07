@@ -196,6 +196,7 @@ Test requirements are loose:
 | E                                         |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Eiffel                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Elixir                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| Elk                                       |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Elm                                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Emacs Lisp                                |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Erlang                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |

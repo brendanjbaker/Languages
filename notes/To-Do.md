@@ -1,35 +1,59 @@
 Consider adding these languages:
 
+* Admiran
+* Alumina
 * Associative Programming Language (not APL)
+* ATS
+* Austral
 * Axum
 * C--
+* Cakelisp
+* Carp
 * Ceylon
 * Concrete
+* Cone
 * Control Language (IBM CL)
+* CSpydr
 * Dafny
 * Duck
 * Duckling
+* eC
 * Effekt
+* Elk
 * Euclid
 * FL
+* Flix
 * FLOW-MATIC
+* Flux
 * Fossil
 * FP
 * FreedomLang
 * HAL/S
+* Helix
+* Hylo
 * Hypertalk
-* J
+* Inko
 * Jank
+* Jiyu
 * Jule
 * Kip
+* Kit
 * Lean 4
+* LitaC
+* Lucia
 * Malik
 * Mesa
 * MetaOCaml
+* Move
+* Myr
 * NAND1
 * Nature
+* Neat
+* Nelua
+* Niva
 * NSK
 * Obliq
+* Ocen
 * Oils/YSH
 * PL-6
 * PL.8
@@ -42,12 +66,20 @@ Consider adding these languages:
 * RTL (Register Transfer Language)
 * Rye
 * SAS
+* Scopes
 * Self
+* Silk
+* SmallJS
+* Sparrow
 * Tagspeak
+* Tailspin
 * TeaScript
+* Terra
 * TriC (Triton-64)
 * Uiua
 * Vext
+* Vox
 * WHEN
 * X#
+* X07
 * ylang
