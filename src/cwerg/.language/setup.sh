@@ -7,22 +7,20 @@ apt-get install -y --no-install-recommends \
 	ca-certificates \
 	clang \
 	cmake \
+	g++-aarch64-linux-gnu \
+	g++-arm-linux-gnueabihf \
+	gcc-aarch64-linux-gnu \
+	gcc-arm-linux-gnueabihf \
 	git \
-	pip \
+	libunwind-dev \
 	python3 \
-	sudo
+	qemu-user-static
 
-apt-cache policy qemu-user-static
-
-apt-cache madison libc6-dev-i386
-apt-cache madison libc6-x32
-
-apt-get install -y qemu-user-static
-apt-get install -y libunwind-dev gcc-multilib
-apt-get install -y gcc-arm-linux-gnueabihf  g++-arm-linux-gnueabihf
-apt-get install -y gcc-aarch64-linux-gnu g++-aarch64-linux-gnu
+export PYTHONPATH='/opt/cwerg/f834ff3'
 
 mkdir '/opt/cwerg'
 pushd '/opt/cwerg'
-git clone 'https://github.com/robertmuth/Cwerg.git' 'current'
-popd
+git clone 'https://github.com/robertmuth/Cwerg.git' 'f834ff3'
+pushd 'f834ff3'
+git checkout 'f834ff333456bc98ef53f40f3836e1bd2dfe56d8' 2> /dev/null
+PYPY=python3 CC=gcc CXX=g++ MAKESILENT= make || true
