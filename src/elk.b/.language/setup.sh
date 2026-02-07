@@ -4,6 +4,8 @@ export DEBIAN_FRONTEND="noninteractive"
 
 apt-get install -y --no-install-recommends
 	build-essential \
+	ca-certificates \
+	git \
 	go \
 	make
 

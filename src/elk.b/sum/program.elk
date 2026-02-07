@@ -1,0 +1,15 @@
+class IterableObject[V, E = never]
+	include Iterable::Base[V, E]
+
+	attr iter: Iterator[V, E]
+
+	init(@iter: Iterator[V, E]); end
+
+	def inspect: String
+		"IterableBaseTestObject{}"
+	end
+end
+
+itererable := (0...100).iter
+sum := iterable.reduce |acc, n| -> acc + n
+print sum
