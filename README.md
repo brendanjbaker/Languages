@@ -187,7 +187,7 @@ Test requirements are loose:
 | Crystal                                   |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Csound                                    |    ✅    |   ✅   |      ⬜      |      ✅      |
 | [CSS](src/css/README.md)¹                 |    ✅    |   ✅   |      ⚠️      |      ⚠️      |
-| Cwerg                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Cwerg                                     |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | D                                         |    ✅    |   ✅   |      ✅      |      ⬜      |
 | Dart                                      |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Daslang                                   |    ✅    |   ✅   |      ⬜      |      ⬜      |
@@ -357,7 +357,7 @@ Test requirements are loose:
 | Xojo                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Xtend                                     |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Zig                                       |    ✅    |   ✅   |      ✅      |      ⬜      |
-| _Count..._                                |  _133_  | _130_ |    _11_     |     _4_     |
+| _Count..._                                |  _134_  | _131_ |    _11_     |     _4_     |
 
 **Legend**
 
