@@ -29,4 +29,4 @@ pushd 'f834ff3'
 git checkout 'f834ff333456bc98ef53f40f3836e1bd2dfe56d8' 2> /dev/null
 PYPY=python3 CC=gcc CXX=g++ MAKESILENT= make > /dev/null 2>&1 || true
 ln -s '/opt/cwerg/f834ff3/FE/compiler.py' '/usr/bin/cwerg-c'
-ln -s '/opt/cwerg/f834ff3/BE/CodeGenA32/codegen.py' '/usr/bin/cwerg-gen'
+ln -s '/opt/cwerg/f834ff3/BE/CodeGenX64/codegen.py' '/usr/bin/cwerg-gen'
