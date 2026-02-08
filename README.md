@@ -196,7 +196,8 @@ Test requirements are loose:
 | E                                         |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Eiffel                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Elixir                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
-| Elk                                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| [Elk](src/elk.a/README.md) (A)            |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| [Elk](src/elk.b/README.md) (B)            |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Elm                                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Emacs Lisp                                |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Erlang                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
@@ -247,8 +248,8 @@ Test requirements are loose:
 | LabVIEW                                   |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Ladder Logic                              |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Less¹                                     |    ✅    |   ✅   |      ⬜      |      ⬜      |
-| [Lily](src/lily-a/README.md) (A)          |    ✅    |   ✅   |      ⬜      |      ⬜      |
-| [Lily](src/lily-b/README.md) (B)          |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| [Lily](src/lily.a/README.md) (A)          |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| [Lily](src/lily.b/README.md) (B)          |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Lisp                                      |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Lobster                                   |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Logo                                      |    ✅    |   ✅   |      ⬜      |      ⬜      |
@@ -358,7 +359,7 @@ Test requirements are loose:
 | Xojo                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Xtend                                     |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Zig                                       |    ✅    |   ✅   |      ✅      |      ⬜      |
-| _Count..._                                |  _135_  | _132_ |    _11_     |     _4_     |
+| _Count..._                                |  _136_  | _133_ |    _11_     |     _4_     |
 
 **Legend**
 
