@@ -61,7 +61,8 @@ function clean {
 	containers=$( \
 		podman container list --all --external --noheading \
 		| ( grep -E "$pattern" || true ) \
-		| awk '{ print $1 }')
+		| awk '{ print $1 }' \
+		| sort)
 
 	if [[ -n "$containers" ]]; then
 		echo "$containers" | xargs -n 25 --verbose -- podman container rm --force --volumes
@@ -70,7 +71,8 @@ function clean {
 	images=$( \
 		podman image list --noheading \
 		| ( grep -E "$pattern" || true ) \
-		| awk '{ print $1 ":" $2 }')
+		| awk '{ print $1 ":" $2 }' \
+		| sort)
 
 	if [[ -n "$images" ]]; then
 		echo "$images" | xargs -n 25 --verbose -- podman image rm --force --ignore
