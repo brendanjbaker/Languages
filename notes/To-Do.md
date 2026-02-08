@@ -68,6 +68,7 @@ Consider adding these languages:
 * SAS
 * Scopes
 * Self
+* Sieve (use log/trace for "hello" program)
 * Silk
 * SmallJS
 * Sparrow
