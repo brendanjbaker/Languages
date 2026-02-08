@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 
-if [[ ! -f program ]]; then
-	# Does it have to be named "main.elk"?
-	elk compile program.elk
-fi
+declare elk_home='/opt/elk/fa2c531'
+declare elk="$elk_home/cmd/elk/main.go"
 
-./program "$@"
+# Compiling doesn't seem to work, yet, but running/interpreting does.
+go -C "$elk_home" run "$elk" run '/app/program.elk' "$@"
