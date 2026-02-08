@@ -196,7 +196,7 @@ Test requirements are loose:
 | E                                         |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Eiffel                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Elixir                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
-| Elk                                       |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Elk                                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Elm                                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Emacs Lisp                                |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Erlang                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
@@ -358,7 +358,7 @@ Test requirements are loose:
 | Xojo                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Xtend                                     |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Zig                                       |    ✅    |   ✅   |      ✅      |      ⬜      |
-| _Count..._                                |  _134_  | _131_ |    _11_     |     _4_     |
+| _Count..._                                |  _135_  | _132_ |    _11_     |     _4_     |
 
 **Legend**
 
