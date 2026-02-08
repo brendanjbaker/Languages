@@ -2,7 +2,10 @@
 
 export DEBIAN_FRONTEND="noninteractive"
 
-apt-get install -y --no-install-recommends ...
+apt-get install -y --no-install-recommends \
+	ca-certificates \
+	libicu76 \
+	wget
 
 mkdir '/tmp/elk'
 pushd '/tmp/elk'

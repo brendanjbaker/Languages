@@ -1,0 +1,14 @@
+#!/usr/bin/env elk
+
+fn main() {
+	println(sum_range(0, 100))
+}
+
+fn sum_range(begin, end) {
+	let sum = 0
+
+	for i in begin..(end + 1):
+		sum += i
+
+	sum
+}
