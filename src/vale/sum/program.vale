@@ -1,0 +1,27 @@
+import stdlib.*;
+import stdlib.math.*;
+
+struct Range imm {
+	begin int;
+	end int;
+}
+
+func sum_range(range Range) int {
+	vassert(range.begin <= range.end, "Begin is not less than end.");
+
+	i = range.begin;
+	sum = 0;
+
+	while (i <= range.end) {
+		set sum = sum + i;
+		set i = i + 1;
+	}
+
+	return sum;
+}
+
+exported func main() {
+	x = sum_range(Range(0, 100));
+
+	print(str(x) + "\n");
+}
