@@ -19,7 +19,6 @@ Consider adding these languages:
 * Duckling
 * eC
 * Effekt
-* Elk
 * Euclid
 * FL
 * Flix
