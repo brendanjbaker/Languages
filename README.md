@@ -321,6 +321,7 @@ Test requirements are loose:
 | Sed                                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Seed7                                     |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Self                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| [Sieve](src/sieve/README.md)¹             |    ✅    |   ⚠️   |      ⚠️      |      ✅      |
 | Simula                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Smalltalk                                 |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Solidity                                  |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
@@ -345,8 +346,8 @@ Test requirements are loose:
 | Unicon                                    |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | V                                         |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Vala                                      |    ✅    |   ✅   |      ⬜      |      ⬜      |
-| Vale                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
-| VBScript                                  |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Vale                                      |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| VBScript                                  |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Verilog                                   |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | VHDL                                      |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Visual Basic .NET                         |    ✅    |   ✅   |      ⬜      |      ⬜      |
@@ -354,12 +355,12 @@ Test requirements are loose:
 | Wenyan (文言)                             |    ✅    |   ⛔   |      ⬜      |      ⬜      |
 | Whiley                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [Wolfram](src/wolfram/README.md)          |    ✅    |   ✅   |      ⬜      |      ⬜      |
-| Wren                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Wren                                      |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | X10                                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
-| Xojo                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| [Xojo](src/xojo/README.md)                |    ⚠️    |   ⚠️   |      ⚠️      |      ⚠️      |
 | Xtend                                     |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Zig                                       |    ✅    |   ✅   |      ✅      |      ⬜      |
-| _Count..._                                |  _136_  | _133_ |    _11_     |     _4_     |
+| _Count..._                                |  _140_  | _136_ |    _11_     |     _5_     |
 
 **Legend**
 
