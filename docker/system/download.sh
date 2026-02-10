@@ -80,7 +80,7 @@ function download {
 	function verify_hash {
 		computed_hash=$(sha1sum "/cache/$filename" | awk '{ print $1; }')
 
-		if [[ -z "$option_hash" ]]; then
+		if [[ -z "$option_hash" || "$option_hash" == '*' ]]; then
 			print_computed_hash
 			echo "Warning: Not verifying hash." >&2
 		else
