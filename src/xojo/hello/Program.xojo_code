@@ -1,0 +1,1 @@
+StdOut.WriteLine("Hello, world!")
