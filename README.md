@@ -357,10 +357,10 @@ Test requirements are loose:
 | [Wolfram](src/wolfram/README.md)          |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Wren                                      |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | X10                                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
-| [Xojo](src/xojo/README.md)                |    ⚠️    |   ⚠️   |      ⚠️      |      ⚠️      |
+| [Xojo](src/xojo/README.md)                |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Xtend                                     |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Zig                                       |    ✅    |   ✅   |      ✅      |      ⬜      |
-| _Count..._                                |  _140_  | _136_ |    _11_     |     _5_     |
+| _Count..._                                |  _141_  | _137_ |    _11_     |     _5_     |
 
 **Legend**
 

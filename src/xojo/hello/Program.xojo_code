@@ -1,1 +1,1 @@
-StdOut.WriteLine("Hello, world!")
+Print("Hello, world!")
