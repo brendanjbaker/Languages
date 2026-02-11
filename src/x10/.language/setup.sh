@@ -3,7 +3,7 @@
 export DEBIAN_FRONTEND="noninteractive"
 
 apt-get install -y --no-install-recommends \
-	openjdk-21-jdk \
+	openjdk-21-jdk-headless \
 	wget
 
 declare filename='x10-2.6.2_linux_x86_64.tgz'

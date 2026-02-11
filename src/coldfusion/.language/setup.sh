@@ -6,7 +6,7 @@ apt-get install -y --no-install-recommends \
 	curl \
 	libc6 \
 	libstdc++6 \
-	openjdk-21-jdk \
+	openjdk-21-jdk-headless \
 	unzip \
 	wget
 
