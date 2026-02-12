@@ -151,13 +151,19 @@ Test requirements are loose:
 | Language                                  | `hello` | `sum` | `microwave` | `freestyle` |
 | ----------------------------------------- | :-----: | :---: | :---------: | :---------: |
 | Ada                                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| Admiran                                   |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Agda                                      |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Algol                                     |    ✅️    |   ✅   |      ⬜      |      ⬜      |
+| Alumina                                   |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | APL                                       |    ✅️    |   ✅️   |      ⬜      |      ⬜      |
 | Arturo                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Assembly (GNU)                            |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Assembly (Microsoft)                      |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Assembly (Netwide)                        |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| ATS                                       |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Austral                                   |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Awk                                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| Axum                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [B](src/b/README.md)                      |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | B4X                                       |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Ballerina                                 |    ✅    |   ✅   |      ⬜      |      ⬜      |
@@ -170,11 +176,15 @@ Test requirements are loose:
 | Brainf#ck                                 |    ✅    |   ⬜   |      ⬜      |      ⬜      |
 | C                                         |    ✅    |   ✅   |      ✅      |      ⬜      |
 | C#                                        |    ✅    |   ✅   |      ✅      |      ⬜      |
+| C--                                       |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | C++                                       |    ✅    |   ✅   |      ✅      |      ⬜      |
 | C2                                        |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | C3                                        |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| Cakelisp                                  |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Caml                                      |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Carbon                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| Carp                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Ceylon                                    |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Chapel                                    |    ✅    |   ✅   |      ✅      |      ⬜      |
 | ChucK                                     |    ✅    |   ✅   |      ⬜      |      ✅      |
 | Clojure                                   |    ✅    |   ✅   |      ⬜      |      ⬜      |
@@ -183,17 +193,24 @@ Test requirements are loose:
 | Cobra                                     |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | CoffeeScript                              |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | ColdFusion                                |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| Concrete                                  |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Cone                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Control Language                          |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Cowgol                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Crystal                                   |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Csound                                    |    ✅    |   ✅   |      ⬜      |      ✅      |
 | [CSS](src/css/README.md)¹                 |    ✅    |   ✅   |      ⚠️      |      ⚠️      |
 | Cwerg                                     |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | D                                         |    ✅    |   ✅   |      ✅      |      ⬜      |
+| Dafny                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Dart                                      |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Daslang                                   |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | dBase                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Delphi                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| Duck                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | E                                         |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| eC                                        |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Effekt                                    |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Eiffel                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Elixir                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [Elk](src/elk.a/README.md) (A)            |    ✅    |   ✅   |      ⬜      |      ⬜      |
@@ -201,13 +218,19 @@ Test requirements are loose:
 | Elm                                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Emacs Lisp                                |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Erlang                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| Euclid                                    |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Extempore                                 |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | F#                                        |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Factor                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Fifth                                     |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| FL                                        |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Flix                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| FLOW-MATIC                                |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Flux                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Forth                                     |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Fortran                                   |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | FoxPro                                    |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| FP                                        |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [Futhark](src/futhark/README.md)          |    ⚠️    |   ✅   |      ⬜      |      ⬜      |
 | G-Portugol                                |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Gambas                                    |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
@@ -220,21 +243,26 @@ Test requirements are loose:
 | Groovy                                    |    ✅️    |   ✅   |      ⬜      |      ⬜      |
 | Gurgle                                    |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Hack                                      |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| HAL/S                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Hare                                      |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Haskell                                   |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Haxe                                      |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| HolyC                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Hopper                                    |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [HTML](src/html/README.md)¹               |    ✅    |   ⚠️   |      ⚠️      |      ⚠️      |
+| Hylo                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | HyperTalk                                 |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Icon                                      |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Inform                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Ink                                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| Inko                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Io                                        |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Irdis                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Isabelle¹                                 |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | J                                         |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | J#                                        |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Jai                                       |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Jank                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Java                                      |    ✅    |   ✅   |      ✅      |      ⬜      |
 | JavaScript                                |    ✅    |   ✅   |      ✅      |      ⬜      |
 | Joule                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
@@ -242,41 +270,58 @@ Test requirements are loose:
 | JS++                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | JScript                                   |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Jtw                                       |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Jule                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Julia                                     |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| Kairo                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Kip                                       |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Kit                                       |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Koka                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Kotlin                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | LabVIEW                                   |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Ladder Logic                              |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Lean                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Less¹                                     |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [Lily](src/lily.a/README.md) (A)          |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [Lily](src/lily.b/README.md) (B)          |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Lisp                                      |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| LitaC                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Lobster                                   |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Logo                                      |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Lua                                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| Lucia                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Maple                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | MATLAB                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Maxima                                    |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Mesa                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| MetaOCaml                                 |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Modelica                                  |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Modula                                    |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Modula-2                                  |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Modula-3                                  |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Mojo                                      |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| Move                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Myrddin                                   |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | NATURAL                                   |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Nature                                    |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Neat                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Nelua                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Nemerle                                   |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Never                                     |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Newspeak                                  |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Nial                                      |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Nim                                       |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Nit                                       |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Niva                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Nix                                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| NSK                                       |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | NXT-G                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Oak                                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Oberon                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Object Pascal                             |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Objective-C                               |    ✅    |   ✅   |      ⬜      |      ⬜      |
-| Oblique                                   |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Obliq                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | OCaml                                     |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| Ocen                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Odin                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Opa                                       |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | OpenCL                                    |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
@@ -287,8 +332,12 @@ Test requirements are loose:
 | PHL                                       |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | PHP                                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Pike                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| PL-6                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| PL.8                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| PL/C                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | PL/I                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | PL/M¹                                     |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| PL/S                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | PL/SQL                                    |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Planner                                   |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Pony                                      |    ✅    |   ✅   |      ⬜      |      ⬜      |
@@ -300,6 +349,7 @@ Test requirements are loose:
 | Pure                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Python                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Q                                         |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Quetite                                   |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | R                                         |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Racket                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Raku                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
@@ -308,25 +358,33 @@ Test requirements are loose:
 | Rexx                                      |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Ring                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Roc                                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| Rocq                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | RPG (IV)                                  |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | RPL                                       |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| RTL                                       |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| RTL/2                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Ruby                                      |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Rust                                      |    ✅    |   ✅   |      ✅      |      ⬜      |
+| Rye                                       |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | SAS                                       |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Sass¹                                     |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Sather                                    |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Scala                                     |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Scheme                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| Scopes                                    |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Scratch                                   |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Sed                                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Seed7                                     |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Self                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [Sieve](src/sieve/README.md)¹             |    ✅    |   ⚠️   |      ⚠️      |      ✅      |
+| Silk                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Simula                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| SmallJS                                   |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Smalltalk                                 |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Solidity                                  |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Sonic Pi                                  |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | SPARK                                     |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| Sparrow                                   |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Spin (Parallax)                           |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [SQL](src/sql/README.md)¹                 |    ✅    |   ✅   |      ✅      |      ⬜      |
 | Squeak                                    |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
@@ -337,12 +395,18 @@ Test requirements are loose:
 | Storm                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Structured Text                           |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Swift                                     |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| Tailspin                                  |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Tampio¹                                   |    ✅    |   ⬜   |      ⬜      |      ⬜      |
 | Tcl                                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| Teascript                                 |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Tern                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Terra                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| TH1                                       |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Toi                                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Transact-SQL                              |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| TriC                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Typescript                                |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| Uiua                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Unicon                                    |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | V                                         |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Vala                                      |    ✅    |   ✅   |      ⬜      |      ⬜      |
@@ -352,6 +416,7 @@ Test requirements are loose:
 | VHDL                                      |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Visual Basic .NET                         |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Visual Basic (6)                          |    ⛔    |   ⬜   |      ⬜      |      ⬜      |
+| Vox                                       |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Wenyan (文言)                             |    ✅    |   ⛔   |      ⬜      |      ⬜      |
 | Whiley                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [Wolfram](src/wolfram/README.md)          |    ✅    |   ✅   |      ⬜      |      ⬜      |
@@ -359,6 +424,8 @@ Test requirements are loose:
 | X10                                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [Xojo](src/xojo/README.md)                |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Xtend                                     |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| ylang                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| YSH                                       |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Zig                                       |    ✅    |   ✅   |      ✅      |      ⬜      |
 | _Count..._                                |  _141_  | _137_ |    _11_     |     _5_     |
 
