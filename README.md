@@ -151,7 +151,7 @@ Test requirements are loose:
 | Language                                  | `hello` | `sum` | `microwave` | `freestyle` |
 | ----------------------------------------- | :-----: | :---: | :---------: | :---------: |
 | Ada                                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
-| Admiran                                   |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Admiran                                   |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Agda                                      |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Algol (58)                                |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Algol (60)                                |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
@@ -445,7 +445,7 @@ Test requirements are loose:
 | ylang                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | YSH                                       |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Zig                                       |    ✅    |   ✅   |      ✅      |      ⬜      |
-| _Count..._                                |  _141_  | _137_ |    _12_     |     _5_     |
+| _Count..._                                |  _142_  | _138_ |    _12_     |     _5_     |
 
 **Legend**
 
