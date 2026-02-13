@@ -156,7 +156,7 @@ Test requirements are loose:
 | Algol (58)                                |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Algol (60)                                |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Algol (68)                                |    ✅️    |   ✅   |      ⬜      |      ⬜      |
-| Alumina                                   |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Alumina                                   |    ✅️    |   ✅️   |      ⬜      |      ⬜      |
 | APL                                       |    ✅️    |   ✅️   |      ⬜      |      ⬜      |
 | Arturo                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Assembly (GNU)                            |    ✅    |   ✅   |      ⬜      |      ⬜      |
@@ -445,7 +445,7 @@ Test requirements are loose:
 | ylang                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | YSH                                       |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Zig                                       |    ✅    |   ✅   |      ✅      |      ⬜      |
-| _Count..._                                |  _142_  | _138_ |    _12_     |     _5_     |
+| _Count..._                                |  _143_  | _139_ |    _12_     |     _5_     |
 
 **Legend**
 

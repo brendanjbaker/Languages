@@ -1,0 +1,23 @@
+struct Range {
+	begin: i32,
+	end: i32
+}
+
+fn sum_range(range: Range) -> i32 {
+	let begin = range.begin;
+	let end = range.end + 1;
+
+	let sum = (begin..end)
+		.iter()
+		.enumerate()
+		.reduce(0, |acc: i32, n: (usize, i32)| -> i32 { acc + n.1 });
+
+	return sum;
+}
+
+fn main() {
+	let range = Range { begin: 0, end: 100 };
+	let sum = sum_range(range);
+
+	println!("{}", sum);
+}
