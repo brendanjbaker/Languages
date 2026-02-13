@@ -13,8 +13,8 @@ apt-get install -y --no-install-recommends \
 	pkg-config \
 	rustup
 
-rustup install 1.92.0
-rustup default 1.92.0
+rustup install 1.93.1
+rustup default 1.93.1
 
 # Need to provide '-include limits.h' when calling g++, otherwise it'll fail:
 # "FolderItem.cpp:106:23: error: 'PATH_MAX' was not declared in this scope"

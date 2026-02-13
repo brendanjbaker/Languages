@@ -10,5 +10,5 @@ apt-get install -y --no-install-recommends \
 	pkg-config \
 	rustup
 
-rustup install 1.92.0
-rustup default 1.92.0
+rustup install 1.93.1
+rustup default 1.93.1
