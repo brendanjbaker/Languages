@@ -200,7 +200,7 @@ Test requirements are loose:
 | Crystal                                   |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Csound                                    |    ✅    |   ✅   |      ⬜      |      ✅      |
 | [CSS](src/css/README.md)¹                 |    ✅    |   ✅   |      ⚠️      |      ⚠️      |
-| Cwerg                                     |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| Cwerg                                     |    ✅    |   ✅   |      ✅      |      ⬜      |
 | D                                         |    ✅    |   ✅   |      ✅      |      ⬜      |
 | Dafny                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Dart                                      |    ✅    |   ✅   |      ⬜      |      ⬜      |
