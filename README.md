@@ -153,13 +153,16 @@ Test requirements are loose:
 | Ada                                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Admiran                                   |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Agda                                      |    ✅    |   ✅   |      ⬜      |      ⬜      |
-| Algol                                     |    ✅️    |   ✅   |      ⬜      |      ⬜      |
+| Algol (58)                                |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Algol (60)                                |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Algol (68)                                |    ✅️    |   ✅   |      ⬜      |      ⬜      |
 | Alumina                                   |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | APL                                       |    ✅️    |   ✅️   |      ⬜      |      ⬜      |
 | Arturo                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Assembly (GNU)                            |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Assembly (Microsoft)                      |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Assembly (Netwide)                        |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| Atlas Autocode                            |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | ATS                                       |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Austral                                   |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Awk                                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
@@ -168,7 +171,7 @@ Test requirements are loose:
 | B4X                                       |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Ballerina                                 |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Bash                                      |    ✅    |   ✅   |      ✅      |      ✅      |
-| BASIC¹                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| BASIC (QuickBASIC)¹                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Batch                                     |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | BCPL                                      |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Beanshell                                 |    ✅    |   ✅   |      ⬜      |      ⬜      |
@@ -187,6 +190,7 @@ Test requirements are loose:
 | Ceylon                                    |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Chapel                                    |    ✅    |   ✅   |      ✅      |      ⬜      |
 | ChucK                                     |    ✅    |   ✅   |      ⬜      |      ✅      |
+| Clean                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Clojure                                   |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | CLU                                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | COBOL                                     |    ✅    |   ✅   |      ⬜      |      ⬜      |
@@ -197,6 +201,7 @@ Test requirements are loose:
 | Cone                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Control Language                          |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Cowgol                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| CPL                                       |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Crystal                                   |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Csound                                    |    ✅    |   ✅   |      ⬜      |      ✅      |
 | [CSS](src/css/README.md)¹                 |    ✅    |   ✅   |      ⚠️      |      ⚠️      |
@@ -210,6 +215,7 @@ Test requirements are loose:
 | Duck                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | E                                         |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | eC                                        |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Edinburgh IMP                             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Effekt                                    |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Eiffel                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Elixir                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
@@ -248,6 +254,7 @@ Test requirements are loose:
 | Haskell                                   |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Haxe                                      |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | HolyC                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Hope                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Hopper                                    |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [HTML](src/html/README.md)¹               |    ✅    |   ⚠️   |      ⚠️      |      ⚠️      |
 | Hylo                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
@@ -266,6 +273,7 @@ Test requirements are loose:
 | Java                                      |    ✅    |   ✅   |      ✅      |      ⬜      |
 | JavaScript                                |    ✅    |   ✅   |      ✅      |      ⬜      |
 | Joule                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| JOVIAL                                    |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [Joy](src/joy/README.md)¹                 |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | JS++                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | JScript                                   |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
@@ -277,6 +285,7 @@ Test requirements are loose:
 | Kit                                       |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Koka                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Kotlin                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| KRC                                       |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | LabVIEW                                   |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Ladder Logic                              |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Lean                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
@@ -289,11 +298,13 @@ Test requirements are loose:
 | Logo                                      |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Lua                                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Lucia                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Lucid                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Maple                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | MATLAB                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Maxima                                    |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Mesa                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | MetaOCaml                                 |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Miranda                                   |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Modelica                                  |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Modula                                    |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Modula-2                                  |    ✅    |   ✅   |      ⬜      |      ⬜      |
@@ -301,6 +312,7 @@ Test requirements are loose:
 | Mojo                                      |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Move                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Myrddin                                   |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Napier88                                  |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | NATURAL                                   |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Nature                                    |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Neat                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
@@ -313,6 +325,7 @@ Test requirements are loose:
 | Nit                                       |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Niva                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Nix                                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| NPL                                       |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | NSK                                       |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | NXT-G                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Oak                                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
@@ -325,6 +338,7 @@ Test requirements are loose:
 | Odin                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Opa                                       |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | OpenCL                                    |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Orwell                                    |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Par                                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Pascal                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Perl                                      |    ✅    |   ✅   |      ⬜      |      ⬜      |
@@ -343,9 +357,11 @@ Test requirements are loose:
 | Pony                                      |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | POP-11                                    |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | PostScript                                |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| Power Fx                                  |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | PowerShell                                |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Project Verona                            |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Prolog                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| PS-algol                                  |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Pure                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Python                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Q                                         |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
@@ -366,7 +382,9 @@ Test requirements are loose:
 | Ruby                                      |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Rust                                      |    ✅    |   ✅   |      ✅      |      ⬜      |
 | Rye                                       |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| S-algol                                   |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | SAS                                       |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| SASL                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Sass¹                                     |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Sather                                    |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Scala                                     |    ✅    |   ✅   |      ⬜      |      ⬜      |
@@ -427,7 +445,7 @@ Test requirements are loose:
 | ylang                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | YSH                                       |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Zig                                       |    ✅    |   ✅   |      ✅      |      ⬜      |
-| _Count..._                                |  _141_  | _137_ |    _11_     |     _5_     |
+| _Count..._                                |  _141_  | _137_ |    _12_     |     _5_     |
 
 **Legend**
 
