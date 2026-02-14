@@ -1,10 +1,13 @@
 import gleam/io
 import gleam/int
-import gleam/list
+
+pub fn sum_range(begin: Int, end: Int) -> Int {
+	int.range(begin, end + 1, 0, fn(acc, n) { acc + n })
+}
 
 pub fn main() {
-	let sum = list.range(0, 100)
-		|> list.fold(0, int.add)
+	let sum = sum_range(0, 100)
+	let sum_text = int.to_string(sum)
 
-	io.println(int.to_string(sum))
+	io.println(sum_text)
 }
