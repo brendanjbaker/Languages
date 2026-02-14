@@ -193,6 +193,7 @@ Test requirements are loose:
 | Clean                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Clojure                                   |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | CLU                                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| CMS-2                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | COBOL                                     |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Cobra                                     |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | CoffeeScript                              |    ✅    |   ✅   |      ⬜      |      ⬜      |
@@ -206,6 +207,7 @@ Test requirements are loose:
 | Csound                                    |    ✅    |   ✅   |      ⬜      |      ✅      |
 | [CSS](src/css/README.md)¹                 |    ✅    |   ✅   |      ⚠️      |      ⚠️      |
 | Cwerg                                     |    ✅    |   ✅   |      ✅      |      ⬜      |
+| Cyclone                                   |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | D                                         |    ✅    |   ✅   |      ✅      |      ⬜      |
 | Dafny                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Dart                                      |    ✅    |   ✅   |      ⬜      |      ⬜      |
@@ -226,6 +228,7 @@ Test requirements are loose:
 | Erlang                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Euclid                                    |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Extempore                                 |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| F*                                        |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | F#                                        |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Factor                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Fifth                                     |    ✅    |   ✅   |      ⬜      |      ⬜      |
@@ -260,11 +263,11 @@ Test requirements are loose:
 | Hylo                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | HyperTalk                                 |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Icon                                      |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| Idris                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Inform                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Ink                                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Inko                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Io                                        |    ✅    |   ✅   |      ⬜      |      ⬜      |
-| Irdis                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Isabelle¹                                 |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | J                                         |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | J#                                        |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
@@ -339,7 +342,9 @@ Test requirements are loose:
 | Opa                                       |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | OpenCL                                    |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Orwell                                    |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Oxygene                                   |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Par                                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| ParaSail                                  |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Pascal                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Perl                                      |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Phix                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
@@ -348,6 +353,7 @@ Test requirements are loose:
 | Pike                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | PL-6                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | PL.8                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| PL/B                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | PL/C                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | PL/I                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | PL/M¹                                     |    ✅    |   ✅   |      ⬜      |      ⬜      |
@@ -445,6 +451,7 @@ Test requirements are loose:
 | ylang                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | YSH                                       |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Zig                                       |    ✅    |   ✅   |      ✅      |      ⬜      |
+| Zonnon                                    |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | _Count..._                                |  _145_  | _141_ |    _14_     |     _5_     |
 
 **Legend**
