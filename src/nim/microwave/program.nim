@@ -20,7 +20,7 @@ when isMainModule:
   if not isNumeric(input):
     quit(2)
 
-  let inputFixed = input.align(4, '0')   # pad left to 4 with '0'
+  let inputFixed = input.align(4, '0')
 
   var minutes = parseInt(inputFixed[0..1])
   var seconds = parseInt(inputFixed[2..3])
