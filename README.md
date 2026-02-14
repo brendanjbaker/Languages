@@ -2,11 +2,16 @@
 
 This repository contains examples of 100+ programming languages.
 
-Besides just showing example programs, the programs are runnable in a reproducible manner via Dockerfiles. Additionally, the programs are unit tested to ensure they indeed produce the expected output(s).
+Besides just showing example programs, the programs are runnable in a reproducible manner via Dockerfiles. Additionally, the programs are tested to ensure they indeed produce the expected output(s).
+
+## Screenshot
+
+![Test mode screenshot.](screenshot.png)
 
 ## Contents
 
 - [Summary](#summary)
+- [Screenshot](#screenshot)
 - [Contents](#contents)
 - [Technical background](#technical-background)
 - [Help](#help)
@@ -23,12 +28,12 @@ Besides just showing example programs, the programs are runnable in a reproducib
 
 Podman is used to build and execute a multi-layer image.
 
-| Layer | Name       | Description                                                  |
-| ----- | ---------- | ------------------------------------------------------------ |
-| 1     | `base`     | Debian 13 (Trixie), Systemd, Snap, common apt packages.      |
-| 2     | `system`   | Things shared between all languages (entry point, tests...). |
-| 3     | `language` | Things shared within a language (language-specific setup...) |
-| 4     | `program`  | The specific program for the language.                       |
+| Layer | Name       | Description                                                   |
+| ----- | ---------- | ------------------------------------------------------------- |
+| 1     | `base`     | Debian 13 (Trixie), common apt packages.                      |
+| 2     | `system`   | Things shared between all languages (entry point, tests...).  |
+| 3     | `language` | Things shared within a language (language-specific setup...). |
+| 4     | `program`  | The specific program for the language.                        |
 
 This provides the following (for example):
 
@@ -93,6 +98,8 @@ Commands:
 ### `hello`
 
 This program should print `Hello, world!`, with a trailing newline, and exit with status `0`.
+
+This program may seem pointless, however it serves as a useful first exercise in ensuring the language's toolchain is installed and working correctly.
 
 ### `sum`
 
