@@ -253,7 +253,7 @@ Test requirements are loose:
 | Hare                                      |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Haskell                                   |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Haxe                                      |    ✅    |   ✅   |      ⬜      |      ⬜      |
-| HolyC                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| HolyC                                     |    ✅    |   ✅   |      ✅      |      ⬜      |
 | Hope                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Hopper                                    |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [HTML](src/html/README.md)¹               |    ✅    |   ⚠️   |      ⚠️      |      ⚠️      |
@@ -445,7 +445,7 @@ Test requirements are loose:
 | ylang                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | YSH                                       |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Zig                                       |    ✅    |   ✅   |      ✅      |      ⬜      |
-| _Count..._                                |  _143_  | _139_ |    _12_     |     _5_     |
+| _Count..._                                |  _144_  | _140_ |    _13_     |     _5_     |
 
 **Legend**
 
