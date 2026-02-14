@@ -2,14 +2,10 @@ require [
 	"comparator-i;ascii-numeric",
 	"envelope",
 	"environment",
-	"fileinto",
-	"imap4flags",
-	"include",
-	"relational",
 	"regex",
 	"reject",
-	"spamtest",
-	"variables"
+	"variables",
+	"vnd.dovecot.debug"
 ];
 
 if header :matches "Subject" "*" { set :lower "subject" "${1}"; }
