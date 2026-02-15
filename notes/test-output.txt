@@ -1,0 +1,2233 @@
+Language [0;97m[4mAda[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 14ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 13ms[0;0m
+
+Language [0;97m[4mAda[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mAdmiran[0;0m[2;37m (2.3)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 14ms[0;0m
+
+Language [0;97m[4mAdmiran[0;0m[2;37m (2.3)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mAlgol[0;0m[2;37m (68)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 21ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 22ms[0;0m
+
+Language [0;97m[4mAlgol[0;0m[2;37m (68)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 21ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 22ms[0;0m
+
+Language [0;97m[4mAlumina[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 75ms[0;0m
+
+Language [0;97m[4mAlumina[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 13ms[0;0m
+
+Language [0;97m[4mAPL[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 67ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 67ms[0;0m
+
+Language [0;97m[4mAPL[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 65ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 69ms[0;0m
+
+Language [0;97m[4mArturo[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 80ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 80ms[0;0m
+
+Language [0;97m[4mArturo[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 81ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 83ms[0;0m
+
+Language [0;97m[4mAssembly[0;0m[2;37m (GNU x86-64)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 11ms[0;0m
+
+Language [0;97m[4mAssembly[0;0m[2;37m (GNU x86-64)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 11ms[0;0m
+
+Language [0;97m[4mAssembly[0;0m[2;37m (Microsoft x86-64)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 90ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 89ms[0;0m
+
+Language [0;97m[4mAssembly[0;0m[2;37m (Microsoft x86-64)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 82ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 87ms[0;0m
+
+Language [0;97m[4mAssembly[0;0m[2;37m (NASM x86-64)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 11ms[0;0m
+
+Language [0;97m[4mAssembly[0;0m[2;37m (NASM x86-64)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 11ms[0;0m
+
+Language [0;97m[4mAWK[0;0m[2;37m (5)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 13ms[0;0m
+
+Language [0;97m[4mAWK[0;0m[2;37m (5)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 13ms[0;0m
+
+Language [0;97m[4mB[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mB[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 11ms[0;0m
+
+Language [0;97m[4mBallerina[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 450ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 552ms[0;0m
+
+Language [0;97m[4mBallerina[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 442ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 437ms[0;0m
+
+Language [0;97m[4mBash[0;0m[2;37m (5)[0;0m, program [0;97m[4mFreestyle[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..1[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m freestyle [2;37min 11ms[0;0m
+
+Language [0;97m[4mBash[0;0m[2;37m (5)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mBash[0;0m[2;37m (5)[0;0m, program [0;97m[4mMicrowave[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..32[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m microwave (no arguments) [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m microwave '' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m3[0;0m [0;32mok[0;0m microwave 'x' [2;37min 14ms[0;0m
+[2;37m>[0;0m    [0;97m[4m4[0;0m [0;32mok[0;0m microwave 'xxxxx' [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m5[0;0m [0;32mok[0;0m microwave '00000' [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m6[0;0m [0;32mok[0;0m microwave '-1' [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m7[0;0m [0;32mok[0;0m microwave '0' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m8[0;0m [0;32mok[0;0m microwave '1' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m9[0;0m [0;32mok[0;0m microwave '59' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m10[0;0m [0;32mok[0;0m microwave '60' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m11[0;0m [0;32mok[0;0m microwave '61' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m12[0;0m [0;32mok[0;0m microwave '90' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m13[0;0m [0;32mok[0;0m microwave '99' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m14[0;0m [0;32mok[0;0m microwave '100' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m15[0;0m [0;32mok[0;0m microwave '101' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m16[0;0m [0;32mok[0;0m microwave '159' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m17[0;0m [0;32mok[0;0m microwave '160' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m18[0;0m [0;32mok[0;0m microwave '161' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m19[0;0m [0;32mok[0;0m microwave '199' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m20[0;0m [0;32mok[0;0m microwave '200' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m21[0;0m [0;32mok[0;0m microwave '201' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m22[0;0m [0;32mok[0;0m microwave '959' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m23[0;0m [0;32mok[0;0m microwave '960' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m24[0;0m [0;32mok[0;0m microwave '961' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m25[0;0m [0;32mok[0;0m microwave '999' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m26[0;0m [0;32mok[0;0m microwave '1000' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m27[0;0m [0;32mok[0;0m microwave '1001' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m28[0;0m [0;32mok[0;0m microwave '9959' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m29[0;0m [0;32mok[0;0m microwave '9960' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m30[0;0m [0;32mok[0;0m microwave '9961' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m31[0;0m [0;32mok[0;0m microwave '9999' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m32[0;0m [0;32mok[0;0m microwave '9999' (trailing newline) [2;37min 14ms[0;0m
+
+Language [0;97m[4mBash[0;0m[2;37m (5)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mBASIC[0;0m[2;37m (QuickBASIC 4.5)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 46ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 49ms[0;0m
+
+Language [0;97m[4mBASIC[0;0m[2;37m (QuickBASIC 4.5)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 46ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 50ms[0;0m
+
+Language [0;97m[4mBatch[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 2012ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 1888ms[0;0m
+
+Language [0;97m[4mBatch[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 1896ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 1902ms[0;0m
+
+Language [0;97m[4mBCPL[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 11ms[0;0m
+
+Language [0;97m[4mBCPL[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 11ms[0;0m
+
+Language [0;97m[4mBeanShell[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 150ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 170ms[0;0m
+
+Language [0;97m[4mBeanShell[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 148ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 148ms[0;0m
+
+Language [0;97m[4mBeef[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mBeef[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mBrainf#ck[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 14ms[0;0m
+
+Language [0;97m[4mC[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 11ms[0;0m
+
+Language [0;97m[4mC[0;0m, program [0;97m[4mMicrowave[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..32[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m microwave (no arguments) [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m microwave '' [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m3[0;0m [0;32mok[0;0m microwave 'x' [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m4[0;0m [0;32mok[0;0m microwave 'xxxxx' [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m5[0;0m [0;32mok[0;0m microwave '00000' [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m6[0;0m [0;32mok[0;0m microwave '-1' [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m7[0;0m [0;32mok[0;0m microwave '0' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m8[0;0m [0;32mok[0;0m microwave '1' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m9[0;0m [0;32mok[0;0m microwave '59' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m10[0;0m [0;32mok[0;0m microwave '60' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m11[0;0m [0;32mok[0;0m microwave '61' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m12[0;0m [0;32mok[0;0m microwave '90' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m13[0;0m [0;32mok[0;0m microwave '99' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m14[0;0m [0;32mok[0;0m microwave '100' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m15[0;0m [0;32mok[0;0m microwave '101' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m16[0;0m [0;32mok[0;0m microwave '159' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m17[0;0m [0;32mok[0;0m microwave '160' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m18[0;0m [0;32mok[0;0m microwave '161' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m19[0;0m [0;32mok[0;0m microwave '199' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m20[0;0m [0;32mok[0;0m microwave '200' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m21[0;0m [0;32mok[0;0m microwave '201' [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m22[0;0m [0;32mok[0;0m microwave '959' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m23[0;0m [0;32mok[0;0m microwave '960' [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m24[0;0m [0;32mok[0;0m microwave '961' [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m25[0;0m [0;32mok[0;0m microwave '999' [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m26[0;0m [0;32mok[0;0m microwave '1000' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m27[0;0m [0;32mok[0;0m microwave '1001' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m28[0;0m [0;32mok[0;0m microwave '9959' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m29[0;0m [0;32mok[0;0m microwave '9960' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m30[0;0m [0;32mok[0;0m microwave '9961' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m31[0;0m [0;32mok[0;0m microwave '9999' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m32[0;0m [0;32mok[0;0m microwave '9999' (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mC[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mC2[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 11ms[0;0m
+
+Language [0;97m[4mC2[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 11ms[0;0m
+
+Language [0;97m[4mC3[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mC3[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mCaml[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mCaml[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mCarbon[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mCarbon[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mChapel[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 22ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 23ms[0;0m
+
+Language [0;97m[4mChapel[0;0m, program [0;97m[4mMicrowave[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..32[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m microwave (no arguments) [2;37min 24ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m microwave '' [2;37min 22ms[0;0m
+[2;37m>[0;0m    [0;97m[4m3[0;0m [0;32mok[0;0m microwave 'x' [2;37min 23ms[0;0m
+[2;37m>[0;0m    [0;97m[4m4[0;0m [0;32mok[0;0m microwave 'xxxxx' [2;37min 21ms[0;0m
+[2;37m>[0;0m    [0;97m[4m5[0;0m [0;32mok[0;0m microwave '00000' [2;37min 22ms[0;0m
+[2;37m>[0;0m    [0;97m[4m6[0;0m [0;32mok[0;0m microwave '-1' [2;37min 24ms[0;0m
+[2;37m>[0;0m    [0;97m[4m7[0;0m [0;32mok[0;0m microwave '0' [2;37min 23ms[0;0m
+[2;37m>[0;0m    [0;97m[4m8[0;0m [0;32mok[0;0m microwave '1' [2;37min 23ms[0;0m
+[2;37m>[0;0m    [0;97m[4m9[0;0m [0;32mok[0;0m microwave '59' [2;37min 23ms[0;0m
+[2;37m>[0;0m    [0;97m[4m10[0;0m [0;32mok[0;0m microwave '60' [2;37min 23ms[0;0m
+[2;37m>[0;0m    [0;97m[4m11[0;0m [0;32mok[0;0m microwave '61' [2;37min 23ms[0;0m
+[2;37m>[0;0m    [0;97m[4m12[0;0m [0;32mok[0;0m microwave '90' [2;37min 23ms[0;0m
+[2;37m>[0;0m    [0;97m[4m13[0;0m [0;32mok[0;0m microwave '99' [2;37min 23ms[0;0m
+[2;37m>[0;0m    [0;97m[4m14[0;0m [0;32mok[0;0m microwave '100' [2;37min 22ms[0;0m
+[2;37m>[0;0m    [0;97m[4m15[0;0m [0;32mok[0;0m microwave '101' [2;37min 23ms[0;0m
+[2;37m>[0;0m    [0;97m[4m16[0;0m [0;32mok[0;0m microwave '159' [2;37min 23ms[0;0m
+[2;37m>[0;0m    [0;97m[4m17[0;0m [0;32mok[0;0m microwave '160' [2;37min 23ms[0;0m
+[2;37m>[0;0m    [0;97m[4m18[0;0m [0;32mok[0;0m microwave '161' [2;37min 23ms[0;0m
+[2;37m>[0;0m    [0;97m[4m19[0;0m [0;32mok[0;0m microwave '199' [2;37min 23ms[0;0m
+[2;37m>[0;0m    [0;97m[4m20[0;0m [0;32mok[0;0m microwave '200' [2;37min 23ms[0;0m
+[2;37m>[0;0m    [0;97m[4m21[0;0m [0;32mok[0;0m microwave '201' [2;37min 23ms[0;0m
+[2;37m>[0;0m    [0;97m[4m22[0;0m [0;32mok[0;0m microwave '959' [2;37min 23ms[0;0m
+[2;37m>[0;0m    [0;97m[4m23[0;0m [0;32mok[0;0m microwave '960' [2;37min 24ms[0;0m
+[2;37m>[0;0m    [0;97m[4m24[0;0m [0;32mok[0;0m microwave '961' [2;37min 23ms[0;0m
+[2;37m>[0;0m    [0;97m[4m25[0;0m [0;32mok[0;0m microwave '999' [2;37min 23ms[0;0m
+[2;37m>[0;0m    [0;97m[4m26[0;0m [0;32mok[0;0m microwave '1000' [2;37min 22ms[0;0m
+[2;37m>[0;0m    [0;97m[4m27[0;0m [0;32mok[0;0m microwave '1001' [2;37min 23ms[0;0m
+[2;37m>[0;0m    [0;97m[4m28[0;0m [0;32mok[0;0m microwave '9959' [2;37min 23ms[0;0m
+[2;37m>[0;0m    [0;97m[4m29[0;0m [0;32mok[0;0m microwave '9960' [2;37min 23ms[0;0m
+[2;37m>[0;0m    [0;97m[4m30[0;0m [0;32mok[0;0m microwave '9961' [2;37min 23ms[0;0m
+[2;37m>[0;0m    [0;97m[4m31[0;0m [0;32mok[0;0m microwave '9999' [2;37min 23ms[0;0m
+[2;37m>[0;0m    [0;97m[4m32[0;0m [0;32mok[0;0m microwave '9999' (trailing newline) [2;37min 25ms[0;0m
+
+Language [0;97m[4mChapel[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 22ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 23ms[0;0m
+
+Language [0;97m[4mChucK[0;0m[2;37m (1.5.5.0)[0;0m, program [0;97m[4mFreestyle[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..1[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m freestyle [2;37min 48ms[0;0m
+
+Language [0;97m[4mChucK[0;0m[2;37m (1.5.5.0)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 23ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 25ms[0;0m
+
+Language [0;97m[4mChucK[0;0m[2;37m (1.5.5.0)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 24ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 26ms[0;0m
+
+Language [0;97m[4mClojure[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 534ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 548ms[0;0m
+
+Language [0;97m[4mClojure[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 509ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 511ms[0;0m
+
+Language [0;97m[4mCLU[0;0m[2;37m (PCLU 3.7)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 16ms[0;0m
+
+Language [0;97m[4mCLU[0;0m[2;37m (PCLU 3.7)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 13ms[0;0m
+
+Language [0;97m[4mCoalton[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 1343ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 1345ms[0;0m
+
+Language [0;97m[4mCoalton[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 1343ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 1345ms[0;0m
+
+Language [0;97m[4mCOBOL[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 13ms[0;0m
+
+Language [0;97m[4mCOBOL[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 13ms[0;0m
+
+Language [0;97m[4mCobra[0;0m[2;37m (0.9.6)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 45ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 46ms[0;0m
+
+Language [0;97m[4mCobra[0;0m[2;37m (0.9.6)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 50ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 48ms[0;0m
+
+Language [0;97m[4mCoffeeScript[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 111ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 114ms[0;0m
+
+Language [0;97m[4mCoffeeScript[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 110ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 113ms[0;0m
+
+Language [0;97m[4mColdFusion[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 59ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 64ms[0;0m
+
+Language [0;97m[4mColdFusion[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 59ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 66ms[0;0m
+
+Language [0;97m[4mCowgol[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 11ms[0;0m
+
+Language [0;97m[4mCowgol[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 11ms[0;0m
+
+Language [0;97m[4mC++[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mC++[0;0m, program [0;97m[4mMicrowave[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..32[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m microwave (no arguments) [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m microwave '' [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m3[0;0m [0;32mok[0;0m microwave 'x' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m4[0;0m [0;32mok[0;0m microwave 'xxxxx' [2;37min 14ms[0;0m
+[2;37m>[0;0m    [0;97m[4m5[0;0m [0;32mok[0;0m microwave '00000' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m6[0;0m [0;32mok[0;0m microwave '-1' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m7[0;0m [0;32mok[0;0m microwave '0' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m8[0;0m [0;32mok[0;0m microwave '1' [2;37min 14ms[0;0m
+[2;37m>[0;0m    [0;97m[4m9[0;0m [0;32mok[0;0m microwave '59' [2;37min 14ms[0;0m
+[2;37m>[0;0m    [0;97m[4m10[0;0m [0;32mok[0;0m microwave '60' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m11[0;0m [0;32mok[0;0m microwave '61' [2;37min 14ms[0;0m
+[2;37m>[0;0m    [0;97m[4m12[0;0m [0;32mok[0;0m microwave '90' [2;37min 14ms[0;0m
+[2;37m>[0;0m    [0;97m[4m13[0;0m [0;32mok[0;0m microwave '99' [2;37min 14ms[0;0m
+[2;37m>[0;0m    [0;97m[4m14[0;0m [0;32mok[0;0m microwave '100' [2;37min 14ms[0;0m
+[2;37m>[0;0m    [0;97m[4m15[0;0m [0;32mok[0;0m microwave '101' [2;37min 14ms[0;0m
+[2;37m>[0;0m    [0;97m[4m16[0;0m [0;32mok[0;0m microwave '159' [2;37min 14ms[0;0m
+[2;37m>[0;0m    [0;97m[4m17[0;0m [0;32mok[0;0m microwave '160' [2;37min 14ms[0;0m
+[2;37m>[0;0m    [0;97m[4m18[0;0m [0;32mok[0;0m microwave '161' [2;37min 14ms[0;0m
+[2;37m>[0;0m    [0;97m[4m19[0;0m [0;32mok[0;0m microwave '199' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m20[0;0m [0;32mok[0;0m microwave '200' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m21[0;0m [0;32mok[0;0m microwave '201' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m22[0;0m [0;32mok[0;0m microwave '959' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m23[0;0m [0;32mok[0;0m microwave '960' [2;37min 14ms[0;0m
+[2;37m>[0;0m    [0;97m[4m24[0;0m [0;32mok[0;0m microwave '961' [2;37min 14ms[0;0m
+[2;37m>[0;0m    [0;97m[4m25[0;0m [0;32mok[0;0m microwave '999' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m26[0;0m [0;32mok[0;0m microwave '1000' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m27[0;0m [0;32mok[0;0m microwave '1001' [2;37min 14ms[0;0m
+[2;37m>[0;0m    [0;97m[4m28[0;0m [0;32mok[0;0m microwave '9959' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m29[0;0m [0;32mok[0;0m microwave '9960' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m30[0;0m [0;32mok[0;0m microwave '9961' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m31[0;0m [0;32mok[0;0m microwave '9999' [2;37min 14ms[0;0m
+[2;37m>[0;0m    [0;97m[4m32[0;0m [0;32mok[0;0m microwave '9999' (trailing newline) [2;37min 14ms[0;0m
+
+Language [0;97m[4mC++[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mCrystal[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mCrystal[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mC#[0;0m[2;37m (14)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 35ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 34ms[0;0m
+
+Language [0;97m[4mC#[0;0m[2;37m (14)[0;0m, program [0;97m[4mMicrowave[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..32[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m microwave (no arguments) [2;37min 28ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m microwave '' [2;37min 28ms[0;0m
+[2;37m>[0;0m    [0;97m[4m3[0;0m [0;32mok[0;0m microwave 'x' [2;37min 29ms[0;0m
+[2;37m>[0;0m    [0;97m[4m4[0;0m [0;32mok[0;0m microwave 'xxxxx' [2;37min 30ms[0;0m
+[2;37m>[0;0m    [0;97m[4m5[0;0m [0;32mok[0;0m microwave '00000' [2;37min 28ms[0;0m
+[2;37m>[0;0m    [0;97m[4m6[0;0m [0;32mok[0;0m microwave '-1' [2;37min 28ms[0;0m
+[2;37m>[0;0m    [0;97m[4m7[0;0m [0;32mok[0;0m microwave '0' [2;37min 37ms[0;0m
+[2;37m>[0;0m    [0;97m[4m8[0;0m [0;32mok[0;0m microwave '1' [2;37min 38ms[0;0m
+[2;37m>[0;0m    [0;97m[4m9[0;0m [0;32mok[0;0m microwave '59' [2;37min 38ms[0;0m
+[2;37m>[0;0m    [0;97m[4m10[0;0m [0;32mok[0;0m microwave '60' [2;37min 135ms[0;0m
+[2;37m>[0;0m    [0;97m[4m11[0;0m [0;32mok[0;0m microwave '61' [2;37min 40ms[0;0m
+[2;37m>[0;0m    [0;97m[4m12[0;0m [0;32mok[0;0m microwave '90' [2;37min 43ms[0;0m
+[2;37m>[0;0m    [0;97m[4m13[0;0m [0;32mok[0;0m microwave '99' [2;37min 39ms[0;0m
+[2;37m>[0;0m    [0;97m[4m14[0;0m [0;32mok[0;0m microwave '100' [2;37min 37ms[0;0m
+[2;37m>[0;0m    [0;97m[4m15[0;0m [0;32mok[0;0m microwave '101' [2;37min 37ms[0;0m
+[2;37m>[0;0m    [0;97m[4m16[0;0m [0;32mok[0;0m microwave '159' [2;37min 38ms[0;0m
+[2;37m>[0;0m    [0;97m[4m17[0;0m [0;32mok[0;0m microwave '160' [2;37min 40ms[0;0m
+[2;37m>[0;0m    [0;97m[4m18[0;0m [0;32mok[0;0m microwave '161' [2;37min 38ms[0;0m
+[2;37m>[0;0m    [0;97m[4m19[0;0m [0;32mok[0;0m microwave '199' [2;37min 38ms[0;0m
+[2;37m>[0;0m    [0;97m[4m20[0;0m [0;32mok[0;0m microwave '200' [2;37min 37ms[0;0m
+[2;37m>[0;0m    [0;97m[4m21[0;0m [0;32mok[0;0m microwave '201' [2;37min 38ms[0;0m
+[2;37m>[0;0m    [0;97m[4m22[0;0m [0;32mok[0;0m microwave '959' [2;37min 37ms[0;0m
+[2;37m>[0;0m    [0;97m[4m23[0;0m [0;32mok[0;0m microwave '960' [2;37min 38ms[0;0m
+[2;37m>[0;0m    [0;97m[4m24[0;0m [0;32mok[0;0m microwave '961' [2;37min 38ms[0;0m
+[2;37m>[0;0m    [0;97m[4m25[0;0m [0;32mok[0;0m microwave '999' [2;37min 38ms[0;0m
+[2;37m>[0;0m    [0;97m[4m26[0;0m [0;32mok[0;0m microwave '1000' [2;37min 37ms[0;0m
+[2;37m>[0;0m    [0;97m[4m27[0;0m [0;32mok[0;0m microwave '1001' [2;37min 36ms[0;0m
+[2;37m>[0;0m    [0;97m[4m28[0;0m [0;32mok[0;0m microwave '9959' [2;37min 39ms[0;0m
+[2;37m>[0;0m    [0;97m[4m29[0;0m [0;32mok[0;0m microwave '9960' [2;37min 38ms[0;0m
+[2;37m>[0;0m    [0;97m[4m30[0;0m [0;32mok[0;0m microwave '9961' [2;37min 36ms[0;0m
+[2;37m>[0;0m    [0;97m[4m31[0;0m [0;32mok[0;0m microwave '9999' [2;37min 36ms[0;0m
+[2;37m>[0;0m    [0;97m[4m32[0;0m [0;32mok[0;0m microwave '9999' (trailing newline) [2;37min 37ms[0;0m
+
+Language [0;97m[4mC#[0;0m[2;37m (14)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 34ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 36ms[0;0m
+
+Language [0;97m[4mCsound[0;0m[2;37m (6.18.1)[0;0m, program [0;97m[4mFreestyle[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..1[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m freestyle [2;37min 11ms[0;0m
+
+Language [0;97m[4mCsound[0;0m[2;37m (6.18.1)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 20ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 22ms[0;0m
+
+Language [0;97m[4mCsound[0;0m[2;37m (6.18.1)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 22ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 23ms[0;0m
+
+Language [0;97m[4mCSS[0;0m[2;37m (3)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 750ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 793ms[0;0m
+
+Language [0;97m[4mCSS[0;0m[2;37m (3)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 739ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 746ms[0;0m
+
+Language [0;97m[4mCwerg[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mCwerg[0;0m, program [0;97m[4mMicrowave[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..32[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m microwave (no arguments) [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m microwave '' [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m3[0;0m [0;32mok[0;0m microwave 'x' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m4[0;0m [0;32mok[0;0m microwave 'xxxxx' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m5[0;0m [0;32mok[0;0m microwave '00000' [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m6[0;0m [0;32mok[0;0m microwave '-1' [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m7[0;0m [0;32mok[0;0m microwave '0' [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m8[0;0m [0;32mok[0;0m microwave '1' [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m9[0;0m [0;32mok[0;0m microwave '59' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m10[0;0m [0;32mok[0;0m microwave '60' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m11[0;0m [0;32mok[0;0m microwave '61' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m12[0;0m [0;32mok[0;0m microwave '90' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m13[0;0m [0;32mok[0;0m microwave '99' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m14[0;0m [0;32mok[0;0m microwave '100' [2;37min 14ms[0;0m
+[2;37m>[0;0m    [0;97m[4m15[0;0m [0;32mok[0;0m microwave '101' [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m16[0;0m [0;32mok[0;0m microwave '159' [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m17[0;0m [0;32mok[0;0m microwave '160' [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m18[0;0m [0;32mok[0;0m microwave '161' [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m19[0;0m [0;32mok[0;0m microwave '199' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m20[0;0m [0;32mok[0;0m microwave '200' [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m21[0;0m [0;32mok[0;0m microwave '201' [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m22[0;0m [0;32mok[0;0m microwave '959' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m23[0;0m [0;32mok[0;0m microwave '960' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m24[0;0m [0;32mok[0;0m microwave '961' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m25[0;0m [0;32mok[0;0m microwave '999' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m26[0;0m [0;32mok[0;0m microwave '1000' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m27[0;0m [0;32mok[0;0m microwave '1001' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m28[0;0m [0;32mok[0;0m microwave '9959' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m29[0;0m [0;32mok[0;0m microwave '9960' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m30[0;0m [0;32mok[0;0m microwave '9961' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m31[0;0m [0;32mok[0;0m microwave '9999' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m32[0;0m [0;32mok[0;0m microwave '9999' (trailing newline) [2;37min 14ms[0;0m
+
+Language [0;97m[4mCwerg[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 11ms[0;0m
+
+Language [0;97m[4mD[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mD[0;0m, program [0;97m[4mMicrowave[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..32[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m microwave (no arguments) [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m microwave '' [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m3[0;0m [0;32mok[0;0m microwave 'x' [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m4[0;0m [0;32mok[0;0m microwave 'xxxxx' [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m5[0;0m [0;32mok[0;0m microwave '00000' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m6[0;0m [0;32mok[0;0m microwave '-1' [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m7[0;0m [0;32mok[0;0m microwave '0' [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m8[0;0m [0;32mok[0;0m microwave '1' [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m9[0;0m [0;32mok[0;0m microwave '59' [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m10[0;0m [0;32mok[0;0m microwave '60' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m11[0;0m [0;32mok[0;0m microwave '61' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m12[0;0m [0;32mok[0;0m microwave '90' [2;37min 14ms[0;0m
+[2;37m>[0;0m    [0;97m[4m13[0;0m [0;32mok[0;0m microwave '99' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m14[0;0m [0;32mok[0;0m microwave '100' [2;37min 14ms[0;0m
+[2;37m>[0;0m    [0;97m[4m15[0;0m [0;32mok[0;0m microwave '101' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m16[0;0m [0;32mok[0;0m microwave '159' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m17[0;0m [0;32mok[0;0m microwave '160' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m18[0;0m [0;32mok[0;0m microwave '161' [2;37min 14ms[0;0m
+[2;37m>[0;0m    [0;97m[4m19[0;0m [0;32mok[0;0m microwave '199' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m20[0;0m [0;32mok[0;0m microwave '200' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m21[0;0m [0;32mok[0;0m microwave '201' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m22[0;0m [0;32mok[0;0m microwave '959' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m23[0;0m [0;32mok[0;0m microwave '960' [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m24[0;0m [0;32mok[0;0m microwave '961' [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m25[0;0m [0;32mok[0;0m microwave '999' [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m26[0;0m [0;32mok[0;0m microwave '1000' [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m27[0;0m [0;32mok[0;0m microwave '1001' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m28[0;0m [0;32mok[0;0m microwave '9959' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m29[0;0m [0;32mok[0;0m microwave '9960' [2;37min 14ms[0;0m
+[2;37m>[0;0m    [0;97m[4m30[0;0m [0;32mok[0;0m microwave '9961' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m31[0;0m [0;32mok[0;0m microwave '9999' [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m32[0;0m [0;32mok[0;0m microwave '9999' (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mD[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 11ms[0;0m
+
+Language [0;97m[4mDart[0;0m[2;37m (3)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 13ms[0;0m
+
+Language [0;97m[4mDart[0;0m[2;37m (3)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 14ms[0;0m
+
+Language [0;97m[4mDaslang[0;0m[2;37m (0.5.9.2.1)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 285ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 286ms[0;0m
+
+Language [0;97m[4mDaslang[0;0m[2;37m (0.5.9.2.1)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 285ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 280ms[0;0m
+
+Language [0;97m[4mDelphi[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mDelphi[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mE[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 2061ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 2129ms[0;0m
+
+Language [0;97m[4mE[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 2289ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 2022ms[0;0m
+
+Language [0;97m[4mEiffel[0;0m[2;37m (25.02)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 13ms[0;0m
+
+Language [0;97m[4mEiffel[0;0m[2;37m (25.02)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 15ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 14ms[0;0m
+
+Language [0;97m[4mElixir[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 221ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 224ms[0;0m
+
+Language [0;97m[4mElixir[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 226ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 224ms[0;0m
+
+Language [0;97m[4mElk[0;0m[2;37m (0.0.6)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 19ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 20ms[0;0m
+
+Language [0;97m[4mElk[0;0m[2;37m (0.0.6)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 20ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 23ms[0;0m
+
+Language [0;97m[4mElk[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 116ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 127ms[0;0m
+
+Language [0;97m[4mElk[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 121ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 121ms[0;0m
+
+Language [0;97m[4mElm[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 810ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 808ms[0;0m
+
+Language [0;97m[4mElm[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 811ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 804ms[0;0m
+
+Language [0;97m[4mEmacs Lisp[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 68ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 70ms[0;0m
+
+Language [0;97m[4mEmacs Lisp[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 68ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 71ms[0;0m
+
+Language [0;97m[4mErlang[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 1147ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 1139ms[0;0m
+
+Language [0;97m[4mErlang[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 1152ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 1155ms[0;0m
+
+Language [0;97m[4mFactor[0;0m[2;37m (0.101)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 117ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 120ms[0;0m
+
+Language [0;97m[4mFactor[0;0m[2;37m (0.101)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 120ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 121ms[0;0m
+
+Language [0;97m[4mFifth[0;0m[2;37m (0.6.1)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 75ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 61ms[0;0m
+
+Language [0;97m[4mFifth[0;0m[2;37m (0.6.1)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 71ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 70ms[0;0m
+
+Language [0;97m[4mForth[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 13ms[0;0m
+
+Language [0;97m[4mForth[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 11ms[0;0m
+
+Language [0;97m[4mFortran[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mFortran[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mF#[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 43ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 43ms[0;0m
+
+Language [0;97m[4mF#[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 60ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 62ms[0;0m
+
+Language [0;97m[4mFuthark[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mGleam[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 1184ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 1178ms[0;0m
+
+Language [0;97m[4mGleam[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 1181ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 1186ms[0;0m
+
+Language [0;97m[4mGo[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mGo[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mG-Portugol[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 11ms[0;0m
+
+Language [0;97m[4mG-Portugol[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 13ms[0;0m
+
+Language [0;97m[4mGroovy[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 468ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 461ms[0;0m
+
+Language [0;97m[4mGroovy[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 484ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 484ms[0;0m
+
+Language [0;97m[4mHack[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 661ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 680ms[0;0m
+
+Language [0;97m[4mHack[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 651ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 666ms[0;0m
+
+Language [0;97m[4mHare[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mHare[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mHaskell[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 21ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 22ms[0;0m
+
+Language [0;97m[4mHaskell[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 22ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 23ms[0;0m
+
+Language [0;97m[4mHaxe[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 13ms[0;0m
+
+Language [0;97m[4mHaxe[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 13ms[0;0m
+
+Language [0;97m[4mHolyC[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mHolyC[0;0m, program [0;97m[4mMicrowave[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..32[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m microwave (no arguments) [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m microwave '' [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m3[0;0m [0;32mok[0;0m microwave 'x' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m4[0;0m [0;32mok[0;0m microwave 'xxxxx' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m5[0;0m [0;32mok[0;0m microwave '00000' [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m6[0;0m [0;32mok[0;0m microwave '-1' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m7[0;0m [0;32mok[0;0m microwave '0' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m8[0;0m [0;32mok[0;0m microwave '1' [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m9[0;0m [0;32mok[0;0m microwave '59' [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m10[0;0m [0;32mok[0;0m microwave '60' [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m11[0;0m [0;32mok[0;0m microwave '61' [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m12[0;0m [0;32mok[0;0m microwave '90' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m13[0;0m [0;32mok[0;0m microwave '99' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m14[0;0m [0;32mok[0;0m microwave '100' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m15[0;0m [0;32mok[0;0m microwave '101' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m16[0;0m [0;32mok[0;0m microwave '159' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m17[0;0m [0;32mok[0;0m microwave '160' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m18[0;0m [0;32mok[0;0m microwave '161' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m19[0;0m [0;32mok[0;0m microwave '199' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m20[0;0m [0;32mok[0;0m microwave '200' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m21[0;0m [0;32mok[0;0m microwave '201' [2;37min 14ms[0;0m
+[2;37m>[0;0m    [0;97m[4m22[0;0m [0;32mok[0;0m microwave '959' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m23[0;0m [0;32mok[0;0m microwave '960' [2;37min 14ms[0;0m
+[2;37m>[0;0m    [0;97m[4m24[0;0m [0;32mok[0;0m microwave '961' [2;37min 14ms[0;0m
+[2;37m>[0;0m    [0;97m[4m25[0;0m [0;32mok[0;0m microwave '999' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m26[0;0m [0;32mok[0;0m microwave '1000' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m27[0;0m [0;32mok[0;0m microwave '1001' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m28[0;0m [0;32mok[0;0m microwave '9959' [2;37min 14ms[0;0m
+[2;37m>[0;0m    [0;97m[4m29[0;0m [0;32mok[0;0m microwave '9960' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m30[0;0m [0;32mok[0;0m microwave '9961' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m31[0;0m [0;32mok[0;0m microwave '9999' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m32[0;0m [0;32mok[0;0m microwave '9999' (trailing newline) [2;37min 14ms[0;0m
+
+Language [0;97m[4mHolyC[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 11ms[0;0m
+
+Language [0;97m[4mHTML[0;0m[2;37m (5)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 14ms[0;0m
+
+Language [0;97m[4mIcon[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 13ms[0;0m
+
+Language [0;97m[4mIcon[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 13ms[0;0m
+
+Language [0;97m[4mInform[0;0m[2;37m (7)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 15ms[0;0m
+
+Language [0;97m[4mInform[0;0m[2;37m (7)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 13ms[0;0m
+
+Language [0;97m[4mInk[0;0m[2;37m (1.9)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 14ms[0;0m
+
+Language [0;97m[4mInk[0;0m[2;37m (1.9)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 14ms[0;0m
+
+Language [0;97m[4mIo[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 74ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 71ms[0;0m
+
+Language [0;97m[4mIo[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 68ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 69ms[0;0m
+
+Language [0;97m[4mJava[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 37ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 38ms[0;0m
+
+Language [0;97m[4mJava[0;0m, program [0;97m[4mMicrowave[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..32[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m microwave (no arguments) [2;37min 50ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m microwave '' [2;37min 47ms[0;0m
+[2;37m>[0;0m    [0;97m[4m3[0;0m [0;32mok[0;0m microwave 'x' [2;37min 49ms[0;0m
+[2;37m>[0;0m    [0;97m[4m4[0;0m [0;32mok[0;0m microwave 'xxxxx' [2;37min 46ms[0;0m
+[2;37m>[0;0m    [0;97m[4m5[0;0m [0;32mok[0;0m microwave '00000' [2;37min 46ms[0;0m
+[2;37m>[0;0m    [0;97m[4m6[0;0m [0;32mok[0;0m microwave '-1' [2;37min 50ms[0;0m
+[2;37m>[0;0m    [0;97m[4m7[0;0m [0;32mok[0;0m microwave '0' [2;37min 59ms[0;0m
+[2;37m>[0;0m    [0;97m[4m8[0;0m [0;32mok[0;0m microwave '1' [2;37min 58ms[0;0m
+[2;37m>[0;0m    [0;97m[4m9[0;0m [0;32mok[0;0m microwave '59' [2;37min 190ms[0;0m
+[2;37m>[0;0m    [0;97m[4m10[0;0m [0;32mok[0;0m microwave '60' [2;37min 182ms[0;0m
+[2;37m>[0;0m    [0;97m[4m11[0;0m [0;32mok[0;0m microwave '61' [2;37min 179ms[0;0m
+[2;37m>[0;0m    [0;97m[4m12[0;0m [0;32mok[0;0m microwave '90' [2;37min 181ms[0;0m
+[2;37m>[0;0m    [0;97m[4m13[0;0m [0;32mok[0;0m microwave '99' [2;37min 183ms[0;0m
+[2;37m>[0;0m    [0;97m[4m14[0;0m [0;32mok[0;0m microwave '100' [2;37min 179ms[0;0m
+[2;37m>[0;0m    [0;97m[4m15[0;0m [0;32mok[0;0m microwave '101' [2;37min 180ms[0;0m
+[2;37m>[0;0m    [0;97m[4m16[0;0m [0;32mok[0;0m microwave '159' [2;37min 179ms[0;0m
+[2;37m>[0;0m    [0;97m[4m17[0;0m [0;32mok[0;0m microwave '160' [2;37min 176ms[0;0m
+[2;37m>[0;0m    [0;97m[4m18[0;0m [0;32mok[0;0m microwave '161' [2;37min 178ms[0;0m
+[2;37m>[0;0m    [0;97m[4m19[0;0m [0;32mok[0;0m microwave '199' [2;37min 183ms[0;0m
+[2;37m>[0;0m    [0;97m[4m20[0;0m [0;32mok[0;0m microwave '200' [2;37min 179ms[0;0m
+[2;37m>[0;0m    [0;97m[4m21[0;0m [0;32mok[0;0m microwave '201' [2;37min 180ms[0;0m
+[2;37m>[0;0m    [0;97m[4m22[0;0m [0;32mok[0;0m microwave '959' [2;37min 178ms[0;0m
+[2;37m>[0;0m    [0;97m[4m23[0;0m [0;32mok[0;0m microwave '960' [2;37min 297ms[0;0m
+[2;37m>[0;0m    [0;97m[4m24[0;0m [0;32mok[0;0m microwave '961' [2;37min 99ms[0;0m
+[2;37m>[0;0m    [0;97m[4m25[0;0m [0;32mok[0;0m microwave '999' [2;37min 103ms[0;0m
+[2;37m>[0;0m    [0;97m[4m26[0;0m [0;32mok[0;0m microwave '1000' [2;37min 191ms[0;0m
+[2;37m>[0;0m    [0;97m[4m27[0;0m [0;32mok[0;0m microwave '1001' [2;37min 178ms[0;0m
+[2;37m>[0;0m    [0;97m[4m28[0;0m [0;32mok[0;0m microwave '9959' [2;37min 113ms[0;0m
+[2;37m>[0;0m    [0;97m[4m29[0;0m [0;32mok[0;0m microwave '9960' [2;37min 178ms[0;0m
+[2;37m>[0;0m    [0;97m[4m30[0;0m [0;32mok[0;0m microwave '9961' [2;37min 184ms[0;0m
+[2;37m>[0;0m    [0;97m[4m31[0;0m [0;32mok[0;0m microwave '9999' [2;37min 186ms[0;0m
+[2;37m>[0;0m    [0;97m[4m32[0;0m [0;32mok[0;0m microwave '9999' (trailing newline) [2;37min 185ms[0;0m
+
+Language [0;97m[4mJava[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 36ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 38ms[0;0m
+
+Language [0;97m[4mJavaScript[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 109ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 110ms[0;0m
+
+Language [0;97m[4mJavaScript[0;0m, program [0;97m[4mMicrowave[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..32[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m microwave (no arguments) [2;37min 95ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m microwave '' [2;37min 95ms[0;0m
+[2;37m>[0;0m    [0;97m[4m3[0;0m [0;32mok[0;0m microwave 'x' [2;37min 95ms[0;0m
+[2;37m>[0;0m    [0;97m[4m4[0;0m [0;32mok[0;0m microwave 'xxxxx' [2;37min 93ms[0;0m
+[2;37m>[0;0m    [0;97m[4m5[0;0m [0;32mok[0;0m microwave '00000' [2;37min 94ms[0;0m
+[2;37m>[0;0m    [0;97m[4m6[0;0m [0;32mok[0;0m microwave '-1' [2;37min 93ms[0;0m
+[2;37m>[0;0m    [0;97m[4m7[0;0m [0;32mok[0;0m microwave '0' [2;37min 112ms[0;0m
+[2;37m>[0;0m    [0;97m[4m8[0;0m [0;32mok[0;0m microwave '1' [2;37min 113ms[0;0m
+[2;37m>[0;0m    [0;97m[4m9[0;0m [0;32mok[0;0m microwave '59' [2;37min 108ms[0;0m
+[2;37m>[0;0m    [0;97m[4m10[0;0m [0;32mok[0;0m microwave '60' [2;37min 111ms[0;0m
+[2;37m>[0;0m    [0;97m[4m11[0;0m [0;32mok[0;0m microwave '61' [2;37min 108ms[0;0m
+[2;37m>[0;0m    [0;97m[4m12[0;0m [0;32mok[0;0m microwave '90' [2;37min 108ms[0;0m
+[2;37m>[0;0m    [0;97m[4m13[0;0m [0;32mok[0;0m microwave '99' [2;37min 108ms[0;0m
+[2;37m>[0;0m    [0;97m[4m14[0;0m [0;32mok[0;0m microwave '100' [2;37min 107ms[0;0m
+[2;37m>[0;0m    [0;97m[4m15[0;0m [0;32mok[0;0m microwave '101' [2;37min 110ms[0;0m
+[2;37m>[0;0m    [0;97m[4m16[0;0m [0;32mok[0;0m microwave '159' [2;37min 108ms[0;0m
+[2;37m>[0;0m    [0;97m[4m17[0;0m [0;32mok[0;0m microwave '160' [2;37min 114ms[0;0m
+[2;37m>[0;0m    [0;97m[4m18[0;0m [0;32mok[0;0m microwave '161' [2;37min 113ms[0;0m
+[2;37m>[0;0m    [0;97m[4m19[0;0m [0;32mok[0;0m microwave '199' [2;37min 108ms[0;0m
+[2;37m>[0;0m    [0;97m[4m20[0;0m [0;32mok[0;0m microwave '200' [2;37min 110ms[0;0m
+[2;37m>[0;0m    [0;97m[4m21[0;0m [0;32mok[0;0m microwave '201' [2;37min 107ms[0;0m
+[2;37m>[0;0m    [0;97m[4m22[0;0m [0;32mok[0;0m microwave '959' [2;37min 113ms[0;0m
+[2;37m>[0;0m    [0;97m[4m23[0;0m [0;32mok[0;0m microwave '960' [2;37min 114ms[0;0m
+[2;37m>[0;0m    [0;97m[4m24[0;0m [0;32mok[0;0m microwave '961' [2;37min 108ms[0;0m
+[2;37m>[0;0m    [0;97m[4m25[0;0m [0;32mok[0;0m microwave '999' [2;37min 123ms[0;0m
+[2;37m>[0;0m    [0;97m[4m26[0;0m [0;32mok[0;0m microwave '1000' [2;37min 116ms[0;0m
+[2;37m>[0;0m    [0;97m[4m27[0;0m [0;32mok[0;0m microwave '1001' [2;37min 108ms[0;0m
+[2;37m>[0;0m    [0;97m[4m28[0;0m [0;32mok[0;0m microwave '9959' [2;37min 110ms[0;0m
+[2;37m>[0;0m    [0;97m[4m29[0;0m [0;32mok[0;0m microwave '9960' [2;37min 117ms[0;0m
+[2;37m>[0;0m    [0;97m[4m30[0;0m [0;32mok[0;0m microwave '9961' [2;37min 108ms[0;0m
+[2;37m>[0;0m    [0;97m[4m31[0;0m [0;32mok[0;0m microwave '9999' [2;37min 109ms[0;0m
+[2;37m>[0;0m    [0;97m[4m32[0;0m [0;32mok[0;0m microwave '9999' (trailing newline) [2;37min 113ms[0;0m
+
+Language [0;97m[4mJavaScript[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 111ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 109ms[0;0m
+
+Language [0;97m[4mJoy[0;0m[2;37m (1.59)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 13ms[0;0m
+
+Language [0;97m[4mJoy[0;0m[2;37m (1.59)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mJulia[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 145ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 148ms[0;0m
+
+Language [0;97m[4mJulia[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 188ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 190ms[0;0m
+
+Language [0;97m[4mKotlin[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 52ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 44ms[0;0m
+
+Language [0;97m[4mKotlin[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 59ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 51ms[0;0m
+
+Language [0;97m[4mLess[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 187ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 186ms[0;0m
+
+Language [0;97m[4mLess[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 216ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 217ms[0;0m
+
+Language [0;97m[4mLily (A)[0;0m[2;37m (2.3)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mLily (A)[0;0m[2;37m (2.3)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mLily (B)[0;0m[2;37m (0.12.0)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 23ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 24ms[0;0m
+
+Language [0;97m[4mLily (B)[0;0m[2;37m (0.12.0)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 24ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 25ms[0;0m
+
+Language [0;97m[4mLisp[0;0m[2;37m (Common)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 14ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 15ms[0;0m
+
+Language [0;97m[4mLisp[0;0m[2;37m (Common)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 14ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 15ms[0;0m
+
+Language [0;97m[4mLobster[0;0m[2;37m (2025.4)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 14ms[0;0m
+
+Language [0;97m[4mLobster[0;0m[2;37m (2025.4)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 14ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 15ms[0;0m
+
+Language [0;97m[4mLogo[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mLogo[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 13ms[0;0m
+
+Language [0;97m[4mLua[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 13ms[0;0m
+
+Language [0;97m[4mLua[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mMATLAB[0;0m[2;37m (GNU Octave)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 106ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 97ms[0;0m
+
+Language [0;97m[4mMATLAB[0;0m[2;37m (GNU Octave)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 95ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 100ms[0;0m
+
+Language [0;97m[4mModula-2[0;0m[2;37m (GNU)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 13ms[0;0m
+
+Language [0;97m[4mModula-2[0;0m[2;37m (GNU)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 15ms[0;0m
+
+Language [0;97m[4mMojo[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 30ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 31ms[0;0m
+
+Language [0;97m[4mMojo[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 36ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 40ms[0;0m
+
+Language [0;97m[4mNemerle[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 81ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 83ms[0;0m
+
+Language [0;97m[4mNemerle[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 83ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 81ms[0;0m
+
+Language [0;97m[4mNever[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mNever[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mNial[0;0m[2;37m (7)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 15ms[0;0m
+
+Language [0;97m[4mNial[0;0m[2;37m (7)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 15ms[0;0m
+
+Language [0;97m[4mNim[0;0m[2;37m (2.2.6)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mNim[0;0m[2;37m (2.2.6)[0;0m, program [0;97m[4mMicrowave[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..32[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m microwave (no arguments) [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m microwave '' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m3[0;0m [0;32mok[0;0m microwave 'x' [2;37min 14ms[0;0m
+[2;37m>[0;0m    [0;97m[4m4[0;0m [0;32mok[0;0m microwave 'xxxxx' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m5[0;0m [0;32mok[0;0m microwave '00000' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m6[0;0m [0;32mok[0;0m microwave '-1' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m7[0;0m [0;32mok[0;0m microwave '0' [2;37min 14ms[0;0m
+[2;37m>[0;0m    [0;97m[4m8[0;0m [0;32mok[0;0m microwave '1' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m9[0;0m [0;32mok[0;0m microwave '59' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m10[0;0m [0;32mok[0;0m microwave '60' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m11[0;0m [0;32mok[0;0m microwave '61' [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m12[0;0m [0;32mok[0;0m microwave '90' [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m13[0;0m [0;32mok[0;0m microwave '99' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m14[0;0m [0;32mok[0;0m microwave '100' [2;37min 14ms[0;0m
+[2;37m>[0;0m    [0;97m[4m15[0;0m [0;32mok[0;0m microwave '101' [2;37min 14ms[0;0m
+[2;37m>[0;0m    [0;97m[4m16[0;0m [0;32mok[0;0m microwave '159' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m17[0;0m [0;32mok[0;0m microwave '160' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m18[0;0m [0;32mok[0;0m microwave '161' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m19[0;0m [0;32mok[0;0m microwave '199' [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m20[0;0m [0;32mok[0;0m microwave '200' [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m21[0;0m [0;32mok[0;0m microwave '201' [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m22[0;0m [0;32mok[0;0m microwave '959' [2;37min 14ms[0;0m
+[2;37m>[0;0m    [0;97m[4m23[0;0m [0;32mok[0;0m microwave '960' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m24[0;0m [0;32mok[0;0m microwave '961' [2;37min 14ms[0;0m
+[2;37m>[0;0m    [0;97m[4m25[0;0m [0;32mok[0;0m microwave '999' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m26[0;0m [0;32mok[0;0m microwave '1000' [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m27[0;0m [0;32mok[0;0m microwave '1001' [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m28[0;0m [0;32mok[0;0m microwave '9959' [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m29[0;0m [0;32mok[0;0m microwave '9960' [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m30[0;0m [0;32mok[0;0m microwave '9961' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m31[0;0m [0;32mok[0;0m microwave '9999' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m32[0;0m [0;32mok[0;0m microwave '9999' (trailing newline) [2;37min 13ms[0;0m
+
+Language [0;97m[4mNim[0;0m[2;37m (2.2.6)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mNix[0;0m[2;37m (2.33.1)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 31ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 32ms[0;0m
+
+Language [0;97m[4mNix[0;0m[2;37m (2.33.1)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 30ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 31ms[0;0m
+
+Language [0;97m[4mOak[0;0m[2;37m (0.3)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 14ms[0;0m
+
+Language [0;97m[4mOak[0;0m[2;37m (0.3)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 14ms[0;0m
+
+Language [0;97m[4mOberon[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mOberon[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mObjective-C[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mObjective-C[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mObject Pascal[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 11ms[0;0m
+
+Language [0;97m[4mObject Pascal[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mOCaml[0;0m[2;37m (5)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 13ms[0;0m
+
+Language [0;97m[4mOCaml[0;0m[2;37m (5)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 13ms[0;0m
+
+Language [0;97m[4mPar[0;0m[2;37m (0.1.0)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 155ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 158ms[0;0m
+
+Language [0;97m[4mPar[0;0m[2;37m (0.1.0)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 157ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 160ms[0;0m
+
+Language [0;97m[4mPascal[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 11ms[0;0m
+
+Language [0;97m[4mPascal[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 11ms[0;0m
+
+Language [0;97m[4mPerl[0;0m[2;37m (5)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 14ms[0;0m
+
+Language [0;97m[4mPerl[0;0m[2;37m (5)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 15ms[0;0m
+
+Language [0;97m[4mPHP[0;0m[2;37m (8)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 21ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 22ms[0;0m
+
+Language [0;97m[4mPHP[0;0m[2;37m (8)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 21ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 22ms[0;0m
+
+Language [0;97m[4mPL/M[0;0m[2;37m (80)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 119ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 121ms[0;0m
+
+Language [0;97m[4mPL/M[0;0m[2;37m (80)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 121ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 119ms[0;0m
+
+Language [0;97m[4mPony[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 17ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 19ms[0;0m
+
+Language [0;97m[4mPony[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 18ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 19ms[0;0m
+
+Language [0;97m[4mPostScript[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 51ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 50ms[0;0m
+
+Language [0;97m[4mPostScript[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 48ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 48ms[0;0m
+
+Language [0;97m[4mPowerShell[0;0m[2;37m (7)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 312ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 304ms[0;0m
+
+Language [0;97m[4mPowerShell[0;0m[2;37m (7)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 321ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 327ms[0;0m
+
+Language [0;97m[4mProlog[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 29ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 30ms[0;0m
+
+Language [0;97m[4mProlog[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 29ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 30ms[0;0m
+
+Language [0;97m[4mPython[0;0m[2;37m (3)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 20ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 22ms[0;0m
+
+Language [0;97m[4mPython[0;0m[2;37m (3)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 21ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 22ms[0;0m
+
+Language [0;97m[4mR[0;0m[2;37m (4)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 138ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 144ms[0;0m
+
+Language [0;97m[4mR[0;0m[2;37m (4)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 139ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 144ms[0;0m
+
+Language [0;97m[4mRacket[0;0m[2;37m (8)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 320ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 317ms[0;0m
+
+Language [0;97m[4mRacket[0;0m[2;37m (8)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 320ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 312ms[0;0m
+
+Language [0;97m[4mRexx[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mRexx[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mRoc[0;0m[2;37m (0.0.0-alpha4)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 11ms[0;0m
+
+Language [0;97m[4mRoc[0;0m[2;37m (0.0.0-alpha4)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mRPG[0;0m[2;37m (IV)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 135ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 137ms[0;0m
+
+Language [0;97m[4mRPG[0;0m[2;37m (IV)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 154ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 153ms[0;0m
+
+Language [0;97m[4mRuby[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 69ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 75ms[0;0m
+
+Language [0;97m[4mRuby[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 69ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 75ms[0;0m
+
+Language [0;97m[4mRust[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 13ms[0;0m
+
+Language [0;97m[4mRust[0;0m, program [0;97m[4mMicrowave[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..32[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m microwave (no arguments) [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m microwave '' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m3[0;0m [0;32mok[0;0m microwave 'x' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m4[0;0m [0;32mok[0;0m microwave 'xxxxx' [2;37min 14ms[0;0m
+[2;37m>[0;0m    [0;97m[4m5[0;0m [0;32mok[0;0m microwave '00000' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m6[0;0m [0;32mok[0;0m microwave '-1' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m7[0;0m [0;32mok[0;0m microwave '0' [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m8[0;0m [0;32mok[0;0m microwave '1' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m9[0;0m [0;32mok[0;0m microwave '59' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m10[0;0m [0;32mok[0;0m microwave '60' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m11[0;0m [0;32mok[0;0m microwave '61' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m12[0;0m [0;32mok[0;0m microwave '90' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m13[0;0m [0;32mok[0;0m microwave '99' [2;37min 14ms[0;0m
+[2;37m>[0;0m    [0;97m[4m14[0;0m [0;32mok[0;0m microwave '100' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m15[0;0m [0;32mok[0;0m microwave '101' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m16[0;0m [0;32mok[0;0m microwave '159' [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m17[0;0m [0;32mok[0;0m microwave '160' [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m18[0;0m [0;32mok[0;0m microwave '161' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m19[0;0m [0;32mok[0;0m microwave '199' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m20[0;0m [0;32mok[0;0m microwave '200' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m21[0;0m [0;32mok[0;0m microwave '201' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m22[0;0m [0;32mok[0;0m microwave '959' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m23[0;0m [0;32mok[0;0m microwave '960' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m24[0;0m [0;32mok[0;0m microwave '961' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m25[0;0m [0;32mok[0;0m microwave '999' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m26[0;0m [0;32mok[0;0m microwave '1000' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m27[0;0m [0;32mok[0;0m microwave '1001' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m28[0;0m [0;32mok[0;0m microwave '9959' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m29[0;0m [0;32mok[0;0m microwave '9960' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m30[0;0m [0;32mok[0;0m microwave '9961' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m31[0;0m [0;32mok[0;0m microwave '9999' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m32[0;0m [0;32mok[0;0m microwave '9999' (trailing newline) [2;37min 13ms[0;0m
+
+Language [0;97m[4mRust[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mSass[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 207ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 214ms[0;0m
+
+Language [0;97m[4mSass[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 209ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 211ms[0;0m
+
+Language [0;97m[4mScala[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 2151ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 2181ms[0;0m
+
+Language [0;97m[4mScala[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 2480ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 2507ms[0;0m
+
+Language [0;97m[4mScheme[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 18ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 20ms[0;0m
+
+Language [0;97m[4mScheme[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 18ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 20ms[0;0m
+
+Language [0;97m[4mSed[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 13ms[0;0m
+
+Language [0;97m[4mSed[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 14ms[0;0m
+
+Language [0;97m[4mSeed7[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mSeed7[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mSieve[0;0m, program [0;97m[4mFreestyle[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..1[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m freestyle [2;37min 37ms[0;0m
+
+Language [0;97m[4mSieve[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 38ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 41ms[0;0m
+
+Language [0;97m[4mSimula[0;0m[2;37m (GNU Cim)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mSimula[0;0m[2;37m (GNU Cim)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mSmalltalk[0;0m[2;37m (Smalltalk-80)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 15ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 15ms[0;0m
+
+Language [0;97m[4mSmalltalk[0;0m[2;37m (Smalltalk-80)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 14ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 15ms[0;0m
+
+Language [0;97m[4mSPARK[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 13ms[0;0m
+
+Language [0;97m[4mSPARK[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mSQL[0;0m[2;37m (Postgres 17)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 341ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 339ms[0;0m
+
+Language [0;97m[4mSQL[0;0m[2;37m (Postgres 17)[0;0m, program [0;97m[4mMicrowave[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..32[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m microwave (no arguments) [2;37min 350ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m microwave '' [2;37min 342ms[0;0m
+[2;37m>[0;0m    [0;97m[4m3[0;0m [0;32mok[0;0m microwave 'x' [2;37min 344ms[0;0m
+[2;37m>[0;0m    [0;97m[4m4[0;0m [0;32mok[0;0m microwave 'xxxxx' [2;37min 348ms[0;0m
+[2;37m>[0;0m    [0;97m[4m5[0;0m [0;32mok[0;0m microwave '00000' [2;37min 350ms[0;0m
+[2;37m>[0;0m    [0;97m[4m6[0;0m [0;32mok[0;0m microwave '-1' [2;37min 355ms[0;0m
+[2;37m>[0;0m    [0;97m[4m7[0;0m [0;32mok[0;0m microwave '0' [2;37min 355ms[0;0m
+[2;37m>[0;0m    [0;97m[4m8[0;0m [0;32mok[0;0m microwave '1' [2;37min 348ms[0;0m
+[2;37m>[0;0m    [0;97m[4m9[0;0m [0;32mok[0;0m microwave '59' [2;37min 345ms[0;0m
+[2;37m>[0;0m    [0;97m[4m10[0;0m [0;32mok[0;0m microwave '60' [2;37min 356ms[0;0m
+[2;37m>[0;0m    [0;97m[4m11[0;0m [0;32mok[0;0m microwave '61' [2;37min 343ms[0;0m
+[2;37m>[0;0m    [0;97m[4m12[0;0m [0;32mok[0;0m microwave '90' [2;37min 343ms[0;0m
+[2;37m>[0;0m    [0;97m[4m13[0;0m [0;32mok[0;0m microwave '99' [2;37min 348ms[0;0m
+[2;37m>[0;0m    [0;97m[4m14[0;0m [0;32mok[0;0m microwave '100' [2;37min 348ms[0;0m
+[2;37m>[0;0m    [0;97m[4m15[0;0m [0;32mok[0;0m microwave '101' [2;37min 343ms[0;0m
+[2;37m>[0;0m    [0;97m[4m16[0;0m [0;32mok[0;0m microwave '159' [2;37min 340ms[0;0m
+[2;37m>[0;0m    [0;97m[4m17[0;0m [0;32mok[0;0m microwave '160' [2;37min 334ms[0;0m
+[2;37m>[0;0m    [0;97m[4m18[0;0m [0;32mok[0;0m microwave '161' [2;37min 347ms[0;0m
+[2;37m>[0;0m    [0;97m[4m19[0;0m [0;32mok[0;0m microwave '199' [2;37min 339ms[0;0m
+[2;37m>[0;0m    [0;97m[4m20[0;0m [0;32mok[0;0m microwave '200' [2;37min 346ms[0;0m
+[2;37m>[0;0m    [0;97m[4m21[0;0m [0;32mok[0;0m microwave '201' [2;37min 340ms[0;0m
+[2;37m>[0;0m    [0;97m[4m22[0;0m [0;32mok[0;0m microwave '959' [2;37min 340ms[0;0m
+[2;37m>[0;0m    [0;97m[4m23[0;0m [0;32mok[0;0m microwave '960' [2;37min 344ms[0;0m
+[2;37m>[0;0m    [0;97m[4m24[0;0m [0;32mok[0;0m microwave '961' [2;37min 363ms[0;0m
+[2;37m>[0;0m    [0;97m[4m25[0;0m [0;32mok[0;0m microwave '999' [2;37min 338ms[0;0m
+[2;37m>[0;0m    [0;97m[4m26[0;0m [0;32mok[0;0m microwave '1000' [2;37min 340ms[0;0m
+[2;37m>[0;0m    [0;97m[4m27[0;0m [0;32mok[0;0m microwave '1001' [2;37min 334ms[0;0m
+[2;37m>[0;0m    [0;97m[4m28[0;0m [0;32mok[0;0m microwave '9959' [2;37min 347ms[0;0m
+[2;37m>[0;0m    [0;97m[4m29[0;0m [0;32mok[0;0m microwave '9960' [2;37min 340ms[0;0m
+[2;37m>[0;0m    [0;97m[4m30[0;0m [0;32mok[0;0m microwave '9961' [2;37min 347ms[0;0m
+[2;37m>[0;0m    [0;97m[4m31[0;0m [0;32mok[0;0m microwave '9999' [2;37min 341ms[0;0m
+[2;37m>[0;0m    [0;97m[4m32[0;0m [0;32mok[0;0m microwave '9999' (trailing newline) [2;37min 339ms[0;0m
+
+Language [0;97m[4mSQL[0;0m[2;37m (Postgres 17)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 338ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 343ms[0;0m
+
+Language [0;97m[4mStandard ML[0;0m[2;37m (97)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 24ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 26ms[0;0m
+
+Language [0;97m[4mStandard ML[0;0m[2;37m (97)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 38ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 39ms[0;0m
+
+Language [0;97m[4mSuperCollider[0;0m[2;37m (3.13.0)[0;0m, program [0;97m[4mFreestyle[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..1[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m freestyle [2;37min 546ms[0;0m
+
+Language [0;97m[4mSuperCollider[0;0m[2;37m (3.13.0)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 477ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 479ms[0;0m
+
+Language [0;97m[4mSuperCollider[0;0m[2;37m (3.13.0)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 469ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 472ms[0;0m
+
+Language [0;97m[4mSwift[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 15ms[0;0m
+
+Language [0;97m[4mSwift[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 14ms[0;0m
+
+Language [0;97m[4mTampio[0;0m[2;37m (1.46)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 112ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 116ms[0;0m
+
+Language [0;97m[4mTcl[0;0m[2;37m (8)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 14ms[0;0m
+
+Language [0;97m[4mTcl[0;0m[2;37m (8)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 14ms[0;0m
+
+Language [0;97m[4mToi[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 135ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 133ms[0;0m
+
+Language [0;97m[4mToi[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 131ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 130ms[0;0m
+
+Language [0;97m[4mTypeScript[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 108ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 112ms[0;0m
+
+Language [0;97m[4mTypeScript[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 109ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 109ms[0;0m
+
+Language [0;97m[4mV[0;0m[2;37m (0.5)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mV[0;0m[2;37m (0.5)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mVala[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mVala[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mVale[0;0m[2;37m (0.2.0)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mVale[0;0m[2;37m (0.2.0)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mVisual Basic[0;0m[2;37m (.NET)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 33ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 35ms[0;0m
+
+Language [0;97m[4mVisual Basic[0;0m[2;37m (.NET)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 38ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 38ms[0;0m
+
+Language [0;97m[4mVBScript[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 84ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 86ms[0;0m
+
+Language [0;97m[4mVBScript[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 82ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 85ms[0;0m
+
+Language [0;97m[4mVerilog[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 13ms[0;0m
+
+Language [0;97m[4mVerilog[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 14ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 14ms[0;0m
+
+Language [0;97m[4mVHDL[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 13ms[0;0m
+
+Language [0;97m[4mVHDL[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 13ms[0;0m
+
+Language [0;97m[4mWenyan (文言)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 112ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 116ms[0;0m
+
+Language [0;97m[4mWhiley[0;0m[2;37m (0.6.0)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 841ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 895ms[0;0m
+
+Language [0;97m[4mWhiley[0;0m[2;37m (0.6.0)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 882ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 821ms[0;0m
+
+Language [0;97m[4mWren[0;0m[2;37m (0.4.0)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mWren[0;0m[2;37m (0.4.0)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mX10[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 586ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 474ms[0;0m
+
+Language [0;97m[4mX10[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 272ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 262ms[0;0m
+
+Language [0;97m[4mXojo[0;0m[2;37m (2025-3.1)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mXojo[0;0m[2;37m (2025-3.1)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 14ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 16ms[0;0m
+
+Language [0;97m[4mXtend[0;0m[2;37m (2.31.0)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 55ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 56ms[0;0m
+
+Language [0;97m[4mXtend[0;0m[2;37m (2.31.0)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 53ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 54ms[0;0m
+
+Language [0;97m[4mZig[0;0m[2;37m (0.15.2)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m hello [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m hello (trailing newline) [2;37min 12ms[0;0m
+
+Language [0;97m[4mZig[0;0m[2;37m (0.15.2)[0;0m, program [0;97m[4mMicrowave[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..32[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m microwave (no arguments) [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m microwave '' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m3[0;0m [0;32mok[0;0m microwave 'x' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m4[0;0m [0;32mok[0;0m microwave 'xxxxx' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m5[0;0m [0;32mok[0;0m microwave '00000' [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m6[0;0m [0;32mok[0;0m microwave '-1' [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m7[0;0m [0;32mok[0;0m microwave '0' [2;37min 10ms[0;0m
+[2;37m>[0;0m    [0;97m[4m8[0;0m [0;32mok[0;0m microwave '1' [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m9[0;0m [0;32mok[0;0m microwave '59' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m10[0;0m [0;32mok[0;0m microwave '60' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m11[0;0m [0;32mok[0;0m microwave '61' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m12[0;0m [0;32mok[0;0m microwave '90' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m13[0;0m [0;32mok[0;0m microwave '99' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m14[0;0m [0;32mok[0;0m microwave '100' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m15[0;0m [0;32mok[0;0m microwave '101' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m16[0;0m [0;32mok[0;0m microwave '159' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m17[0;0m [0;32mok[0;0m microwave '160' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m18[0;0m [0;32mok[0;0m microwave '161' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m19[0;0m [0;32mok[0;0m microwave '199' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m20[0;0m [0;32mok[0;0m microwave '200' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m21[0;0m [0;32mok[0;0m microwave '201' [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m22[0;0m [0;32mok[0;0m microwave '959' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m23[0;0m [0;32mok[0;0m microwave '960' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m24[0;0m [0;32mok[0;0m microwave '961' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m25[0;0m [0;32mok[0;0m microwave '999' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m26[0;0m [0;32mok[0;0m microwave '1000' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m27[0;0m [0;32mok[0;0m microwave '1001' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m28[0;0m [0;32mok[0;0m microwave '9959' [2;37min 12ms[0;0m
+[2;37m>[0;0m    [0;97m[4m29[0;0m [0;32mok[0;0m microwave '9960' [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m30[0;0m [0;32mok[0;0m microwave '9961' [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m31[0;0m [0;32mok[0;0m microwave '9999' [2;37min 13ms[0;0m
+[2;37m>[0;0m    [0;97m[4m32[0;0m [0;32mok[0;0m microwave '9999' (trailing newline) [2;37min 13ms[0;0m
+
+Language [0;97m[4mZig[0;0m[2;37m (0.15.2)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [2;37m1..2[0;0m
+[2;37m>[0;0m    [0;97m[4m1[0;0m [0;32mok[0;0m sum [2;37min 11ms[0;0m
+[2;37m>[0;0m    [0;97m[4m2[0;0m [0;32mok[0;0m sum (trailing newline) [2;37min 12ms[0;0m
+
