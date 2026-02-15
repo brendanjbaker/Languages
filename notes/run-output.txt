@@ -216,10 +216,10 @@ Language [0;97m[4mChucK[0;0m[2;37m (1.5.5.0)[0;0m, program [0;97m[4mFrees
 [2;37m>[0;0m      Size: 432044    	Blocks: 848        IO Block: 4096   regular file
 [2;37m>[0;0m    Device: 0,53	Inode: 7864336     Links: 1
 [2;37m>[0;0m    Access: (0644/-rw-r--r--)  Uid: (    0/    root)   Gid: (    0/    root)
-[2;37m>[0;0m    Access: 2026-02-15 21:32:19.535626300 +0000
-[2;37m>[0;0m    Modify: 2026-02-15 21:32:19.559625765 +0000
-[2;37m>[0;0m    Change: 2026-02-15 21:32:19.559625765 +0000
-[2;37m>[0;0m     Birth: 2026-02-15 21:32:19.535626300 +0000
+[2;37m>[0;0m    Access: 2026-02-15 21:59:32.099216861 +0000
+[2;37m>[0;0m    Modify: 2026-02-15 21:59:32.119216415 +0000
+[2;37m>[0;0m    Change: 2026-02-15 21:59:32.119216415 +0000
+[2;37m>[0;0m     Birth: 2026-02-15 21:59:32.099216861 +0000
 
 Language [0;97m[4mChucK[0;0m[2;37m (1.5.5.0)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
 
@@ -331,10 +331,10 @@ Language [0;97m[4mCsound[0;0m[2;37m (6.18.1)[0;0m, program [0;97m[4mFrees
 [2;37m>[0;0m      Size: 396972    	Blocks: 776        IO Block: 4096   regular file
 [2;37m>[0;0m    Device: 0,53	Inode: 7864336     Links: 1
 [2;37m>[0;0m    Access: (0644/-rw-r--r--)  Uid: (    0/    root)   Gid: (    0/    root)
-[2;37m>[0;0m    Access: 2026-02-15 21:33:36.897898554 +0000
-[2;37m>[0;0m    Modify: 2026-02-15 21:33:36.901898464 +0000
-[2;37m>[0;0m    Change: 2026-02-15 21:33:36.901898464 +0000
-[2;37m>[0;0m     Birth: 2026-02-15 21:33:36.897898554 +0000
+[2;37m>[0;0m    Access: 2026-02-15 22:00:49.513492571 +0000
+[2;37m>[0;0m    Modify: 2026-02-15 22:00:49.517492481 +0000
+[2;37m>[0;0m    Change: 2026-02-15 22:00:49.517492481 +0000
+[2;37m>[0;0m     Birth: 2026-02-15 22:00:49.513492571 +0000
 
 Language [0;97m[4mCsound[0;0m[2;37m (6.18.1)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
 
@@ -1079,10 +1079,10 @@ Language [0;97m[4mSuperCollider[0;0m[2;37m (3.13.0)[0;0m, program [0;97m[
 [2;37m>[0;0m      Size: 882220    	Blocks: 1728       IO Block: 4096   regular file
 [2;37m>[0;0m    Device: 0,53	Inode: 7864356     Links: 1
 [2;37m>[0;0m    Access: (0644/-rw-r--r--)  Uid: (    0/    root)   Gid: (    0/    root)
-[2;37m>[0;0m    Access: 2026-02-15 21:39:06.878508488 +0000
-[2;37m>[0;0m    Modify: 2026-02-15 21:39:06.878508488 +0000
-[2;37m>[0;0m    Change: 2026-02-15 21:39:06.878508488 +0000
-[2;37m>[0;0m     Birth: 2026-02-15 21:39:06.878508488 +0000
+[2;37m>[0;0m    Access: 2026-02-15 22:05:58.114619019 +0000
+[2;37m>[0;0m    Modify: 2026-02-15 22:05:58.118618931 +0000
+[2;37m>[0;0m    Change: 2026-02-15 22:05:58.118618931 +0000
+[2;37m>[0;0m     Birth: 2026-02-15 22:05:58.114619019 +0000
 
 Language [0;97m[4mSuperCollider[0;0m[2;37m (3.13.0)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
 
@@ -1150,37 +1150,6 @@ Language [0;97m[4mVale[0;0m[2;37m (0.2.0)[0;0m, program [0;97m[4mHello[0
 
 Language [0;97m[4mVale[0;0m[2;37m (0.2.0)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
 
-[2;37m>[0;0m    Running:
-[2;37m>[0;0m    /usr/bin/java -cp /opt/vale/0.2.0/Frontend.jar dev.vale.passmanager.PassManager build --output_dir bin --sanity_check true stdlib=/opt/vale/0.2.0/stdlib/src program=/app/program.vale
-[2;37m>[0;0m    Running:
-[2;37m>[0;0m    /opt/vale/0.2.0/backend --verify --output_dir bin --pic bin/vast/program.vast bin/vast/__vale.vast bin/vast/stdlib.vast bin/vast/stdlib.math.vast
-[2;37m>[0;0m    Region override: resilient-v3
-[2;37m>[0;0m    Warning: not using fashCrash, will slow things down!
-[2;37m>[0;0m    Running:
-[2;37m>[0;0m    /usr/bin/clang -Ibin/include -O3 -o bin/program -lm -fPIC -fPIE bin/build.o /opt/vale/0.2.0/builtins/assert.c /opt/vale/0.2.0/builtins/census.c /opt/vale/0.2.0/builtins/mainargs.c /opt/vale/0.2.0/builtins/weaks.c /opt/vale/0.2.0/builtins/vchashmap.c /opt/vale/0.2.0/builtins/math.c /opt/vale/0.2.0/builtins/strings.c /opt/vale/0.2.0/builtins/stdio.c /opt/vale/0.2.0/stdlib/src/math/native/mathnative.c bin/abi/__vale/TruncateI64ToI32.c bin/abi/__vale/numMainArgs.c bin/abi/__vale/castI32Float.c bin/abi/__vale/castFloatStr.c bin/abi/__vale/strfromascii.c bin/abi/__vale/getMainArg.c bin/abi/__vale/strindexof.c bin/abi/__vale/strtoascii.c bin/abi/__vale/printstr.c bin/abi/__vale/castI32Str.c bin/abi/__vale/strcmp.c bin/abi/__vale/addStr.c bin/abi/__vale/castI64Str.c bin/abi/__vale/streq.c bin/abi/__vale/substring.c bin/abi/__vale/castFloatI32.c bin/abi/stdlib/i64.c bin/abi/stdlib/rshift.c bin/abi/stdlib/lshift.c bin/abi/stdlib/xor.c bin/abi/stdlib/fsqrt.c
-[2;37m>[0;0m    /opt/vale/0.2.0/builtins/assert.c:16:57: warning: format specifies type 'long long' but the argument has type 'int64_t' (aka 'long') [-Wformat]
-[2;37m>[0;0m       16 |     printf("%s Expected %lld but was %lld.\n", message, expected, actual);
-[2;37m>[0;0m          |                         ~~~~                            ^~~~~~~~
-[2;37m>[0;0m          |                         %ld
-[2;37m>[0;0m    /opt/vale/0.2.0/builtins/assert.c:16:67: warning: format specifies type 'long long' but the argument has type 'int64_t' (aka 'long') [-Wformat]
-[2;37m>[0;0m       16 |     printf("%s Expected %lld but was %lld.\n", message, expected, actual);
-[2;37m>[0;0m          |                                      ~~~~                         ^~~~~~
-[2;37m>[0;0m          |                                      %ld
-[2;37m>[0;0m    2 warnings generated.
-[2;37m>[0;0m    /opt/vale/0.2.0/builtins/strings.c:174:56: warning: format specifies type 'long long' but the argument has type 'int64_t' (aka 'long') [-Wformat]
-[2;37m>[0;0m      174 |   int charsWritten = snprintf(tempBuffer, 100, "%lld", n);
-[2;37m>[0;0m          |                                                 ~~~~   ^
-[2;37m>[0;0m          |                                                 %ld
-[2;37m>[0;0m    1 warning generated.
-[2;37m>[0;0m    /opt/vale/0.2.0/builtins/stdio.c:16:18: warning: format specifies type 'long long' but the argument has type 'int64_t' (aka 'long') [-Wformat]
-[2;37m>[0;0m       16 |   printf("%lld", x);
-[2;37m>[0;0m          |           ~~~~   ^
-[2;37m>[0;0m          |           %ld
-[2;37m>[0;0m    /opt/vale/0.2.0/builtins/stdio.c:20:27: warning: format specifies type 'long long' but the argument has type 'int64_t' (aka 'long') [-Wformat]
-[2;37m>[0;0m       20 |   fprintf(stderr, "%lld", x);
-[2;37m>[0;0m          |                    ~~~~   ^
-[2;37m>[0;0m          |                    %ld
-[2;37m>[0;0m    2 warnings generated.
 [2;37m>[0;0m    5050
 
 Language [0;97m[4mVisual Basic[0;0m[2;37m (.NET)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
