@@ -439,6 +439,7 @@ Test requirements are loose:
 | Typescript                                |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Uiua                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Unicon                                    |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Unison                                    |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | V                                         |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Vala                                      |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Vale                                      |    ✅    |   ✅   |      ⬜      |      ⬜      |
