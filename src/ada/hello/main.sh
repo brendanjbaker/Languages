@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 if [[ ! -f program ]]; then
-	gnatmake program.adb -o program 2> /dev/null
+	gnatmake -gnat2022 program.adb -o program 2> /dev/null
 fi
 
 ./program "$@"

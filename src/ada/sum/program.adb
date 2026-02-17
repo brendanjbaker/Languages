@@ -5,7 +5,7 @@ procedure Program is
 	Sum : Integer := 0;
 begin
 	for I in 0 .. 100 loop
-		Sum := Sum + I;
+		Sum := @ + I;
 	end loop;
 
 	Put (Item => Sum, Width => 0);
