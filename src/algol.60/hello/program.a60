@@ -8,5 +8,5 @@ b̲e̲g̲i̲n̲
 
     PRINTTEXT(`Hello, world');
 	PRSYM(arrow);
-    NLCR
+    NLCR;
 e̲n̲d̲
