@@ -460,7 +460,7 @@ Test requirements are loose:
 | YSH                                       |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | Zig                                       |    ✅    |   ✅   |      ✅      |      ⬜      |
 | Zonnon                                    |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
-| _Count..._                                |  _145_  | _141_ |    _14_     |     _5_     |
+| _Count..._                                |  _146_  | _142_ |    _14_     |     _5_     |
 
 **Legend**
 
