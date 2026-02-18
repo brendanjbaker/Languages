@@ -1,0 +1,12 @@
+b̲e̲g̲i̲n̲
+	c̲o̲m̲m̲e̲n̲t̲ The exclamation point symbol was not included in the character ;
+	c̲o̲m̲m̲e̲n̲t̲ encodings of the original system, so print an arrow instead. ;
+
+	i̲n̲t̲e̲g̲e̲r̲ arrow;
+
+	arrow := 69;
+
+    PRINTTEXT(`Hello, world');
+	PRSYM(arrow);
+    NLCR
+e̲n̲d̲

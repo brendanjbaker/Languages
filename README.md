@@ -161,7 +161,7 @@ Test requirements are loose:
 | Admiran                                   |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Agda                                      |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Algol (58)                                |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
-| Algol (60)                                |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| Algol (60)                                |    ✅️    |   ✅️   |      ⬜      |      ⬜      |
 | Algol (68)                                |    ✅️    |   ✅   |      ⬜      |      ⬜      |
 | Alumina                                   |    ✅️    |   ✅️   |      ⬜      |      ⬜      |
 | APL                                       |    ✅️    |   ✅️   |      ⬜      |      ⬜      |
