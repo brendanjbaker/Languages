@@ -2,9 +2,9 @@
 
 **ALGOL-58**
 
-There is no working compiler or interpreter for ALGOL-58 that exists.
+Originally proposed as "IAL" (International Algebraic Language), there is no working compiler or interpreter for ALGOL-58 that exists.
 
-It was quickly supplanted by ALGOL-60, JOVIAL, etc.
+It may be fair to consider the JOVIAL language as the implementation of the ALGOL-58 idea (with some added extensions).
 
 **Associative Programming Language**
 
