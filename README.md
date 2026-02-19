@@ -455,11 +455,11 @@ Test requirements are loose:
 | X10                                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [Xojo](src/xojo/README.md)                |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Xtend                                     |    ✅    |   ✅   |      ⬜      |      ⬜      |
-| ylang                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| ylang                                     |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | YSH                                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Zig                                       |    ✅    |   ✅   |      ✅      |      ⬜      |
 | Zonnon                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
-| _Count..._                                |  _149_  | _145_ |    _14_     |     _5_     |
+| _Count..._                                |  _150_  | _146_ |    _14_     |     _5_     |
 
 **Legend**
 
