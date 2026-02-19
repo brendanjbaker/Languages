@@ -1,0 +1,19 @@
+module Program;
+
+var
+	sum: integer;
+
+	procedure SumRange(a, b: integer): integer;
+		var n, result: integer;
+	begin
+		for n := a to b do
+			result := result + n;
+		end;
+
+		return result;
+	end SumRange;
+
+begin
+	sum := SumRange(0, 100);
+	writeln(string(sum));
+end Program.
