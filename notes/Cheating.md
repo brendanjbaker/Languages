@@ -4,6 +4,10 @@ Some languages and/or programs require some "cheating" to pass their test(s).
 
 The needed "cheats" are disclosed below.
 
+**ALGOL-60**
+
+The character encoding used at the time did not include the exclamation point `!`, but it does include an upward-arrow `↑`. Therefore, the `hello` program prints `Hello, world↑`, and `sed` converts the arrow to an exclamation point.
+
 **BASIC**
 
 Programs always end with a prompt to `Press enter to continue`, so an `enter` key input is provided, and that prompt is removed from output by `grep`. Additionally, `perl` removes excess newline output.

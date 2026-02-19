@@ -1,0 +1,7 @@
+START PROGRAM;
+
+" This is a comment. "
+
+PRINT('Hello, world!');
+
+TERM

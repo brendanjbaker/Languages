@@ -1,0 +1,26 @@
+START PROGRAM;
+
+" This program sums the numbers 0-100 (inclusive), and prints the result. "
+
+PROC SUMRANGE(R'BEGIN, R'END : RESULT);
+BEGIN
+	ITEM RESULT S 32;
+	ITEM R'BEGIN S 32;
+	ITEM R'END S 32;
+	ITEM N S 32;
+
+	RESULT := 0;
+	N := R'BEGIN;
+
+	WHILE N <= R'END;
+		RESULT := RESULT + N;
+		N := N + 1;
+	END
+END
+
+ITEM RESULT S 32 = 0;
+
+SUMRANGE(0, 100 : RESULT);
+PRINT(RESULT);
+
+TERM
