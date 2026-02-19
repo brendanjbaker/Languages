@@ -160,7 +160,7 @@ Test requirements are loose:
 | Ada                                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Admiran                                   |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Agda                                      |    ✅    |   ✅   |      ⬜      |      ⬜      |
-| Algol (60)                                |    ✅️    |   ✅️   |      ⬜      |      ⬜      |
+| Algol (60)¹                               |    ✅️    |   ✅️   |      ⬜      |      ⬜      |
 | Algol (68)                                |    ✅️    |   ✅   |      ⬜      |      ⬜      |
 | Alumina                                   |    ✅️    |   ✅️   |      ⬜      |      ⬜      |
 | APL                                       |    ✅️    |   ✅️   |      ⬜      |      ⬜      |
@@ -282,7 +282,7 @@ Test requirements are loose:
 | Java                                      |    ✅    |   ✅   |      ✅      |      ⬜      |
 | JavaScript                                |    ✅    |   ✅   |      ✅      |      ⬜      |
 | Joule                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
-| JOVIAL                                    |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| JOVIAL                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [Joy](src/joy/README.md)¹                 |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | JS++                                      |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | JScript                                   |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
@@ -456,10 +456,10 @@ Test requirements are loose:
 | [Xojo](src/xojo/README.md)                |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Xtend                                     |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | ylang                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
-| YSH                                       |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| YSH                                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | Zig                                       |    ✅    |   ✅   |      ✅      |      ⬜      |
-| Zonnon                                    |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
-| _Count..._                                |  _146_  | _142_ |    _14_     |     _5_     |
+| Zonnon                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| _Count..._                                |  _149_  | _145_ |    _14_     |     _5_     |
 
 **Legend**
 

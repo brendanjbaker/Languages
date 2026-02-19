@@ -1,0 +1,5 @@
+#!/usr/bin/env ysh
+
+const message = "Hello, world!"
+
+echo $message

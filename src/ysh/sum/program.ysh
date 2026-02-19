@@ -1,0 +1,11 @@
+#!/usr/bin/env ysh
+
+const begin = 0
+const end = 100
+var sum = 0
+
+for i in (begin ..= end) {
+	setvar sum += i
+}
+
+echo $sum
