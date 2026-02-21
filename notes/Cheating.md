@@ -10,7 +10,7 @@ The character encoding used at the time did not include the exclamation point `!
 
 **BASIC**
 
-Programs always end with a prompt to `Press enter to continue`, so an `enter` key input is provided, and that prompt is removed from output by `grep`. Additionally, `perl` removes excess newline output.
+For QuickBASIC, QB64E is used. Programs always end with a prompt to `Press enter to continue`, so an `enter` key input is provided, and that prompt is removed from output by `grep`. Additionally, `perl` removes excess newline output.
 
 **CSS**
 
@@ -35,6 +35,12 @@ Less can't output directly, however the `lessc` compiler can emit warnings. The 
 **PL/M**
 
 The emulator prints various CP/M operating system output to `stdout`, so `grep` is used to extract program output.
+
+**Plankalkül**
+
+Plankalkül cannot express output directly -- inputs are placed into register(s) (`V0`, `V1`, `V2`, ...), and outputs are left in register(s) (`R0`, `R1`, `R2`, ...).
+
+See its [README file](../src/plankalkul/README.md) for additional information.
 
 **Sass**
 
