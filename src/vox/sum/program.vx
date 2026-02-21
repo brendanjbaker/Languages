@@ -1,0 +1,114 @@
+#version(windows) {
+	@extern(module, "kernel32"):
+
+	enum u32 stdin  = 0xFFFFFFF6;
+	enum u32 stdout = 0xFFFFFFF5;
+	enum u32 stderr = 0xFFFFFFF4;
+
+	noreturn ExitProcess(u32 uExitCode);
+	u8 WriteConsoleA(void* hConsoleOutput, u8* lpBuffer, u32 nNumberOfCharsToWrite, u32* lpNumberOfCharsWritten, void* lpReserved);
+	void* GetStdHandle(u32 nStdHandle);
+
+	alias exit = ExitProcess;
+
+	void write(u32 fd, u8[] data) {
+		WriteConsoleA(GetStdHandle(fd), data.ptr, cast(u32)data.length, null, null);
+	}
+}
+
+#version(linux) {
+	enum u32 stdin  = 0;
+	enum u32 stdout = 1;
+	enum u32 stderr = 2;
+
+	@extern(syscall, 60)
+	void exit(i32 error_code);
+
+	@extern(syscall, 1)
+	void sys_write(u32 fd, u8* buf, u64 count);
+
+	void write(u32 fd, u8[] data) {
+		sys_write(fd, data.ptr, data.length);
+	}
+}
+
+void printInt(i64 i) {
+	u8[21] buf;
+	u8[] res = formatInt(i, &buf, 1);
+	write(stdout, res);
+}
+
+void printLine() {
+	write(stdout, "\n");
+}
+
+u8[] formatInt(i64 i, u8[21]* output, u32 minSize) {
+	u32 numDigits = 0;
+
+	if (i == 0) {
+		if (minSize == 0)
+			minSize = 1;
+
+		setRangeu8((*output)[21 - minSize..21], ' ');
+
+		(*output)[20] = '0';
+		numDigits = minSize;
+	}
+	else {
+		bool neg = i < 0;
+
+		if (neg) {
+			i = -i;
+		}
+
+		bool overflow = i < 0;
+
+		if (overflow)
+			i = i64.max;
+
+		while (i) {
+			u8 c = cast(u8)('0' + i % 10);
+			(*output)[21 - ++numDigits] = c;
+			i /= 10;
+		}
+
+		while (numDigits < minSize) {
+			(*output)[21 - ++numDigits] = ' ';
+		}
+
+		if (neg) {
+			(*output)[21 - ++numDigits] = '-';
+		}
+
+		if (overflow) {
+			++(*output)[20];
+		}
+	}
+
+	return (*output)[21 - numDigits..21];
+}
+
+void setRangeu8(u8[] slice, u8 value) {
+	for (u64 i = 0; i < slice.length; ++i) {
+		slice[i] = value;
+	}
+}
+
+i32 sumRange(i32 begin, i32 end) {
+	i32 sum = 0;
+
+	for (i32 n = begin; n <= end; n++) {
+		sum += n;
+	}
+
+	return sum;
+}
+
+void main(void* hInstance, void* hPrevInstance, u8* lpCmdLine, i32 nShowCmd) {
+	i32 sum = sumRange(0, 100);
+
+	printInt(sum);
+	printLine();
+
+	exit(0);
+}
