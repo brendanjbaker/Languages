@@ -184,9 +184,6 @@ Test requirements are loose:
 | [📂](src/beef) Beef                                             |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/brainf_ck) Brainf#ck                                   |    ✅    |   ⬜   |      ⬜      |      ⬜      |
 | [📂](src/c) C                                                   |    ✅    |   ✅   |      ✅      |      ⬜      |
-| [📂](src/csharp) C#                                             |    ✅    |   ✅   |      ✅      |      ⬜      |
-| [📂](src/cmm) C--                                               |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
-| [📂](src/cpp) C++                                               |    ✅    |   ✅   |      ✅      |      ⬜      |
 | [📂](src/c2) C2                                                 |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/c3) C3                                                 |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/cakelisp) Cakelisp                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
@@ -199,6 +196,7 @@ Test requirements are loose:
 | [📂](src/clean) Clean                                           |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📂](src/clojure) Clojure                                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/clu) CLU                                               |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| [📂](src/cmm) C--                                               |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📂](src/cms-2) CMS-2                                           |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📂](src/cobol) COBOL                                           |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/cobra) Cobra                                           |    ✅    |   ✅   |      ⬜      |      ⬜      |
@@ -209,7 +207,9 @@ Test requirements are loose:
 | [📂](src/control) Control Language                              |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📂](src/cowgol) Cowgol                                         |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/cpl) CPL                                               |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| [📂](src/cpp) C++                                               |    ✅    |   ✅   |      ✅      |      ⬜      |
 | [📂](src/crystal) Crystal                                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| [📂](src/csharp) C#                                             |    ✅    |   ✅   |      ✅      |      ⬜      |
 | [📂](src/csound) Csound                                         |    ✅    |   ✅   |      ⬜      |      ✅      |
 | [📂](src/css) [CSS](src/css/README.md)¹                         |    ✅    |   ✅   |      ⚠️      |      ⬜      |
 | [📂](src/cwerg) Cwerg                                           |    ✅    |   ✅   |      ✅      |      ⬜      |
@@ -234,8 +234,6 @@ Test requirements are loose:
 | [📂](src/erlang) Erlang                                         |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/euclid) Euclid                                         |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📂](src/extempore) Extempore                                   |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
-| [📂](src/fstar) F*                                              |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
-| [📂](src/fsharp) F#                                             |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/factor) Factor                                         |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/fifth) Fifth                                           |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/fl) FL                                                 |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
@@ -246,6 +244,8 @@ Test requirements are loose:
 | [📂](src/fortran) Fortran                                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/foxpro) FoxPro                                         |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📂](src/fp) FP                                                 |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| [📂](src/fsharp) F#                                             |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| [📂](src/fstar) F*                                              |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📂](src/futhark) [Futhark](src/futhark/README.md)              |    ⚠️    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/g-portugol) G-Portugol                                 |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/gambas) Gambas                                         |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
@@ -276,7 +276,6 @@ Test requirements are loose:
 | [📂](src/io) Io                                                 |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/isabelle) Isabelle¹                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/j) J                                                   |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
-| [📂](src/jsharp) J#                                             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📂](src/jai) Jai                                               |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📂](src/jank) Jank                                             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📂](src/java) Java                                             |    ✅    |   ✅   |      ✅      |      ⬜      |
@@ -284,8 +283,9 @@ Test requirements are loose:
 | [📂](src/joule) Joule                                           |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📂](src/jovial) JOVIAL                                         |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/joy) [Joy](src/joy/README.md)¹                         |    ✅    |   ✅   |      ⬜      |      ⬜      |
-| [📂](src/jspp) JS++                                             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📂](src/jscript) JScript                                       |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| [📂](src/jsharp) J#                                             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| [📂](src/jspp) JS++                                             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📂](src/jtw) Jtw                                               |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📂](src/jule) Jule                                             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📂](src/julia) Julia                                           |    ✅    |   ✅   |      ⬜      |      ⬜      |
@@ -316,9 +316,9 @@ Test requirements are loose:
 | [📂](src/metaocaml) MetaOCaml                                   |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📂](src/miranda) Miranda                                       |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📂](src/modelica) Modelica                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
-| [📂](src/modula) Modula                                         |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📂](src/modula-2) Modula-2                                     |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/modula-3) Modula-3                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| [📂](src/modula) Modula                                         |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📂](src/mojo) Mojo                                             |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/move) Move                                             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📂](src/myrddin) Myrddin                                       |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
@@ -391,8 +391,8 @@ Test requirements are loose:
 | [📂](src/rocq) Rocq                                             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📂](src/rpg) RPG (IV)                                          |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/rpl) RPL                                               |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
-| [📂](src/rtl) RTL                                               |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📂](src/rtl-2) RTL/2                                           |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| [📂](src/rtl) RTL                                               |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📂](src/ruby) Ruby                                             |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/rust) Rust                                             |    ✅    |   ✅   |      ✅      |      ⬜      |
 | [📂](src/rye) Rye                                               |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
@@ -422,10 +422,10 @@ Test requirements are loose:
 | [📂](src/squeak) Squeak                                         |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📂](src/squirrel) Squirrel                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📂](src/standard-ml) [Standard ML](src/standard-ml/README.md)¹ |    ✅    |   ✅   |      ⬜      |      ⬜      |
-| [📂](src/supercollider) SuperCollider                           |    ✅    |   ✅   |      ⬜      |      ✅      |
 | [📂](src/stata) Stata                                           |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📂](src/storm) Storm                                           |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
-| [📂](src/structured-text)Structured Text                        |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| [📂](src/structured-text) Structured Text                       |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| [📂](src/supercollider) SuperCollider                           |    ✅    |   ✅   |      ⬜      |      ✅      |
 | [📂](src/swift) Swift                                           |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/tailspin) Tailspin                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📂](src/tampio) Tampio¹                                        |    ✅    |   ⬜   |      ⬜      |      ⬜      |
@@ -447,8 +447,8 @@ Test requirements are loose:
 | [📂](src/vbscript) VBScript                                     |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/verilog) Verilog                                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/vhdl) VHDL                                             |    ✅    |   ✅   |      ⬜      |      ⬜      |
-| [📂](src/vb) Visual Basic .NET                                  |    ✅    |   ✅   |      ⬜      |      ⬜      |
-| [📂](src/vb6) Visual Basic (6)                                  |    ⛔    |   ⬜   |      ⬜      |      ⬜      |
+| [📂](src/visual-basic.6) Visual Basic (6)                       |    ⛔    |   ⬜   |      ⬜      |      ⬜      |
+| [📂](src/visual-basic.net) Visual Basic (.NET)                  |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/vox) Vox                                               |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/wenyan) Wenyan (文言)                                  |    ✅    |   ⛔   |      ⬜      |      ⬜      |
 | [📂](src/whiley) Whiley                                         |    ✅    |   ✅   |      ⬜      |      ⬜      |
