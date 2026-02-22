@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 if [[ ! -f program.exe ]]; then
-	declare cwerg_home='/opt/cwerg/5d2a521'
+	declare cwerg_home='/opt/cwerg/6cb0415'
 	declare cwerg_std_lib="$cwerg_home/FE/Lib"
 
 	declare -a libraries=(
