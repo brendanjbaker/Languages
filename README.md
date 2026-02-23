@@ -29,7 +29,7 @@ Besides just showing example programs, the programs are runnable in a reproducib
 
 This project is for my personal development, so generally, pull requests aren't requested or desired.
 
-If you'd like your language added, or would like some other change made, please [open an issue](./issues/new).
+If you'd like your language added, or would like some other change made, please [open an issue](https://github.com/brendanjbaker/Languages/issues/new).
 
 Feel free to fork this repository and change things as you see fit!
 
