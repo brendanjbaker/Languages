@@ -13,6 +13,7 @@ Besides just showing example programs, the programs are runnable in a reproducib
 - [Summary](#summary)
 - [Screenshot](#screenshot)
 - [Contents](#contents)
+- [Contributing](#contributing)
 - [Technical background](#technical-background)
 - [Help](#help)
 - [Usage examples](#usage-examples)
@@ -23,6 +24,14 @@ Besides just showing example programs, the programs are runnable in a reproducib
 	- [`freestyle`](#freestyle)
 - [Checklist](#checklist)
 - [Cheating](#cheating)
+
+## Contributing
+
+This project is for my personal development, so generally, pull requests aren't requested or desired.
+
+If you'd like your language added, or would like some other change made, please [open an issue](./issues/new).
+
+Feel free to fork this repository and change things as you see fit!
 
 ## Technical background
 
@@ -60,6 +69,7 @@ Options:
   --interactive       Begin an interaction session.
   --parallel          Runs multiple programs concurrently.
   --prime             Pre-generates image(s) without running them.
+  --random            Runs programs in random order.
   --reverse           Runs programs in reverse order.
   --test              Run unit tests.
   --version           Show version information.
