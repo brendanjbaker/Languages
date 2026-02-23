@@ -16,6 +16,18 @@ For QuickBASIC, QB64E is used. Programs always end with a prompt to `Press enter
 
 Puppeteer is used to render and interpret HTML and CSS, then selected DOM data is logged as "output." Additionally, `tr` or `sed` is used to clean up that output.
 
+**FLOW-MATIC**
+
+The FLOW-MATIC interpreter generates a "run report" that prints various HSP (high-speed printer) and file output(s).
+
+Output is printed to a "field;" for example, the message `Hello, world!` printed to field `MESSAGE` looks like this on the high-speed printer output:
+
+```
+  MESSAGE: Hello, world!
+```
+
+Such output is extracted using `grep` and `awk`.
+
 **HTML**
 
 Console browser `w3m` is used to render the page as "output."

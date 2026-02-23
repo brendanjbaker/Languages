@@ -1,0 +1,17 @@
+(0)  OUTPUT STATE FILE-A ;
+     OUTPUT HSP B .
+
+(1)  MOVE ZEROS TO TOTAL (A) ;
+     MOVE ZEROS TO N (A) .
+
+(2)  ADD N (A) TO TOTAL (A) .
+
+(3)  ADD 1 TO N (A) .
+
+(4)  TEST N (A) AGAINST 101 ;
+     IF LESS GO TO OPERATION 2 .
+
+(5)  MOVE TOTAL (A) TO MESSAGE (B) ;
+     PRINT-ITEM B .
+
+(6)  STOP .

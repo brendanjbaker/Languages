@@ -248,7 +248,7 @@ Test requirements are loose:
 | [📂](src/fifth) Fifth                                           |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/fl) FL                                                 |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📂](src/flix) Flix                                             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
-| [📂](src/flow-matic) FLOW-MATIC                                 |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| [📂](src/flow-matic) FLOW-MATIC¹                                |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/flux) Flux                                             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📂](src/forth) Forth                                           |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/fortran) Fortran                                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
@@ -471,7 +471,7 @@ Test requirements are loose:
 | [📂](src/ysh) YSH                                               |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/zig) Zig                                               |    ✅    |   ✅   |      ✅      |      ⬜      |
 | [📂](src/zonnon) Zonnon                                         |    ✅    |   ✅   |      ⬜      |      ⬜      |
-| _Count..._                                                     |  _154_  | _150_ |    _14_     |     _5_     |
+| _Count..._                                                     |  _155_  | _151_ |    _14_     |     _5_     |
 
 **Legend**
 

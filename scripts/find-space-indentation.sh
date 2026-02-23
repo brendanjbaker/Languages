@@ -8,6 +8,7 @@ grep -r '^    ' \
 | grep -v '^src/cobol/' \
 | grep -v '^src/elm/' \
 | grep -v '^src/factor/' \
+| grep -v '^src/flow-matic/' \
 | grep -v '^src/fsharp/' \
 | grep -v '^src/roc/' \
 | grep -v '^src/spark/' \
