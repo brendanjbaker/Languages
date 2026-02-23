@@ -27,6 +27,7 @@ declare option_debug_setup="false"
 declare option_interactive="false"
 declare option_parallel="false"
 declare option_prime="false"
+declare option_random="false"
 declare option_reverse="false"
 declare option_test="false"
 
@@ -228,6 +229,8 @@ function list_languages {
 
 	if [[ "$option_reverse" == "true" ]]; then
 		languages=$(echo "$languages" | sort --reverse)
+	elif [[ "$option_random" == "true" ]]; then
+		languages=$(echo "$languages" | shuf)
 	fi
 
 	for language in $languages; do
@@ -259,6 +262,8 @@ function list_programs {
 
 	if [[ "$option_reverse" == "true" ]]; then
 		programs=$(echo "$programs" | sort --reverse)
+	elif [[ "$option_random" == "true" ]]; then
+		programs=$(echo "$programs" | shuf)
 	fi
 
 	for program in $programs; do
@@ -297,6 +302,8 @@ function main {
 			option_parallel="true"; shift
 		elif [[ $# -ge 1 && "$1" == "--prime" ]]; then
 			option_prime="true"; shift
+		elif [[ $# -ge 1 && "$1" == "--random" ]]; then
+			option_random="true"; shift
 		elif [[ $# -ge 1 && "$1" == "--reverse" ]]; then
 			option_reverse="true"; shift
 		elif [[ $# -ge 1 && "$1" == "--slot" ]]; then
@@ -371,6 +378,7 @@ function print_usage {
 		  --interactive       Begin an interaction session.
 		  --parallel          Runs multiple programs concurrently.
 		  --prime             Pre-generates image(s) without running them.
+		  --random            Runs programs in random order.
 		  --reverse           Runs programs in reverse order.
 		  --test              Run unit tests.
 		  --version           Show version information.

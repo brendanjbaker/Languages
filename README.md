@@ -6,7 +6,7 @@ Besides just showing example programs, the programs are runnable in a reproducib
 
 ## Screenshot
 
-![Test mode screenshot.](screenshot.png)
+![Test mode screenshot.](assets/screenshots/test-mode.png)
 
 ## Contents
 
@@ -477,4 +477,4 @@ Test requirements are loose:
 
 Some programs require "cheating" to express output and/or pass tests.
 
-See the [cheating](./notes/Cheating.md) page for additional information.
+See the [cheating](./assets/notes/Cheating.md) page for additional information.
