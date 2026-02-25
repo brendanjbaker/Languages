@@ -42,7 +42,7 @@ fun main(argc s32, argv ^^u8) s32:
 		set minutes += 1
 		set seconds %= 60
 
-	fmt::print#(
+	fmt\print#(
 		minutes / 10, minutes % 10, ":",
 		seconds / 10, seconds % 10, "\n"
 	)

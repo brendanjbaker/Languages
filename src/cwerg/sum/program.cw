@@ -18,6 +18,6 @@ fun main(argc s32, argv ^^u8) s32:
 	ref let! range = {Range: 0, 100}
 	let sum s32 = sum_range(@!range)
 
-	fmt::print#(sum, "\n")
+	fmt\print#(sum, "\n")
 
 	return 0
