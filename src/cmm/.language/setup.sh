@@ -123,6 +123,6 @@ sed -i 's/as -o/as --32 -o/g' 'runtime/mkfile'
 
 dpkg --add-architecture i386
 apt-get update
-apt-get install \
+apt-get install --no-install-recommends -y \
 	gcc-multilib \
 	libc6-dev-i386
