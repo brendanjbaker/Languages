@@ -6,7 +6,7 @@ b̲e̲g̲i̲n̲
 
 	arrow := 69;
 
-    PRINTTEXT(`Hello, world');
+	PRINTTEXT(`Hello, world');
 	PRSYM(arrow);
-    NLCR;
+	NLCR;
 e̲n̲d̲
