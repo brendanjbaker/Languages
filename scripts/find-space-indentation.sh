@@ -10,6 +10,8 @@ grep -r '^    ' \
 | grep -v '^src/factor/' \
 | grep -v '^src/flow-matic/' \
 | grep -v '^src/fsharp/' \
+| grep -v '^src/holyc/' \
+| grep -v '^src/nim/' \
 | grep -v '^src/roc/' \
 | grep -v '^src/spark/' \
 | grep -iv 'binary file' \
