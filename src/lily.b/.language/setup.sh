@@ -31,6 +31,7 @@ mkdir '/opt/lily'
 pushd '/opt/lily'
 git clone 'https://github.com/thelilylang/lily.git' '0.12.0'
 pushd '0.12.0'
+git checkout 'a13e01154581215a3f49ab0b6d540bddc08fb8f7' 2> /dev/null
 git submodule update --init 'lib/local/src/libyaml'
 pushd 'lib/local/src/libyaml'
 ./bootstrap

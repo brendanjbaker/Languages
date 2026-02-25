@@ -11,6 +11,7 @@ mkdir -p '/tmp/bcpl'
 pushd '/tmp/bcpl'
 git clone --depth 1 'https://github.com/SergeGris/BCPL-compiler.git' 'bcpl-compiler'
 pushd 'bcpl-compiler'
+git checkout 'f37913935c52ed167bba95e414dc5388f69e037a' 2> /dev/null
 bash makeall
 bash makeall install
 pushd; pushd

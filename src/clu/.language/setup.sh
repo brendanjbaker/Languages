@@ -17,6 +17,7 @@ mkdir -p '/opt/pclu'
 pushd '/opt/pclu'
 git clone 'https://github.com/nbuwe/pclu' '3.7'
 pushd '3.7'
+git checkout '1a8ad7603ea20b9744942182a52810441182f6a6' 2> /dev/null
 popd; popd
 
 mkdir -p '/opt/gc'

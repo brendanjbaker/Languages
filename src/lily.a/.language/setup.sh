@@ -11,8 +11,9 @@ apt-get install -y --no-install-recommends \
 
 mkdir '/opt/lily'
 pushd '/opt/lily'
-git clone --depth 1 --branch 'v2.3' 'https://gitlab.com/FascinatedBox/lily.git' '2.3'
+git clone 'https://gitlab.com/FascinatedBox/lily.git' '2.3'
 pushd '2.3'
+git checkout 'v2.3' 2> /dev/null
 cmake .
 cmake --build .
 ln -s '/opt/lily/2.3/lily' '/usr/bin/lily'

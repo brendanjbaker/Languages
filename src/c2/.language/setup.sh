@@ -13,7 +13,7 @@ mkdir -p '/opt/c2'
 pushd '/opt/c2'
 git clone 'https://github.com/c2lang/c2compiler.git' '7b17e77'
 pushd '7b17e77'
-git checkout '7b17e77' 2> /dev/null
+git checkout '7b17e77e8bfbfd20f5d6040dde7f851ebe0d94b7' 2> /dev/null
 git submodule update --init --recursive --depth 1
 source env.sh
 make -j"$(nproc)"

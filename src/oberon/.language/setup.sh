@@ -12,9 +12,11 @@ apt-get install -y --no-install-recommends \
 	make \
 	yacc
 
-pushd /usr/local
-git clone --depth 1 'https://github.com/rsdoiel/obnc.git' obnc
-pushd obnc
+mkdir '/opt/oberon'
+pushd '/opt/oberon'
+git clone --depth 1 'https://github.com/rsdoiel/obnc.git' 'dcc15df'
+pushd 'dcc15df'
+git checkout 'dcc15df218ef68ae1723a308b2af915bc1764c44' 2> /dev/null
 ./build
 ./install
 popd; popd

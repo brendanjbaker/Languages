@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+export DEBIAN_FRONTEND="noninteractive"
+
 apt-get install -y --no-install-recommends \
 	libmpfr6 \
 	libwebkit2gtk-4.1-0 \
