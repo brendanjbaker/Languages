@@ -13,6 +13,7 @@ script_directory=$(program::get_script_directory)
 root_directory=$(readlink --canonicalize "$script_directory/..")
 
 scripts=(
+	"scripts/find-apt-get-without-noninteractive.sh"
 	"scripts/find-apt-install-with-recommends.sh"
 	"scripts/find-missing-argument-passing.sh"
 	"scripts/find-space-indentation.sh"
