@@ -1,0 +1,40 @@
+#version(windows) {
+	@extern(module, "kernel32"):
+
+	enum u32 stdin  = 0xFFFFFFF6;
+	enum u32 stdout = 0xFFFFFFF5;
+	enum u32 stderr = 0xFFFFFFF4;
+
+	noreturn ExitProcess(u32 uExitCode);
+	u8 WriteConsoleA(void* hConsoleOutput, u8* lpBuffer, u32 nNumberOfCharsToWrite, u32* lpNumberOfCharsWritten, void* lpReserved);
+	void* GetStdHandle(u32 nStdHandle);
+
+	alias exit = ExitProcess;
+
+	void write(u32 fd, u8[] data) {
+		WriteConsoleA(GetStdHandle(fd), data.ptr, cast(u32)data.length, null, null);
+	}
+}
+
+#version(linux) {
+	enum u32 stdin  = 0;
+	enum u32 stdout = 1;
+	enum u32 stderr = 2;
+
+	@extern(syscall, 60)
+	void exit(i32 error_code);
+
+	@extern(syscall, 1)
+	void sys_write(u32 fd, u8* buf, u64 count);
+
+	void write(u32 fd, u8[] data) {
+		sys_write(fd, data.ptr, data.length);
+	}
+}
+
+void main(void* hInstance, void* hPrevInstance, u8* lpCmdLine, i32 nShowCmd) {
+	u8[] message = "Hello, world!\n";
+
+	write(stdout, message);
+	exit(0);
+}

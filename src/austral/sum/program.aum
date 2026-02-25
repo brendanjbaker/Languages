@@ -1,0 +1,15 @@
+module body Program is
+	function Sum_Range(rBegin: Int32, rEnd: Int32): Int32 is
+		if rBegin = rEnd then
+			return rBegin;
+		else
+			return rBegin + Sum_Range(rBegin + 1, rEnd);
+		end if;
+	end;
+
+	function main(): ExitCode is
+		let S: Int32 := Sum_Range(0, 100);
+		printLn(S);
+		return ExitSuccess();
+	end;
+end module body.

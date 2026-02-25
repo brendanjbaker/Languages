@@ -1,0 +1,12 @@
+; Argument #1: Range (from)
+; Argument #2: Range (to)
+
+P1 sum (V0[:8.0], V1[:8.0]) → R0[:8.0]
+	0 → R0[:8.0]                         ; sum = 0
+	V0[:8.0] → Z0[:8.0]                  ; counter = "from" argument
+
+	W [                                  ; while...
+		R0[:8.0] + Z0[:8.0] → R0[:8.0]   ; sum = sum + counter
+		Z0[:8.0] + 1 → Z0[:8.0]          ; counter++
+	] (Z0[:8.0] ≤ V1[:8.0])              ; while counter <= "to" argument
+END

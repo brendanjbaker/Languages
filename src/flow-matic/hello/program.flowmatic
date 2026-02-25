@@ -1,0 +1,6 @@
+(0)  HSP A .
+
+(1)  MOVE "Hello, world!" TO MESSAGE (A) ;
+     PRINT-ITEM A .
+
+(2)  STOP .

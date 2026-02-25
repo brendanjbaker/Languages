@@ -1,0 +1,8 @@
+MODULE program;
+
+main_proc: PROC();
+	DCL message CHAR := 'X';
+	WRITETEXT(message);
+END main_proc;
+
+END program;
