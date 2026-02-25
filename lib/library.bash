@@ -430,7 +430,7 @@ error::error ()
 { 
     function incorrect_usage () 
     { 
-        echo "Usage: error [--status STATUS] <message|STDIN>" 1>&2;
+        echo "Usage: error::error [--status STATUS] <message>" 1>&2;
         exit 1
     };
     local message;
@@ -445,17 +445,11 @@ error::error ()
             shift;
             shift;
         else
-            if [[ $# -eq 1 ]] && stdin::is_not_piped; then
+            if [[ $# -eq 1 ]]; then
                 message="$1";
                 break;
             else
-                if [[ $# -eq 0 ]] && stdin::is_piped; then
-                    message=$(cat);
-                    message=$(printf '\n%s' "$message");
-                    break;
-                else
-                    incorrect_usage;
-                fi;
+                incorrect_usage;
             fi;
         fi;
     done;
@@ -472,6 +466,10 @@ error::error ()
 }
 error::usage () 
 { 
+    if [[ $# -ne 1 ]]; then
+        echo "Usage: error::usage <message>" 1>&2;
+        exit 1;
+    fi;
     PREAMBLE="Usage" error::error "$@"
 }
 indent () 
