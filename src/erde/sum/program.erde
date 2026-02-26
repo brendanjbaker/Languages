@@ -1,0 +1,11 @@
+local function sum_range(begin, end) {
+	local sum = 0
+
+	for n = begin, end {
+		sum += n
+	}
+
+	return sum
+}
+
+print(sum_range(0, 100))

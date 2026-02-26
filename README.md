@@ -242,6 +242,7 @@ Test requirements are loose:
 | [📂](src/elk.b) [Elk](src/elk.b/README.md) (B)                  |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/elm) Elm                                               |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/emacs-lisp) Emacs Lisp                                 |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| [📂](src/erde) Erde                                             |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/erlang) Erlang                                         |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/euclid) Euclid                                         |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📂](src/extempore) Extempore                                   |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
@@ -472,7 +473,7 @@ Test requirements are loose:
 | [📂](src/ysh) YSH                                               |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/zig) Zig                                               |    ✅    |   ✅   |      ✅      |      ⬜      |
 | [📂](src/zonnon) Zonnon                                         |    ✅    |   ✅   |      ⬜      |      ⬜      |
-| _Count..._                                                     |  _157_  | _153_ |    _14_     |     _5_     |
+| _Count..._                                                     |  _158_  | _154_ |    _14_     |     _5_     |
 
 **Legend**
 
