@@ -6,12 +6,12 @@ apt-get install -y --no-install-recommends \
 	ca-certificates \
 	wget
 
-mkdir -p '/opt/ylang/0.1.4'
+mkdir -p '/opt/ylang/0.2.0'
 mkdir '/tmp/ylang'
 pushd '/tmp/ylang'
-wget -q 'https://github.com/jman-9/ylang/releases/download/v0.1.4/ylang-0.1.4-linux-x86_64.tar.gz'
-printf '%s  %s\n' 'ccb7d8c221f68acccf079d22e9301133355896f8' 'ylang-0.1.4-linux-x86_64.tar.gz' | sha1sum --check -
-tar -xzf 'ylang-0.1.4-linux-x86_64.tar.gz' -C '/opt/ylang/0.1.4'
+wget -q 'https://github.com/jman-9/ylang/releases/download/v0.2.0/ylang-0.2.0-linux-x86_64.tar.gz'
+printf '%s  %s\n' 'f515909ab754eea69882d6e82bad34a4766c3c21' 'ylang-0.2.0-linux-x86_64.tar.gz' | sha1sum --check -
+tar -xzf 'ylang-0.2.0-linux-x86_64.tar.gz' -C '/opt/ylang/0.2.0'
 popd
 rm -fr '/tmp/ylang'
-ln -s '/opt/ylang/0.1.4/bin/ylang' '/usr/bin/ylang'
+ln -s '/opt/ylang/0.2.0/bin/ylang' '/usr/bin/ylang'
