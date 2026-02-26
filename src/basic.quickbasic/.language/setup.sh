@@ -4,6 +4,7 @@ export DEBIAN_FRONTEND="noninteractive"
 
 apt-get install -y --no-install-recommends \
 	build-essential \
+	ca-certificates \
 	libasound2-dev \
 	libcurl4-openssl-dev \
 	libglu1-mesa-dev \
@@ -15,11 +16,8 @@ apt-get install -y --no-install-recommends \
 mkdir '/opt/qb64pe'
 mkdir '/tmp/basic'
 pushd '/tmp/basic'
-
-download \
-	--url 'https://github.com/QB64-Phoenix-Edition/QB64pe/releases/download/v4.2.0/qb64pe_lnx-4.2.0.tar.gz' \
-	--hash '059c7f79d4db432499a0afc6d7d1587b618872ed'
-
+wget -q 'https://github.com/QB64-Phoenix-Edition/QB64pe/releases/download/v4.2.0/qb64pe_lnx-4.2.0.tar.gz'
+printf '%s  %s\n' '059c7f79d4db432499a0afc6d7d1587b618872ed' 'qb64pe_lnx-4.2.0.tar.gz' | sha1sum --check -
 tar -xzf 'qb64pe_lnx-4.2.0.tar.gz' -C '/opt/qb64pe'
 popd
 rm -fr '/tmp/basic'

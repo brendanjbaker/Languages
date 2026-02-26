@@ -9,11 +9,8 @@ apt-get install -y --no-install-recommends \
 mkdir -p '/opt/ylang/0.1.4'
 mkdir '/tmp/ylang'
 pushd '/tmp/ylang'
-
-download \
-	--url 'https://github.com/jman-9/ylang/releases/download/v0.1.4/ylang-0.1.4-linux-x86_64.tar.gz' \
-	--hash 'ccb7d8c221f68acccf079d22e9301133355896f8'
-
+wget -q 'https://github.com/jman-9/ylang/releases/download/v0.1.4/ylang-0.1.4-linux-x86_64.tar.gz'
+printf '%s  %s\n' 'ccb7d8c221f68acccf079d22e9301133355896f8' 'ylang-0.1.4-linux-x86_64.tar.gz' | sha1sum --check -
 tar -xzf 'ylang-0.1.4-linux-x86_64.tar.gz' -C '/opt/ylang/0.1.4'
 popd
 rm -fr '/tmp/ylang'

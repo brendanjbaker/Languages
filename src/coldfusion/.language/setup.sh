@@ -3,6 +3,7 @@
 export DEBIAN_FRONTEND="noninteractive"
 
 apt-get install -y --no-install-recommends \
+	ca-certificates \
 	curl \
 	libc6 \
 	libstdc++6 \
@@ -14,11 +15,8 @@ apt-get install -y --no-install-recommends \
 mkdir -p '/opt/coldfusion'
 mkdir -p '/tmp/coldfusion'
 pushd '/tmp/coldfusion'
-
-download \
-	--url 'https://cfdownload.adobe.com/pub/adobe/coldfusion/2025/zipinstaller/ColdFusion_2025_WWEJ_linux64.zip' \
-	--hash '0bd0ba968c9b15f30c7878edfe5fe90e75216e55'
-
+wget -q 'https://cfdownload.adobe.com/pub/adobe/coldfusion/2025/zipinstaller/ColdFusion_2025_WWEJ_linux64.zip'
+printf '%s  %s\n' '0bd0ba968c9b15f30c7878edfe5fe90e75216e55' 'ColdFusion_2025_WWEJ_linux64.zip' | sha1sum --check -
 unzip 'ColdFusion_2025_WWEJ_linux64.zip'
 unzip 'ColdFusion_WWEJ_linux64.zip' -d '/opt/coldfusion'
 popd

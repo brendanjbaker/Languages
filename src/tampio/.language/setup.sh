@@ -13,11 +13,8 @@ apt-get install -y --no-install-recommends \
 
 mkdir '/tmp/tampio'
 pushd '/tmp/tampio'
-
-download \
-	--url 'https://www.puimula.org/htp/testing/voikko-snapshot-v5/dict-morpho.zip' \
-	--hash '340fe82ec6bac08a8e2decebe81d9ba8a4338e31'
-
+wget -q 'https://www.puimula.org/htp/testing/voikko-snapshot-v5/dict-morpho.zip'
+printf '%s  %s\n' '340fe82ec6bac08a8e2decebe81d9ba8a4338e31' 'dict-morpho.zip' | sha1sum --check -
 unzip 'dict-morpho.zip' -d ~/.voikko
 
 popd

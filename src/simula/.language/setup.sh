@@ -10,16 +10,11 @@ apt-get install -y --no-install-recommends \
 	libtool \
 	wget
 
-declare filename='cim-5.1.tar.gz'
-
 mkdir -p /usr/local/cim
 pushd /usr/local/cim
-
-download \
-	--url "https://ftp.gnu.org/gnu/cim/$filename" \
-	--hash '270a63098f417c91d9e65e5745bb31c1e947e668'
-
-tar -xf "$filename"
+wget -q 'https://ftp.gnu.org/gnu/cim/cim-5.1.tar.gz'
+printf '%s  %s\n' '270a63098f417c91d9e65e5745bb31c1e947e668' 'cim-5.1.tar.gz' | sha1sum --check -
+tar -xf 'cim-5.1.tar.gz'
 mv "cim-5.1" "5.1"
 pushd "5.1"
 

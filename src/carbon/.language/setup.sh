@@ -3,6 +3,7 @@
 export DEBIAN_FRONTEND="noninteractive"
 
 apt-get install -y --no-install-recommends \
+	ca-certificates \
 	clang \
 	git \
 	libc++-dev \
@@ -13,17 +14,10 @@ apt-get install -y --no-install-recommends \
 
 mkdir "/usr/local/carbon"
 pushd "/usr/local/carbon"
+wget -q 'https://github.com/carbon-language/carbon-lang/releases/download/v0.0.0-0.nightly.2026.01.04/carbon_toolchain-0.0.0-0.nightly.2026.01.04.tar.gz'
+printf '%s  %s\n' '9eeceb22b6b0586ff727b9f049ec9b3b85fe164e' 'carbon_toolchain-0.0.0-0.nightly.2026.01.04.tar.gz' | sha1sum --check -
+tar -xvf 'carbon_toolchain-0.0.0-0.nightly.2026.01.04.tar.gz' > /dev/null
+rm 'carbon_toolchain-0.0.0-0.nightly.2026.01.04.tar.gz'
+mv 'carbon_toolchain-0.0.0-0.nightly.2026.01.04' '2026.01.04'
 
-declare version="0.0.0-0.nightly.2026.01.04"
-declare moniker="carbon_toolchain-$version"
-declare filename="$moniker.tar.gz"
-
-download \
-	--url "https://github.com/carbon-language/carbon-lang/releases/download/v$version/$filename" \
-	--hash '9eeceb22b6b0586ff727b9f049ec9b3b85fe164e'
-
-tar -xvf "$filename" > /dev/null
-rm "$filename"
-mv "$moniker" "current"
-
-ln -s "/usr/local/carbon/current/bin/carbon" "/usr/bin/carbon"
+ln -s "/usr/local/carbon/2026.01.04/bin/carbon" "/usr/bin/carbon"

@@ -3,16 +3,14 @@
 export DEBIAN_FRONTEND="noninteractive"
 
 apt-get install -y --no-install-recommends \
+	ca-certificates \
 	openjdk-21-jdk-headless \
 	wget
 
 mkdir '/tmp/e'
 pushd '/tmp/e'
-
-download \
-	--url 'https://erights.org/download/0-9-3/E-purej-0.9.3d.tar.gz' \
-	--hash 'f7ffe78cf89339c019a0bf6c349e5be25d42a2ce'
-
+wget -q 'https://erights.org/download/0-9-3/E-purej-0.9.3d.tar.gz'
+printf '%s  %s\n' 'f7ffe78cf89339c019a0bf6c349e5be25d42a2ce' 'E-purej-0.9.3d.tar.gz' | sha1sum --check -
 tar -xvf 'E-purej-0.9.3d.tar.gz'
 mkdir dist
 shopt -s extglob

@@ -1,9 +1,19 @@
 #!/usr/bin/env wren_cli
 
-var sum = 0
+class Program {
+	static main() {
+		System.print(sum_range(0, 100))
+	}
 
-for (i in 1..100) {
-	sum = sum + i
+	static sum_range(begin, end) {
+		var sum = 0
+
+		for (i in begin..end) {
+			sum = sum + i
+		}
+
+		return sum
+	}
 }
 
-System.print(sum)
+Program.main()

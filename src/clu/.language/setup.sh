@@ -22,11 +22,8 @@ popd; popd
 
 mkdir -p '/opt/gc'
 pushd '/opt/gc'
-
-download \
-	--url 'https://www.hboehm.info/gc/gc_source/gc-7.2f.tar.gz' \
-	--hash 'f4d079bd4e5ecc1f1eba2fd9a7220da42b1f8dc5'
-
+wget -q 'https://www.hboehm.info/gc/gc_source/gc-7.2f.tar.gz'
+printf '%s  %s\n' 'f4d079bd4e5ecc1f1eba2fd9a7220da42b1f8dc5' 'gc-7.2f.tar.gz' | sha1sum --check -
 tar -xzf 'gc-7.2f.tar.gz'
 mv 'gc-7.2' '7.2f'
 pushd '7.2f'

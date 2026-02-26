@@ -3,17 +3,15 @@
 export DEBIAN_FRONTEND="noninteractive"
 
 apt-get install -y --no-install-recommends \
+	ca-certificates \
 	tar \
 	wget
 
 mkdir -p '/opt/factor'
 mkdir -p '/tmp/factor'
 pushd '/tmp/factor'
-
-download \
-	--url 'https://downloads.factorcode.org/releases/0.101/factor-linux-x86-64-0.101.tar.gz' \
-	--hash '37ad7d49bd29a281372d0ddb11b468ce69313dba'
-
+wget -q 'https://downloads.factorcode.org/releases/0.101/factor-linux-x86-64-0.101.tar.gz'
+printf '%s  %s\n' '37ad7d49bd29a281372d0ddb11b468ce69313dba' 'factor-linux-x86-64-0.101.tar.gz' | sha1sum --check -
 tar -xvf 'factor-linux-x86-64-0.101.tar.gz' -C '/opt/factor'
 popd
 pushd '/opt/factor'

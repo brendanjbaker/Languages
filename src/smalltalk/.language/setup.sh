@@ -15,11 +15,8 @@ export ZIP="$(which unzip)"
 
 mkdir -p '/tmp/smalltalk'
 pushd '/tmp/smalltalk'
-
-download \
-	--url 'https://ftp.gnu.org/gnu/smalltalk/smalltalk-3.2.5.tar.gz' \
-	--hash '4dd77b769131527add276ded01666e089da3b8b1'
-
+wget -q 'https://ftp.gnu.org/gnu/smalltalk/smalltalk-3.2.5.tar.gz'
+printf '%s  %s\n' '4dd77b769131527add276ded01666e089da3b8b1' 'smalltalk-3.2.5.tar.gz' | sha1sum --check -
 tar -xvf 'smalltalk-3.2.5.tar.gz'
 pushd 'smalltalk-3.2.5'
 ./configure

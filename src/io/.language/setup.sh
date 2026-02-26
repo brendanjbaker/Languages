@@ -4,6 +4,7 @@ export DEBIAN_FRONTEND="noninteractive"
 
 apt-get install -y --no-install-recommends \
 	build-essential \
+	ca-certificates \
 	cmake \
 	freeglut3-dev \
 	libdbi0-dev \
@@ -45,11 +46,8 @@ apt-get install -y --no-install-recommends \
 
 mkdir '/tmp/io'
 pushd '/tmp/io'
-
-download \
-	--url 'https://iobin.suspended-chord.info/linux/iobin-linux-x64-deb-current.zip' \
-	--hash 'fb7f59563a3e09e485a5dc2e7fa140f6cd9deb64'
-
+wget -q 'https://iobin.suspended-chord.info/linux/iobin-linux-x64-deb-current.zip'
+printf '%s  %s\n' 'fb7f59563a3e09e485a5dc2e7fa140f6cd9deb64' 'iobin-linux-x64-deb-current.zip' | sha1sum --check -
 unzip 'iobin-linux-x64-deb-current.zip'
 dpkg -i 'IoLanguage-2013.11.04-Linux-x64.deb'
 ldconfig

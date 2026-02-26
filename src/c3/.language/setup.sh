@@ -6,6 +6,7 @@ export DEBIAN_FRONTEND="noninteractive"
 
 apt-get install --no-install-recommends -y \
 	build-essential \
+	ca-certificates \
 	libcurl4 \
 	libxml2 \
 	wget
@@ -13,11 +14,8 @@ apt-get install --no-install-recommends -y \
 mkdir '/opt/c3'
 mkdir '/tmp/c3'
 pushd '/tmp/c3'
-
-download \
-	--url 'https://github.com/c3lang/c3c/releases/download/v0.7.8/c3-linux.tar.gz' \
-	--hash 'e35a4a02fc6384f714f7bd9811565ae621b16c9c'
-
+wget -q 'https://github.com/c3lang/c3c/releases/download/v0.7.8/c3-linux.tar.gz'
+printf '%s  %s\n' 'e35a4a02fc6384f714f7bd9811565ae621b16c9c' 'c3-linux.tar.gz' | sha1sum --check
 tar -xvf 'c3-linux.tar.gz' -C '/opt/c3'
 popd
 rm -fr '/tmp/c3'

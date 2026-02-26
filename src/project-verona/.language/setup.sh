@@ -19,7 +19,7 @@ apt-get install -y --no-install-recommends \
 pushd '/usr/local'
 git clone 'https://github.com/microsoft/verona' verona
 pushd 'verona'
-git checkout 'old_version' 2> /dev/null
+git checkout 'b908e6e12cc11ff98034ffc2c58b708328c5eaf9' 2> /dev/null
 git submodule update --depth 1 --init --recursive
 # mkdir 'build_ninja'
 # pushd 'build_ninja'

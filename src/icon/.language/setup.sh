@@ -4,16 +4,14 @@ export DEBIAN_FRONTEND="noninteractive"
 
 apt-get install -y --no-install-recommends \
 	build-essential \
+	ca-certificates \
 	make \
 	wget
 
 mkdir '/usr/local/icon'
 pushd '/usr/local/icon'
-
-download \
-	--url 'https://github.com/gtownsend/icon/archive/refs/tags/v9.5.25a.tar.gz' \
-	--hash '1692b7c720ade8c79b0ba1cc8125c94ce0b334ab'
-
+wget -q 'https://github.com/gtownsend/icon/archive/refs/tags/v9.5.25a.tar.gz'
+printf '%s  %s\n' '1692b7c720ade8c79b0ba1cc8125c94ce0b334ab' 'v9.5.25a.tar.gz' | sha1sum --check -
 tar -xzf 'v9.5.25a.tar.gz'
 rm 'v9.5.25a.tar.gz'
 mv 'icon-9.5.25a' '9.5.25a'

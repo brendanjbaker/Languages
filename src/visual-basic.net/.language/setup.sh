@@ -7,10 +7,8 @@ apt-get install -y --no-install-recommends \
 	ca-certificates \
 	wget
 
-download \
-	--url 'https://packages.microsoft.com/config/debian/13/packages-microsoft-prod.deb' \
-	--hash 'fbbb666a7efecdce77dbe60d4b1174a6c477d562'
-
+wget -q 'https://packages.microsoft.com/config/debian/13/packages-microsoft-prod.deb'
+printf '%s  %s\n' 'fbbb666a7efecdce77dbe60d4b1174a6c477d562' 'packages-microsoft-prod.deb' | sha1sum --check -
 dpkg -i packages-microsoft-prod.deb
 rm 'packages-microsoft-prod.deb'
 

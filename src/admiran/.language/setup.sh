@@ -21,7 +21,7 @@ mkdir '/opt/admiran'
 pushd '/opt/admiran'
 git clone 'https://github.com/taolson/Admiran.git' '2.3'
 pushd '2.3'
-git checkout 'v2.3' 2> /dev/null
+git checkout 'c76afe5613c4f7175e54801a802941fcd3391bc3' 2> /dev/null
 update_configuration
 make
 ln -s '/opt/admiran/2.3/bin/amc' '/usr/bin/amc'

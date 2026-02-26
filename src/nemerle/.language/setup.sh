@@ -46,11 +46,8 @@ apt-get install -y --no-install-recommends winetricks
 
 mkdir '/tmp/wine-mono'
 pushd '/tmp/wine-mono'
-
-download \
-	--url 'https://dl.winehq.org/wine/wine-mono/9.4.0/wine-mono-9.4.0-x86.tar.xz' \
-	--hash '48fd310d826135f4920a39ac9abbe11c00616630'
-
+wget -q 'https://dl.winehq.org/wine/wine-mono/9.4.0/wine-mono-9.4.0-x86.tar.xz'
+printf '%s  %s\n' '48fd310d826135f4920a39ac9abbe11c00616630' 'wine-mono-9.4.0-x86.tar.xz' | sha1sum --check -
 mkdir -p '/opt/wine/mono'
 tar -xJf 'wine-mono-9.4.0-x86.tar.xz' -C '/opt/wine/mono'
 popd
@@ -62,11 +59,8 @@ winetricks -q dotnet48 > /dev/null
 mkdir -p '/opt/nemerle/1.2.0.547'
 mkdir '/tmp/nemerle'
 pushd '/tmp/nemerle'
-
-download \
-	--url 'http://nemerle.org/Download/Nightly%20master-NET40-VS2010/build-283/NemerleBinaries-net-4.0-v1.2.547.0.zip' \
-	--hash '664d004ead8d3283783ebaa73eece8be38629416'
-
+wget -q 'http://nemerle.org/Download/Nightly%20master-NET40-VS2010/build-283/NemerleBinaries-net-4.0-v1.2.547.0.zip'
+printf '%s  %s\n' '664d004ead8d3283783ebaa73eece8be38629416' 'NemerleBinaries-net-4.0-v1.2.547.0.zip' | sha1sum --check -
 unzip 'NemerleBinaries-net-4.0-v1.2.547.0.zip' -d '/opt/nemerle/1.2.0.547' > /dev/null
 popd
 rm -fr '/tmp/nemerle'

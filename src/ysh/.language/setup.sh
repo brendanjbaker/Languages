@@ -9,11 +9,8 @@ apt-get install -y --no-install-recommends \
 
 mkdir -p '/tmp/oils'
 pushd '/tmp/oils'
-
-download \
-	--url 'https://oils.pub/download/oils-for-unix-0.37.0.tar.gz' \
-	--hash '1fb279f2742c0eee46871e977434fce051ec6ae1'
-
+wget -q 'https://oils.pub/download/oils-for-unix-0.37.0.tar.gz'
+printf '%s  %s\n' '1fb279f2742c0eee46871e977434fce051ec6ae1' 'oils-for-unix-0.37.0.tar.gz' | sha1sum --check -
 tar -xzf 'oils-for-unix-0.37.0.tar.gz'
 pushd 'oils-for-unix-0.37.0'
 bash configure

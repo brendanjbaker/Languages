@@ -9,11 +9,8 @@ apt-get install -y --no-install-recommends \
 
 mkdir -p '/opt/apl'
 pushd '/opt/apl'
-
-download \
-	--url 'https://ftp.gnu.org/gnu/apl/apl-1.9.tar.gz' \
-	--hash '594f18c8fd197dc8088ecf94b613247e7763890e'
-
+wget -q 'https://ftp.gnu.org/gnu/apl/apl-1.9.tar.gz'
+printf '%s  %s\n' '594f18c8fd197dc8088ecf94b613247e7763890e' 'apl-1.9.tar.gz' | sha1sum --check -
 tar -xzf 'apl-1.9.tar.gz'
 mv 'apl-1.9' '1.9'
 pushd '1.9'

@@ -10,11 +10,8 @@ apt-get install -y --no-install-recommends \
 mkdir -p '/opt/nial/7'
 mkdir '/tmp/nial'
 pushd '/tmp/nial'
-
-download \
-	--url 'https://github.com/niallang/Nial_Development/releases/download/Originals/Linux64.zip' \
-	--hash 'dff6f1ab717708c7a6e9fbbcea7aad318179cec2'
-
+wget -q 'https://github.com/niallang/Nial_Development/releases/download/Originals/Linux64.zip'
+printf '%s  %s\n' 'dff6f1ab717708c7a6e9fbbcea7aad318179cec2' 'Linux64.zip' | sha1sum --check -
 unzip 'Linux64.zip'
 mv 'Linux/nial64' '/opt/nial/7'
 chmod +x '/opt/nial/7/nial64'
