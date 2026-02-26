@@ -6,7 +6,7 @@ if [[ ! -f program.lua ]]; then
 
 	declare erde_cli="$ERDE_ROOT/erde/cli.lua"
 
-	lua "$erde_cli" compile program.erde > /dev/null
+	lua "$erde_cli" compile --target 5.4 program.erde > /dev/null
 fi
 
 lua program.lua "$@"
