@@ -189,6 +189,7 @@ Test requirements are loose:
 | [📂](src/bash) Bash                                             |    ✅    |   ✅   |      ✅      |      ✅      |
 | [📂](src/basic) BASIC (QuickBASIC)¹                             |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/batch) Batch                                           |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| [📂](src/bau) Bau                                               |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/bcpl) BCPL                                             |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/beanshell) Beanshell                                   |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/beef) Beef                                             |    ✅    |   ✅   |      ⬜      |      ⬜      |
@@ -279,7 +280,7 @@ Test requirements are loose:
 | [📂](src/hylo) Hylo                                             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📂](src/hypertalk) HyperTalk                                   |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📂](src/icon) Icon                                             |    ✅    |   ✅   |      ⬜      |      ⬜      |
-| [📂](src/idris) Idris                                           |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| [📂](src/idris) Idris                                           |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/inform) Inform                                         |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/ink) Ink                                               |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/inko) Inko                                             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
@@ -471,7 +472,7 @@ Test requirements are loose:
 | [📂](src/ysh) YSH                                               |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/zig) Zig                                               |    ✅    |   ✅   |      ✅      |      ⬜      |
 | [📂](src/zonnon) Zonnon                                         |    ✅    |   ✅   |      ⬜      |      ⬜      |
-| _Count..._                                                     |  _155_  | _151_ |    _14_     |     _5_     |
+| _Count..._                                                     |  _157_  | _153_ |    _14_     |     _5_     |
 
 **Legend**
 
