@@ -1,0 +1,11 @@
+fun sumRange(begin int, end int) int
+    sum := 0
+    end_exclusive := end + 1
+
+    for n := range(begin, end_exclusive)
+        sum += n
+
+    return sum
+
+fun main()
+    println(sumRange(0, 100))
