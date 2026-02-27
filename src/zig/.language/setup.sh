@@ -3,6 +3,7 @@
 export DEBIAN_FRONTEND="noninteractive"
 
 apt-get install --no-install-recommends -y \
+	ca-certificates \
 	wget \
 	xz-utils
 

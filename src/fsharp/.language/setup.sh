@@ -3,17 +3,16 @@
 export DEBIAN_FRONTEND="noninteractive"
 
 apt-get install -y --no-install-recommends \
-	apt-transport-https \
 	ca-certificates \
 	wget
 
-mkdir '/tmp/fsharp'
-pushd '/tmp/fsharp'
+mkdir '/tmp/dotnet'
+pushd '/tmp/dotnet'
 wget -q 'https://packages.microsoft.com/config/debian/13/packages-microsoft-prod.deb'
 printf '%s  %s\n' 'fbbb666a7efecdce77dbe60d4b1174a6c477d562' 'packages-microsoft-prod.deb' | sha1sum --check -
-dpkg -i 'packages-microsoft-prod.deb'
+apt-get install -y --no-install-recommends './packages-microsoft-prod.deb'
 popd
-rm -fr '/tmp/fsharp'
+rm -fr '/tmp/dotnet'
 
 apt-get update
 apt-get install -y --no-install-recommends dotnet-sdk-10.0

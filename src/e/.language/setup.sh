@@ -9,7 +9,7 @@ apt-get install -y --no-install-recommends \
 
 mkdir '/tmp/e'
 pushd '/tmp/e'
-wget -q 'https://erights.org/download/0-9-3/E-purej-0.9.3d.tar.gz'
+wget -q --no-check-certificate 'https://erights.org/download/0-9-3/E-purej-0.9.3d.tar.gz'
 printf '%s  %s\n' 'f7ffe78cf89339c019a0bf6c349e5be25d42a2ce' 'E-purej-0.9.3d.tar.gz' | sha1sum --check -
 tar -xvf 'E-purej-0.9.3d.tar.gz'
 mkdir dist
