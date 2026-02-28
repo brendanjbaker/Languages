@@ -232,6 +232,7 @@ Test requirements are loose:
 | [📂](src/dbase) dBase                                           |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📂](src/delphi) Delphi                                         |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/duck) Duck                                             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| [📂](src/dylan) Dylan                                           |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/e) E                                                   |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/ec) eC                                                 |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📂](src/edinburgh-imp) Edinburgh IMP                           |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
@@ -339,7 +340,7 @@ Test requirements are loose:
 | [📂](src/natural) NATURAL                                       |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📂](src/nature) Nature                                         |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📂](src/neat) Neat                                             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
-| [📂](src/nelua) Nelua                                           |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| [📂](src/nelua) Nelua                                           |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/nemerle) Nemerle                                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/never) Never                                           |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/newspeak) Newspeak                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
@@ -476,7 +477,7 @@ Test requirements are loose:
 | [📂](src/ysh) YSH                                               |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/zig) Zig                                               |    ✅    |   ✅   |      ✅      |      ⬜      |
 | [📂](src/zonnon) Zonnon                                         |    ✅    |   ✅   |      ⬜      |      ⬜      |
-| _Count..._                                                     |  _162_  | _158_ |    _15_     |     _5_     |
+| _Count..._                                                     |  _164_  | _160_ |    _15_     |     _5_     |
 
 **Legend**
 

@@ -1,0 +1,12 @@
+{
+	"dependencies": [],
+	"dev-dependencies": [],
+	"description": "Example description...",
+	"name": "program",
+	"version": "0.0.1",
+	"url": "https://example.com",
+	"keywords": [],
+	"contact": "https://example.com",
+	"license": "",
+	"license-url": ""
+}
