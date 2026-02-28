@@ -1,6 +1,6 @@
 cd '/d/Code/Languages'
 wget -q 'https://github.com/nrnrnr/qc--/archive/ec56191b669729e7ce8181a2bd97a912842ea716.tar.gz' -O 'cache/qcmm.tar.gz'
-podman run -it --platform linux/386 -v '/d/Code/Languages/cache:/mnt/cache' docker.io/debian/eol:etch /bin/bash
+podman run -it --platform 'linux/386' -v '/d/Code/Languages/cache:/mnt/cache' 'docker.io/debian/eol:etch' '/bin/bash'
 
 # Then, inside the container...
 
@@ -26,10 +26,12 @@ tar -xzf '/mnt/cache/qcmm.tar.gz' -C '/opt/qcmm'
 mv '/opt/qcmm/qc---master' '/opt/qcmm/ec56191'
 mv '/usr/bin/ocamlc' '/usr/bin/ocamlc.bak'
 
+# No-operation implementation.
 cat > /usr/bin/ps2pdf <<- EOF
 	#!/bin/bash
 	EOF
 
+# Temporarily fake version 3.10.0, otherwise mk refuses to build.
 cat > /usr/bin/ocamlc <<- EOF
 	#!/bin/bash
 	echo 'The Objective Caml compiler, version 3.10.0'
