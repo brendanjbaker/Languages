@@ -26,7 +26,7 @@ popd; popd
 
 rustup install 1.93.1
 rustup default 1.93.1
-cargo install tree-sitter-cli
+cargo install tree-sitter-cli@0.26.6
 mkdir '/opt/alumina'
 pushd '/opt/alumina'
 git clone 'https://github.com/alumina-lang/alumina.git' 'd98b9bd'
