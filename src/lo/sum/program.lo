@@ -1,0 +1,19 @@
+@include("./lib/cli.lo")
+
+fn sum_range(begin: u32, end: u32): u32 {
+	let sum = 0
+	let end_exclusive = end + 1
+
+	for n in begin..end_exclusive {
+		sum += n
+	}
+
+	return sum
+}
+
+fn main() {
+	let result = sum_range(0, 100)
+	let result_text = result.to_tmp_str!()
+
+	println(result_text)
+}
