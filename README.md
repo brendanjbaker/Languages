@@ -315,6 +315,7 @@ Test requirements are loose:
 | [📂](src/lily.b) [Lily](src/lily.b/README.md) (B)               |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/lisp) Lisp                                             |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/litac) LitaC                                           |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| [📂](src/lo) LO                                                 |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/lobster) Lobster                                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/logo) Logo                                             |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/lolcode) LOLCODE                                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
@@ -357,7 +358,7 @@ Test requirements are loose:
 | [📂](src/obliq) Obliq                                           |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📂](src/ocaml) OCaml                                           |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/ocen) Ocen                                             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
-| [📂](src/odin) Odin                                             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| [📂](src/odin) Odin                                             |    ✅    |   ✅   |      ✅      |      ⬜      |
 | [📂](src/opa) Opa                                               |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📂](src/opencl) OpenCL                                         |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📂](src/orwell) Orwell                                         |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
@@ -439,6 +440,7 @@ Test requirements are loose:
 | [📂](src/structured-text) Structured Text                       |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📂](src/supercollider) SuperCollider                           |    ✅    |   ✅   |      ⬜      |      ✅      |
 | [📂](src/swift) Swift                                           |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| [📂](src/t3x-0) T3X/0                                           |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/tailspin) Tailspin                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📂](src/tampio) Tampio¹                                        |    ✅    |   ⬜   |      ⬜      |      ⬜      |
 | [📂](src/tcl) Tcl                                               |    ✅    |   ✅   |      ⬜      |      ⬜      |
@@ -473,7 +475,7 @@ Test requirements are loose:
 | [📂](src/ysh) YSH                                               |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/zig) Zig                                               |    ✅    |   ✅   |      ✅      |      ⬜      |
 | [📂](src/zonnon) Zonnon                                         |    ✅    |   ✅   |      ⬜      |      ⬜      |
-| _Count..._                                                     |  _158_  | _154_ |    _14_     |     _5_     |
+| _Count..._                                                     |  _161_  | _157_ |    _15_     |     _5_     |
 
 **Legend**
 

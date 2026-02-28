@@ -53,6 +53,7 @@ Consider adding these languages:
 * SYMPL
 * T3X/0
 * T4
+* Teal
 * Thymeleaf (templating)
 * Uxntal
 * Varyx
