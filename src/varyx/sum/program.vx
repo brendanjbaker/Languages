@@ -1,0 +1,16 @@
+#!/usr/bin/env vx
+
+def SumRange (range_begin, range_end)
+{
+	var sum = 0
+	let range_end_exclusive = range_end + 1
+
+	for n in range_begin -> range_end_exclusive do
+	{
+		sum += n
+	}
+
+	return sum
+}
+
+print SumRange(0, 100)

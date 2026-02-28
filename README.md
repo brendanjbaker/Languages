@@ -458,6 +458,7 @@ Test requirements are loose:
 | [📂](src/v) V                                                   |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/vala) Vala                                             |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/vale) Vale                                             |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| [📂](src/varyx) Varyx                                           |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/vbscript) VBScript                                     |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/verilog) Verilog                                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/vhdl) VHDL                                             |    ✅    |   ✅   |      ⬜      |      ⬜      |
@@ -475,7 +476,7 @@ Test requirements are loose:
 | [📂](src/ysh) YSH                                               |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/zig) Zig                                               |    ✅    |   ✅   |      ✅      |      ⬜      |
 | [📂](src/zonnon) Zonnon                                         |    ✅    |   ✅   |      ⬜      |      ⬜      |
-| _Count..._                                                     |  _161_  | _157_ |    _15_     |     _5_     |
+| _Count..._                                                     |  _162_  | _158_ |    _15_     |     _5_     |
 
 **Legend**
 
