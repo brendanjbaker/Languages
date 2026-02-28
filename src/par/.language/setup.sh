@@ -16,9 +16,9 @@ rustup default 1.93.1
 
 mkdir '/opt/par'
 pushd '/opt/par'
-git clone 'https://github.com/faiface/par-lang' '0.1.0'
-pushd '0.1.0'
-git checkout 'd42c75efa6af4effaf808c4bf09eb7df28b8dd40' 2> /dev/null
-cargo install --path .
+git clone 'https://github.com/faiface/par-lang.git' '7c93277'
+pushd '7c93277'
+git checkout '7c93277a1595bfb6bc6845377a1c6b53b85eeee1' 2> /dev/null
+cargo install --path . --locked
 popd; popd
-ln -s '/opt/par/0.1.0/target/release/par-lang' '/usr/bin/par-lang'
+ln -s '/opt/par/7c93277/target/release/par-lang' '/usr/bin/par-lang'
