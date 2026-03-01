@@ -1,0 +1,10 @@
+function sum_range(begin, end)
+{
+	if begin > end {
+		return 0
+	}
+
+	return begin + sum_range(begin + 1, end)
+}
+
+print(sum_range(0, 100))

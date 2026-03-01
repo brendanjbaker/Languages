@@ -445,7 +445,7 @@ Test requirements are loose:
 | [📂](src/tailspin) Tailspin                                     |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📂](src/tampio) Tampio¹                                        |    ✅    |   ⬜   |      ⬜      |      ⬜      |
 | [📂](src/tcl) Tcl                                               |    ✅    |   ✅   |      ⬜      |      ⬜      |
-| [📂](src/teascript) Teascript                                   |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| [📂](src/teascript) Teascript                                   |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/tern) Tern                                             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📂](src/terra) Terra                                           |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📂](src/th1) TH1                                               |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
@@ -477,7 +477,7 @@ Test requirements are loose:
 | [📂](src/ysh) YSH                                               |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/zig) Zig                                               |    ✅    |   ✅   |      ✅      |      ⬜      |
 | [📂](src/zonnon) Zonnon                                         |    ✅    |   ✅   |      ⬜      |      ⬜      |
-| _Count..._                                                     |  _165_  | _161_ |    _15_     |     _5_     |
+| _Count..._                                                     |  _166_  | _162_ |    _15_     |     _5_     |
 
 **Legend**
 
