@@ -455,7 +455,7 @@ Test requirements are loose:
 | [📂](src/typescript) Typescript                                 |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/uiua) Uiua                                             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📂](src/unicon) Unicon                                         |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
-| [📂](src/unison) Unison                                         |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| [📂](src/unison) Unison                                         |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/v) V                                                   |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/vala) Vala                                             |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/vale) Vale                                             |    ✅    |   ✅   |      ⬜      |      ⬜      |
@@ -477,7 +477,7 @@ Test requirements are loose:
 | [📂](src/ysh) YSH                                               |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📂](src/zig) Zig                                               |    ✅    |   ✅   |      ✅      |      ⬜      |
 | [📂](src/zonnon) Zonnon                                         |    ✅    |   ✅   |      ⬜      |      ⬜      |
-| _Count..._                                                     |  _164_  | _160_ |    _15_     |     _5_     |
+| _Count..._                                                     |  _165_  | _161_ |    _15_     |     _5_     |
 
 **Legend**
 

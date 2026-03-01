@@ -1,0 +1,9 @@
+sumRange : Nat -> Nat -> Nat
+sumRange begin end =
+	if begin > end then 0
+	else begin + sumRange (begin + 1) end
+
+main : '{IO, Exception} ()
+main = do
+	sum = sumRange 0 100
+	printLine (Nat.toText sum)
