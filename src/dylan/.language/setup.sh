@@ -3,13 +3,24 @@
 export DEBIAN_FRONTEND="noninteractive"
 
 # Note: The language uses git to download neeed files/modules/etc.
-
 apt-get install -y --no-install-recommends \
 	build-essential \
 	bzip2 \
 	ca-certificates \
 	git \
+	python3-sphinx \
 	wget
+
+function warmup {
+	pushd '/'
+	rm -fr '/app'
+	deft new application --simple 'app'
+	pushd 'app'
+	deft build
+	rm -fr '_build/bin'
+	rm -fr 'src'
+	popd; popd
+}
 
 mkdir '/opt/dylan'
 mkdir '/tmp/dylan'
@@ -22,3 +33,4 @@ popd
 rm -fr '/tmp/dylan'
 ln -s '/opt/dylan/2026.1/bin/dylan-compiler' '/usr/bin/dylan-compiler'
 ln -s '/opt/dylan/2026.1/bin/deft' '/usr/bin/deft'
+warmup
