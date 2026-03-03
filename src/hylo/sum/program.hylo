@@ -1,0 +1,12 @@
+fun sum_range(_ begin: Int, _ end: Int) -> Int {
+	if begin > end {
+		0
+	}
+	else {
+		begin + sum_range(begin + 1, end)
+	}
+}
+
+public fun main() {
+	print(sum_range(0, 100))
+}
