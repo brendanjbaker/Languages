@@ -15,7 +15,6 @@ export DEBIAN_FRONTEND="noninteractive"
 apt-get install -y --no-install-recommends \
 	build-essential \
 	ca-certificates \
-	clang \
 	cmake \
 	git \
 	libcurl4-openssl-dev \
@@ -45,13 +44,9 @@ apt-get update
 
 apt-get install -y --no-install-recommends \
 	clang-20 \
-	clang-format-20 \
-	clangd-20 \
 	lld-20 \
-	lldb-20 \
 	llvm-20 \
-	llvm-20-dev \
-	llvm-20-tools
+	llvm-20-dev
 
 mkdir '/opt/hylo'
 pushd '/opt/hylo'
