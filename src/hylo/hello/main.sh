@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 if [[ ! -f program ]]; then
-	hylo program.hylo -o program
+	hc program.hylo -o program
 fi
 
 ./program "$@"

@@ -8,13 +8,18 @@
 # These are newer versions that aren't available in Trixie's package repositories. Therefore, we'll
 # have to install them manually.
 
+shopt -s dotglob extglob
+
 export DEBIAN_FRONTEND="noninteractive"
 
 apt-get install -y --no-install-recommends \
 	build-essential \
 	ca-certificates \
+	clang \
 	cmake \
 	git \
+	libcurl4-openssl-dev \
+	libedit-dev \
 	libzstd-dev \
 	ninja-build \
 	wget \
@@ -28,8 +33,10 @@ tar -xzf 'swift-6.2.4-RELEASE-debian12.tar.gz' -C '/' --strip-components=1
 popd
 rm -fr '/tmp/swift'
 
+mkdir '/tmp/llvm'
 pushd '/tmp/llvm'
 wget -q 'https://apt.llvm.org/llvm-snapshot.gpg.key'
+printf '%s  %s\n' '8fbf973ae33016a37ee79a1173a6db9390b85a04' 'llvm-snapshot.gpg.key' | sha1sum --check -
 mv 'llvm-snapshot.gpg.key' '/etc/apt/trusted.gpg.d/apt.llvm.org.asc'
 popd
 rm -fr '/tmp/llvm'
@@ -56,10 +63,12 @@ git submodule update --init
 cmake \
 	-D LLVM_DIR='/usr/lib/llvm-20/lib/cmake/llvm' \
 	-D CMAKE_BUILD_TYPE='Release' \
-	-D BUILD_TESTING=1 \
+	-D BUILD_TESTING=0 \
 	-G 'Ninja' \
 	-S '.' \
 	-B '.build'
 
-cmake --build '.build'
+cmake --build '.build' --parallel "$(nproc)"
+rm -rf -- !(.build|StandardLibrary)
 popd; popd
+ln -s '/opt/hylo/b9d5795/.build/Sources/hc' '/usr/bin/hc'
