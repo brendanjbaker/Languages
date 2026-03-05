@@ -10,6 +10,8 @@ The character encoding used at the time did not include the exclamation point `!
 
 **BASIC**
 
+For BBC BASIC, the interpreter we use always emits `0x17` (ASCII `End Of Block` character) as the first byte of output. Additionally, newlines are `\r\n`. The `tr` utility is used to strip the `0x17` and `\r` characters.
+
 For QuickBASIC, QB64E is used. Programs always end with a prompt to `Press enter to continue`, so an `enter` key input is provided, and that prompt is removed from output by `grep`. Additionally, `perl` removes excess newline output.
 
 **CSS**

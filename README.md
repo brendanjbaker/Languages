@@ -187,7 +187,8 @@ Test requirements are loose:
 | [📁](src/b4x) B4X                                               |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📁](src/ballerina) Ballerina                                   |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📁](src/bash) Bash                                             |    ✅    |   ✅   |      ✅      |      ✅      |
-| [📁](src/basic) BASIC (QuickBASIC)¹                             |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| [📁](src/basic.bbc) BASIC (BBC)¹                                |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| [📁](src/basic.quickbasic) BASIC (QuickBASIC)¹                  |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📁](src/batch) Batch                                           |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📁](src/bau) Bau                                               |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📁](src/bcpl) BCPL                                             |    ✅    |   ✅   |      ⬜      |      ⬜      |
@@ -289,7 +290,6 @@ Test requirements are loose:
 | [📁](src/io) Io                                                 |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📁](src/isabelle) Isabelle¹                                    |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📁](src/j) J                                                   |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
-| [📁](src/jai) Jai                                               |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📁](src/jank) Jank                                             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📁](src/java) Java                                             |    ✅    |   ✅   |      ✅      |      ⬜      |
 | [📁](src/javascript) JavaScript                                 |    ✅    |   ✅   |      ✅      |      ⬜      |
@@ -477,7 +477,7 @@ Test requirements are loose:
 | [📁](src/ysh) YSH                                               |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📁](src/zig) Zig                                               |    ✅    |   ✅   |      ✅      |      ⬜      |
 | [📁](src/zonnon) Zonnon                                         |    ✅    |   ✅   |      ⬜      |      ⬜      |
-| _Count..._                                                     |  _167_  | _163_ |    _15_     |     _5_     |
+| _Count..._                                                     |  _168_  | _164_ |    _15_     |     _5_     |
 
 **Legend**
 

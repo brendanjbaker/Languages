@@ -18,6 +18,10 @@ It has not been released publicly yet.
 
 It's currently undergoing a re-write, and doesn't work.
 
+**Jai**
+
+Compiler is not publicly available.
+
 **Jiyu**
 
 Its GitHub was removed or made private.
