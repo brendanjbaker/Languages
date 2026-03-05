@@ -13,5 +13,5 @@ apt-get install -y --no-install-recommends \
 
 rustup install 1.93.1
 rustup default 1.93.1
-cargo install whiley@0.6.1
+cargo install whiley@0.6.3
 ln -s '/root/.cargo/bin/wy' '/usr/bin/wy'
