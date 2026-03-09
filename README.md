@@ -303,7 +303,7 @@ Test requirements are loose:
 | [📁](src/jule) Jule                                             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📁](src/julia) Julia                                           |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📁](src/kairo) Kairo                                           |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
-| [📁](src/kip) Kip                                               |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| [📁](src/kip) Kip                                               |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📁](src/kit) Kit                                               |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📁](src/koka) Koka                                             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📁](src/kotlin) Kotlin                                         |    ✅    |   ✅   |      ⬜      |      ⬜      |
@@ -477,7 +477,7 @@ Test requirements are loose:
 | [📁](src/ysh) YSH                                               |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📁](src/zig) Zig                                               |    ✅    |   ✅   |      ✅      |      ⬜      |
 | [📁](src/zonnon) Zonnon                                         |    ✅    |   ✅   |      ⬜      |      ⬜      |
-| _Count..._                                                     |  _168_  | _164_ |    _15_     |     _5_     |
+| _Count..._                                                     |  _169_  | _165_ |    _15_     |     _5_     |
 
 **Legend**
 
