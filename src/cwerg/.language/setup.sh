@@ -13,9 +13,9 @@ apt-get install -y --no-install-recommends \
 
 mkdir '/opt/cwerg'
 pushd '/opt/cwerg'
-git clone 'https://github.com/robertmuth/Cwerg.git' '706c7fc'
-pushd '706c7fc'
-git checkout '706c7fc32fae31c56ccc3bb89d122f6c36d7080f' 2> /dev/null
+git clone 'https://github.com/robertmuth/Cwerg.git' '36f7947'
+pushd '36f7947'
+git checkout '36f79479320ba8f4d9201faa0b20a23691cd73a7' 2> /dev/null
 make build_compiler
 popd; popd
-ln -s '/opt/cwerg/706c7fc/cwerg.py' '/usr/bin/cwc'
+ln -s '/opt/cwerg/36f7947/cwerg.py' '/usr/bin/cwc'
