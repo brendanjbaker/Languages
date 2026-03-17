@@ -1,0 +1,16 @@
+(import std.Range:*)
+(import std.List:*)
+
+(let range-inclusive (fun (a b) {
+	(range a (+ b 1)) }))
+
+(let sum-range (fun (a b) {
+	(let r (range-inclusive a b))
+	(let l (r.asList))
+	(let s (sum l))
+	s }))
+
+(let main (fun () {
+	(print (sum-range 0 100)) }))
+
+(main)
