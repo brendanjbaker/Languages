@@ -18,10 +18,6 @@ Besides just showing example programs, the programs are runnable in a reproducib
 - [Help](#help)
 - [Usage examples](#usage-examples)
 - [Programs](#programs)
-	- [`hello`](#hello)
-	- [`sum`](#sum)
-	- [`microwave`](#microwave)
-	- [`freestyle`](#freestyle)
 - [Checklist](#checklist)
 - [Cheating](#cheating)
 
@@ -105,63 +101,13 @@ Commands:
 
 ## Programs
 
-### `hello`
-
-This program should print `Hello, world!`, with a trailing newline, and exit with status `0`.
-
-This program may seem pointless, however it serves as a useful first exercise in ensuring the language's toolchain is installed and working correctly.
-
-### `sum`
-
-This program should print the sum of 0-100 (inclusive), which is `5050`, with a trailing newline, and exit with status `0`.
-
-### `microwave`
-
-This program converts a string, as may be typed into a simple microwave, into `MM:SS` format, with a trailing newline.
-
-The input must be passed as a single positional argument to the program. Any other usage is an error.
-
-A usage error should exit with status `1`. An invalid argument should exit with status `2`.
-
-Correct behavior is based on the _Whirlpool WMH31017HZ-2_ (my kitchen microwave). This is a common kitchen microwave that is customarily installed above a range/stove. I have observed that other microwaves have varying behavior for strange inputs, such as `161` or `9999`. I chose this microwave as my source of truth merely because I have easy access to it.
-
-Do not run a microwave without something in it to absorb the magnetron's radiation, or your microwave may damage itself. I used a large bowl of water to test behavior for inputs such as `9999`.
-
-**Valid input examples**
-
-|                  |                 |                  |                  |
-| ---------------: | --------------: | ---------------: | ---------------: |
-| `0000` → `00:00` |  `60` → `01:00` |  `960` → `10:00` | `9959` → `99:59` |
-|  `000` → `00:00` |  `61` → `01:01` |  `961` → `10:01` | `9960` → `99:60` |
-|   `00` → `00:00` |  `90` → `01:30` |  `999` → `10:39` | `9961` → `99:61` |
-|    `0` → `00:00` |  `99` → `01:39` | `1000` → `10:00` | `9999` → `99:99` |
-|    `1` → `00:01` | `100` → `01:00` | `1001` → `10:01` |                  |
-|   `59` → `00:59` | `101` → `01:01` |                  |                  |
-|                  | `159` → `01:59` |                  |                  |
-|                  | `160` → `02:00` |                  |                  |
-|                  | `161` → `02:01` |                  |                  |
-|                  | `199` → `02:39` |                  |                  |
-|                  | `200` → `02:00` |                  |                  |
-|                  | `201` → `02:01` |                  |                  |
-|                  | `959` → `09:59` |                  |                  |
-
-**Invalid input examples**
-
-* _Empty string_
-* `x`
-* `xxxx`
-* `-1`
-* `12345`
-
-### `freestyle`
-
-These programs are intended to demonstrate unique or interesting language features.
-
-Test requirements are loose:
-
-* There must be standard output (stdout).
-* There must not be error output (stderr).
-* Exit status must be 0.
+| Name        | Description                    | Details                                      |
+| ----------- | ------------------------------ | -------------------------------------------- |
+| `hello`     | Toolchain test.                | [Link](./assets/notes/programs/Hello.md)     |
+| `sum`       | Basic logic/control.           | [Link](./assets/notes/programs/Sum.md)       |
+| `math`      | Computation suite.             | [Link](./assets/notes/programs/Math.md)      |
+| `microwave` | Varied inputs/logic.           | [Link](./assets/notes/programs/Microwave.md) |
+| `freestyle` | Show unique language features. | [Link](./assets/notes/programs/Freestyle.md) |
 
 ## Checklist
 
@@ -409,7 +355,7 @@ Test requirements are loose:
 | [📁](src/rtl) RTL                                               |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📁](src/ruby) Ruby                                             |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📁](src/rust) Rust                                             |    ✅    |   ✅   |      ✅      |      ⬜      |
-| [📁](src/rye) Rye                                               |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| [📁](src/rye) Rye                                               |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📁](src/s-algol) S-algol                                       |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📁](src/sas) SAS                                               |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📁](src/sasl) SASL                                             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
@@ -477,7 +423,7 @@ Test requirements are loose:
 | [📁](src/ysh) YSH                                               |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📁](src/zig) Zig                                               |    ✅    |   ✅   |      ✅      |      ⬜      |
 | [📁](src/zonnon) Zonnon                                         |    ✅    |   ✅   |      ⬜      |      ⬜      |
-| _Count..._                                                     |  _169_  | _165_ |    _15_     |     _5_     |
+| _Count..._                                                     |  _170_  | _166_ |    _15_     |     _5_     |
 
 **Legend**
 
