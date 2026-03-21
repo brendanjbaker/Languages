@@ -424,7 +424,7 @@ Commands:
 | [📁](src/ylang) ylang                                           |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📁](src/ysh) YSH                                               |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📁](src/zig) Zig                                               |    ✅    |   ✅   |      ✅      |      ⬜      |
-| [:file_folder:](src/zonnon) Zonnon                                         |    ✅    |   ✅   |      ⬜      |      ⬜      |
+| [📁](src/zonnon) Zonnon                                         |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | _Count..._                                                     |  _172_  | _168_ |    _15_     |     _5_     |
 
 **Legend**
