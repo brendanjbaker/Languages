@@ -3,9 +3,9 @@
 Using official tooling from Xojo does not seem possible for the purposes of this
 project, because:
 
-⚠️ You cannot download Xojo tooling without an account.
-⚠️ You cannot run Xojo code without using the IDE (GUI).
-⚠️ You cannot build Xojo code without a license.
+- ⚠️ You cannot download Xojo tooling without an account.
+- ⚠️ You cannot run Xojo code without using the IDE (GUI).
+- ⚠️ You cannot build Xojo code without a license.
 
 Therefore, this alternative implementation is used:
 
