@@ -50,6 +50,8 @@ apt-get install --download-only --no-install-recommends -y \
 	npm \
 	openjdk-21-jdk \
 	python3 \
+	python3-pip \
+	python3-wheel \
 	sudo \
 	unzip \
 	vim \
