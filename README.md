@@ -204,6 +204,7 @@ Commands:
 | [📁](src/fortran) Fortran                                       |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📁](src/foxpro) FoxPro                                         |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📁](src/fp) FP                                                 |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
+| [📁](src/freemarker) [FreeMarker](src/freemarker/README.md)     |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📁](src/fsharp) F#                                             |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📁](src/fstar) F*                                              |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📁](src/futhark) [Futhark](src/futhark/README.md)              |    ⚠️    |   ✅   |      ⬜      |      ⬜      |
@@ -239,6 +240,7 @@ Commands:
 | [📁](src/jank) Jank                                             |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📁](src/java) Java                                             |    ✅    |   ✅   |      ✅      |      ⬜      |
 | [📁](src/javascript) JavaScript                                 |    ✅    |   ✅   |      ✅      |      ⬜      |
+| [📁](src/jinja2) [Jinja2](src/jinja2/README.md)                 |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📁](src/joule) Joule                                           |    ⬜    |   ⬜   |      ⬜      |      ⬜      |
 | [📁](src/jovial) JOVIAL                                         |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📁](src/joy) [Joy](src/joy/README.md)¹                         |    ✅    |   ✅   |      ⬜      |      ⬜      |
@@ -423,7 +425,7 @@ Commands:
 | [📁](src/ysh) YSH                                               |    ✅    |   ✅   |      ⬜      |      ⬜      |
 | [📁](src/zig) Zig                                               |    ✅    |   ✅   |      ✅      |      ⬜      |
 | [📁](src/zonnon) Zonnon                                         |    ✅    |   ✅   |      ⬜      |      ⬜      |
-| _Count..._                                                     |  _170_  | _166_ |    _15_     |     _5_     |
+| _Count..._                                                     |  _172_  | _168_ |    _15_     |     _5_     |
 
 **Legend**
 

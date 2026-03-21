@@ -1,5 +1,6 @@
 Consider adding these languages:
 
+* Ante
 * Assembly (8080)
 * AssemblyScript
 * ATS
@@ -13,7 +14,6 @@ Consider adding these languages:
 * CORAL (CORAL 66)
 * Cyber
 * Dylan
-* Erde
 * EXA (TEC Redshift)
 * fe
 * Fennel
@@ -25,7 +25,6 @@ Consider adding these languages:
 * Hy
 * Hygen (templating)
 * Janet
-* Jinja (templating)
 * K (oK)
 * Kitten
 * Lil
@@ -45,7 +44,6 @@ Consider adding these languages:
 * Quackery
 * Reason
 * RetroForth
-* Rye
 * Scratch
 * SectorLISP
 * Shen
