@@ -1,4 +1,4 @@
-FROM debian:trixie-20260202-slim
+FROM debian:trixie-20260316-slim
 
 WORKDIR /setup/base
 
