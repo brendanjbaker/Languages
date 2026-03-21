@@ -17,7 +17,7 @@ think the following program _should_ work, but it doesn't:
 ```
 Project "Program.xojo_binary_project"
 	Class App Inherits ConsoleApplication
-		EventHandler Function Run(args() as String) As Integer
+		EventHandler Function Run(args() As String) As Integer
 			StdOut.WriteLine("Hello, world!")
 			Return 0
 		End EventHandler
