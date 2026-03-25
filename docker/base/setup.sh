@@ -49,7 +49,9 @@ apt-get install --download-only --no-install-recommends -y \
 	nodejs \
 	npm \
 	openjdk-21-jdk \
+	pkg-config \
 	python3 \
+	rustup \
 	sudo \
 	unzip \
 	vim \
