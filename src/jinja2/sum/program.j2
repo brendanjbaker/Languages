@@ -1,0 +1,9 @@
+{# Comment/note: -#}
+{# You can call Python functions from Jinja2, so we could have said: -#}
+{# `{{ range(101) | sum }}` -#}
+
+{% set ns = namespace(total=0) -%}
+{% for i in range(101) -%}
+{% set ns.total = ns.total + i -%}
+{% endfor -%}
+{{ ns.total }}

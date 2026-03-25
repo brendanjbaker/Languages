@@ -52,6 +52,8 @@ apt-get install --download-only --no-install-recommends -y \
 	pkg-config \
 	python3 \
 	rustup \
+	python3-pip \
+	python3-wheel \
 	sudo \
 	unzip \
 	vim \
