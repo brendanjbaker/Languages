@@ -228,7 +228,7 @@ Commands:
 | [📁](src/holyc)              | HolyC                                     |    ✅    |   ✅   |   ⬜    |      ✅      |      ⬜      |
 | [📁](src/hope)               | Hope                                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/hopper)             | Hopper                                    |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
-| [📁](src/html)               | [HTML](src/html/README.md)¹               |    ✅    |   ⚠️   |   ⚠️    |      ⚠️      |      ⚠️      |
+| [📁](src/html)               | [HTML](src/html/README.md)¹               |    ✅    |   ⚠️   |   ⚠️    |      ⚠️      |      ⬜      |
 | [📁](src/hylo)               | Hylo                                      |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/hypertalk)          | HyperTalk                                 |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/icon)               | Icon                                      |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
