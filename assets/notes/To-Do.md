@@ -6,10 +6,6 @@ Consider adding these languages:
 * Asphalt
 * Assembly (8080)
 * AssemblyScript
-* ATS
-* BASIC (Amiga)
-* BASIC (BBC)
-* BASIC (Commodore)
 * Bend
 * Blazin' Forth
 * BLISS
