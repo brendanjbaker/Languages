@@ -1,0 +1,12 @@
+templates SumRange
+	@: $(first);
+	$(first~..last)... -> @: $@ + $;
+	$@ !
+end SumRange
+
+def numbers: [0..100];
+def sum: $numbers -> SumRange;
+def newline: '$#10;';
+
+$sum -> !OUT::write
+$newline -> !OUT::write

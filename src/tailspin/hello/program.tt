@@ -1,0 +1,5 @@
+def message: 'Hello, world!';
+def newline: '$#10;';
+
+$message -> !OUT::write
+$newline -> !OUT::write
