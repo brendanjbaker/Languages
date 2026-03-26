@@ -42,8 +42,8 @@ Podman is used to build and execute a multi-layer image.
 
 This provides the following (for example):
 
-* Changing a unit test (`system` layer) | does not require re-installing apt packages (`base` layer).
-* Changing a language setup script (`language` layer) | does not require rebuilding the `base` or `system` layers.
+* Changing a unit test (`system` layer) does not require re-installing apt packages (`base` layer).
+* Changing a language setup script (`language` layer) does not require rebuilding the `base` or `system` layers.
 * Changing a program does not require rebuilding any other layer (`base`, `system`, or `language`).
 
 ## Help
@@ -64,7 +64,7 @@ Options:
   --help              Show this help message.
   --interactive       Begin an interaction session.
   --parallel          Runs multiple programs concurrently.
-  --prime             Pre-generates image(s) | without running them.
+  --prime             Pre-generates image(s) without running them.
   --random            Runs programs in random order.
   --reverse           Runs programs in reverse order.
   --test              Run unit tests.
@@ -106,8 +106,8 @@ Commands:
 | `hello`     | Toolchain test.                | [Link](./assets/notes/programs/Hello.md)     |
 | `sum`       | Basic logic/control.           | [Link](./assets/notes/programs/Sum.md)       |
 | `math`      | Computation suite.             | [Link](./assets/notes/programs/Math.md)      |
-| `microwave` | Varied inputs/logic.           | [Link](./assets/notes/programs/Microwave.md) |  |
-| `freestyle` | Show unique language features. | [Link](./assets/notes/programs/Freestyle.md) |  |
+| `microwave` | Varied inputs/logic.           | [Link](./assets/notes/programs/Microwave.md) |
+| `freestyle` | Show unique language features. | [Link](./assets/notes/programs/Freestyle.md) |
 
 ## Checklist
 
@@ -133,7 +133,9 @@ Commands:
 | [📁](src/b4x)                | B4X                                       |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/ballerina)          | Ballerina                                 |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/bash)               | Bash                                      |    ✅    |   ✅   |   ⬜    |      ✅      |      ✅      |
+| [📁](src/basic.amiga)        | BASIC (Amiga)                             |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/basic.bbc)          | BASIC (BBC)¹                              |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/basic.commodore)    | BASIC (Commodore)                         |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/basic.quickbasic)   | BASIC (QuickBASIC)¹                       |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/batch)              | Batch                                     |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/bau)                | Bau                                       |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
@@ -186,8 +188,8 @@ Commands:
 | [📁](src/effekt)             | Effekt                                    |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/eiffel)             | Eiffel                                    |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/elixir)             | Elixir                                    |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
-| [📁](src/elk.a)              | [Elk](src/elk.a/README.md)                |   (A)   |   ✅   |   ✅    |      ⬜      |      ⬜      | ⬜ |
-| [📁](src/elk.b)              | [Elk](src/elk.b/README.md)                |   (B)   |   ✅   |   ✅    |      ⬜      |      ⬜      | ⬜ |
+| [📁](src/elk.a)              | [Elk](src/elk.a/README.md) (A)            |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/elk.b)              | [Elk](src/elk.b/README.md) (B)            |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/elm)                | Elm                                       |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/emacs-lisp)         | Emacs Lisp                                |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/erde)               | Erde                                      |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
@@ -260,8 +262,8 @@ Commands:
 | [📁](src/ladder-logic)       | Ladder Logic                              |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/lean)               | Lean                                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/less)               | Less¹                                     |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
-| [📁](src/lily.a)             | [Lily](src/lily.a/README.md)              |   (A)   |   ✅   |   ✅    |      ⬜      |      ⬜      | ⬜ |
-| [📁](src/lily.b)             | [Lily](src/lily.b/README.md)              |   (B)   |   ✅   |   ✅    |      ⬜      |      ⬜      | ⬜ |
+| [📁](src/lily.a)             | [Lily](src/lily.a/README.md) (A)          |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/lily.b)             | [Lily](src/lily.b/README.md) (B)          |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/lisp)               | Lisp                                      |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/litac)              | LitaC                                     |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/lo)                 | LO                                        |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
@@ -390,7 +392,7 @@ Commands:
 | [📁](src/supercollider)      | SuperCollider                             |    ✅    |   ✅   |   ⬜    |      ⬜      |      ✅      |
 | [📁](src/swift)              | Swift                                     |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/t3x-0)              | T3X/0                                     |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
-| [📁](src/tailspin)           | Tailspin                                  |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/tailspin)           | Tailspin                                  |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/tampio)             | Tampio¹                                   |    ✅    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/tcl)                | Tcl                                       |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/teascript)          | Teascript                                 |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
@@ -425,7 +427,7 @@ Commands:
 | [📁](src/ysh)                | YSH                                       |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/zig)                | Zig                                       |    ✅    |   ✅   |   ⬜    |      ✅      |      ⬜      |
 | [📁](src/zonnon)             | Zonnon                                    |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
-|                             | _Count..._                                |  _172_  | _168_ |  _0_   |    _15_     |     _5_     |
+|                             | _Count..._                                |  _173_  | _169_ |  _0_   |    _15_     |     _5_     |
 
 **Legend**
 
@@ -441,4 +443,4 @@ Commands:
 
 Some programs require "cheating" to express output and/or pass tests.
 
-See the [cheating](./assets/notes/Cheating.md) | page for additional information.
+See the [cheating](./assets/notes/Cheating.md) page for additional information.
