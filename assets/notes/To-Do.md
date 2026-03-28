@@ -7,6 +7,7 @@ Consider adding these languages:
 * Asphalt
 * Assembly (8080)
 * AssemblyScript
+* BASIC (Spectrum)
 * Bend
 * Blazin' Forth
 * BLISS
