@@ -1,0 +1,30 @@
+module Program
+	var r: range
+	var sum: integer
+
+	type range =
+		record
+			start: integer
+			finish: integer
+		end
+
+	proc sum_range(r : range): integer
+		var n, total: integer
+	begin
+		n := r.start
+
+		while n <= r.finish do
+			total := total + n
+			inc(n)
+		end
+
+		return total
+	end sum_range
+
+begin
+	r.start := 0
+	r.finish := 100
+	sum := sum_range(r)
+
+	println(sum)
+end Program

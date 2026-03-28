@@ -1,21 +1,19 @@
 Consider adding these languages:
 
+* Active Oberon
 * AngelScript
 * Ante
 * Ark
 * Asphalt
 * Assembly (8080)
 * AssemblyScript
-* ATS
-* BASIC (Amiga)
-* BASIC (BBC)
-* BASIC (Commodore)
 * Bend
 * Blazin' Forth
 * BLISS
 * Boron
 * CAL
 * COBOL (85)
+* Component Pascal
 * Concurrent ML
 * Coral
 * CORAL (CORAL 66)
@@ -53,6 +51,8 @@ Consider adding these languages:
 * MUMPS (M)
 * Mustache (templating)
 * Nelua
+* Oberon-2
+* Oberon-07
 * Pastel
 * Pie
 * Piet
@@ -71,7 +71,7 @@ Consider adding these languages:
 * STRINGCOMP
 * SYMPL
 * T3X/0
-* T4
+* T4 (templating)
 * Teal
 * TELCOMP
 * Thymeleaf (templating)
