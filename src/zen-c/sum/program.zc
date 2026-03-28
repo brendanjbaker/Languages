@@ -1,0 +1,15 @@
+fn sum_range(begin: int, end: int) -> int {
+	let sum: int = 0;
+
+	for n in begin..=end {
+		sum += n;
+	}
+
+	return sum;
+}
+
+fn main() {
+	let sum = sum_range(0, 100);
+
+	println "{sum}";
+}
