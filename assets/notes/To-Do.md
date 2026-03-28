@@ -85,5 +85,4 @@ Consider adding these languages:
 * XSLT
 * Yeoman (templating)
 * ytt (templating)
-* Zen C
 * قلب

@@ -308,6 +308,7 @@ Commands:
 | [📁](src/ocaml)              | OCaml                                     |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/ocen)               | Ocen                                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/odin)               | Odin                                      |    ✅    |   ✅   |   ⬜    |      ✅      |      ⬜      |
+| [📁](src/oni)                | Oni                                       |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/opa)                | Opa                                       |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/opencl)             | OpenCL                                    |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/orwell)             | Orwell                                    |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
@@ -416,6 +417,7 @@ Commands:
 | [📁](src/vox)                | Vox                                       |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/wenyan)             | Wenyan (文言)                             |    ✅    |   ⛔   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/whiley)             | Whiley                                    |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/whitespace)         | Whitespace                                |    ✅    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/wolfram)            | [Wolfram](src/wolfram/README.md)          |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/wren)               | Wren                                      |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/x10)                | X10                                       |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
@@ -423,9 +425,10 @@ Commands:
 | [📁](src/xtend)              | Xtend                                     |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/ylang)              | ylang                                     |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/ysh)                | YSH                                       |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/zen-c)              | Zen C                                     |    ✅    |   ✅   |   ⬜    |      ✅      |      ⬜      |
 | [📁](src/zig)                | Zig                                       |    ✅    |   ✅   |   ⬜    |      ✅      |      ⬜      |
 | [📁](src/zonnon)             | Zonnon                                    |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
-|                             | _Count..._                                |  _172_  | _168_ |  _0_   |    _15_     |     _5_     |
+|                             | _Count..._                                |  _175_  | _170_ |  _0_   |    _15_     |     _5_     |
 
 **Legend**
 
