@@ -1,0 +1,5 @@
+import "std/debug"
+
+let message = "Hello, world!"
+
+Dbg.fmt.println(message)

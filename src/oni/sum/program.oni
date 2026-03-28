@@ -1,0 +1,29 @@
+import "std/debug"
+
+let stderr = Dbg.errfmt
+let stdout = Dbg.fmt
+
+; Example of a function with no arguments, with a non-void return type.
+fun calculate_result(-> Int) = {
+	sum_range(0, 100)
+}
+
+; Example of a function with no arguments, and no return type.
+fun main() = {
+	let sum = calculate_result()
+
+	stdout.println("%").int(sum)
+}
+
+; Example of a function with arguments, and also a non-void return type.
+fun sum_range(begin: Int, end: Int -> Int) = {
+	let sum = 0
+
+	for let n = begin, n <= end, set n += 1 {
+		set sum += n
+	}
+
+	sum
+}
+
+main()
