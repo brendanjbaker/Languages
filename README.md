@@ -431,7 +431,7 @@ Commands:
 | [📁](src/xtend)              | Xtend                                     |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/ylang)              | ylang                                     |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/ysh)                | YSH                                       |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
-| [📁](src/zen-c)              | Zen C                                     |    ✅    |   ✅   |   ⬜    |      ✅      |      ⬜      |
+| [📁](src/zen-c)              | Zen C                                     |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/zig)                | Zig                                       |    ✅    |   ✅   |   ⬜    |      ✅      |      ⬜      |
 | [📁](src/zonnon)             | Zonnon                                    |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 |                             | _Count..._                                |  _181_  | _174_ |  _0_   |    _15_     |     _5_     |
