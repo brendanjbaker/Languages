@@ -301,7 +301,7 @@ Commands:
 | [📁](src/nit)                | Nit                                       |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/niva)               | Niva                                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/nix)                | Nix                                       |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
-| [📁](src/nospace)            | Nospace                                   |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/nospace)            | Nospace                                   |    ✅    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/npl)                | NPL                                       |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/nsk)                | NSK                                       |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/nxt-g)              | NXT-G                                     |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
@@ -434,7 +434,7 @@ Commands:
 | [📁](src/zen-c)              | Zen C                                     |    ✅    |   ✅   |   ⬜    |      ✅      |      ⬜      |
 | [📁](src/zig)                | Zig                                       |    ✅    |   ✅   |   ⬜    |      ✅      |      ⬜      |
 | [📁](src/zonnon)             | Zonnon                                    |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
-|                             | _Count..._                                |  _180_  | _174_ |  _0_   |    _15_     |     _5_     |
+|                             | _Count..._                                |  _181_  | _174_ |  _0_   |    _15_     |     _5_     |
 
 **Legend**
 

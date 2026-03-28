@@ -10,9 +10,11 @@
 # Tab --> Zero-width non-joiner (ZWNJ)
 # Newline --> Zero-width joiner (ZWJ)
 
+export LC_ALL=en_US.UTF-8
+
 declare space=' '
 declare tab=$'\t'
-declare newline=$'\n'
+declare newline=$'\\n'
 
 declare zwsp=$'\u200B'
 declare zwnj=$'\u200C'
