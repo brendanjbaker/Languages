@@ -1,0 +1,15 @@
+use Core.print
+
+def sum_range(i64 begin, i64 end) -> i64:
+	i64 sum = 0;
+
+	for i64 n = begin; n <= end; n++:
+		sum += n;
+
+	return sum;
+
+def main():
+	i64 sum = sum_range(0, 100);
+	str sum_text = str(sum);
+
+	print($"{sum_text}\n");

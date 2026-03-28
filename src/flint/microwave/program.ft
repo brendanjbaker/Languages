@@ -1,0 +1,53 @@
+use Core.parse
+use Core.print
+
+def is_digit(u8 character) -> bool:
+	return character >= '0' and character <= '9';
+
+def zero_pad(u64 number, u64 length) -> str:
+	str number_text = str(number);
+	u64 number_text_length = number_text.len;
+	u64 padding_size = length - number_text_length;
+	str padding = str(u8[padding_size]('0'));
+	str number_text_padded = padding + number_text;
+
+	return number_text_padded;
+
+def main(str[] arguments):
+	i32 result = 123;
+
+	if arguments.len != 2:
+		print("INCORRECT ARG COUNT");
+		result = 1;
+		return;
+
+	str input = arguments[1];
+	u64 input_length = input.len;
+
+	if input_length == 0 or input_length > 4:
+		print("ARG LENGTH OUT OF RANGE");
+		result = 2;
+		return;
+
+	for (_, character) in input:
+		if not is_digit(character):
+			print("INPUT IS NOT ALL DIGITS");
+			result = 2;
+			return;
+
+	u64 padding_size = 4 - input_length;
+	str padding = str(u8[padding_size]('0'));
+	str input_fixed = padding + input;
+	u64 minutes = parse_u64(input_fixed[0..2]);
+	u64 seconds = parse_u64(input_fixed[2..4]);
+
+	if seconds >= 60:
+		if minutes < 99:
+			minutes = minutes + 1;
+			seconds = seconds % 60;
+
+	str minutes_text = zero_pad(minutes, 2);
+	str seconds_text = zero_pad(seconds, 2);
+	str output = $"{minutes_text}:{seconds_text}";
+
+	print($"{output}\n");
