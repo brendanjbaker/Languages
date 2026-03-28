@@ -4,6 +4,13 @@ use Core.print
 def is_digit(u8 character) -> bool:
 	return character >= '0' and character <= '9';
 
+def is_all_digits(str text) -> bool:
+	for (_, character) in text:
+		if not is_digit(character):
+			return false;
+
+	return true;
+
 def zero_pad(u64 number, u64 length) -> str:
 	str number_text = str(number);
 	u64 number_text_length = number_text.len;
@@ -29,11 +36,10 @@ def main(str[] arguments):
 		result = 2;
 		return;
 
-	for (_, character) in input:
-		if not is_digit(character):
-			print("INPUT IS NOT ALL DIGITS");
-			result = 2;
-			return;
+	if not is_all_digits(input):
+		print("INPUT IS NOT ALL DIGITS");
+		result = 2;
+		return;
 
 	u64 padding_size = 4 - input_length;
 	str padding = str(u8[padding_size]('0'));
