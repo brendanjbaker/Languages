@@ -301,7 +301,7 @@ Commands:
 | [📁](src/nit)                | Nit                                       |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/niva)               | Niva                                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/nix)                | Nix                                       |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
-| [📁](src/nospace)            | Nospace                                   |    ✅    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/nospace)            | Nospace                                   |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/npl)                | NPL                                       |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/nsk)                | NSK                                       |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/nxt-g)              | NXT-G                                     |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
