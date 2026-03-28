@@ -199,6 +199,7 @@ Commands:
 | [📁](src/factor)             | Factor                                    |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/fifth)              | Fifth                                     |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/fl)                 | FL                                        |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/flint)              | Flint                                     |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/flix)               | Flix                                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/flow-matic)         | FLOW-MATIC¹                               |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/flux)               | Flux                                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
@@ -266,6 +267,7 @@ Commands:
 | [📁](src/lily.b)             | [Lily](src/lily.b/README.md) (B)          |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/lisp)               | Lisp                                      |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/litac)              | LitaC                                     |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/llvm-ir)            | LLVM IR                                   |    ✅    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/lo)                 | LO                                        |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/lobster)            | Lobster                                   |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/logo)               | Logo                                      |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
@@ -299,11 +301,13 @@ Commands:
 | [📁](src/nit)                | Nit                                       |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/niva)               | Niva                                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/nix)                | Nix                                       |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/nospace)            | Nospace                                   |    ✅    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/npl)                | NPL                                       |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/nsk)                | NSK                                       |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/nxt-g)              | NXT-G                                     |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/oak)                | Oak                                       |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/oberon)             | Oberon                                    |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/oberon-plus)        | Oberon                                    |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/object-pascal)      | Object Pascal                             |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/objective-c)        | Objective-C                               |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/obliq)              | Obliq                                     |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
@@ -427,7 +431,7 @@ Commands:
 | [📁](src/ysh)                | YSH                                       |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/zig)                | Zig                                       |    ✅    |   ✅   |   ⬜    |      ✅      |      ⬜      |
 | [📁](src/zonnon)             | Zonnon                                    |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
-|                             | _Count..._                                |  _173_  | _169_ |  _0_   |    _15_     |     _5_     |
+|                             | _Count..._                                |  _177_  | _171_ |  _0_   |    _15_     |     _5_     |
 
 **Legend**
 
