@@ -5,7 +5,9 @@ grep -r '^    ' \
 | grep -v '^cache/' \
 | grep -v '^lib/' \
 | grep -v '^src/b/README' \
+| grep -v '^src/bau/' \
 | grep -v '^src/cobol/' \
+| grep -v '^src/dylan/.*/program.lid' \
 | grep -v '^src/elm/' \
 | grep -v '^src/factor/' \
 | grep -v '^src/flow-matic/' \
