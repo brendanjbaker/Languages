@@ -541,10 +541,15 @@ function run {
 
 		if [[ "$result" -ne 0 ]]; then
 			if [[ "$option_interactive" == "false" ]]; then
-				echo
-				echo "${COLOR_RED}Failure.${COLOR_RESET}"
+				report_failure "Program execution failure."
 			fi
 		fi
+	}
+
+	function report_failure {
+		local message="$1"
+
+		echo "${COLOR_RED}${message}${COLOR_RESET}"
 	}
 
 	initialize
@@ -553,15 +558,20 @@ function run {
 		set -x
 	fi
 
-	build_base_image
-	build_system_image
-	build_language_image
-	build_program_image
-
-	if [[ "$option_prime" == "true" ]]; then
-		echo "Primed."
+	if ! build_base_image; then
+		report_failure "Base setup failure."
+	elif ! build_system_image; then
+		report_failure "System setup failure."
+	elif ! build_language_image; then
+		report_failure "Language setup failure."
+	elif ! build_program_image; then
+		report_failure "Program setup failure."
 	else
-		execute
+		if [[ "$option_prime" == "true" ]]; then
+			echo "Primed."
+		else
+			execute
+		fi
 	fi
 }
 
