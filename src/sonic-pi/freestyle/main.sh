@@ -9,4 +9,4 @@ sonic_pi_pid=$!
 #"$sonic_pi" eval-file 'program.rb'
 "$sonic_pi_cli" < 'program.rb'
 kill -9 "$sonic_pi_pid"
-stat ~/SonicPi/recording-*.wav
+stat -c '%n %s' ~/SonicPi/recording-*.wav

@@ -6,4 +6,4 @@ export XDG_RUNTIME_DIR=~
 
 sclang program.scl > /dev/null 2>&1
 
-stat output.wav
+stat -c '%n %s' output.wav

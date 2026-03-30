@@ -2,4 +2,4 @@
 
 chuck --silent program.chuck
 
-stat output.wav
+stat -c '%n %s' output.wav
