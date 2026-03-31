@@ -63,6 +63,7 @@ Options:
   --debug-setup       Debug language setup script.
   --help              Show this help message.
   --interactive       Begin an interaction session.
+  --lean              Minimize retained images (reduces disk consumption).
   --parallel          Runs multiple programs concurrently.
   --prime             Pre-generates image(s) without running them.
   --random            Runs programs in random order.

@@ -25,6 +25,7 @@ declare option_debug_container="false"
 declare option_debug_program="false"
 declare option_debug_setup="false"
 declare option_interactive="false"
+declare option_lean="false"
 declare option_parallel="false"
 declare option_prime="false"
 declare option_random="false"
@@ -112,6 +113,18 @@ function clean {
 				DETACH VDISK
 				EOF
 		fi
+	fi
+}
+
+function clean_partial {
+	images=$( \
+		podman image list --noheading \
+		| ( grep -E 'localhost/languages(-.+)?' | grep -Ev '((system)|(base))\s' || true ) \
+		| awk '{ print $1 ":" $2 }' \
+		| sort)
+
+	if [[ -n "$images" ]]; then
+		echo "$images" | xargs -n 25 -- podman image rm --force --ignore
 	fi
 }
 
@@ -298,6 +311,8 @@ function main {
 			option_debug_setup="true"; shift
 		elif [[ $# -ge 1 && "$1" == "--interactive" ]]; then
 			option_interactive="true"; shift
+		elif [[ $# -ge 1 && "$1" == "--lean" ]]; then
+			option_lean="true"; shift
 		elif [[ $# -ge 1 && "$1" == "--parallel" ]]; then
 			option_parallel="true"; shift
 		elif [[ $# -ge 1 && "$1" == "--prime" ]]; then
@@ -376,6 +391,7 @@ function print_usage {
 		  --debug-setup       Debug language setup script.
 		  --help              Show this help message.
 		  --interactive       Begin an interaction session.
+		  --lean              Minimize retained images (reduces disk consumption).
 		  --parallel          Runs multiple programs concurrently.
 		  --prime             Pre-generates image(s) without running them.
 		  --random            Runs programs in random order.
@@ -633,6 +649,10 @@ function run_language {
 	for program in $(list_programs "$language"); do
 		run_program "$language" "$program"
 	done
+
+	if [[ "$option_lean" == "true" ]]; then
+		clean_partial
+	fi
 }
 
 # shellcheck disable=SC1090
