@@ -651,7 +651,7 @@ function run_language {
 	done
 
 	if [[ "$option_lean" == "true" ]]; then
-		clean_partial
+		clean_partial > /dev/null
 	fi
 }
 
