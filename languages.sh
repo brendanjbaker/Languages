@@ -651,7 +651,11 @@ function run_language {
 	done
 
 	if [[ "$option_lean" == "true" ]]; then
-		clean_partial > /dev/null
+		if [[ "$option_debug_container" == "true" ]]; then
+			clean_partial
+		else
+			clean_partial > /dev/null
+		fi
 	fi
 }
 
