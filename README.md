@@ -200,7 +200,7 @@ Commands:
 | [📁](src/factor)             | Factor                                    |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/fifth)              | Fifth                                     |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/fl)                 | FL                                        |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
-| [📁](src/flint)              | Flint                                     |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/flint)              | Flint                                     |    ✅    |   ✅   |   ⬜    |      ✅      |      ⬜      |
 | [📁](src/flix)               | Flix                                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/flow-matic)         | FLOW-MATIC¹                               |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/flux)               | Flux                                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
@@ -435,7 +435,7 @@ Commands:
 | [📁](src/zen-c)              | Zen C                                     |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/zig)                | Zig                                       |    ✅    |   ✅   |   ⬜    |      ✅      |      ⬜      |
 | [📁](src/zonnon)             | Zonnon                                    |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
-|                             | _Count..._                                |  _181_  | _174_ |  _0_   |    _15_     |     _5_     |
+|                             | _Count..._                                |  _181_  | _174_ |  _0_   |    _16_     |     _5_     |
 
 **Legend**
 
