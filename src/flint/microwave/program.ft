@@ -1,25 +1,30 @@
 use Core.parse
 use Core.print
 
-def is_digit(u8 character) -> bool:
+def is_numeric(u8 character) -> bool:
 	return character >= '0' and character <= '9';
 
-def is_all_digits(str text) -> bool:
+def is_numeric(str text) -> bool:
 	for (_, character) in text:
-		if not is_digit(character):
+		if not is_numeric(character):
 			return false;
 
 	return true;
 
-def zero_pad(u64 number, u64 length) -> str:
-	str number_text = str(number);
-	u64 number_text_length = number_text.len;
-	u64 padding_size = length - number_text_length;
-	str padding = str(u8[padding_size]('0'));
-	str number_text_padded = padding + number_text;
+def pad(u64 number, u64 length) -> str:
+	return pad(str(number), length, '0');
 
-	return number_text_padded;
+def pad(str text, u64 length, u8 pad) -> str:
+	u64 text_length = text.len;
 
+	if text_length >= length:
+		return text;
+
+	u64 pad_length = length - text_length;
+	str padding = str(u8[pad_length](pad));
+	str padded_text = padding + text;
+
+	return padded_text;
 
 def main(str[] arguments) -> i32:
 	if arguments.len != 2:
@@ -31,12 +36,10 @@ def main(str[] arguments) -> i32:
 	if input_length == 0 or input_length > 4:
 		return 2;
 
-	if not is_all_digits(input):
+	if not is_numeric(input):
 		return 2;
 
-	u64 padding_size = 4 - input_length;
-	str padding = str(u8[padding_size]('0'));
-	str input_fixed = padding + input;
+	str input_fixed = pad(input, 4, '0');
 	u64 minutes = parse_u64(input_fixed[0..2]);
 	u64 seconds = parse_u64(input_fixed[2..4]);
 
@@ -45,8 +48,8 @@ def main(str[] arguments) -> i32:
 			minutes = minutes + 1;
 			seconds = seconds % 60;
 
-	str minutes_text = zero_pad(minutes, 2);
-	str seconds_text = zero_pad(seconds, 2);
+	str minutes_text = pad(minutes, 2);
+	str seconds_text = pad(seconds, 2);
 	str output = $"{minutes_text}:{seconds_text}";
 
 	print($"{output}\n");
