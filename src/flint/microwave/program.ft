@@ -20,26 +20,19 @@ def zero_pad(u64 number, u64 length) -> str:
 
 	return number_text_padded;
 
-def main(str[] arguments):
-	i32 result = 123;
 
+def main(str[] arguments) -> i32:
 	if arguments.len != 2:
-		print("INCORRECT ARG COUNT");
-		result = 1;
-		return;
+		return 1;
 
 	str input = arguments[1];
 	u64 input_length = input.len;
 
 	if input_length == 0 or input_length > 4:
-		print("ARG LENGTH OUT OF RANGE");
-		result = 2;
-		return;
+		return 2;
 
 	if not is_all_digits(input):
-		print("INPUT IS NOT ALL DIGITS");
-		result = 2;
-		return;
+		return 2;
 
 	u64 padding_size = 4 - input_length;
 	str padding = str(u8[padding_size]('0'));
@@ -57,3 +50,5 @@ def main(str[] arguments):
 	str output = $"{minutes_text}:{seconds_text}";
 
 	print($"{output}\n");
+
+	return 0;

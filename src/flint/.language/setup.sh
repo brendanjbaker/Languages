@@ -31,8 +31,8 @@ mkdir '/tmp/flint'
 pushd '/tmp/flint'
 git clone 'https://github.com/flint-lang/flintc.git' '0.3.3'
 pushd '0.3.3'
-git checkout '02536627b6b63ff3005dd059dc46494f70aa6a08' 2> /dev/null
-zig build
+git checkout 'd628e08428ff5d2c117c6b5e85e5059b1221bf81' 2> /dev/null
+zig build -Djobs="$(nproc)"
 mv 'zig-out/bin/flintc-debug' '/opt/flint/0.3.3/'
 popd; popd
 rm -fr '/tmp/flint'
