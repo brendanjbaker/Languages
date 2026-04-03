@@ -1,8 +1,21 @@
-Language [0;97m[4mAda[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+################################################################################
+#    Report ID: d31871ed-0754-40c3-a155-e389b2f98763
+################################################################################
+#      Program: languages
+# Program path: /data/applications/on-event/on-event.sh
+#          PID: 1991380
+#          PWD: /data/languages
+# Time (local): 2026-04-02T04:00:07-04:00
+#   Time (UTC): 2026-04-02T08:00:07+00:00
+#     Hostname: meadowlark.brendanbaker.com
+#     Username: baker
+################################################################################
+
+Language [0;97m[4mAda[0;0m[2;37m (2022)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
 
 [2;37m>[0;0m    Hello, world!
 
-Language [0;97m[4mAda[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+Language [0;97m[4mAda[0;0m[2;37m (2022)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
 
 [2;37m>[0;0m    5050
 
@@ -11,6 +24,14 @@ Language [0;97m[4mAdmiran[0;0m[2;37m (2.3)[0;0m, program [0;97m[4mHello[
 [2;37m>[0;0m    Hello, world!
 
 Language [0;97m[4mAdmiran[0;0m[2;37m (2.3)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    5050
+
+Language [0;97m[4mAlgol[0;0m[2;37m (60)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    Hello, world!
+
+Language [0;97m[4mAlgol[0;0m[2;37m (60)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
 
 [2;37m>[0;0m    5050
 
@@ -35,6 +56,14 @@ Language [0;97m[4mAPL[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
 [2;37m>[0;0m    Hello, world!
 
 Language [0;97m[4mAPL[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    5050
+
+Language [0;97m[4mArkScript[0;0m[2;37m (4.3.3)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    Hello, world!
+
+Language [0;97m[4mArkScript[0;0m[2;37m (4.3.3)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
 
 [2;37m>[0;0m    5050
 
@@ -67,6 +96,14 @@ Language [0;97m[4mAssembly[0;0m[2;37m (NASM x86-64)[0;0m, program [0;97m[
 [2;37m>[0;0m    Hello, world!
 
 Language [0;97m[4mAssembly[0;0m[2;37m (NASM x86-64)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    5050
+
+Language [0;97m[4mAustral[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    Hello, world!
+
+Language [0;97m[4mAustral[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
 
 [2;37m>[0;0m    5050
 
@@ -110,6 +147,14 @@ Language [0;97m[4mBash[0;0m[2;37m (5)[0;0m, program [0;97m[4mSum[0;0m[2
 
 [2;37m>[0;0m    5050
 
+Language [0;97m[4mBASIC[0;0m[2;37m (BBC)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    Hello, world!
+
+Language [0;97m[4mBASIC[0;0m[2;37m (BBC)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    5050
+
 Language [0;97m[4mBASIC[0;0m[2;37m (QuickBASIC 4.5)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
 
 [2;37m>[0;0m    Hello, world!
@@ -123,6 +168,14 @@ Language [0;97m[4mBatch[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
 [2;37m>[0;0m    Hello, world!
 
 Language [0;97m[4mBatch[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    5050
+
+Language [0;97m[4mBau[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    Hello, world!
+
+Language [0;97m[4mBau[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
 
 [2;37m>[0;0m    5050
 
@@ -174,11 +227,11 @@ Language [0;97m[4mC2[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
 
 [2;37m>[0;0m    5050
 
-Language [0;97m[4mC3[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+Language [0;97m[4mC3[0;0m[2;37m (0.7.10)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
 
 [2;37m>[0;0m    Hello, world!
 
-Language [0;97m[4mC3[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+Language [0;97m[4mC3[0;0m[2;37m (0.7.10)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
 
 [2;37m>[0;0m    5050
 
@@ -212,14 +265,7 @@ Language [0;97m[4mChapel[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
 
 Language [0;97m[4mChucK[0;0m[2;37m (1.5.5.0)[0;0m, program [0;97m[4mFreestyle[0;0m[2;37m...[0;0m
 
-[2;37m>[0;0m      File: output.wav
-[2;37m>[0;0m      Size: 432044    	Blocks: 848        IO Block: 4096   regular file
-[2;37m>[0;0m    Device: 0,53	Inode: 7864336     Links: 1
-[2;37m>[0;0m    Access: (0644/-rw-r--r--)  Uid: (    0/    root)   Gid: (    0/    root)
-[2;37m>[0;0m    Access: 2026-02-15 21:59:32.099216861 +0000
-[2;37m>[0;0m    Modify: 2026-02-15 21:59:32.119216415 +0000
-[2;37m>[0;0m    Change: 2026-02-15 21:59:32.119216415 +0000
-[2;37m>[0;0m     Birth: 2026-02-15 21:59:32.099216861 +0000
+[2;37m>[0;0m    output.wav 432044
 
 Language [0;97m[4mChucK[0;0m[2;37m (1.5.5.0)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
 
@@ -327,14 +373,7 @@ Language [0;97m[4mC#[0;0m[2;37m (14)[0;0m, program [0;97m[4mSum[0;0m[2;
 
 Language [0;97m[4mCsound[0;0m[2;37m (6.18.1)[0;0m, program [0;97m[4mFreestyle[0;0m[2;37m...[0;0m
 
-[2;37m>[0;0m      File: output.wav
-[2;37m>[0;0m      Size: 396972    	Blocks: 776        IO Block: 4096   regular file
-[2;37m>[0;0m    Device: 0,53	Inode: 7864336     Links: 1
-[2;37m>[0;0m    Access: (0644/-rw-r--r--)  Uid: (    0/    root)   Gid: (    0/    root)
-[2;37m>[0;0m    Access: 2026-02-15 22:00:49.513492571 +0000
-[2;37m>[0;0m    Modify: 2026-02-15 22:00:49.517492481 +0000
-[2;37m>[0;0m    Change: 2026-02-15 22:00:49.517492481 +0000
-[2;37m>[0;0m     Birth: 2026-02-15 22:00:49.513492571 +0000
+[2;37m>[0;0m    output.wav 396972
 
 Language [0;97m[4mCsound[0;0m[2;37m (6.18.1)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
 
@@ -400,13 +439,21 @@ Language [0;97m[4mDelphi[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
 
 [2;37m>[0;0m    5050
 
-Language [0;97m[4mE[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+Language [0;97m[4mDylan[0;0m[2;37m (2026.1.0)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
 
 [2;37m>[0;0m    Hello, world!
 
-Language [0;97m[4mE[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+Language [0;97m[4mDylan[0;0m[2;37m (2026.1.0)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
 
 [2;37m>[0;0m    5050
+
+Language [0;97m[4mE[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [0;31mLanguage setup failure.[0;0m
+
+Language [0;97m[4mE[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    [0;31mLanguage setup failure.[0;0m
 
 Language [0;97m[4mEiffel[0;0m[2;37m (25.02)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
 
@@ -456,6 +503,14 @@ Language [0;97m[4mEmacs Lisp[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;
 
 [2;37m>[0;0m    5050
 
+Language [0;97m[4mErde[0;0m[2;37m (1.0.0-1)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    Hello, world!
+
+Language [0;97m[4mErde[0;0m[2;37m (1.0.0-1)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    5050
+
 Language [0;97m[4mErlang[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
 
 [2;37m>[0;0m    Hello, world!
@@ -472,11 +527,31 @@ Language [0;97m[4mFactor[0;0m[2;37m (0.101)[0;0m, program [0;97m[4mSum[0
 
 [2;37m>[0;0m    5050
 
-Language [0;97m[4mFifth[0;0m[2;37m (0.6.1)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+Language [0;97m[4mFifth[0;0m[2;37m (0.7.1)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
 
 [2;37m>[0;0m    Hello, world!
 
-Language [0;97m[4mFifth[0;0m[2;37m (0.6.1)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+Language [0;97m[4mFifth[0;0m[2;37m (0.7.1)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    5050
+
+Language [0;97m[4mFlint[0;0m[2;37m (0.3.3)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    Hello, world!
+
+Language [0;97m[4mFlint[0;0m[2;37m (0.3.3)[0;0m, program [0;97m[4mMicrowave[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    02:01
+
+Language [0;97m[4mFlint[0;0m[2;37m (0.3.3)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    5050
+
+Language [0;97m[4mFLOW-MATIC[0;0m[2;37m (U1518)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    Hello, world!
+
+Language [0;97m[4mFLOW-MATIC[0;0m[2;37m (U1518)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
 
 [2;37m>[0;0m    5050
 
@@ -493,6 +568,14 @@ Language [0;97m[4mFortran[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0
 [2;37m>[0;0m    Hello, world!
 
 Language [0;97m[4mFortran[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    5050
+
+Language [0;97m[4mFreeMarker[0;0m[2;37m (2.3.34)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    Hello, world!
+
+Language [0;97m[4mFreeMarker[0;0m[2;37m (2.3.34)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
 
 [2;37m>[0;0m    5050
 
@@ -588,11 +671,27 @@ Language [0;97m[4mHTML[0;0m[2;37m (5)[0;0m, program [0;97m[4mHello[0;0m
 
 [2;37m>[0;0m    Hello, world!
 
+Language [0;97m[4mHylo[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    Hello, world!
+
+Language [0;97m[4mHylo[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    5050
+
 Language [0;97m[4mIcon[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
 
 [2;37m>[0;0m    Hello, world!
 
 Language [0;97m[4mIcon[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    5050
+
+Language [0;97m[4mIdris[0;0m[2;37m (2-0.8.0)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    Hello, world!
+
+Language [0;97m[4mIdris[0;0m[2;37m (2-0.8.0)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
 
 [2;37m>[0;0m    5050
 
@@ -644,6 +743,22 @@ Language [0;97m[4mJavaScript[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;
 
 [2;37m>[0;0m    5050
 
+Language [0;97m[4mJinja2[0;0m[2;37m (3.1.6)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    Hello, world!
+
+Language [0;97m[4mJinja2[0;0m[2;37m (3.1.6)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    5050
+
+Language [0;97m[4mJOVIAL[0;0m[2;37m (J73)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    Hello, world!
+
+Language [0;97m[4mJOVIAL[0;0m[2;37m (J73)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    5050
+
 Language [0;97m[4mJoy[0;0m[2;37m (1.59)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
 
 [2;37m>[0;0m    Hello, world!
@@ -657,6 +772,14 @@ Language [0;97m[4mJulia[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
 [2;37m>[0;0m    Hello, world!
 
 Language [0;97m[4mJulia[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    5050
+
+Language [0;97m[4mKip[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    Hello, world!
+
+Language [0;97m[4mKip[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
 
 [2;37m>[0;0m    5050
 
@@ -700,6 +823,18 @@ Language [0;97m[4mLisp[0;0m[2;37m (Common)[0;0m, program [0;97m[4mSum[0;
 
 [2;37m>[0;0m    5050
 
+Language [0;97m[4mLLVM IR[0;0m[2;37m (19)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    Hello, world!
+
+Language [0;97m[4mLO[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    Hello, world!
+
+Language [0;97m[4mLO[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    5050
+
 Language [0;97m[4mLobster[0;0m[2;37m (2025.4)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
 
 [2;37m>[0;0m    Hello, world!
@@ -713,6 +848,14 @@ Language [0;97m[4mLogo[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
 [2;37m>[0;0m    Hello, world!
 
 Language [0;97m[4mLogo[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    5050
+
+Language [0;97m[4mLOLCODE[0;0m[2;37m (1.2)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    Hello, world!
+
+Language [0;97m[4mLOLCODE[0;0m[2;37m (1.2)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
 
 [2;37m>[0;0m    5050
 
@@ -745,6 +888,14 @@ Language [0;97m[4mMojo[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
 [2;37m>[0;0m    Hello, world!
 
 Language [0;97m[4mMojo[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    5050
+
+Language [0;97m[4mNelua[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    Hello, world!
+
+Language [0;97m[4mNelua[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
 
 [2;37m>[0;0m    5050
 
@@ -792,6 +943,10 @@ Language [0;97m[4mNix[0;0m[2;37m (2.33.1)[0;0m, program [0;97m[4mSum[0;0
 
 [2;37m>[0;0m    5050
 
+Language [0;97m[4mNospace[0;0m[2;37m (0.0.1)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    Hello, world!
+
 Language [0;97m[4mOak[0;0m[2;37m (0.3)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
 
 [2;37m>[0;0m    Hello, world!
@@ -805,6 +960,14 @@ Language [0;97m[4mOberon[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
 [2;37m>[0;0m    Hello, world!
 
 Language [0;97m[4mOberon[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    5050
+
+Language [0;97m[4mOberon+[0;0m[2;37m (2024-07-12)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    Hello, world!
+
+Language [0;97m[4mOberon+[0;0m[2;37m (2024-07-12)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
 
 [2;37m>[0;0m    5050
 
@@ -829,6 +992,26 @@ Language [0;97m[4mOCaml[0;0m[2;37m (5)[0;0m, program [0;97m[4mHello[0;0m
 [2;37m>[0;0m    Hello, world!
 
 Language [0;97m[4mOCaml[0;0m[2;37m (5)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    5050
+
+Language [0;97m[4mOdin[0;0m[2;37m (dev-2026-02)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    Hello, world!
+
+Language [0;97m[4mOdin[0;0m[2;37m (dev-2026-02)[0;0m, program [0;97m[4mMicrowave[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    02:01
+
+Language [0;97m[4mOdin[0;0m[2;37m (dev-2026-02)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    5050
+
+Language [0;97m[4mOni[0;0m[2;37m (0.18)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    Hello, world!
+
+Language [0;97m[4mOni[0;0m[2;37m (0.18)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
 
 [2;37m>[0;0m    5050
 
@@ -864,6 +1047,14 @@ Language [0;97m[4mPHP[0;0m[2;37m (8)[0;0m, program [0;97m[4mSum[0;0m[2;
 
 [2;37m>[0;0m    5050
 
+Language [0;97m[4mPlankalkül[0;0m[2;37m (1945)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    Hello, world!
+
+Language [0;97m[4mPlankalkül[0;0m[2;37m (1945)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    5050
+
 Language [0;97m[4mPL/M[0;0m[2;37m (80)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
 
 [2;37m>[0;0m    Hello, world!
@@ -874,11 +1065,11 @@ Language [0;97m[4mPL/M[0;0m[2;37m (80)[0;0m, program [0;97m[4mSum[0;0m[
 
 Language [0;97m[4mPony[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
 
-[2;37m>[0;0m    Hello, world!
+[2;37m>[0;0m    [0;31mLanguage setup failure.[0;0m
 
 Language [0;97m[4mPony[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
 
-[2;37m>[0;0m    5050
+[2;37m>[0;0m    [0;31mLanguage setup failure.[0;0m
 
 Language [0;97m[4mPostScript[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
 
@@ -969,6 +1160,14 @@ Language [0;97m[4mRust[0;0m, program [0;97m[4mMicrowave[0;0m[2;37m...[0;
 [2;37m>[0;0m    02:01
 
 Language [0;97m[4mRust[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    5050
+
+Language [0;97m[4mRye[0;0m[2;37m (0.2.2)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    Hello, world!
+
+Language [0;97m[4mRye[0;0m[2;37m (0.2.2)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
 
 [2;37m>[0;0m    5050
 
@@ -1075,14 +1274,7 @@ Language [0;97m[4mStandard ML[0;0m[2;37m (97)[0;0m, program [0;97m[4mSum
 
 Language [0;97m[4mSuperCollider[0;0m[2;37m (3.13.0)[0;0m, program [0;97m[4mFreestyle[0;0m[2;37m...[0;0m
 
-[2;37m>[0;0m      File: output.wav
-[2;37m>[0;0m      Size: 882220    	Blocks: 1728       IO Block: 4096   regular file
-[2;37m>[0;0m    Device: 0,53	Inode: 7864356     Links: 1
-[2;37m>[0;0m    Access: (0644/-rw-r--r--)  Uid: (    0/    root)   Gid: (    0/    root)
-[2;37m>[0;0m    Access: 2026-02-15 22:05:58.114619019 +0000
-[2;37m>[0;0m    Modify: 2026-02-15 22:05:58.118618931 +0000
-[2;37m>[0;0m    Change: 2026-02-15 22:05:58.118618931 +0000
-[2;37m>[0;0m     Birth: 2026-02-15 22:05:58.114619019 +0000
+[2;37m>[0;0m    output.wav 882220
 
 Language [0;97m[4mSuperCollider[0;0m[2;37m (3.13.0)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
 
@@ -1100,6 +1292,23 @@ Language [0;97m[4mSwift[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
 
 [2;37m>[0;0m    5050
 
+Language [0;97m[4mT3X/0[0;0m[2;37m (46A)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    Hello, world!
+
+Language [0;97m[4mT3X/0[0;0m[2;37m (46A)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    Text = 0x3C7A, Data = 0x3BC, Symbols = 60, Nlist = 413, Labels = 127
+[2;37m>[0;0m    5050
+
+Language [0;97m[4mTailspin[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    Hello, world!
+
+Language [0;97m[4mTailspin[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    5050
+
 Language [0;97m[4mTampio[0;0m[2;37m (1.46)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
 
 [2;37m>[0;0m    Hello, world!
@@ -1109,6 +1318,14 @@ Language [0;97m[4mTcl[0;0m[2;37m (8)[0;0m, program [0;97m[4mHello[0;0m[
 [2;37m>[0;0m    Hello, world!
 
 Language [0;97m[4mTcl[0;0m[2;37m (8)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    5050
+
+Language [0;97m[4mTeascript[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    Hello, world!
+
+Language [0;97m[4mTeascript[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
 
 [2;37m>[0;0m    5050
 
@@ -1125,6 +1342,14 @@ Language [0;97m[4mTypeScript[0;0m, program [0;97m[4mHello[0;0m[2;37m...[
 [2;37m>[0;0m    Hello, world!
 
 Language [0;97m[4mTypeScript[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    5050
+
+Language [0;97m[4mUnison[0;0m[2;37m (1.1.1)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    Hello, world!
+
+Language [0;97m[4mUnison[0;0m[2;37m (1.1.1)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
 
 [2;37m>[0;0m    5050
 
@@ -1152,11 +1377,11 @@ Language [0;97m[4mVale[0;0m[2;37m (0.2.0)[0;0m, program [0;97m[4mSum[0;0
 
 [2;37m>[0;0m    5050
 
-Language [0;97m[4mVisual Basic[0;0m[2;37m (.NET)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+Language [0;97m[4mVaryx[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
 
 [2;37m>[0;0m    Hello, world!
 
-Language [0;97m[4mVisual Basic[0;0m[2;37m (.NET)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+Language [0;97m[4mVaryx[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
 
 [2;37m>[0;0m    5050
 
@@ -1184,6 +1409,22 @@ Language [0;97m[4mVHDL[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
 
 [2;37m>[0;0m    5050
 
+Language [0;97m[4mVisual Basic[0;0m[2;37m (.NET)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    Hello, world!
+
+Language [0;97m[4mVisual Basic[0;0m[2;37m (.NET)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    5050
+
+Language [0;97m[4mVox[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    Hello, world!
+
+Language [0;97m[4mVox[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    5050
+
 Language [0;97m[4mWenyan (文言)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
 
 [2;37m>[0;0m    Hello, world!
@@ -1195,6 +1436,10 @@ Language [0;97m[4mWhiley[0;0m[2;37m (0.6.0)[0;0m, program [0;97m[4mHello
 Language [0;97m[4mWhiley[0;0m[2;37m (0.6.0)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
 
 [2;37m>[0;0m    5050
+
+Language [0;97m[4mWhitespace[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    Hello, world!
 
 Language [0;97m[4mWren[0;0m[2;37m (0.4.0)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
 
@@ -1228,6 +1473,30 @@ Language [0;97m[4mXtend[0;0m[2;37m (2.31.0)[0;0m, program [0;97m[4mSum[0
 
 [2;37m>[0;0m    5050
 
+Language [0;97m[4mylang[0;0m[2;37m (0.2.0)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    Hello, world!
+
+Language [0;97m[4mylang[0;0m[2;37m (0.2.0)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    5050
+
+Language [0;97m[4mYSH[0;0m[2;37m (0.37.0)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    Hello, world!
+
+Language [0;97m[4mYSH[0;0m[2;37m (0.37.0)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    5050
+
+Language [0;97m[4mZen C[0;0m[2;37m (0.4.4)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    Hello, world!
+
+Language [0;97m[4mZen C[0;0m[2;37m (0.4.4)[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    5050
+
 Language [0;97m[4mZig[0;0m[2;37m (0.15.2)[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
 
 [2;37m>[0;0m    Hello, world!
@@ -1240,3 +1509,10 @@ Language [0;97m[4mZig[0;0m[2;37m (0.15.2)[0;0m, program [0;97m[4mSum[0;0
 
 [2;37m>[0;0m    5050
 
+Language [0;97m[4mZonnon[0;0m, program [0;97m[4mHello[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    Hello, world!
+
+Language [0;97m[4mZonnon[0;0m, program [0;97m[4mSum[0;0m[2;37m...[0;0m
+
+[2;37m>[0;0m    5050
