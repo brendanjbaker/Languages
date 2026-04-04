@@ -9,7 +9,8 @@
 # https://raw.githubusercontent.com/ponylang/ponyup/d16d27eb6cab9c458a4a4272dcbcd8cac8424d98/ponyup-init.sh
 #
 # However, it usually fails to successfully download the necessary file(s) from
-# CloudSmith. Therefore, we will build from source.
+# CloudSmith. Therefore, we will build from source. This includes an LLVM
+# repository clone and build, so it takes forever.
 
 export DEBIAN_FRONTEND="noninteractive"
 
@@ -22,16 +23,9 @@ apt-get install -y --no-install-recommends \
 	python3 \
 	zlib1g-dev
 
-# When building LLVM using gcc, this error happens:
-#
-# >   [ 47%] Building CXX object llvm/src/llvm/lib/Analysis/CMakeFiles/LLVMAnalysis.dir/BlockFrequencyInfoImpl.cpp.o
-# >   In file included from /opt/ponyc/0.62.1/lib/llvm/src/llvm/lib/Analysis/BlockFrequencyInfoImpl.cpp:14:
-# >   /opt/ponyc/0.62.1/lib/llvm/src/llvm/include/llvm/ADT/APInt.h: In member function 'llvm::APInt& llvm::APInt::clearUnusedBits()':
-# >   /opt/ponyc/0.62.1/lib/llvm/src/llvm/include/llvm/ADT/APInt.h:1989:37: internal compiler error: Illegal instruction
-function llvm_build_fix {
-	export CFLAGS="-march=x86-64"
-	export CXXFLAGS="-march=x86-64"
-}
+# Only build LLVM for x86-64.
+export CFLAGS="-march=x86-64"
+export CXXFLAGS="-march=x86-64"
 
 LLVM_CONFIGURE_ARGS="\
 -DLLVM_TARGETS_TO_BUILD=X86 \
@@ -39,8 +33,8 @@ LLVM_CONFIGURE_ARGS="\
 -DLLVM_BUILD_TESTS=OFF \
 -DLLVM_BUILD_EXAMPLES=OFF"
 
-mkdir '/opt/ponyc'
-pushd '/opt/ponyc'
+mkdir '/tmp/pony'
+pushd '/tmp/pony'
 git clone 'https://github.com/ponylang/ponyc.git' '0.62.1'
 pushd '0.62.1'
 git checkout '49f73be6ed5c61735e65874a5991866828312114' 2> /dev/null
@@ -51,3 +45,4 @@ make configure
 make build
 make install
 popd; popd
+rm -fr '/tmp/pony'
