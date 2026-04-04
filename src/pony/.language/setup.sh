@@ -28,7 +28,6 @@ pushd '/tmp/pony'
 git clone 'https://github.com/ponylang/ponyc.git' '0.63'
 pushd '0.63'
 git checkout 'dc7f4f29b944a3e8f0d408586be6e0cb5e68a57a' 2> /dev/null
-git submodule update --init --recursive --depth 1
 make -j1 libs
 make configure
 make build
