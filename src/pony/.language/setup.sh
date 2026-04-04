@@ -39,7 +39,6 @@ git clone 'https://github.com/ponylang/ponyc.git' '0.62.1'
 pushd '0.62.1'
 git checkout '49f73be6ed5c61735e65874a5991866828312114' 2> /dev/null
 git submodule update --init --recursive --depth 1
-llvm_build_fix
 make -j1 libs LLVM_CONFIGURE_ARGS="$LLVM_CONFIGURE_ARGS"
 make configure
 make build
