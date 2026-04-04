@@ -1,89 +1,97 @@
+# To-do
+
+## Languages to add
+
 Consider adding these languages:
 
-* Active Oberon
-* AngelScript
-* Ante
-* Ark
-* Asphalt
-* Assembly (8080)
-* AssemblyScript
-* BASIC (Spectrum)
-* Bend
-* Blazin' Forth
-* BLISS
-* Boron
-* CAL
-* COBOL (85)
-* Component Pascal
-* Concurrent ML
-* Coral
-* CORAL (CORAL 66)
-* Cyber
-* Dylan
-* EXA (TEC Redshift)
-* fe
-* Fennel
-* FlintC
-* FOCAL
-* Gforth
-* Go (templating)
-* Handlebars (templating)
-* Hazel
-* Helm (templating)
-* Hy
-* Hygen (templating)
-* INTERCAL
-* Janet
-* Janus
-* JOSS
-* Jule
-* K (oK)
-* Kitten
-* Koka
-* LDPL
-* Lil
-* Liquid (templating)
-* LO
-* MaoLang
-* Min
-* MiniLang
-* MoonScript
-* Mouse-83
-* MUMPS (M)
-* Mustache (templating)
-* Nelua
-* Oberon-2
-* Oberon-07
-* Pastel
-* Pie
-* Piet
-* Pkl
-* Plasm
-* Plop (templating)
-* PreScheme
-* PureScript
-* Quackery
-* Reason
-* RetroForth
-* Scratch
-* SectorLISP
-* Shen
-* SIC-1
-* STRINGCOMP
-* SYMPL
-* T3X/0
-* T4 (templating)
-* Teal
-* TELCOMP
-* Thymeleaf (templating)
-* Uxntal
-* Varyx
-* Veryl
-* vvvv
-* wax
-* WebGPU Shading Language
-* XOD
-* XSLT
-* Yeoman (templating)
-* ytt (templating)
-* قلب
+| 📁                         | Language                | `hello` | `sum` | `math` | `microwave` | `freestyle` |
+| ------------------------- | ----------------------- | :-----: | :---: | :----: | :---------: | :---------: |
+| [📁](src/active-oberon)    | Active Oberon           |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/angelscript)      | AngelScript             |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/ante)             | Ante                    |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/ark)              | Ark                     |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/asphalt)          | Asphalt                 |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/assembly.8080)    | Assembly (8080)         |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/assemblyscript)   | AssemblyScript          |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/basic.spectrum)   | BASIC (Spectrum)        |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/bend)             | Bend                    |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/blazin-forth)     | Blazin' Forth           |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/bliss)            | BLISS                   |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/boron)            | Boron                   |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/cal)              | CAL                     |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/cobol.85)         | COBOL (85)              |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/component-pascal) | Component Pascal        |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/concurrent-ml)    | Concurrent ML           |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/coral.66)         | CORAL (CORAL 66)        |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/coral)            | Coral                   |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/cyber)            | Cyber                   |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/dylan)            | Dylan                   |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/exa)              | EXA (TEC Redshift)      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/fe)               | fe                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/fennel)           | Fennel                  |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/focal)            | FOCAL                   |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/gforth)           | Gforth                  |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/go.templating)    | Go (templating)         |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/handlebars)       | Handlebars (templating) |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/hazel)            | Hazel                   |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/helm)             | Helm (templating)       |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/hy)               | Hy                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/hygen)            | Hygen (templating)      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/intercal)         | INTERCAL                |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/janet)            | Janet                   |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/janus)            | Janus                   |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/joss)             | JOSS                    |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/jule)             | Jule                    |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/k)                | K (oK)                  |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/kitten)           | Kitten                  |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/koka)             | Koka                    |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/ldpl)             | LDPL                    |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/lil)              | Lil                     |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/liquid)           | Liquid (templating)     |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/lo)               | LO                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/maolang)          | MaoLang                 |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/min)              | Min                     |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/minilang)         | MiniLang                |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/mouse-83)         | Mouse-83                |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/mumps)            | MUMPS (M)               |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/mustache)         | Mustache (templating)   |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/nelua)            | Nelua                   |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/oberon-07)        | Oberon-07               |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/oberon-2)         | Oberon-2                |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/pastel)           | Pastel                  |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/pie)              | Pie                     |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/piet)             | Piet                    |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/pkl)              | Pkl                     |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/plasm)            | Plasm                   |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/plop)             | Plop (templating)       |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/prescheme)        | PreScheme               |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/purescript)       | PureScript              |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/reason)           | Reason                  |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/retroforth)       | RetroForth              |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/scratch)          | Scratch                 |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/sectorlisp)       | SectorLISP              |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/shen)             | Shen                    |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/sic-1)            | SIC-1                   |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/stringcomp)       | STRINGCOMP              |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/sympl)            | SYMPL                   |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/t4)               | T4 (templating)         |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/teal)             | Teal                    |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/telcomp)          | TELCOMP                 |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/thymeleaf)        | Thymeleaf (templating)  |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/uxntal)           | Uxntal                  |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/varyx)            | Varyx                   |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/veryl)            | Veryl                   |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/vvvv)             | vvvv                    |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/wax)              | wax                     |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/webgpu-s-l)       | WebGPU Shading Language |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/xod)              | XOD                     |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/xslt)             | XSLT                    |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/yeoman)           | Yeoman (templating)     |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/ytt)              | ytt (templating)        |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+
+## Other items
+
+* The main download for the E language often fails. Its URL:
+  * 'https://erights.org/download/0-9-3/E-purej-0.9.3d.tar.gz'
+  * Need to download/save this.
+  * Otherwise, need to build from source (where is the source?).

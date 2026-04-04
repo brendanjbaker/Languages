@@ -56,6 +56,14 @@ Plankalkül cannot express output directly -- inputs are placed into register(s)
 
 See its [README file](../src/plankalkul/README.md) for additional information.
 
+**Quackery**
+
+Quackery always outputs a newline at the end of execution; `perl` is used to remove it.
+
+See `quackery.py` at/around line 1,753 for the issue:
+
+https://github.com/GordonCharlton/Quackery/blob/2040a49cdd47baaea2725ce39eff2e75ac1780e2/quackery.py#L1753
+
 **Sass**
 
 Sass can't output directly, however the `sass` compiler can emit warnings. The `@debug` command is used for "output." Finally, `awk` is used to clean up the output.
