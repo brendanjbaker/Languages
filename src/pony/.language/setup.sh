@@ -23,23 +23,13 @@ apt-get install -y --no-install-recommends \
 	python3 \
 	zlib1g-dev
 
-# Only build LLVM for x86-64.
-export CFLAGS="-march=x86-64"
-export CXXFLAGS="-march=x86-64"
-
-LLVM_CONFIGURE_ARGS="\
--DLLVM_TARGETS_TO_BUILD=X86 \
--DLLVM_BUILD_TOOLS=OFF \
--DLLVM_BUILD_TESTS=OFF \
--DLLVM_BUILD_EXAMPLES=OFF"
-
 mkdir '/tmp/pony'
 pushd '/tmp/pony'
-git clone 'https://github.com/ponylang/ponyc.git' '0.62.1'
-pushd '0.62.1'
-git checkout '49f73be6ed5c61735e65874a5991866828312114' 2> /dev/null
+git clone 'https://github.com/ponylang/ponyc.git' '0.63'
+pushd '0.63'
+git checkout 'dc7f4f29b944a3e8f0d408586be6e0cb5e68a57a' 2> /dev/null
 git submodule update --init --recursive --depth 1
-make -j1 libs LLVM_CONFIGURE_ARGS="$LLVM_CONFIGURE_ARGS"
+make -j1 libs
 make configure
 make build
 make install
