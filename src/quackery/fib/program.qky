@@ -1,0 +1,6 @@
+[	dup 2 < if done
+	dup 1 - recurse
+	swap 2 - recurse
+	+ ] is fib
+
+10 fib echo

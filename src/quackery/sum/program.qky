@@ -1,0 +1,7 @@
+[ times [ i^ + ] number$ ] is sum_range
+
+[ 0 ] is begin
+[ 100 ] is end
+[ 1 end + ] is end_inclusive
+
+begin end_inclusive sum_range echo$

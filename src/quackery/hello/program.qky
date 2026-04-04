@@ -1,0 +1,4 @@
+[ $ "Hello, world!" ] is message
+[ message echo$ ] is say_hello
+
+say_hello
