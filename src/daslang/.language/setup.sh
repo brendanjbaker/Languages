@@ -23,9 +23,7 @@ mkdir -p '/opt/daslang'
 pushd '/opt/daslang'
 git clone 'https://github.com/GaijinEntertainment/daScript' '0.6.1'
 pushd '0.6.1'
-git checkout '4b4d8e5390632543a23862fd81a50820c20d6b65' 2> /dev/null
-git submodule update --init
-git config -f modules/dasQuirrel/.gitmodules submodule.quirrel.url 'https://github.com/GaijinEntertainment/quirrel.git'
+git checkout '7fe6f4c7b7b7a2c43790e799e9412a11d568cfce' 2> /dev/null
 git submodule update --init --recursive
 mkdir -p build
 pushd build
