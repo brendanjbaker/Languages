@@ -41,9 +41,15 @@ apt-get install --download-only --no-install-recommends -y \
 	libgpm2 \
 	libicu76 \
 	libncurses-dev \
+	libncurses6 \
 	libsodium23 \
 	libssl-dev \
 	libtool \
+	libxcb1-dev \
+	lld \
+	lua5.1 \
+	lua5.4 \
+	luarocks \
 	make \
 	ninja-build \
 	nodejs \
@@ -51,14 +57,12 @@ apt-get install --download-only --no-install-recommends -y \
 	openjdk-21-jdk \
 	pkg-config \
 	python3 \
-	rustup \
 	python3-pip \
 	python3-wheel \
+	rustup \
 	sudo \
 	unzip \
 	vim \
-	vim-common \
-	vim-runtime \
 	wget \
 	xxd \
 	xz-utils
