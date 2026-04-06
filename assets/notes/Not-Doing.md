@@ -10,6 +10,10 @@ It may be fair to consider the JOVIAL language as the implementation of the ALGO
 
 Database language from the 1960s. (Not the same as the APL programming language.)
 
+**Concurrent ML**
+
+Concurrent ML is an extension/library of Standard ML, not its own language.
+
 **Duckling**
 
 It has not been released publicly yet.

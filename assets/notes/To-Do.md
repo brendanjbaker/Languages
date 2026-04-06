@@ -21,10 +21,8 @@ Consider adding these languages:
 | [📁](src/cal)              | CAL                     |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/cobol.85)         | COBOL (85)              |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/component-pascal) | Component Pascal        |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
-| [📁](src/concurrent-ml)    | Concurrent ML           |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/coral.66)         | CORAL (CORAL 66)        |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/coral)            | Coral                   |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
-| [📁](src/cyber)            | Cyber                   |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/dylan)            | Dylan                   |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/exa)              | EXA (TEC Redshift)      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/fe)               | fe                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |

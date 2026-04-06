@@ -137,6 +137,7 @@ Commands:
 | [📁](src/basic.amiga)        | BASIC (Amiga)                             |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/basic.bbc)          | BASIC (BBC)¹                              |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/basic.commodore)    | BASIC (Commodore)                         |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/basic.pure)         | BASIC (Pure)                              |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/basic.quickbasic)   | BASIC (QuickBASIC)¹                       |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/batch)              | Batch                                     |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/bau)                | Bau                                       |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
@@ -440,7 +441,7 @@ Commands:
 | [📁](src/zen-c)              | Zen C                                     |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/zig)                | Zig                                       |    ✅    |   ✅   |   ⬜    |      ✅      |      ⬜      |
 | [📁](src/zonnon)             | Zonnon                                    |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
-|                             | _Count..._                                |  _186_  | _178_ |  _0_   |    _16_     |     _6_     |
+|                             | _Count..._                                |  _187_  | _179_ |  _0_   |    _16_     |     _6_     |
 
 **Legend**
 
