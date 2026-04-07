@@ -485,8 +485,6 @@ function run {
 			return
 		fi
 
-		echo "BUILDING LANGUAGE IMAGE: $language"
-
 		podman build \
 			--build-arg LANGUAGE="$language" \
 			--file "$root_directory_native/docker/language/language.dockerfile" \
