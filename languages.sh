@@ -440,13 +440,6 @@ function run {
 		"--env" "DEBUG_PROGRAM=$option_debug_program"
 		"--env" "DEBUG_SETUP=$option_debug_setup")
 
-	language_hash=$(directory::hash "$root_directory/src/$language/.language")
-	program_hash=$(directory::hash "$root_directory/src/$language/$program")
-	tests_hash=$(directory::hash "$root_directory/tests")
-
-	language_hash=$(string::hash --length 16 "${base_hash}${system_hash}${language_hash}")
-	program_hash=$(string::hash --length 16 "${base_hash}${system_hash}${language_hash}${program_hash}${tests_hash}")
-
 	if [[ "$option_debug_container" == "false" ]]; then
 		stdout="/dev/null"
 	else
@@ -491,6 +484,8 @@ function run {
 		if image_exists "languages-$language:$language_hash"; then
 			return
 		fi
+
+		echo "BUILDING LANGUAGE IMAGE: $language"
 
 		podman build \
 			--build-arg LANGUAGE="$language" \
@@ -578,7 +573,20 @@ function run {
 		report_failure "Base setup failure."
 	elif ! build_system_image; then
 		report_failure "System setup failure."
-	elif ! build_language_image; then
+	fi
+
+	if [[ "$language" == '#' && "$program" == '#' ]]; then
+		return
+	fi
+
+	language_hash=$(directory::hash "$root_directory/src/$language/.language")
+	program_hash=$(directory::hash "$root_directory/src/$language/$program")
+	tests_hash=$(directory::hash "$root_directory/tests")
+
+	language_hash=$(string::hash --length 16 "${base_hash}${system_hash}${language_hash}")
+	program_hash=$(string::hash --length 16 "${base_hash}${system_hash}${language_hash}${program_hash}${tests_hash}")
+
+	if ! build_language_image; then
 		report_failure "Language setup failure."
 	elif ! build_program_image; then
 		report_failure "Program setup failure."
@@ -609,11 +617,17 @@ function run_all {
 function run_all_parallel {
 	# Options are all arguments except the last, e.g. "run" (command).
 	local options
-	local pairs
 	local concurrency
+	local languages
+
+	# To-do: Fix this.
+	# Temp: Call this with special arguments '#' and '#' so that these get called:
+	# - run::build_base_image
+	# - run::build_system_image
+	run '#' '#'
 
 	options=("${arguments[@]:0:${#arguments[@]}-1}")
-	pairs=$(list_pairs)
+	languages=$(list_languages)
 	concurrency=$(nproc)
 	concurrency=$((concurrency + (concurrency / 2)))
 
@@ -622,7 +636,7 @@ function run_all_parallel {
 		--jobs "$concurrency" \
 		--keep-order \
 		--will-cite \
-		"$root_directory/languages.sh" "${options[@]}" --slot '{%}' run '{1}' '{2}' <<< "$pairs"
+		"$root_directory/languages.sh" "${options[@]}" --slot '{%}' run '{1}' <<< "$languages"
 }
 
 function run_all_sequential {
