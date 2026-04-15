@@ -1,0 +1,24 @@
+import std.stdio (Stdout)
+
+type Summer {
+	fn range(start: Int, finish: Int) -> Int {
+		let sum =
+			start
+			.to(finish)
+			.iter
+			.reduce(0, fn (acc, n) {
+				acc + n
+			})
+
+		return sum
+	}
+}
+
+type async Main {
+	fn async main {
+		let summer = Summer()
+		let sum = summer.range(0, 100)
+
+		Stdout.new.print('${sum}')
+	}
+}

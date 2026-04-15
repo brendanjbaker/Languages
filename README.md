@@ -114,17 +114,23 @@ Commands:
 
 | 📁                           | Language                                  | `hello` | `sum` | `math` | `microwave` | `freestyle` |
 | --------------------------- | ----------------------------------------- | :-----: | :---: | :----: | :---------: | :---------: |
+| [📁](src/active-oberon)      | Active Oberon                             |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/ada)                | Ada                                       |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/admiran)            | Admiran                                   |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/agda)               | Agda                                      |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/algol.60)           | Algol (60)¹                               |    ✅️    |   ✅️   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/algol.68)           | Algol (68)                                |    ✅️    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/alumina)            | Alumina                                   |    ✅️    |   ✅️   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/angelscript)        | AngelScript                               |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/ante)               | Ante                                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/apl)                | APL                                       |    ✅️    |   ✅️   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/ark)                | Ark                                       |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/arturo)             | Arturo                                    |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/asphalt)            | Asphalt                                   |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/assembly.gnu)       | Assembly (GNU)                            |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/assembly.microsoft) | Assembly (Microsoft)                      |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/assembly.netwide)   | Assembly (Netwide)                        |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/assemblyscript)     | AssemblyScript                            |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/atlas)              | Atlas Autocode                            |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/ats)                | ATS                                       |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/austral)            | Austral                                   |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
@@ -144,11 +150,16 @@ Commands:
 | [📁](src/bcpl)               | BCPL                                      |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/beanshell)          | Beanshell                                 |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/beef)               | Beef                                      |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/bend)               | Bend                                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/blazin-forth)       | Blazin' Forth                             |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/bliss)              | BLISS                                     |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/boron)              | Boron                                     |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/brainf_ck)          | Brainf#ck                                 |    ✅    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/c)                  | C                                         |    ✅    |   ✅   |   ⬜    |      ✅      |      ⬜      |
 | [📁](src/c2)                 | C2                                        |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/c3)                 | C3                                        |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/cakelisp)           | Cakelisp                                  |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/cal)                | CAL                                       |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/caml)               | Caml                                      |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/carbon)             | Carbon                                    |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/carp)               | Carp                                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
@@ -160,13 +171,18 @@ Commands:
 | [📁](src/clu)                | CLU                                       |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/cmm)                | C--                                       |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/cms-2)              | CMS-2                                     |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
-| [📁](src/cobol)              | COBOL                                     |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/cobol.68)           | COBOL (68)                                |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/cobol.74)           | COBOL (74)                                |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/cobol.85)           | COBOL (85)                                |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/cobra)              | Cobra                                     |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/coffeescript)       | CoffeeScript                              |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/coldfusion)         | ColdFusion                                |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/component-pascal)   | Component Pascal                          |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/concrete)           | Concrete                                  |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/cone)               | Cone                                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/control)            | Control Language                          |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/coral)              | Coral                                     |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/coral.66)           | CORAL (CORAL 66)                          |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/cowgol)             | Cowgol                                    |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/cpl)                | CPL                                       |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/cpp)                | C++                                       |    ✅    |   ✅   |   ⬜    |      ✅      |      ⬜      |
@@ -198,14 +214,18 @@ Commands:
 | [📁](src/erde)               | Erde                                      |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/erlang)             | Erlang                                    |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/euclid)             | Euclid                                    |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/exa)                | EXA (TEC Redshift)                        |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/extempore)          | Extempore                                 |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/factor)             | Factor                                    |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/fe)                 | fe                                        |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/fennel)             | Fennel                                    |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/fifth)              | Fifth                                     |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/fl)                 | FL                                        |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/flint)              | Flint                                     |    ✅    |   ✅   |   ⬜    |      ✅      |      ⬜      |
 | [📁](src/flix)               | Flix                                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/flow-matic)         | FLOW-MATIC¹                               |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/flux)               | Flux                                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/focal)              | FOCAL                                     |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/forth)              | Forth                                     |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/fortran)            | Fortran                                   |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/foxpro)             | FoxPro                                    |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
@@ -219,6 +239,7 @@ Commands:
 | [📁](src/gams)               | GAMS                                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/gap)                | GAP                                       |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/gdscript)           | GDScript                                  |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/gforth)             | Gforth                                    |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/gleam)              | Gleam                                     |    ✅️    |   ✅️   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/glim)               | Glim                                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/go)                 | Go                                        |    ✅️    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
@@ -229,24 +250,30 @@ Commands:
 | [📁](src/hare)               | Hare                                      |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/haskell)            | Haskell                                   |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/haxe)               | Haxe                                      |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/hazel)              | Hazel                                     |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/holyc)              | HolyC                                     |    ✅    |   ✅   |   ⬜    |      ✅      |      ⬜      |
 | [📁](src/hope)               | Hope                                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/hopper)             | Hopper                                    |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/html)               | [HTML](src/html/README.md)¹               |    ✅    |   ⚠️   |   ⚠️    |      ⚠️      |      ⬜      |
+| [📁](src/hy)                 | Hy                                        |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/hylo)               | Hylo                                      |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/hypertalk)          | HyperTalk                                 |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/icon)               | Icon                                      |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/idris)              | Idris                                     |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/inform)             | Inform                                    |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/ink)                | Ink                                       |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
-| [📁](src/inko)               | Inko                                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/inko)               | Inko                                      |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/intercal)           | INTERCAL                                  |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/io)                 | Io                                        |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/isabelle)           | Isabelle¹                                 |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/j)                  | J                                         |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/janet)              | Janet                                     |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/jank)               | Jank                                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/janus)              | Janus                                     |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/java)               | Java                                      |    ✅    |   ✅   |   ⬜    |      ✅      |      ⬜      |
 | [📁](src/javascript)         | JavaScript                                |    ✅    |   ✅   |   ⬜    |      ✅      |      ⬜      |
 | [📁](src/jinja2)             | [Jinja2](src/jinja2/README.md)            |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/joss)               | JOSS                                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/joule)              | Joule                                     |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/jovial)             | JOVIAL                                    |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/joy)                | [Joy](src/joy/README.md)¹                 |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
@@ -259,13 +286,17 @@ Commands:
 | [📁](src/kairo)              | Kairo                                     |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/kip)                | Kip                                       |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/kit)                | Kit                                       |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/kitten)             | Kitten                                    |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/koka)               | Koka                                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/kotlin)             | Kotlin                                    |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/krc)                | KRC                                       |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/labview)            | LabVIEW                                   |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/ladder-logic)       | Ladder Logic                              |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/language-84)        | Language 84                               |    ✅    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/ldpl)               | LDPL                                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/lean)               | Lean                                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/less)               | Less¹                                     |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/lil)                | Lil                                       |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/lily.a)             | [Lily](src/lily.a/README.md) (A)          |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/lily.b)             | [Lily](src/lily.b/README.md) (B)          |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/lisp)               | Lisp                                      |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
@@ -278,11 +309,14 @@ Commands:
 | [📁](src/lua)                | Lua                                       |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/lucia)              | Lucia                                     |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/lucid)              | Lucid                                     |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/maolang)            | MaoLang                                   |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/maple)              | Maple                                     |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/matlab)             | MATLAB                                    |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/maxima)             | Maxima                                    |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/mesa)               | Mesa                                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/metaocaml)          | MetaOCaml                                 |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/min)                | Min                                       |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/minilang)           | MiniLang                                  |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/miranda)            | Miranda                                   |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/modelica)           | Modelica                                  |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/modula-2)           | Modula-2                                  |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
@@ -290,7 +324,9 @@ Commands:
 | [📁](src/modula)             | Modula                                    |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/mojo)               | Mojo                                      |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/moonscript)         | MoonScript                                |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/mouse-83)           | Mouse-83                                  |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/move)               | Move                                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/mumps)              | MUMPS (M)                                 |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/myrddin)            | Myrddin                                   |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/napier88)           | Napier88                                  |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/natural)            | NATURAL                                   |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
@@ -311,6 +347,8 @@ Commands:
 | [📁](src/nxt-g)              | NXT-G                                     |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/oak)                | Oak                                       |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/oberon)             | Oberon                                    |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/oberon-07)          | Oberon-07                                 |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/oberon-2)           | Oberon-2                                  |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/oberon-plus)        | Oberon+                                   |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/object-pascal)      | Object Pascal                             |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/objective-c)        | Objective-C                               |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
@@ -318,6 +356,7 @@ Commands:
 | [📁](src/ocaml)              | OCaml                                     |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/ocen)               | Ocen                                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/odin)               | Odin                                      |    ✅    |   ✅   |   ⬜    |      ✅      |      ⬜      |
+| [📁](src/ok)                 | K (oK)                                    |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/oni)                | Oni                                       |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/opa)                | Opa                                       |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/opencl)             | OpenCL                                    |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
@@ -326,12 +365,16 @@ Commands:
 | [📁](src/par)                | Par                                       |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/parasail)           | ParaSail                                  |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/pascal)             | Pascal                                    |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/pastel)             | Pastel                                    |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/perl)               | Perl                                      |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/phix)               | Phix                                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/phl)                | PHL                                       |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/php)                | PHP                                       |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/pico)               | Pico                                      |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/pie)                | Pie                                       |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/piet)               | Piet                                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/pike)               | Pike                                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/pkl)                | Pkl                                       |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/pl-6)               | PL-6                                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/pl-8)               | PL.8                                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/pl-b)               | PL/B                                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
@@ -342,15 +385,18 @@ Commands:
 | [📁](src/pl-sql)             | PL/SQL                                    |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/plankalkul)         | [Plankalkül](src/plankalkul/README.md)¹   |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/planner)            | Planner                                   |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/plasm)              | Plasm                                     |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/pony)               | Pony                                      |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/pop-11)             | POP-11                                    |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/postscript)         | PostScript                                |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/power-fx)           | Power Fx                                  |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/powershell)         | PowerShell                                |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/prescheme)          | PreScheme                                 |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/project-verona)     | Project Verona                            |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/prolog)             | Prolog                                    |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/ps-algol)           | PS-algol                                  |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/pure)               | Pure                                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/purescript)         | PureScript                                |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/python)             | Python                                    |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/q)                  | Q                                         |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/qalb)               | قلب (Qalb)                                |    ✅    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
@@ -358,9 +404,11 @@ Commands:
 | [📁](src/quetite)            | Quetite                                   |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/r)                  | R                                         |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/racket)             | Racket                                    |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
-| [📁](src/raku)               | Raku                                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/raku)               | Raku                                      |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/reason)             | Reason                                    |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/rebol)              | Rebol                                     |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/red)                | Red                                       |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/retroforth)         | RetroForth                                |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/rexx)               | Rexx                                      |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/ring)               | Ring                                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/roc)                | Roc                                       |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
@@ -381,9 +429,12 @@ Commands:
 | [📁](src/scheme)             | Scheme                                    |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/scopes)             | Scopes                                    |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/scratch)            | Scratch                                   |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/sectorlisp)         | SectorLISP                                |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/sed)                | Sed                                       |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/seed7)              | Seed7                                     |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/self)               | Self                                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/shen)               | Shen                                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/sic-1)              | SIC-1                                     |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/sieve)              | [Sieve](src/sieve/README.md)¹             |    ✅    |   ⚠️   |   ⚠️    |      ⚠️      |      ✅      |
 | [📁](src/silk)               | Silk                                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/simula)             | Simula                                    |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
@@ -400,14 +451,19 @@ Commands:
 | [📁](src/standard-ml)        | [Standard ML](src/standard-ml/README.md)¹ |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/stata)              | Stata                                     |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/storm)              | Storm                                     |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/stringcomp)         | STRINGCOMP                                |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/structured-text)    | Structured Text                           |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/subleq)             | Subleq                                    |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ✅      |
 | [📁](src/supercollider)      | SuperCollider                             |    ✅    |   ✅   |   ⬜    |      ⬜      |      ✅      |
 | [📁](src/swift)              | Swift                                     |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/sympl)              | SYMPL                                     |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/t3x-0)              | T3X/0                                     |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/tailspin)           | Tailspin                                  |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/tampio)             | Tampio¹                                   |    ✅    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/tcl)                | Tcl                                       |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/teal)               | Teal                                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/teascript)          | Teascript                                 |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/telcomp)            | TELCOMP                                   |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/tern)               | Tern                                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/terra)              | Terra                                     |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/th1)                | TH1                                       |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
@@ -418,31 +474,37 @@ Commands:
 | [📁](src/uiua)               | Uiua                                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/unicon)             | Unicon                                    |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/unison)             | Unison                                    |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/uxntal)             | Uxntal                                    |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/v)                  | V                                         |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/vala)               | Vala                                      |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/vale)               | Vale                                      |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/varyx)              | Varyx                                     |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/vbscript)           | VBScript                                  |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/verilog)            | Verilog                                   |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/veryl)              | Veryl                                     |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/vhdl)               | VHDL                                      |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/visual-basic.6)     | Visual Basic (6)                          |    ⛔    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/visual-basic.net)   | Visual Basic (.NET)                       |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/vox)                | Vox                                       |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/vvvv)               | vvvv                                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/wax)                | wax                                       |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/wenyan)             | 文言 (Wenyan)                             |    ✅    |   ⛔   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/whiley)             | Whiley                                    |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/whitespace)         | Whitespace                                |    ✅    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/wolfram)            | [Wolfram](src/wolfram/README.md)          |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/wren)               | Wren                                      |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/x10)                | X10                                       |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/xod)                | XOD                                       |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/xojo)               | [Xojo](src/xojo/README.md)                |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/xs)                 | XS                                        |    ✅    |   ✅   |   ⬜    |      ⬜      |      ✅      |
+| [📁](src/xslt)               | XSLT                                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/xtend)              | Xtend                                     |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/ylang)              | ylang                                     |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/ysh)                | YSH                                       |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/zen-c)              | Zen C                                     |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/zig)                | Zig                                       |    ✅    |   ✅   |   ⬜    |      ✅      |      ⬜      |
 | [📁](src/zonnon)             | Zonnon                                    |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
-|                             | _Count..._                                |  _188_  | _180_ |  _0_   |    _16_     |     _6_     |
+|                             | _Count..._                                |  _191_  | _182_ |  _0_   |    _16_     |     _6_     |
 
 **Legend**
 
