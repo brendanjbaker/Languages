@@ -1,0 +1,15 @@
+{
+	sum_range(start, finish):: {
+		sum: 0;
+
+		for (n: start, n <= finish, n := n + 1, {
+			sum := sum + n
+		});
+
+		sum
+	};
+
+	result: sum_range(0, 100);
+
+	display(result, eoln)
+}

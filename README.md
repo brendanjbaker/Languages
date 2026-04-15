@@ -330,6 +330,7 @@ Commands:
 | [📁](src/phix)               | Phix                                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/phl)                | PHL                                       |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/php)                | PHP                                       |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/pico)               | Pico                                      |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/pike)               | Pike                                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/pl-6)               | PL-6                                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/pl-8)               | PL.8                                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
@@ -441,7 +442,7 @@ Commands:
 | [📁](src/zen-c)              | Zen C                                     |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/zig)                | Zig                                       |    ✅    |   ✅   |   ⬜    |      ✅      |      ⬜      |
 | [📁](src/zonnon)             | Zonnon                                    |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
-|                             | _Count..._                                |  _187_  | _179_ |  _0_   |    _16_     |     _6_     |
+|                             | _Count..._                                |  _188_  | _180_ |  _0_   |    _16_     |     _6_     |
 
 **Legend**
 
