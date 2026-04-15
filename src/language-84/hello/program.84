@@ -1,0 +1,8 @@
+Begin {
+    Let message "Hello, world!"
+    (STDIO.print_line message)
+}
+
+Where
+
+Let STDIO Package "stdio"
