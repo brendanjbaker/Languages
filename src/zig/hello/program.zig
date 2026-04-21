@@ -1,8 +1,8 @@
 const std = @import("std");
 
-pub fn main() !void {
+pub fn main(init: std.process.Init) !void {
 	var stdout_buffer: [4096]u8 = undefined;
-	var stdout_writer = std.fs.File.stdout().writer(&stdout_buffer);
+	var stdout_writer = std.Io.File.stdout().writer(init.io, &stdout_buffer);
 
 	const stdout = &stdout_writer.interface;
 

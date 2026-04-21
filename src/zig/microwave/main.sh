@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 if [[ ! -f program ]]; then
-	zig build-exe program.zig 2> /dev/null
+	zig build-exe program.zig
 fi
 
 ./program "$@"

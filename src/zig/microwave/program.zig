@@ -1,14 +1,11 @@
 const std = @import("std");
 
-pub fn main() !u8 {
+pub fn main(init: std.process.Init) !u8 {
 	var stdout_buffer: [4096]u8 = undefined;
-	var stdout_writer = std.fs.File.stdout().writer(&stdout_buffer);
+	var stdout_writer = std.Io.File.stdout().writer(init.io, &stdout_buffer);
 
 	const stdout = &stdout_writer.interface;
-
-	const args = try std.process.argsAlloc(std.heap.page_allocator);
-
-	defer std.process.argsFree(std.heap.page_allocator, args);
+	const args = try init.minimal.args.toSlice(init.arena.allocator());
 
 	if (args.len != 2) {
 		return 1;
