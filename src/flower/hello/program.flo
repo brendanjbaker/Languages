@@ -1,4 +1,4 @@
-prop int main():
-	print("Hello, world!")
-	return 0
+int main():
+    print("Hello, world!\n")
+    return 0
 end
