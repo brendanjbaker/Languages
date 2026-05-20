@@ -1,18 +1,28 @@
 import <stdio>
 
-int sum_range(begin_inclusive: int, end_inclusive: int):
-    sum: int = 0
-    end_exclusive: int = end_inclusive + 1
+struct Range {
+    start: int,
+    stop: int
+}
 
-    for n in begin_inclusive..end_exclusive:
+int sum_range(range: @Range):
+    sum: int = 0
+    start: int = range.start
+    stop_exclusive: int = range.stop + 1
+
+    for n in start..stop_exclusive:
         sum = sum + n
     end
 
     return sum
 end
 
-prop int main():
-    sum: int = sum_range(0, 100)
+int main():
+    range: @Range = new Range
+    range.start = 0
+    range.stop = 100
+
+    sum: int = sum_range(range)
 
     printf("%d\n", sum)
 
