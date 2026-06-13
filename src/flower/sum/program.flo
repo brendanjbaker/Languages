@@ -1,0 +1,30 @@
+import <stdio>
+
+struct Range {
+    start: int,
+    stop: int
+}
+
+int sum_range(range: @Range):
+    sum: int = 0
+    start: int = range.start
+    stop_exclusive: int = range.stop + 1
+
+    for n in start..stop_exclusive:
+        sum = sum + n
+    end
+
+    return sum
+end
+
+int main():
+    range: @Range = new Range
+    range.start = 0
+    range.stop = 100
+
+    sum: int = sum_range(range)
+
+    printf("%d\n", sum)
+
+    return 0
+end

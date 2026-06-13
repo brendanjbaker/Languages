@@ -11,6 +11,7 @@ grep -r '^    ' \
 | grep -v '^src/elm/' \
 | grep -v '^src/factor/' \
 | grep -v '^src/flow-matic/' \
+| grep -v '^src/flower/' \
 | grep -v '^src/fsharp/' \
 | grep -v '^src/holyc/' \
 | grep -v '^src/nim/' \

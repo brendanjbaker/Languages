@@ -224,6 +224,7 @@ Commands:
 | [📁](src/flint)              | Flint                                     |    ✅    |   ✅   |   ⬜    |      ✅      |      ⬜      |
 | [📁](src/flix)               | Flix                                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/flow-matic)         | FLOW-MATIC¹                               |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/flower)             | Flower                                    |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/flux)               | Flux                                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/focal)              | FOCAL                                     |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/forth)              | Forth                                     |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
@@ -504,7 +505,7 @@ Commands:
 | [📁](src/zen-c)              | Zen C                                     |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/zig)                | Zig                                       |    ✅    |   ✅   |   ⬜    |      ✅      |      ⬜      |
 | [📁](src/zonnon)             | Zonnon                                    |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
-|                             | _Count..._                                |  _191_  | _182_ |  _0_   |    _16_     |     _6_     |
+|                             | _Count..._                                |  _192_  | _183_ |  _0_   |    _16_     |     _6_     |
 
 **Legend**
 
