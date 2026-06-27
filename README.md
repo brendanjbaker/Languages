@@ -293,7 +293,7 @@ Commands:
 | [📁](src/krc)                | KRC                                       |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/labview)            | LabVIEW                                   |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/ladder-logic)       | Ladder Logic                              |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
-| [📁](src/language-84)        | Language 84                               |    ✅    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
+| [📁](src/language-84)        | Language 84                               |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/ldpl)               | LDPL                                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/lean)               | Lean                                      |    ⬜    |   ⬜   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/less)               | Less¹                                     |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
@@ -505,7 +505,7 @@ Commands:
 | [📁](src/zen-c)              | Zen C                                     |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
 | [📁](src/zig)                | Zig                                       |    ✅    |   ✅   |   ⬜    |      ✅      |      ⬜      |
 | [📁](src/zonnon)             | Zonnon                                    |    ✅    |   ✅   |   ⬜    |      ⬜      |      ⬜      |
-|                             | _Count..._                                |  _192_  | _183_ |  _0_   |    _16_     |     _6_     |
+|                             | _Count..._                                |  _192_  | _184_ |  _0_   |    _16_     |     _6_     |
 
 **Legend**
 

@@ -1,0 +1,28 @@
+Begin {
+    Let sum (sum_range 0 100)
+    Let sum_text (Z.show sum)
+    (STDIO.print_line sum_text)
+}
+
+Where
+
+Define (sum_range start finish)
+    Iterate {sum n} From {0 start}
+        Cond {
+        | [n <= finish]
+            (Continue [sum + n] [n + 1])
+        | True sum
+        }
+
+Where
+
+Open Z
+    {
+    :Infix +
+    :Infix <=
+    }
+
+Where
+
+Let STDIO Package "stdio"
+Let Z Package "z"
